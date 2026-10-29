@@ -3,6 +3,21 @@
 Ziel: echte LEGO-Modelle (nach Fotos) im Spiel nachbauen, indem wir die Fahrzeug-Speicherdatei direkt schreiben.
 Stand: 29.10.2026, erarbeitet mit Claude Code.
 
+## Schnellstart ohne Programmieren: 2K Drive Tools
+
+**https://2kdrivetools.github.io/** – fertige Werkzeuge für LEGO-2K-Drive-Spielstände direkt im Browser, nichts zu installieren.
+So geht's:
+1. Spiel **komplett schließen** und den Spielstand-Ordner `%USERPROFILE%\Documents\My Games\Artemis\Saved\SaveGames\`
+   als Sicherung irgendwohin kopieren.
+2. Werkzeug öffnen, die passende `.sav`-Datei aus diesem Ordner ins Fenster ziehen.
+3. Geänderte Datei herunterladen und in den Ordner zurückkopieren (alte ersetzen), Spiel starten.
+
+Die Datei wird nur im Browser bearbeitet, nicht hochgeladen. Nützlich:
+- **DrivePass Maxer** (`ArtemisPlayerInfo.sav`): alle Drive Passes auf Stufe 99 – bei uns getestet ✅
+  (dasselbe macht `werkzeuge\drivepass.py`).
+- **Vehicle Editor** (`ArtemisVehicle.sav`): Teilenummern und Farben eigener Fahrzeuge ändern.
+- **Bricklist**, **Set List**, **Sticker List**: Nachschlagelisten aller Teile, Sets und Sticker im Spiel.
+
 ## Inhalt dieses Ordners
 
 Repository: https://github.com/CaptLeberkaes/Lego2kDriveBuilder – klonen und Skripte aus `werkzeuge\` starten,
@@ -14,6 +29,7 @@ der Ordner kann überall liegen (die Skripte arbeiten mit relativen Pfaden und `
 | `teilekatalog.md` | Teile im Body Shop mit Teilenummern, nach Kategorie |
 | `anschlusspunkte.md` | Anschlusspunkte (FieldIndex) für ~290 Teile, Chassis, Räder, Farben-Statistik |
 | `anschlusspunkte.json` | dieselben Rohdaten maschinenlesbar |
+| `teiledaten.json` | alle 2028 Teile des Spiels: Name, Größe, Masse, Aliase (Quelle: [2kdrivetools.github.io](https://2kdrivetools.github.io/)) |
 | `werkzeuge\` | Python-Skripte (s.u.) |
 | `baupläne\` | Baupläne für `baue_fahrzeug.py` |
 | `test2\` | Teileliste Set 31015 mit Spiel-Abgleich, Tauschplan für gesperrte Teile |
@@ -159,7 +175,9 @@ Weitere Indizes kommen in Vorlagen vor (0, 33, 37, 38, 45, 46, 51, 64, 69, 80, 8
 | Skript | Zweck |
 |---|---|
 | `sichern.py` | alle Spielstände mit Zeitstempel sichern |
-| `zeige_fahrzeug.py [datei]` | eigene Fahrzeuge mit Teilen, Farben, Positionen auflisten |
+| `zeige_fahrzeug.py [datei]` | eigene Fahrzeuge mit Teilen, Farben, Positionen und Teilenamen auflisten |
+| `teiledaten.py <nummer\|text>…` | Teil in `teiledaten.json` nachschlagen (auch über Aliase), z.B. `teiledaten.py 3956 "PLATE 2X2"` |
+| `drivepass.py [--schreiben]` | alle Drive Passes auf Stufe 99 setzen (ohne Option nur anzeigen; mit Option vorher automatisch sichern) |
 | `gvas.py <datei> [ausgabe.json]` | kompletter Spielstand als JSON |
 | `anschluesse.py <sav…> [--json out]` | Anschlusspunkte je Teil aus allen Fahrzeugen lernen |
 | `gvas_rw.py` | Spielstand lesen **und schreiben** (Byte-genau getestet) |
@@ -194,7 +212,15 @@ Block direkt über dem Rad (z.B. PoliceTruck: x = −87,5/62,5 bei y = 12,5 bzw.
 ### Gesperrte Drive-Pass-Teile (Platzhalter-Tausch)
 
 Teile aus dem nicht mehr erhältlichen Drive Pass (z.B. 3956 Winkel 2×2–2×2, 2817 Platte mit Pin-Löchern)
-lassen sich nicht freischalten. Weg über den Spielstand:
+lassen sich im Spiel nicht freischalten.
+
+**Versuch 1 – Drive Pass hochsetzen:** `python werkzeuge\drivepass.py --schreiben` (Spiel geschlossen).
+Setzt `Data/LocalProgression/ValidatedRewards/DXPList` in `ArtemisPlayerInfo.sav` (ein XP-Wert je Saison,
+Index 0 = Saison 1) auf 149000 = Stufe 99, wie der „DrivePass Maxer“ von 2kdrivetools.
+Stand 29.10.2026 vorher: Saison 1–3 je 0 XP, Saison 4 10 XP; `CurrentActiveDrivePassIndex` = 3.
+Ergebnis 29.10.2026: Spiel übernimmt den Drive-Pass-Stand ✅; ob die gesperrten Teile damit frei sind, ist noch nicht geprüft.
+
+**Versuch 2 – Platzhalter-Tausch** (funktioniert):
 1. Im Spiel mit einem freien Platzhalter bauen (z.B. 99207 für 3956, 4032 für 6143), speichern, **Garage verlassen**, Spiel schließen.
 2. Tauschplan schreiben (Beispiel `test2	ausch_fahrzeug04.json`) und `tausche_teile.py` ausführen.
 3. Spiel starten, Lage im Spiel zurechtrücken und speichern – das Spiel berechnet die Verbindungen neu.

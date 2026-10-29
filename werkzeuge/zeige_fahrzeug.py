@@ -8,6 +8,7 @@ import struct
 import sys
 
 import gvas
+import teiledaten
 
 DEFAULT = os.path.expandvars(
     r"%USERPROFILE%\Documents\My Games\Artemis\Saved\SaveGames\ArtemisVehicle.sav")
@@ -30,7 +31,7 @@ def main(path):
             x, y, z = (round(c, 2) for c in t["Translation"])
             rot = [round(c, 3) for c in t["Rotation"]]
             print(f"   {i:3d}  Teil {design:6d}  Farbe {b[4]:3d}  Flag {b[5]}  "
-                  f"Pos ({x}, {y}, {z})  Rot {rot}")
+                  f"Pos ({x}, {y}, {z})  Rot {rot}  {teiledaten.name(design)}")
         for a in pg["Assemblies"]["items"]:
             print(f"   Baugruppe {a['AssemblyName']:5s} Teile {a['PartOffset']}..."
                   f"{a['PartOffset'] + a['NumParts'] - 1}  {a['AssemblyAsset'].split('.')[-1]}")
