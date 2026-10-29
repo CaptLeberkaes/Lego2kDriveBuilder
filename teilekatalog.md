@@ -32,5 +32,15 @@ Stand 29.10.2026, aus Screenshots. Achtung: angezeigte Nummer ≠ immer gespeich
 - 4212 Chassis-Platte ✔, 6157 Radhalter ✔, 6014/6015 Rad ✔, 92583 Scheibe ✔
 - Flair „Düsenflosse (grün)“: 98302 ×2, 3022, 3587 ✔
 
+## Aus Creators-Hub-Vorlagen (Datei-Nummern, Okt. 2026)
+Bezeichnungen mit „?“ sind aus Lage/Verwendung erschlossen, nicht im Spiel nachgesehen.
+- **Cockpit:** 4079 Sitz 2×2 (Fahrer-Socket), 33909 (Fahrersitz im Boot ?), 3829/3828 Lenkradhalter + Lenkrad (Baugruppe 73081), 4592/4593 Hebel (Baugruppe 73587), 81911 Windschutzscheibe ?
+- **Große Platten:** 3028 6×12, 3029 4×12, 3033 6×10, 3035 4×8, 3958 6×6
+- **Keile/Schrägen:** 4287 Keil invers 3×1 (Rumpf, Boot-Chassis), 41764/41765 Keil invers (Bug), 4515 Schräge 6×8 ?
+- **Technic:** 32000 Stein 1×2 mit 2 Löchern, 6541 Stein 1×1 mit Loch, 32064 Stein 1×2 mit Achsloch, 3700/3701 Stein 1×2/1×4 mit Löchern, 4274 Pin ½, 43093 Achs-Pin, 3708 Achse 12, 24316 Achse 3 mit Stopp, 65249/32123/6590 (Achse + Buchsen im Gebläse)
+- **Deko/Effekte:** 6126 Flamme (in Trans-Orange leuchtend), 4868 Düsentriebwerk, 50943 Lufthutze ?, 53451 Zahn/Horn, 11089 Kralle, 2412 Gitterfliese 1×2, 2877 Stein 1×2 mit Gitter, 92947 Rundstein 2×2 mit Gitter, 30089 Kamera, 4617 Propellerblatt ?
+- **Gelenke:** 14417/14418 Kugelgelenk (BallConnection)
+- **Räder:** 55976 Ballonreifen + 56145 Felge + 2654 Radkappe (BuzzosRoyalRigWheelBack), 56145 + 61481, 55981 + 30648
+
 ## Fehlt noch (mit Nummern)
 Fahrzeug (Grundausstattung, Motorhaube, Windschutzscheibe, Seiten, Gewölbt, Sitze), Technic (Adapter, Paneel, Hybrid)

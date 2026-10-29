@@ -27,7 +27,7 @@ der Ordner kann überall liegen (die Skripte arbeiten mit relativen Pfaden und `
 |---|---|
 | `README.md` | dieses Dokument: Format, Regeln, Erkenntnisse |
 | `teilekatalog.md` | Teile im Body Shop mit Teilenummern, nach Kategorie |
-| `anschlusspunkte.md` | Anschlusspunkte (FieldIndex) für ~290 Teile, Chassis, Räder, Farben-Statistik |
+| `anschlusspunkte.md` | Anschlusspunkte (FieldIndex) für ~360 Teile, Chassis, Räder, Farben-Statistik (erzeugt von `anschluesse.py --md`) |
 | `anschlusspunkte.json` | dieselben Rohdaten maschinenlesbar |
 | `teiledaten.json` | alle 2028 Teile des Spiels: Name, Größe, Masse, Aliase (Quelle: [2kdrivetools.github.io](https://2kdrivetools.github.io/)) |
 | `werkzeuge\` | Python-Skripte (s.u.) |
@@ -104,10 +104,16 @@ oder die Arbeitskopie mit ändern (`tausche_teile.py` macht das).
 |---|---|
 | 0–3 | LEGO-Teilenummer (uint32, little endian) |
 | 4 | **Farbindex** (Tabelle unten) |
-| 5 | **Oberfläche**: 0 = normal, 1 = **leuchtend**; 2/4 kommen in Vorlagen vor (Bedeutung offen, unkritisch) |
+| 5 | **Bitfeld**: 1 = **leuchtend**, 2 = Teil einer Chassis-/Rad-Baugruppe, 4 = sitzt direkt auf dem Chassis (s.u.) |
 | 6–7 | 0 |
 
 `Parts[i]` gehört zu `PartTransforms[i]`. Das Spiel sortiert beim Speichern: Chassis-Teile zuerst, Räder zuletzt.
+
+Byte 5 im Detail (geprüft an 20 Fahrzeugen):
+- Bit 2 (Wert 2) steht **genau** bei den Teilen der Chassis- und Rad-Baugruppen (4016 von 4016 Teilen).
+- Bit 4 (Wert 4) steht bei Teilen, die direkt mit dem Chassis verbunden sind (304 von 312 Fällen).
+  Unsere Baupläne setzen es nicht – das Spiel lädt und speichert sie trotzdem. Unkritisch.
+- Kombinationen: 3 = Chassis-Teil leuchtend, 5 = am Chassis und leuchtend.
 
 ### Koordinaten
 
@@ -122,12 +128,16 @@ oder die Arbeitskopie mit ändern (`tausche_teile.py` macht das).
   Beispiele: 3004/3005/3007/3020/92583: 0 = Noppen oben, 1 = Unterseite;
   3001/3002/3021/3039/3660/3823/98282: 0 = Unterseite, 1 = oben. → siehe `anschlusspunkte.md`.
 - `Strength` = Anzahl ineinandergreifender Noppen. `Type`: **HingeConnection** bei 1 Noppe (drehbar), sonst **FixedConnection**.
+  Weitere Typen (immer `Strength` 1): **CylindricalConnection** = Stange/Pin in rundem Loch (z.B. 4274 Pin + 6126 Flamme,
+  3700 Technic-Stein + 24316 Achse), **PrismaticConnection** = Achse in Kreuzloch (3708 + 32064, 65249 + 32123),
+  **BallConnection** = Kugelgelenk (14417 + 14418).
 - Verbindungen innerhalb einer Baugruppe (Chassis, Flair) stehen in der Liste **doppelt**.
 
 ### Teilenummern
 
 - Im Body Shop lassen sich Teilenummern einblenden; der **Teilefinder** sucht nach Elementnummer.
 - Katalognummer ≠ immer Dateinummer: Katalog **93888** (Stein 2×8) wird als **3007** gespeichert.
+  Im Mammoth-Chassis steht 93888 aber selbst in der Datei – fürs eigene Bauen weiter 3007 verwenden.
 - Kein Kotflügel im Katalog, aber der Teilefinder findet **98282** (Mudguard 4×2.5×1 2/3 mit Bogen).
 
 ## Farben
@@ -144,22 +154,24 @@ Farbauswahl im Body Shop: Reiter Matt, Durchsichtig, Metallic, Leuchtend. Jede F
 | 5 | Hell-Aqua | | 21 | Trans-Orange |
 | 6 | Nougat/Hellorange (vermutet) | | 22 | Trans-Grün |
 | 7 | Rot | | 23 | Trans-Hellgelb |
-| 8 | Blau (vermutet) | | 24 | **Weiß** |
+| 8 | Blau (Propellerblätter Explorateur) | | 24 | **Weiß** |
 | 9 | Gelb | | 25 | Pastellblau |
 | 10 | Braun | | 26 | Hell-Gelborange |
 | 11 | Schwarz | | 27 | Orange |
 | 12 | Mittelgrau | | 28 | Türkis/Petrol |
 | 13 | Hellgrün | | 29 | Trans-Schwarz |
 | 14 | Pastellgrün | | 30 | Trans-Rosa |
-| 15 | Dunkelorange | | 31 | Limette |
+| 15 | Dunkelorange | | 31 | Limette (Radnaben-Ring the cooker) |
 | 16 | Trans-Klar | | 32 | Magenta |
 | 40 | Metallic Blaugrau | | 85 | Trans-Hellgrün |
 | 68 | Metallic Silber (Düsen) | | 95 | Rauchglas |
 | 49 | Felgen-Hellgrau | | 255 | feste Farbe (Reifen) |
 | 44 | Dunkelrot | | 58 | Lila |
-| 38 | Dunkelgrün | | | |
+| 38 | Dunkelgrün | | 37 | Dunkelblau (Zierstreifen Explorateur) |
+| 86 | Chrom-Silber (Motorzylinder the cooker) | | 69 | Dunkelgrau (vermutet) |
+| 88 | Weiß/Silber (Magnetspitzen, vermutet) | | 0 | Teil-Standardfarbe? (Hebelgriffe 4593) |
 
-Weitere Indizes kommen in Vorlagen vor (0, 33, 37, 38, 45, 46, 51, 64, 69, 80, 87 …) – noch nicht zugeordnet.
+Weitere Indizes kommen in Vorlagen vor (33, 36, 44, 45, 46, 47, 51, 57, 62, 64, 66, 71, 80, 83, 87 …) – noch nicht zugeordnet.
 
 ## Chassis, Räder, Flairs
 
@@ -169,6 +181,15 @@ Weitere Indizes kommen in Vorlagen vor (0, 33, 37, 38, 45, 46, 51, 64, 69, 80, 8
 - Räder sind Baugruppen (`/Game/LEGO/Wheel/…`), z.B. `6014_6015`, `55981_58090_Reversed`, `18977_66727_Lunar`.
 - Flairs sind Baugruppen aus normalen Teilen (`/Game/LEGO/Flair/…`), z.B. `Flair_Jets2_Green` = 98302×2, 3022, 3587.
   Auslöser stehen in `FlairTriggers` (20 Möglichkeiten: Boost, Gas, Bremsen, Steuern, Hupe, Rückwärts …).
+  **Ein Eintrag je Flair-Baugruppe, in derselben Reihenfolge wie die Flairs in `Assemblies`** (an 20 Fahrzeugen
+  geprüft). Nicht mitgezählt: Chassis, Räder, `Assemblies/73081` (Lenkrad) und `Assemblies/73587` (Hebel).
+  Gesehene Werte: `ALWAYSON`, `WHILEBOOSTBINARY`, `WHILENIGHTTIME`, `REVERSE`.
+- Neben Deko-Flairs gibt es **Aktiv-Flairs** (`Flair/Activeflair_…`): Magnet2, Camera, Bumper2, CollectableDetector2.
+  Ebenfalls Baugruppen aus normalen Teilen; Boote bekommen ihren Antrieb als Flair (`Flair_HydroPropellerSpoiler_…`).
+- **Fahrer:** `Sockets[].BrickIndex` zeigt auf das Teil, auf dem die Figur sitzt (4079 Sitz 2×2, im Boot 33909);
+  `RelativeLocation/RelativeRotation` legen Lage und Blickrichtung relativ zu diesem Teil fest.
+- Räder können mehr als Felge + Reifen enthalten: `BuzzosRoyalRigWheelBack_VC000` = 2654 Radkappe, 4032 Ring,
+  55976 Ballonreifen, 56145 Felge. Vorder- und Hinterachse dürfen unterschiedlich breit sein.
 
 ## Werkzeuge (`werkzeuge\`, Python 3)
 
@@ -179,7 +200,7 @@ Weitere Indizes kommen in Vorlagen vor (0, 33, 37, 38, 45, 46, 51, 64, 69, 80, 8
 | `teiledaten.py <nummer\|text>…` | Teil in `teiledaten.json` nachschlagen (auch über Aliase), z.B. `teiledaten.py 3956 "PLATE 2X2"` |
 | `drivepass.py [--schreiben]` | alle Drive Passes auf Stufe 99 setzen (ohne Option nur anzeigen; mit Option vorher automatisch sichern) |
 | `gvas.py <datei> [ausgabe.json]` | kompletter Spielstand als JSON |
-| `anschluesse.py <sav…> [--json out]` | Anschlusspunkte je Teil aus allen Fahrzeugen lernen |
+| `anschluesse.py <sav…> [--json out] [--md out]` | Anschlusspunkte je Teil aus allen Fahrzeugen lernen; mit `--json anschlusspunkte.json --md anschlusspunkte.md` beide Dateien neu erzeugen |
 | `gvas_rw.py` | Spielstand lesen **und schreiben** (Byte-genau getestet) |
 | `baue_fahrzeug.py <quelle.sav> <ziel.sav> <bauplan.json>` | **neues Fahrzeug** aus Bauplan: Chassis/Räder aus Vorlage, Karosserie aus Teileliste, Verbindungen berechnet; gleichnamiges Fahrzeug wird ersetzt |
 | `tausche_teile.py <quelle.sav> <ziel.sav> <tausch.json>` | Platzhalter-Teile gegen andere Teilenummern tauschen (inkl. Garagen-Arbeitskopie) |
@@ -231,6 +252,43 @@ Vom Spiel gespeicherte Anschlusspunkte:
 - **3956** (Winkel 2×2–2×2, Ursprung der waagrechte Schenkel): 1 = Unterseite, 0 = Noppen vorn am senkrechten Schenkel, 2 = Rückseite des senkrechten Schenkels.
 - **6143** (Rundstein 2×2, liegend mit Drehung (0,5, 0,5, 0,5, 0,5)): 1 = Unterseite, 2 = Noppen oben.
 
+## Bautechniken aus Vorlagen
+
+Ausgewertet mit `zeige_fahrzeug.py`-ähnlichen Listen (Teil, Farbe, Lage, Verbindungen). Koordinaten wie oben.
+
+### „the cooker“ – Gelände-Buggy mit Chrom-Motoren (Mammoth-Chassis, 252 Teile)
+
+- **Chassis** `Mammoth_VC000` (44 Teile, Grundplatten 3028/3033 6×12/6×10), Oberkante z = 81,7 → Karosserie beginnt dort.
+  Achsen bei x = ±200; Spur vorn y = ±125, hinten ±175 (hinten breiter). Räder mit Radkappe (s.o.).
+- **Chrom-Motorzylinder:** je 10 × Rundplatte 4032 (Farbe 86) liegend aneinandergereiht, Abstand 10 (= Plattenhöhe),
+  Drehung `(-0,5, 0,5, -0,5, 0,5)`. Getragen von 4070 (Stein 1×1 mit Seitennoppe), Abschluss mit 3665 + 85861 + 11089.
+  Oben Lufthutze 50943 auf 22885, seitlich Triebwerke 4868 an 20482 (runde Fliese mit Stangenhalter).
+- **Flammen:** 6126 in Trans-Orange **leuchtend** (21/1) auf Technic-Pins 4274, die in einer Rückwand aus
+  Technic-Steinen 32000/6541 stecken; unterschiedlich gedreht für unruhige Flammen. Dazu 15470/68547 in Trans-Rot
+  leuchtend (17/1) als Glut. Kein Flair nötig – die Flammen leuchten immer (`FlairTriggers` leer).
+- **Cockpit:** Sitz 4079 (Fahrer-Socket), statt Lenkrad zwei Hebel (`Assemblies/73587`), Scheibe 81911 in Rauchglas (95).
+  Lüftungsgitter: 2412 (Gitterfliese 1×2) auf 61780.
+
+### „Explorateur nocturne“ – Sumpfboot mit Magnet (SwampBoat-Chassis, 206 Teile)
+
+- **Chassis** `WaterFanBoatHydro_VC000` hat nur 9 Teile: 2 × 3832 (Platte 2×10) bei z = 0 plus 3004 und
+  6 × 4287 (Keil invers 3×1) an Bug und Heck. Keine Räder, `VehicleClass BOAT`, Motor `EngineConfig_BoatHydro`.
+- **Rumpf:** außen bei y = ±62,5 eine Reihe 3660/3665 (Keil invers) auf z = 0 → schräger Rumpfboden; darauf
+  Dunkelblau-Streifen (37) aus 3460/3623/63864 bei z = 30, oben 15068 (gebogene Fliese 2×2) als runde Deckkante.
+  Bug: 41764/41765, Keilplatten 41769/41770.
+- **Antrieb:** Flair `Flair_HydroPropellerSpoiler_Blue` (31 Teile, Gebläse mit blauen Blättern 4617), Auslöser `ALWAYSON`.
+- **Magnet vorn:** Aktiv-Flair `Activeflair_Magnet2` (13 Teile: 35382, 6091, 3023, Kugelgelenk 14417/14418, Spitzen 3005/35382 in Farbe 88).
+- **Lichter:** 6 × Flair `RoundSingleBlue` (6141 Trans-Hellblau): 4 Rücklichter bei Boost, 2 seitlich montierte
+  Scheinwerfer (auf 85861) nachts.
+- Zwei Lenkräder und zwei Sitze 33909 – nur einer ist Fahrerplatz (Socket), der andere Deko.
+- Abgeleitetes Modell: `OriginalParentGuid` gesetzt, `VersionId` 8 (Remix eines anderen Fahrzeugs).
+
+### Außerdem neu geladen
+
+- „New Vehicle 29“ (`ExtremeSpeed_VC000`, 119 Teile): großes Düsentriebwerk als Flair `Jet_Engine_Big_Green`
+  (26 Teile, bei Boost), dazu Aktiv-Flairs Camera und Bumper2. Räder 55981_30648.
+- „Minigame bots farm“ (`ShowOff`, 350 Teile): 4 Rückfahrlichter (`SquareSingleWhite`, Auslöser `REVERSE`), Räder 56145_61481.
+
 ## Testprotokoll
 
 1. Format gelesen, Farbe = Byte 4 (Stein 1×1: 1 → 7). Keine Prüfsumme.
@@ -243,3 +301,5 @@ Vom Spiel gespeicherte Anschlusspunkte:
 7. Gesperrte Teile 3956 und 6143 per Platzhalter-Tausch in „Neues Fahrzeug 04“ → Spiel zeigt sie an,
    Lage im Spiel korrigiert und gespeichert. ✅ Erster Versuch ging verloren, weil die Garagen-Arbeitskopie
    den alten Stand zurückschrieb.
+8. 4 weitere Creators-Hub-Modelle (u.a. „the cooker“, „Explorateur nocturne“) ausgewertet → ~360 Teile,
+   Bedeutung von Oberflächen-Bit 2/4, Reihenfolge der Flair-Auslöser, neue Verbindungstypen. ✅
