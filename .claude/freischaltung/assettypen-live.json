@@ -1,0 +1,151 @@
+[
+  {
+    "PrimaryAssetType": "LegoDeco",
+    "AssetBaseClass": "/Script/ArtemisLego.LegoDecoration",
+    "Directories": [
+      "/Game/Garage/LegoAssets/Stickers",
+      "/Game/Game/Art/Props/Stickers"
+    ]
+  },
+  {
+    "PrimaryAssetType": "Minifig",
+    "AssetBaseClass": "/Script/ArtemisLego.Minifig",
+    "Directories": [
+      "/Game/LEGO/Minifig",
+      "/Game/Game/Pedestrians/Data",
+      "/Game/Game/Characters/Minifig/MinifigAssets",
+      "/Game/DrivePass/Characters"
+    ]
+  },
+  {
+    "PrimaryAssetType": "Chassis",
+    "AssetBaseClass": "/Script/Artemis.ChassisConfig",
+    "Directories": [
+      "/Game/Game/Vehicle/Inventory/BoatChassisConfigs",
+      "/Game/Game/Vehicle/Inventory/CarChassisConfigs"
+    ]
+  },
+  {
+    "PrimaryAssetType": "PrimaryAssetLabel",
+    "AssetBaseClass": "/Script/Engine.PrimaryAssetLabel",
+    "Directories": [
+      "/Game"
+    ]
+  },
+  {
+    "PrimaryAssetType": "BiomeDef",
+    "AssetBaseClass": "/Script/ArtemisEngine.BiomeDef",
+    "Directories": [
+      "/Game/Game/Biome"
+    ]
+  },
+  {
+    "PrimaryAssetType": "BrickPack",
+    "AssetBaseClass": "/Script/Artemis.BrickPack",
+    "Directories": [
+      "/Game/LEGO/BrickPacks"
+    ]
+  },
+  {
+    "PrimaryAssetType": "Wheel",
+    "AssetBaseClass": "/Script/ArtemisLego.LegoWheelAssembly",
+    "Directories": [
+      "/Game/LEGO/Wheel"
+    ]
+  },
+  {
+    "PrimaryAssetType": "LegoPart",
+    "AssetBaseClass": "/Script/ArtemisLego.LegoPart",
+    "Directories": [
+      "/Game/LEGO/Bricks"
+    ]
+  },
+  {
+    "PrimaryAssetType": "Map",
+    "AssetBaseClass": "/Script/Engine.World",
+    "Directories": [
+      "/Game/Maps"
+    ]
+  },
+  {
+    "PrimaryAssetType": "Perk",
+    "AssetBaseClass": "/Script/Artemis.SpellSystemPerkData",
+    "Directories": [
+      "/Game/Game/PowerUps/Perks"
+    ]
+  },
+  {
+    "PrimaryAssetType": "Flair",
+    "AssetBaseClass": "/Script/ArtemisLego.LegoFlairAssembly",
+    "Directories": [
+      "/Game/LEGO/Flair"
+    ]
+  },
+  {
+    "PrimaryAssetType": "Vehicle",
+    "AssetBaseClass": "/Script/Artemis.VehicleConfig",
+    "Directories": [
+      "/Game/Game/Vehicle/Configs"
+    ]
+  },
+  {
+    "PrimaryAssetType": "Mission",
+    "AssetBaseClass": "/Script/Artemis.ArtemisMissionDataBase",
+    "Directories": [
+      "/Game/Data/MissionData"
+    ]
+  },
+  {
+    "PrimaryAssetType": "StoryGraph",
+    "AssetBaseClass": "/Script/StoryGraph.StoryGraphAsset",
+    "Directories": [
+      "/Game/Game/StoryGraph"
+    ]
+  },
+  {
+    "PrimaryAssetType": "StoryAction",
+    "AssetBaseClass": "/Script/StoryGraph.StoryAction_Base",
+    "Directories": [
+      "/Game/Game/StoryGraph"
+    ]
+  },
+  {
+    "PrimaryAssetType": "LegoAssy",
+    "AssetBaseClass": "/Script/ArtemisLego.LegoAssembly",
+    "Directories": [
+      "/Game/LEGO/Assemblies"
+    ]
+  },
+  {
+    "PrimaryAssetType": "PrimaryAssetLabel",
+    "AssetBaseClass": "/Script/Engine.PrimaryAssetLabel",
+    "Directories": [
+      "/Game/AssetLabels"
+    ]
+  },
+  {
+    "PrimaryAssetType": "Map",
+    "AssetBaseClass": "/Script/Engine.World",
+    "Directories": [
+      "/Game/Game/Maps",
+      "/Game/Garage/Maps"
+    ]
+  },
+  {
+    "PrimaryAssetType": "EngineSound",
+    "AssetBaseClass": "/Script/Artemis.EngineConfig",
+    "Directories": [
+      "/Game/Game/Vehicle/Inventory/EngineConfigs"
+    ]
+  },
+  {
+    "PrimaryAssetType": "HornSound",
+    "AssetBaseClass": "/Script/Artemis.HornConfig",
+    "Directories": [
+      "/Game/Game/Vehicle/Inventory/HornSoundConfigs",
+      "/Game/DrivePass/Audio/HornConfigs_DP2",
+      "/Game/DrivePass/Audio/HornConfigs_DP3",
+      "/Game/DrivePass/Audio/HornConfigs_DP4"
+    ]
+  }
+]

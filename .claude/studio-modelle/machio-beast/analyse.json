@@ -1,0 +1,9055 @@
+{
+  "sha256": "476654c9b1f194c8cda5a54c11832554bc4471f0b1e962b3d69d03cae6347f9e",
+  "bytes": 342741,
+  "entries": [
+    {
+      "name": "model.ldr",
+      "bytes": 39537,
+      "sha256": "f01190e6648f8483a3118a726d24866d16127a097709e2431f54ee45b77005ee"
+    },
+    {
+      "name": "model.lxfml",
+      "bytes": 140878,
+      "sha256": "676ae4434b7060fd899f3c2cfc48f3d673bdd4cfacfe63fd8fa1738923fd4e00"
+    },
+    {
+      "name": "modelv2.ldr",
+      "bytes": 43393,
+      "sha256": "4d516cdf128edabe53d1a945b8b5fffb8f30fde2f75608d9e555f27e7d8e564c"
+    },
+    {
+      "name": "model2.ldr",
+      "bytes": 948462,
+      "sha256": "e774b40192236cbcf7bb32c44c263c608a2ce7fda577afc6c7374cc037f69238"
+    },
+    {
+      "name": "thumbnail.png",
+      "bytes": 208024,
+      "sha256": "c74fea70194bebb0ed45df2e11f66c328939b59eab99cbaa334400ca192869c8"
+    },
+    {
+      "name": "errorPartList.err",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "name": ".info",
+      "bytes": 53,
+      "sha256": "cfdd5e1154dc23a6669d81ac8faa312a0dcd5757e4e6950f58bd2bda7dda3eee"
+    }
+  ],
+  "studio": {
+    "version": "2.24.12_1",
+    "total_parts": 301
+  },
+  "parts": [
+    {
+      "zeile": 7,
+      "schritt": 0,
+      "ldraw_farbe": 0,
+      "position_ldu": [
+        10.00002,
+        -23.99977,
+        -40.0
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "3029.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          3029
+        ],
+        "bekannte_GEOM": [
+          3029
+        ]
+      }
+    },
+    {
+      "zeile": 8,
+      "schritt": 0,
+      "ldraw_farbe": 0,
+      "position_ldu": [
+        10.00004,
+        -31.99977,
+        -140.0
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "referenz": "3795.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          3795
+        ],
+        "bekannte_GEOM": [
+          3795
+        ]
+      }
+    },
+    {
+      "zeile": 9,
+      "schritt": 0,
+      "ldraw_farbe": 0,
+      "position_ldu": [
+        -49.99998,
+        -31.99977,
+        -40.0
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "3034.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          3034
+        ],
+        "bekannte_GEOM": [
+          3034
+        ]
+      }
+    },
+    {
+      "zeile": 10,
+      "schritt": 0,
+      "ldraw_farbe": 0,
+      "position_ldu": [
+        70.00004,
+        -31.99977,
+        -39.99999
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "3034.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          3034
+        ],
+        "bekannte_GEOM": [
+          3034
+        ]
+      }
+    },
+    {
+      "zeile": 11,
+      "schritt": 0,
+      "ldraw_farbe": 0,
+      "position_ldu": [
+        -49.99998,
+        -39.99977,
+        -40.0
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "3832.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          3832
+        ],
+        "bekannte_GEOM": [
+          3832
+        ]
+      }
+    },
+    {
+      "zeile": 12,
+      "schritt": 0,
+      "ldraw_farbe": 0,
+      "position_ldu": [
+        70.00004,
+        -39.99977,
+        -39.99999
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "3832.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          3832
+        ],
+        "bekannte_GEOM": [
+          3832
+        ]
+      }
+    },
+    {
+      "zeile": 13,
+      "schritt": 0,
+      "ldraw_farbe": 0,
+      "position_ldu": [
+        -40.0,
+        -47.99977,
+        0.0
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "3460.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          3460
+        ],
+        "bekannte_GEOM": [
+          3460
+        ]
+      }
+    },
+    {
+      "zeile": 14,
+      "schritt": 0,
+      "ldraw_farbe": 0,
+      "position_ldu": [
+        60.00002,
+        -47.99977,
+        2e-05
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "3460.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          3460
+        ],
+        "bekannte_GEOM": [
+          3460
+        ]
+      }
+    },
+    {
+      "zeile": 15,
+      "schritt": 0,
+      "ldraw_farbe": 0,
+      "position_ldu": [
+        10.00002,
+        -47.99977,
+        -40.0
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "3035.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          3035
+        ],
+        "bekannte_GEOM": [
+          3035
+        ]
+      }
+    },
+    {
+      "zeile": 16,
+      "schritt": 0,
+      "ldraw_farbe": 0,
+      "position_ldu": [
+        -80.0,
+        -31.99977,
+        20.00006
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "32803.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          32803
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 17,
+      "schritt": 0,
+      "ldraw_farbe": 0,
+      "position_ldu": [
+        -79.99998,
+        -31.99977,
+        -19.99996
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "32803.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          32803
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 18,
+      "schritt": 0,
+      "ldraw_farbe": 0,
+      "position_ldu": [
+        -79.99998,
+        -31.99977,
+        -59.99998
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "32803.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          32803
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 19,
+      "schritt": 0,
+      "ldraw_farbe": 0,
+      "position_ldu": [
+        -79.99998,
+        -31.99977,
+        -100.0
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "32803.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          32803
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 20,
+      "schritt": 0,
+      "ldraw_farbe": 0,
+      "position_ldu": [
+        -59.99997,
+        -31.99977,
+        -130.0
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "24201.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          24201
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 21,
+      "schritt": 0,
+      "ldraw_farbe": 0,
+      "position_ldu": [
+        -39.99997,
+        -23.99977,
+        -150.0
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "3024.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          3024
+        ],
+        "bekannte_GEOM": [
+          3024
+        ]
+      }
+    },
+    {
+      "zeile": 22,
+      "schritt": 0,
+      "ldraw_farbe": 0,
+      "position_ldu": [
+        60.00004,
+        -23.99977,
+        -150.0
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "3024.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          3024
+        ],
+        "bekannte_GEOM": [
+          3024
+        ]
+      }
+    },
+    {
+      "zeile": 23,
+      "schritt": 0,
+      "ldraw_farbe": 0,
+      "position_ldu": [
+        -60.0,
+        -31.99977,
+        50.0
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "24201.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          24201
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 24,
+      "schritt": 0,
+      "ldraw_farbe": 0,
+      "position_ldu": [
+        100.0001,
+        -31.99977,
+        -100.0
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "32803.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          32803
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 25,
+      "schritt": 0,
+      "ldraw_farbe": 0,
+      "position_ldu": [
+        100.0001,
+        -31.99977,
+        -60.00004
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "32803.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          32803
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 26,
+      "schritt": 0,
+      "ldraw_farbe": 0,
+      "position_ldu": [
+        100.0001,
+        -31.99977,
+        -19.99998
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "32803.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          32803
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 27,
+      "schritt": 0,
+      "ldraw_farbe": 0,
+      "position_ldu": [
+        100.0,
+        -31.99977,
+        20.00003
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "32803.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          32803
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 28,
+      "schritt": 0,
+      "ldraw_farbe": 0,
+      "position_ldu": [
+        80.00006,
+        -31.99977,
+        -130.0
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "24201.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          24201
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 29,
+      "schritt": 0,
+      "ldraw_farbe": 0,
+      "position_ldu": [
+        -40.00001,
+        -39.99977,
+        70.0
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "3005.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          3005
+        ],
+        "bekannte_GEOM": [
+          3005
+        ]
+      }
+    },
+    {
+      "zeile": 30,
+      "schritt": 0,
+      "ldraw_farbe": 0,
+      "position_ldu": [
+        60.0,
+        -39.99977,
+        70.00002
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "3005.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          3005
+        ],
+        "bekannte_GEOM": [
+          3005
+        ]
+      }
+    },
+    {
+      "zeile": 31,
+      "schritt": 0,
+      "ldraw_farbe": 0,
+      "position_ldu": [
+        -40.00001,
+        -71.99978,
+        70.0
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "3005.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          3005
+        ],
+        "bekannte_GEOM": [
+          3005
+        ]
+      }
+    },
+    {
+      "zeile": 32,
+      "schritt": 0,
+      "ldraw_farbe": 0,
+      "position_ldu": [
+        60.0,
+        -71.99978,
+        70.00002
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "3005.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          3005
+        ],
+        "bekannte_GEOM": [
+          3005
+        ]
+      }
+    },
+    {
+      "zeile": 33,
+      "schritt": 0,
+      "ldraw_farbe": 0,
+      "position_ldu": [
+        -39.99997,
+        -55.99978,
+        -150.0
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "3005.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          3005
+        ],
+        "bekannte_GEOM": [
+          3005
+        ]
+      }
+    },
+    {
+      "zeile": 34,
+      "schritt": 0,
+      "ldraw_farbe": 0,
+      "position_ldu": [
+        -39.99997,
+        -79.99978,
+        -150.0
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "3005.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          3005
+        ],
+        "bekannte_GEOM": [
+          3005
+        ]
+      }
+    },
+    {
+      "zeile": 35,
+      "schritt": 0,
+      "ldraw_farbe": 0,
+      "position_ldu": [
+        60.00004,
+        -55.99978,
+        -150.0
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "3005.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          3005
+        ],
+        "bekannte_GEOM": [
+          3005
+        ]
+      }
+    },
+    {
+      "zeile": 36,
+      "schritt": 0,
+      "ldraw_farbe": 0,
+      "position_ldu": [
+        60.00004,
+        -79.99978,
+        -150.0
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "3005.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          3005
+        ],
+        "bekannte_GEOM": [
+          3005
+        ]
+      }
+    },
+    {
+      "zeile": 37,
+      "schritt": 0,
+      "ldraw_farbe": 0,
+      "position_ldu": [
+        10.00004,
+        -47.99977,
+        -160.0
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "3031.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          3031
+        ],
+        "bekannte_GEOM": [
+          3031
+        ]
+      }
+    },
+    {
+      "zeile": 38,
+      "schritt": 0,
+      "ldraw_farbe": 0,
+      "position_ldu": [
+        10.00003,
+        -71.99978,
+        -120.0
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "3007.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          3007
+        ],
+        "bekannte_GEOM": [
+          3007
+        ]
+      }
+    },
+    {
+      "zeile": 39,
+      "schritt": 0,
+      "ldraw_farbe": 0,
+      "position_ldu": [
+        80.00002,
+        -31.99977,
+        50.00002
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "24201.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          24201
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 40,
+      "schritt": 0,
+      "ldraw_farbe": 0,
+      "position_ldu": [
+        10.00024,
+        -23.99977,
+        -180.0007
+      ],
+      "matrix": [
+        -1.000003,
+        0.0,
+        1e-06,
+        0.0,
+        1.0,
+        0.0,
+        -1e-06,
+        0.0,
+        -1.000003
+      ],
+      "referenz": "3795.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          3795
+        ],
+        "bekannte_GEOM": [
+          3795
+        ]
+      }
+    },
+    {
+      "zeile": 41,
+      "schritt": 0,
+      "ldraw_farbe": 0,
+      "position_ldu": [
+        10.00026,
+        -23.99977,
+        -210.0008
+      ],
+      "matrix": [
+        -1.000003,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.000003
+      ],
+      "referenz": "3666.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          3666
+        ],
+        "bekannte_GEOM": [
+          3666
+        ]
+      }
+    },
+    {
+      "zeile": 42,
+      "schritt": 0,
+      "ldraw_farbe": 0,
+      "position_ldu": [
+        9.99998,
+        -23.99977,
+        100.0
+      ],
+      "matrix": [
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "referenz": "3795.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          3795
+        ],
+        "bekannte_GEOM": [
+          3795
+        ]
+      }
+    },
+    {
+      "zeile": 43,
+      "schritt": 0,
+      "ldraw_farbe": 0,
+      "position_ldu": [
+        9.99999,
+        -31.99977,
+        100.0
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "3031.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          3031
+        ],
+        "bekannte_GEOM": [
+          3031
+        ]
+      }
+    },
+    {
+      "zeile": 44,
+      "schritt": 0,
+      "ldraw_farbe": 0,
+      "position_ldu": [
+        -40.00004,
+        -31.99977,
+        150.0
+      ],
+      "matrix": [
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "referenz": "24201.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          24201
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 45,
+      "schritt": 0,
+      "ldraw_farbe": 0,
+      "position_ldu": [
+        60.0,
+        -31.99977,
+        150.0001
+      ],
+      "matrix": [
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "referenz": "24201.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          24201
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 46,
+      "schritt": 0,
+      "ldraw_farbe": 0,
+      "position_ldu": [
+        59.99999,
+        -31.99977,
+        130.0
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "3024.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          3024
+        ],
+        "bekannte_GEOM": [
+          3024
+        ]
+      }
+    },
+    {
+      "zeile": 47,
+      "schritt": 0,
+      "ldraw_farbe": 0,
+      "position_ldu": [
+        9.99998,
+        -55.99978,
+        130.0
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "referenz": "3009.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          3009
+        ],
+        "bekannte_GEOM": [
+          3009
+        ]
+      }
+    },
+    {
+      "zeile": 48,
+      "schritt": 0,
+      "ldraw_farbe": 0,
+      "position_ldu": [
+        -40.00002,
+        -31.99977,
+        130.0
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "3024.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          3024
+        ],
+        "bekannte_GEOM": [
+          3024
+        ]
+      }
+    },
+    {
+      "zeile": 49,
+      "schritt": 0,
+      "ldraw_farbe": 0,
+      "position_ldu": [
+        60.0,
+        -55.99978,
+        150.0001
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "3005.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          3005
+        ],
+        "bekannte_GEOM": [
+          3005
+        ]
+      }
+    },
+    {
+      "zeile": 50,
+      "schritt": 0,
+      "ldraw_farbe": 0,
+      "position_ldu": [
+        -40.00004,
+        -55.99978,
+        150.0
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "3005.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          3005
+        ],
+        "bekannte_GEOM": [
+          3005
+        ]
+      }
+    },
+    {
+      "zeile": 51,
+      "schritt": 0,
+      "ldraw_farbe": 0,
+      "position_ldu": [
+        -39.99988,
+        -47.99977,
+        -180.0007
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "3700.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          3700
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 52,
+      "schritt": 0,
+      "ldraw_farbe": 0,
+      "position_ldu": [
+        -40.00002,
+        -47.99977,
+        100.0
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "3700.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          3700
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 53,
+      "schritt": 0,
+      "ldraw_farbe": 0,
+      "position_ldu": [
+        60.0,
+        -47.99977,
+        100.0001
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "3700.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          3700
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 54,
+      "schritt": 0,
+      "ldraw_farbe": 0,
+      "position_ldu": [
+        60.0004,
+        -47.99977,
+        -180.0007
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "3700.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          3700
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 55,
+      "schritt": 0,
+      "ldraw_farbe": 0,
+      "position_ldu": [
+        10.00003,
+        -39.99977,
+        -120.0
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "3035.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          3035
+        ],
+        "bekannte_GEOM": [
+          3035
+        ]
+      }
+    },
+    {
+      "zeile": 56,
+      "schritt": 0,
+      "ldraw_farbe": 0,
+      "position_ldu": [
+        10.0,
+        -39.99977,
+        40.00004
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "3035.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          3035
+        ],
+        "bekannte_GEOM": [
+          3035
+        ]
+      }
+    },
+    {
+      "zeile": 57,
+      "schritt": 0,
+      "ldraw_farbe": 0,
+      "position_ldu": [
+        10.00002,
+        -31.99977,
+        -40.0
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "3035.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          3035
+        ],
+        "bekannte_GEOM": [
+          3035
+        ]
+      }
+    },
+    {
+      "zeile": 58,
+      "schritt": 0,
+      "ldraw_farbe": 0,
+      "position_ldu": [
+        10.0,
+        -47.99977,
+        80.00002
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "3031.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          3031
+        ],
+        "bekannte_GEOM": [
+          3031
+        ]
+      }
+    },
+    {
+      "zeile": 59,
+      "schritt": 0,
+      "ldraw_farbe": 0,
+      "position_ldu": [
+        9.99999,
+        -71.99978,
+        100.0
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "referenz": "2456.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          44237
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 60,
+      "schritt": 0,
+      "ldraw_farbe": 0,
+      "position_ldu": [
+        9.99999,
+        -79.99978,
+        100.0
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "referenz": "3795.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          3795
+        ],
+        "bekannte_GEOM": [
+          3795
+        ]
+      }
+    },
+    {
+      "zeile": 61,
+      "schritt": 0,
+      "ldraw_farbe": 0,
+      "position_ldu": [
+        50.00038,
+        -55.99978,
+        -180.0007
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "3022.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          3022
+        ],
+        "bekannte_GEOM": [
+          3022
+        ]
+      }
+    },
+    {
+      "zeile": 62,
+      "schritt": 0,
+      "ldraw_farbe": 0,
+      "position_ldu": [
+        60.0004,
+        -79.99978,
+        -190.0007
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "2357.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          2357
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 63,
+      "schritt": 0,
+      "ldraw_farbe": 0,
+      "position_ldu": [
+        -39.99988,
+        -79.99978,
+        -190.0007
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "referenz": "2357.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          2357
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 64,
+      "schritt": 0,
+      "ldraw_farbe": 0,
+      "position_ldu": [
+        -29.99988,
+        -55.99978,
+        -180.0007
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "3022.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          3022
+        ],
+        "bekannte_GEOM": [
+          3022
+        ]
+      }
+    },
+    {
+      "zeile": 65,
+      "schritt": 0,
+      "ldraw_farbe": 0,
+      "position_ldu": [
+        10.00013,
+        -31.99977,
+        -210.0008
+      ],
+      "matrix": [
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "referenz": "3666.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          3666
+        ],
+        "bekannte_GEOM": [
+          3666
+        ]
+      }
+    },
+    {
+      "zeile": 66,
+      "schritt": 0,
+      "ldraw_farbe": 0,
+      "position_ldu": [
+        10.00012,
+        -79.99978,
+        -210.0008
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "referenz": "3009.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          3009
+        ],
+        "bekannte_GEOM": [
+          3009
+        ]
+      }
+    },
+    {
+      "zeile": 67,
+      "schritt": 0,
+      "ldraw_farbe": 0,
+      "position_ldu": [
+        -29.99989,
+        -47.99977,
+        -230.0008
+      ],
+      "matrix": [
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "referenz": "3004.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          3004
+        ],
+        "bekannte_GEOM": [
+          3004
+        ]
+      }
+    },
+    {
+      "zeile": 68,
+      "schritt": 0,
+      "ldraw_farbe": 0,
+      "position_ldu": [
+        50.00154,
+        -47.99977,
+        -230.0014
+      ],
+      "matrix": [
+        -1.000005,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.000004
+      ],
+      "referenz": "3004.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          3004
+        ],
+        "bekannte_GEOM": [
+          3004
+        ]
+      }
+    },
+    {
+      "zeile": 69,
+      "schritt": 0,
+      "ldraw_farbe": 0,
+      "position_ldu": [
+        10.00134,
+        -47.99977,
+        -230.0014
+      ],
+      "matrix": [
+        1.000005,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.000004
+      ],
+      "referenz": "3700.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          3700
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 70,
+      "schritt": 0,
+      "ldraw_farbe": 0,
+      "position_ldu": [
+        -39.9999,
+        -55.99978,
+        -210.0008
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "3005.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          3005
+        ],
+        "bekannte_GEOM": [
+          3005
+        ]
+      }
+    },
+    {
+      "zeile": 71,
+      "schritt": 0,
+      "ldraw_farbe": 0,
+      "position_ldu": [
+        60.00014,
+        -55.99978,
+        -210.0008
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "3005.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          3005
+        ],
+        "bekannte_GEOM": [
+          3005
+        ]
+      }
+    },
+    {
+      "zeile": 72,
+      "schritt": 0,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        -29.99989,
+        -79.99978,
+        -230.0008
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "referenz": "2877.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          2877
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 73,
+      "schritt": 0,
+      "ldraw_farbe": 0,
+      "position_ldu": [
+        10.00012,
+        -55.99978,
+        -240.0008
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "referenz": "3034.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          3034
+        ],
+        "bekannte_GEOM": [
+          3034
+        ]
+      }
+    },
+    {
+      "zeile": 74,
+      "schritt": 0,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        10.00012,
+        -79.99978,
+        -230.0008
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "referenz": "2877.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          2877
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 75,
+      "schritt": 0,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        50.00012,
+        -79.99978,
+        -230.0008
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "referenz": "2877.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          2877
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 76,
+      "schritt": 0,
+      "ldraw_farbe": 0,
+      "position_ldu": [
+        -59.99991,
+        -31.99977,
+        -230.0008
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "24201.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          24201
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 77,
+      "schritt": 0,
+      "ldraw_farbe": 0,
+      "position_ldu": [
+        80.00159,
+        -31.99977,
+        -230.0014
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "24201.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          24201
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 78,
+      "schritt": 0,
+      "ldraw_farbe": 0,
+      "position_ldu": [
+        80.00159,
+        -39.99977,
+        -230.0014
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "3024.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          3024
+        ],
+        "bekannte_GEOM": [
+          3024
+        ]
+      }
+    },
+    {
+      "zeile": 79,
+      "schritt": 0,
+      "ldraw_farbe": 0,
+      "position_ldu": [
+        80.00014,
+        -47.99977,
+        -230.0008
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "3024.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          3024
+        ],
+        "bekannte_GEOM": [
+          3024
+        ]
+      }
+    },
+    {
+      "zeile": 80,
+      "schritt": 0,
+      "ldraw_farbe": 0,
+      "position_ldu": [
+        80.00014,
+        -47.99977,
+        -250.0008
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "3024.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          3024
+        ],
+        "bekannte_GEOM": [
+          3024
+        ]
+      }
+    },
+    {
+      "zeile": 81,
+      "schritt": 0,
+      "ldraw_farbe": 0,
+      "position_ldu": [
+        -59.99988,
+        -47.99977,
+        -250.0009
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "3024.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          3024
+        ],
+        "bekannte_GEOM": [
+          3024
+        ]
+      }
+    },
+    {
+      "zeile": 82,
+      "schritt": 0,
+      "ldraw_farbe": 0,
+      "position_ldu": [
+        9.999969,
+        -63.99978,
+        160.0001
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "referenz": "3032.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          3032
+        ],
+        "bekannte_GEOM": [
+          3032
+        ]
+      }
+    },
+    {
+      "zeile": 83,
+      "schritt": 0,
+      "ldraw_farbe": 0,
+      "position_ldu": [
+        9.99996,
+        -55.99978,
+        190.0001
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "referenz": "3710.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          3710
+        ],
+        "bekannte_GEOM": [
+          3710
+        ]
+      }
+    },
+    {
+      "zeile": 84,
+      "schritt": 0,
+      "ldraw_farbe": 0,
+      "position_ldu": [
+        10.00134,
+        -37.99977,
+        -240.0014
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "4459.dat",
+      "spiel_zuordnung": {
+        "status": "nicht_zugeordnet",
+        "kandidaten": [],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 85,
+      "schritt": 0,
+      "ldraw_farbe": 0,
+      "position_ldu": [
+        10.00134,
+        -37.99977,
+        -250.0014
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "referenz": "61073.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          61073
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 86,
+      "schritt": 0,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        -9.99865,
+        -37.99977,
+        -260.0015
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        -1.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "4274.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          4274
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 87,
+      "schritt": 0,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        30.00136,
+        -37.99977,
+        -260.0014
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        -1.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "4274.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          4274
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 88,
+      "schritt": 0,
+      "ldraw_farbe": 0,
+      "position_ldu": [
+        -49.99988,
+        -37.99977,
+        -180.0007
+      ],
+      "matrix": [
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "referenz": "3749.dat",
+      "spiel_zuordnung": {
+        "status": "nicht_zugeordnet",
+        "kandidaten": [],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 89,
+      "schritt": 0,
+      "ldraw_farbe": 0,
+      "position_ldu": [
+        -50.00001,
+        -37.99977,
+        100.0
+      ],
+      "matrix": [
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "referenz": "3749.dat",
+      "spiel_zuordnung": {
+        "status": "nicht_zugeordnet",
+        "kandidaten": [],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 90,
+      "schritt": 0,
+      "ldraw_farbe": 0,
+      "position_ldu": [
+        70.0004,
+        -37.99977,
+        -180.0007
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        -1e-06,
+        0.0,
+        1.0,
+        0.0,
+        1e-06,
+        0.0,
+        1.0
+      ],
+      "referenz": "3749.dat",
+      "spiel_zuordnung": {
+        "status": "nicht_zugeordnet",
+        "kandidaten": [],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 91,
+      "schritt": 0,
+      "ldraw_farbe": 0,
+      "position_ldu": [
+        70.0,
+        -37.99977,
+        100.0001
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        -1e-06,
+        0.0,
+        1.0,
+        0.0,
+        1e-06,
+        0.0,
+        1.0
+      ],
+      "referenz": "3749.dat",
+      "spiel_zuordnung": {
+        "status": "nicht_zugeordnet",
+        "kandidaten": [],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 92,
+      "schritt": 0,
+      "ldraw_farbe": 0,
+      "position_ldu": [
+        9.99998,
+        -87.99977,
+        130.0001
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "referenz": "3009.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          3009
+        ],
+        "bekannte_GEOM": [
+          3009
+        ]
+      }
+    },
+    {
+      "zeile": 93,
+      "schritt": 0,
+      "ldraw_farbe": 0,
+      "position_ldu": [
+        9.999969,
+        -55.99978,
+        150.0001
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "referenz": "3710.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          3710
+        ],
+        "bekannte_GEOM": [
+          3710
+        ]
+      }
+    },
+    {
+      "zeile": 94,
+      "schritt": 0,
+      "ldraw_farbe": 0,
+      "position_ldu": [
+        9.999969,
+        -47.99977,
+        150.0001
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "referenz": "3701.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          3701
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 95,
+      "schritt": 0,
+      "ldraw_farbe": 0,
+      "position_ldu": [
+        9.999969,
+        -37.99977,
+        170.0001
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "18651.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          18651
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 96,
+      "schritt": 0,
+      "ldraw_farbe": 0,
+      "position_ldu": [
+        29.99998,
+        -37.99976,
+        170.0001
+      ],
+      "matrix": [
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "15100.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          15100
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 97,
+      "schritt": 0,
+      "ldraw_farbe": 0,
+      "position_ldu": [
+        9.999969,
+        -37.99977,
+        170.0001
+      ],
+      "matrix": [
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "referenz": "3713.dat",
+      "spiel_zuordnung": {
+        "status": "nicht_zugeordnet",
+        "kandidaten": [],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 98,
+      "schritt": 0,
+      "ldraw_farbe": 0,
+      "position_ldu": [
+        39.99998,
+        -37.99977,
+        170.0001
+      ],
+      "matrix": [
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.984808,
+        0.173646,
+        0.0,
+        0.173646,
+        -0.984808
+      ],
+      "referenz": "32062.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          32062
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 99,
+      "schritt": 0,
+      "ldraw_farbe": 0,
+      "position_ldu": [
+        9.999969,
+        -37.99976,
+        190.0001
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1e-06,
+        0.0,
+        -1.0
+      ],
+      "referenz": "61073.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          61073
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 100,
+      "schritt": 0,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        70.0,
+        -37.99976,
+        170.0002
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.173646,
+        -0.984808,
+        0.0,
+        -0.984808,
+        -0.173646,
+        0.0
+      ],
+      "referenz": "25214.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          25214
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 101,
+      "schritt": 0,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        70.00001,
+        -43.20916,
+        199.5443
+      ],
+      "matrix": [
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        -0.173646,
+        0.984808,
+        0.0,
+        0.984808,
+        0.173646
+      ],
+      "referenz": "3062b.dat",
+      "spiel_zuordnung": {
+        "status": "buchstabenvariante_unbestaetigt",
+        "kandidaten": [
+          3062
+        ],
+        "bekannte_GEOM": [
+          3062
+        ]
+      }
+    },
+    {
+      "zeile": 102,
+      "schritt": 0,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        29.99997,
+        -37.99976,
+        200.0001
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "4274.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          4274
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 103,
+      "schritt": 0,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        -10.00002,
+        -37.99976,
+        200.0
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "4274.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          4274
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 104,
+      "schritt": 0,
+      "ldraw_farbe": 0,
+      "position_ldu": [
+        -20.00004,
+        -37.99976,
+        170.0002
+      ],
+      "matrix": [
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.984808,
+        0.173646,
+        0.0,
+        0.173646,
+        -0.984808
+      ],
+      "referenz": "32062.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          32062
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 105,
+      "schritt": 0,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        -50.00008,
+        -37.99971,
+        170.0
+      ],
+      "matrix": [
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        -0.984808,
+        -0.173646,
+        0.0,
+        -0.173646,
+        0.984808
+      ],
+      "referenz": "25214.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          25214
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 106,
+      "schritt": 0,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        -50.0001,
+        -43.2091,
+        199.5444
+      ],
+      "matrix": [
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        -0.173646,
+        0.984808,
+        0.0,
+        0.984808,
+        0.173646
+      ],
+      "referenz": "3062b.dat",
+      "spiel_zuordnung": {
+        "status": "buchstabenvariante_unbestaetigt",
+        "kandidaten": [
+          3062
+        ],
+        "bekannte_GEOM": [
+          3062
+        ]
+      }
+    },
+    {
+      "zeile": 107,
+      "schritt": 0,
+      "ldraw_farbe": 0,
+      "position_ldu": [
+        -10.00004,
+        -37.99976,
+        170.0002
+      ],
+      "matrix": [
+        0.0,
+        1.0,
+        0.0,
+        -1e-06,
+        0.0,
+        -1.0,
+        -1.0,
+        0.0,
+        1e-06
+      ],
+      "referenz": "15100.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          15100
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 108,
+      "schritt": 0,
+      "ldraw_farbe": 15,
+      "position_ldu": [
+        9.99996,
+        -37.99976,
+        208.0001
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "referenz": "63864.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          63864
+        ],
+        "bekannte_GEOM": [
+          63864
+        ]
+      }
+    },
+    {
+      "zeile": 109,
+      "schritt": 0,
+      "ldraw_farbe": 0,
+      "position_ldu": [
+        89.99998,
+        -63.99978,
+        180.0002
+      ],
+      "matrix": [
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "referenz": "24307.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          24307
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 110,
+      "schritt": 0,
+      "ldraw_farbe": 0,
+      "position_ldu": [
+        -70.00006,
+        -63.99978,
+        180.0001
+      ],
+      "matrix": [
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "referenz": "24299.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          24299
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 111,
+      "schritt": 0,
+      "ldraw_farbe": 0,
+      "position_ldu": [
+        81.99998,
+        -41.99978,
+        170.0002
+      ],
+      "matrix": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "36840.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          36840
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 112,
+      "schritt": 0,
+      "ldraw_farbe": 0,
+      "position_ldu": [
+        -62.00006,
+        -41.99978,
+        170.0001
+      ],
+      "matrix": [
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "36840.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          36840
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 113,
+      "schritt": 0,
+      "ldraw_farbe": 297,
+      "position_ldu": [
+        -69.99992,
+        -37.99977,
+        -180.0008
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "referenz": "2994.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          2994
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 114,
+      "schritt": 0,
+      "ldraw_farbe": 0,
+      "position_ldu": [
+        -69.99992,
+        -37.99976,
+        -180.0008
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "referenz": "6578.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          6578
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 115,
+      "schritt": 0,
+      "ldraw_farbe": 297,
+      "position_ldu": [
+        -70.00003,
+        -37.99977,
+        100.0
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "referenz": "2994.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          2994
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 116,
+      "schritt": 0,
+      "ldraw_farbe": 0,
+      "position_ldu": [
+        -70.00022,
+        -37.99985,
+        100.0001
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        1.000002,
+        0.0,
+        0.0,
+        0.0,
+        -1.000002,
+        0.0
+      ],
+      "referenz": "6578.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          6578
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 117,
+      "schritt": 0,
+      "ldraw_farbe": 297,
+      "position_ldu": [
+        90.0004,
+        -37.99977,
+        -180.0007
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "referenz": "2994.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          2994
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 118,
+      "schritt": 0,
+      "ldraw_farbe": 0,
+      "position_ldu": [
+        90.00061,
+        -37.99999,
+        -180.0008
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        1.0,
+        1.000007,
+        0.0,
+        0.0,
+        0.0,
+        1.000007,
+        0.0
+      ],
+      "referenz": "6578.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          6578
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 119,
+      "schritt": 0,
+      "ldraw_farbe": 297,
+      "position_ldu": [
+        90.00003,
+        -37.99977,
+        100.0001
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "referenz": "2994.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          2994
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 120,
+      "schritt": 0,
+      "ldraw_farbe": 0,
+      "position_ldu": [
+        90.00024,
+        -37.99999,
+        100.0
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        1.0,
+        1.000007,
+        0.0,
+        0.0,
+        0.0,
+        1.000007,
+        0.0
+      ],
+      "referenz": "6578.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          6578
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 121,
+      "schritt": 0,
+      "ldraw_farbe": 0,
+      "position_ldu": [
+        -59.99991,
+        -39.99977,
+        -230.0008
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "3024.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          3024
+        ],
+        "bekannte_GEOM": [
+          3024
+        ]
+      }
+    },
+    {
+      "zeile": 122,
+      "schritt": 0,
+      "ldraw_farbe": 0,
+      "position_ldu": [
+        -59.99991,
+        -47.99977,
+        -230.0008
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "3024.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          3024
+        ],
+        "bekannte_GEOM": [
+          3024
+        ]
+      }
+    },
+    {
+      "zeile": 125,
+      "schritt": 1,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        -59.9999,
+        -47.99977,
+        -260.0009
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "referenz": "29119.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          29119
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 126,
+      "schritt": 1,
+      "ldraw_farbe": 297,
+      "position_ldu": [
+        4e-05,
+        -111.9998,
+        -170.0
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "2343.dat",
+      "spiel_zuordnung": {
+        "status": "nicht_zugeordnet",
+        "kandidaten": [],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 127,
+      "schritt": 1,
+      "ldraw_farbe": 297,
+      "position_ldu": [
+        4e-05,
+        -111.9998,
+        -150.0
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "2343.dat",
+      "spiel_zuordnung": {
+        "status": "nicht_zugeordnet",
+        "kandidaten": [],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 128,
+      "schritt": 1,
+      "ldraw_farbe": 297,
+      "position_ldu": [
+        3e-05,
+        -111.9998,
+        -130.0
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "2343.dat",
+      "spiel_zuordnung": {
+        "status": "nicht_zugeordnet",
+        "kandidaten": [],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 129,
+      "schritt": 1,
+      "ldraw_farbe": 297,
+      "position_ldu": [
+        3e-05,
+        -111.9998,
+        -110.0
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "2343.dat",
+      "spiel_zuordnung": {
+        "status": "nicht_zugeordnet",
+        "kandidaten": [],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 130,
+      "schritt": 1,
+      "ldraw_farbe": 297,
+      "position_ldu": [
+        2e-05,
+        -111.9998,
+        -89.99998
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "2343.dat",
+      "spiel_zuordnung": {
+        "status": "nicht_zugeordnet",
+        "kandidaten": [],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 131,
+      "schritt": 1,
+      "ldraw_farbe": 297,
+      "position_ldu": [
+        2e-05,
+        -111.9998,
+        -70.0
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "2343.dat",
+      "spiel_zuordnung": {
+        "status": "nicht_zugeordnet",
+        "kandidaten": [],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 132,
+      "schritt": 1,
+      "ldraw_farbe": 297,
+      "position_ldu": [
+        20.00004,
+        -111.9998,
+        -170.0
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "2343.dat",
+      "spiel_zuordnung": {
+        "status": "nicht_zugeordnet",
+        "kandidaten": [],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 133,
+      "schritt": 1,
+      "ldraw_farbe": 297,
+      "position_ldu": [
+        20.00004,
+        -111.9998,
+        -150.0
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "2343.dat",
+      "spiel_zuordnung": {
+        "status": "nicht_zugeordnet",
+        "kandidaten": [],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 134,
+      "schritt": 1,
+      "ldraw_farbe": 297,
+      "position_ldu": [
+        20.00003,
+        -111.9998,
+        -130.0
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "2343.dat",
+      "spiel_zuordnung": {
+        "status": "nicht_zugeordnet",
+        "kandidaten": [],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 135,
+      "schritt": 1,
+      "ldraw_farbe": 297,
+      "position_ldu": [
+        20.00003,
+        -111.9998,
+        -110.0
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "2343.dat",
+      "spiel_zuordnung": {
+        "status": "nicht_zugeordnet",
+        "kandidaten": [],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 136,
+      "schritt": 1,
+      "ldraw_farbe": 297,
+      "position_ldu": [
+        20.00003,
+        -111.9998,
+        -89.99998
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "2343.dat",
+      "spiel_zuordnung": {
+        "status": "nicht_zugeordnet",
+        "kandidaten": [],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 137,
+      "schritt": 1,
+      "ldraw_farbe": 297,
+      "position_ldu": [
+        20.00002,
+        -111.9998,
+        -69.99998
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "2343.dat",
+      "spiel_zuordnung": {
+        "status": "nicht_zugeordnet",
+        "kandidaten": [],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 138,
+      "schritt": 1,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        60.00002,
+        -55.99978,
+        2e-05
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "3666.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          3666
+        ],
+        "bekannte_GEOM": [
+          3666
+        ]
+      }
+    },
+    {
+      "zeile": 139,
+      "schritt": 1,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        -40.0,
+        -55.99978,
+        0.0
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "3666.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          3666
+        ],
+        "bekannte_GEOM": [
+          3666
+        ]
+      }
+    },
+    {
+      "zeile": 140,
+      "schritt": 1,
+      "ldraw_farbe": 0,
+      "position_ldu": [
+        60.00004,
+        -87.99977,
+        -69.99998
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "32952.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          32952
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 141,
+      "schritt": 1,
+      "ldraw_farbe": 0,
+      "position_ldu": [
+        -39.99998,
+        -87.99977,
+        -70.00001
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "32952.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          32952
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 142,
+      "schritt": 1,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        -40.00001,
+        -71.99978,
+        70.0
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "referenz": "54200.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          50746
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 143,
+      "schritt": 1,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        60.0,
+        -71.99978,
+        70.00002
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "referenz": "54200.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          50746
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 144,
+      "schritt": 1,
+      "ldraw_farbe": 0,
+      "position_ldu": [
+        70.00003,
+        -63.99978,
+        -130.0
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "referenz": "3004.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          3004
+        ],
+        "bekannte_GEOM": [
+          3004
+        ]
+      }
+    },
+    {
+      "zeile": 145,
+      "schritt": 1,
+      "ldraw_farbe": 0,
+      "position_ldu": [
+        -49.99998,
+        -63.99978,
+        -130.0
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "referenz": "3004.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          3004
+        ],
+        "bekannte_GEOM": [
+          3004
+        ]
+      }
+    },
+    {
+      "zeile": 146,
+      "schritt": 1,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        10.00002,
+        -79.99978,
+        -29.99999
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "3021.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          3021
+        ],
+        "bekannte_GEOM": [
+          3021
+        ]
+      }
+    },
+    {
+      "zeile": 147,
+      "schritt": 1,
+      "ldraw_farbe": 0,
+      "position_ldu": [
+        80.00002,
+        -63.99978,
+        50.00002
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "3005.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          3005
+        ],
+        "bekannte_GEOM": [
+          3005
+        ]
+      }
+    },
+    {
+      "zeile": 148,
+      "schritt": 1,
+      "ldraw_farbe": 0,
+      "position_ldu": [
+        -60.0,
+        -63.99978,
+        50.0
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "3005.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          3005
+        ],
+        "bekannte_GEOM": [
+          3005
+        ]
+      }
+    },
+    {
+      "zeile": 150,
+      "schritt": 2,
+      "ldraw_farbe": 47,
+      "position_ldu": [
+        30.0,
+        -56.99978,
+        48.00002
+      ],
+      "matrix": [
+        1.0,
+        1e-06,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1e-06,
+        -1.0,
+        0.0
+      ],
+      "referenz": "3817.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          3817
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 154,
+      "schritt": 5,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        80.00016,
+        -47.99977,
+        -260.0008
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "referenz": "29120.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          29120
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 155,
+      "schritt": 5,
+      "ldraw_farbe": 72,
+      "position_ldu": [
+        100.0001,
+        -31.99977,
+        -100.0
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "85984.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          85984
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 156,
+      "schritt": 5,
+      "ldraw_farbe": 72,
+      "position_ldu": [
+        100.0001,
+        -31.99977,
+        -60.00004
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "85984.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          85984
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 157,
+      "schritt": 5,
+      "ldraw_farbe": 72,
+      "position_ldu": [
+        100.0001,
+        -31.99977,
+        -19.99998
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "85984.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          85984
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 158,
+      "schritt": 5,
+      "ldraw_farbe": 72,
+      "position_ldu": [
+        100.0,
+        -31.99977,
+        20.00003
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "85984.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          85984
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 159,
+      "schritt": 5,
+      "ldraw_farbe": 72,
+      "position_ldu": [
+        -79.99998,
+        -31.99977,
+        -100.0
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "85984.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          85984
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 160,
+      "schritt": 5,
+      "ldraw_farbe": 72,
+      "position_ldu": [
+        -79.99998,
+        -31.99977,
+        -59.99998
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "85984.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          85984
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 161,
+      "schritt": 5,
+      "ldraw_farbe": 72,
+      "position_ldu": [
+        -79.99998,
+        -31.99977,
+        -19.99996
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "85984.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          85984
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 162,
+      "schritt": 5,
+      "ldraw_farbe": 72,
+      "position_ldu": [
+        -80.0,
+        -31.99977,
+        20.00006
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "85984.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          85984
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 163,
+      "schritt": 5,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        -59.9999,
+        -95.99977,
+        -180.0008
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "99206.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          99206
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 164,
+      "schritt": 5,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        80.00039,
+        -95.99977,
+        -180.0007
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "99206.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          99206
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 165,
+      "schritt": 5,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        -60.00002,
+        -95.99977,
+        100.0
+      ],
+      "matrix": [
+        1e-06,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        -1.0,
+        0.0,
+        1e-06
+      ],
+      "referenz": "99206.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          99206
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 166,
+      "schritt": 5,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        80.00002,
+        -95.99977,
+        100.0
+      ],
+      "matrix": [
+        -1e-06,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        -1e-06
+      ],
+      "referenz": "99206.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          99206
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 167,
+      "schritt": 5,
+      "ldraw_farbe": 71,
+      "position_ldu": [
+        10.00038,
+        -87.99977,
+        -190.0007
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "referenz": "3710.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          3710
+        ],
+        "bekannte_GEOM": [
+          3710
+        ]
+      }
+    },
+    {
+      "zeile": 168,
+      "schritt": 5,
+      "ldraw_farbe": 47,
+      "position_ldu": [
+        -9.99865,
+        -37.99976,
+        -268.0014
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "referenz": "98138.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          98138
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 169,
+      "schritt": 5,
+      "ldraw_farbe": 47,
+      "position_ldu": [
+        30.00135,
+        -37.99977,
+        -268.0014
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "referenz": "98138.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          98138
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 170,
+      "schritt": 5,
+      "ldraw_farbe": 0,
+      "position_ldu": [
+        -29.99989,
+        -47.99977,
+        -260.0009
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "referenz": "15068.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          15068
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 171,
+      "schritt": 5,
+      "ldraw_farbe": 0,
+      "position_ldu": [
+        50.00014,
+        -47.99977,
+        -260.0008
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "referenz": "15068.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          15068
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 172,
+      "schritt": 5,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        80.00014,
+        -79.99978,
+        -230.0008
+      ],
+      "matrix": [
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "referenz": "3665.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          3665
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 173,
+      "schritt": 5,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        -59.99991,
+        -79.99978,
+        -230.0008
+      ],
+      "matrix": [
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "referenz": "3665.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          3665
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 174,
+      "schritt": 5,
+      "ldraw_farbe": 0,
+      "position_ldu": [
+        10.00013,
+        -63.99978,
+        -250.0008
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "referenz": "3069b.dat",
+      "spiel_zuordnung": {
+        "status": "buchstabenvariante_unbestaetigt",
+        "kandidaten": [
+          3069
+        ],
+        "bekannte_GEOM": [
+          3069
+        ]
+      }
+    },
+    {
+      "zeile": 176,
+      "schritt": 6,
+      "ldraw_farbe": 0,
+      "position_ldu": [
+        30.00001,
+        -55.99978,
+        10.00002
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "referenz": "3829c01.dat",
+      "spiel_zuordnung": {
+        "status": "nicht_zugeordnet",
+        "kandidaten": []
+      }
+    },
+    {
+      "zeile": 177,
+      "schritt": 6,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        10.00012,
+        -87.99977,
+        -220.0008
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "referenz": "3795.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          3795
+        ],
+        "bekannte_GEOM": [
+          3795
+        ]
+      }
+    },
+    {
+      "zeile": 178,
+      "schritt": 6,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        80.00004,
+        -47.99977,
+        -39.99999
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "2431.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          2431
+        ],
+        "bekannte_GEOM": [
+          2431
+        ]
+      }
+    },
+    {
+      "zeile": 179,
+      "schritt": 6,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        1e-05,
+        -55.99978,
+        10.00002
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "referenz": "4592.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          4592
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 180,
+      "schritt": 6,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        1e-05,
+        -57.99978,
+        10.00004
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "referenz": "4593.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          4593
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 181,
+      "schritt": 6,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        80.00005,
+        -87.99977,
+        -99.99998
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "3245c.dat",
+      "spiel_zuordnung": {
+        "status": "buchstabenvariante_unbestaetigt",
+        "kandidaten": [
+          3245
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 182,
+      "schritt": 6,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        80.00002,
+        -87.99977,
+        20.00003
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "3245c.dat",
+      "spiel_zuordnung": {
+        "status": "buchstabenvariante_unbestaetigt",
+        "kandidaten": [
+          3245
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 183,
+      "schritt": 6,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        -60.0,
+        -87.99977,
+        -100.0
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "3245c.dat",
+      "spiel_zuordnung": {
+        "status": "buchstabenvariante_unbestaetigt",
+        "kandidaten": [
+          3245
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 184,
+      "schritt": 6,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        -60.00002,
+        -87.99977,
+        20.0
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "3245c.dat",
+      "spiel_zuordnung": {
+        "status": "buchstabenvariante_unbestaetigt",
+        "kandidaten": [
+          3245
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 185,
+      "schritt": 6,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        -10.00001,
+        -55.99978,
+        40.0
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "referenz": "4079b.dat",
+      "spiel_zuordnung": {
+        "status": "buchstabenvariante_unbestaetigt",
+        "kandidaten": [
+          4079
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 186,
+      "schritt": 6,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        9.999969,
+        -87.99977,
+        170.0001
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "referenz": "3008.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          3008
+        ],
+        "bekannte_GEOM": [
+          3008
+        ]
+      }
+    },
+    {
+      "zeile": 187,
+      "schritt": 6,
+      "ldraw_farbe": 72,
+      "position_ldu": [
+        60.0,
+        -87.99977,
+        190.0001
+      ],
+      "matrix": [
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "referenz": "4070.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          4070
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 188,
+      "schritt": 6,
+      "ldraw_farbe": 72,
+      "position_ldu": [
+        39.99997,
+        -87.99977,
+        190.0001
+      ],
+      "matrix": [
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "referenz": "4070.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          4070
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 189,
+      "schritt": 6,
+      "ldraw_farbe": 72,
+      "position_ldu": [
+        19.99997,
+        -87.99977,
+        190.0001
+      ],
+      "matrix": [
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "referenz": "4070.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          4070
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 190,
+      "schritt": 6,
+      "ldraw_farbe": 72,
+      "position_ldu": [
+        -3e-05,
+        -87.99977,
+        190.0001
+      ],
+      "matrix": [
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "referenz": "4070.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          4070
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 191,
+      "schritt": 6,
+      "ldraw_farbe": 72,
+      "position_ldu": [
+        -20.00004,
+        -87.99977,
+        190.0001
+      ],
+      "matrix": [
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "referenz": "4070.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          4070
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 192,
+      "schritt": 6,
+      "ldraw_farbe": 72,
+      "position_ldu": [
+        -40.00005,
+        -87.99977,
+        190.0001
+      ],
+      "matrix": [
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "referenz": "4070.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          4070
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 194,
+      "schritt": 7,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        9.99999,
+        -87.99977,
+        90.00002
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "referenz": "3710.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          3710
+        ],
+        "bekannte_GEOM": [
+          3710
+        ]
+      }
+    },
+    {
+      "zeile": 195,
+      "schritt": 7,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        -60.0,
+        -47.99977,
+        -40.0
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "2431.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          2431
+        ],
+        "bekannte_GEOM": [
+          2431
+        ]
+      }
+    },
+    {
+      "zeile": 197,
+      "schritt": 8,
+      "ldraw_farbe": 14,
+      "position_ldu": [
+        10.00038,
+        -87.99977,
+        -190.0007
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "referenz": "85984.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          85984
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 198,
+      "schritt": 8,
+      "ldraw_farbe": 40,
+      "position_ldu": [
+        10.0,
+        -127.9998,
+        10.0
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "referenz": "92583.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          92583
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 199,
+      "schritt": 8,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        -30.0,
+        -31.99977,
+        50.00004
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "referenz": "3023b.dat",
+      "spiel_zuordnung": {
+        "status": "buchstabenvariante_unbestaetigt",
+        "kandidaten": [
+          3023
+        ],
+        "bekannte_GEOM": [
+          3023
+        ]
+      }
+    },
+    {
+      "zeile": 200,
+      "schritt": 8,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        10.00001,
+        -87.99977,
+        -9.99999
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "referenz": "3023b.dat",
+      "spiel_zuordnung": {
+        "status": "buchstabenvariante_unbestaetigt",
+        "kandidaten": [
+          3023
+        ],
+        "bekannte_GEOM": [
+          3023
+        ]
+      }
+    },
+    {
+      "zeile": 201,
+      "schritt": 8,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        -59.9999,
+        -87.99977,
+        -220.0008
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "3023b.dat",
+      "spiel_zuordnung": {
+        "status": "buchstabenvariante_unbestaetigt",
+        "kandidaten": [
+          3023
+        ],
+        "bekannte_GEOM": [
+          3023
+        ]
+      }
+    },
+    {
+      "zeile": 202,
+      "schritt": 8,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        80.00014,
+        -87.99977,
+        -220.0008
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "3023b.dat",
+      "spiel_zuordnung": {
+        "status": "buchstabenvariante_unbestaetigt",
+        "kandidaten": [
+          3023
+        ],
+        "bekannte_GEOM": [
+          3023
+        ]
+      }
+    },
+    {
+      "zeile": 203,
+      "schritt": 8,
+      "ldraw_farbe": 40,
+      "position_ldu": [
+        -40.00001,
+        -127.9998,
+        40.0
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "2362b.dat",
+      "spiel_zuordnung": {
+        "status": "buchstabenvariante_unbestaetigt",
+        "kandidaten": [
+          2362
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 204,
+      "schritt": 8,
+      "ldraw_farbe": 40,
+      "position_ldu": [
+        60.00002,
+        -127.9998,
+        40.00002
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "2362b.dat",
+      "spiel_zuordnung": {
+        "status": "buchstabenvariante_unbestaetigt",
+        "kandidaten": [
+          2362
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 205,
+      "schritt": 8,
+      "ldraw_farbe": 0,
+      "position_ldu": [
+        -39.99998,
+        -95.99977,
+        -100.0
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "3710.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          3710
+        ],
+        "bekannte_GEOM": [
+          3710
+        ]
+      }
+    },
+    {
+      "zeile": 206,
+      "schritt": 8,
+      "ldraw_farbe": 0,
+      "position_ldu": [
+        60.00004,
+        -95.99977,
+        -99.99998
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "3710.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          3710
+        ],
+        "bekannte_GEOM": [
+          3710
+        ]
+      }
+    },
+    {
+      "zeile": 207,
+      "schritt": 8,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        50.00012,
+        -95.99977,
+        -180.0008
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "3020.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          3020
+        ],
+        "bekannte_GEOM": [
+          3020
+        ]
+      }
+    },
+    {
+      "zeile": 208,
+      "schritt": 8,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        -29.9999,
+        -95.99977,
+        -180.0008
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "3020.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          3020
+        ],
+        "bekannte_GEOM": [
+          3020
+        ]
+      }
+    },
+    {
+      "zeile": 209,
+      "schritt": 8,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        78.00004,
+        -67.99978,
+        -40.0
+      ],
+      "matrix": [
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "3020.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          3020
+        ],
+        "bekannte_GEOM": [
+          3020
+        ]
+      }
+    },
+    {
+      "zeile": 210,
+      "schritt": 8,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        -58.00002,
+        -67.99978,
+        -39.99999
+      ],
+      "matrix": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "3020.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          3020
+        ],
+        "bekannte_GEOM": [
+          3020
+        ]
+      }
+    },
+    {
+      "zeile": 211,
+      "schritt": 8,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        -59.99998,
+        -87.99977,
+        -130.0
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        -1e-06,
+        0.0,
+        1.0,
+        0.0,
+        1e-06,
+        0.0,
+        1.0
+      ],
+      "referenz": "3665.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          3665
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 212,
+      "schritt": 8,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        -60.0,
+        -87.99977,
+        50.0
+      ],
+      "matrix": [
+        -1.0,
+        0.0,
+        1e-06,
+        0.0,
+        1.0,
+        0.0,
+        -1e-06,
+        0.0,
+        -1.0
+      ],
+      "referenz": "3665.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          3665
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 213,
+      "schritt": 8,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        80.00006,
+        -87.99977,
+        -130.0
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        -1e-06,
+        0.0,
+        1.0,
+        0.0,
+        1e-06,
+        0.0,
+        1.0
+      ],
+      "referenz": "3665.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          3665
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 214,
+      "schritt": 8,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        80.00002,
+        -87.99977,
+        50.00002
+      ],
+      "matrix": [
+        -1.0,
+        0.0,
+        1e-06,
+        0.0,
+        1.0,
+        0.0,
+        -1e-06,
+        0.0,
+        -1.0
+      ],
+      "referenz": "3665.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          3665
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 215,
+      "schritt": 8,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        -93.99987,
+        -49.99979,
+        -180.0008
+      ],
+      "matrix": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "62360.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          62360
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 216,
+      "schritt": 8,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        -94.00003,
+        -49.99979,
+        99.99998
+      ],
+      "matrix": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "62360.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          62360
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 217,
+      "schritt": 8,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        114.0005,
+        -49.99979,
+        -180.0007
+      ],
+      "matrix": [
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "62360.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          62360
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 218,
+      "schritt": 8,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        114.0,
+        -49.99979,
+        100.0
+      ],
+      "matrix": [
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "62360.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          62360
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 220,
+      "schritt": 9,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        29.99996,
+        -77.99978,
+        204.0001
+      ],
+      "matrix": [
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "referenz": "2412b.dat",
+      "spiel_zuordnung": {
+        "status": "buchstabenvariante_unbestaetigt",
+        "kandidaten": [
+          2412
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 221,
+      "schritt": 9,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        -10.00004,
+        -77.99978,
+        204.0001
+      ],
+      "matrix": [
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "referenz": "2412b.dat",
+      "spiel_zuordnung": {
+        "status": "buchstabenvariante_unbestaetigt",
+        "kandidaten": [
+          2412
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 222,
+      "schritt": 9,
+      "ldraw_farbe": 14,
+      "position_ldu": [
+        10.00012,
+        -95.99977,
+        -220.0008
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "3068b.dat",
+      "spiel_zuordnung": {
+        "status": "buchstabenvariante_unbestaetigt",
+        "kandidaten": [
+          3068
+        ],
+        "bekannte_GEOM": [
+          3068
+        ]
+      }
+    },
+    {
+      "zeile": 223,
+      "schritt": 9,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        9.999969,
+        -95.99977,
+        170.0001
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "referenz": "3666.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          3666
+        ],
+        "bekannte_GEOM": [
+          3666
+        ]
+      }
+    },
+    {
+      "zeile": 224,
+      "schritt": 9,
+      "ldraw_farbe": 36,
+      "position_ldu": [
+        9.999969,
+        -95.99977,
+        190.0001
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "referenz": "3023b.dat",
+      "spiel_zuordnung": {
+        "status": "buchstabenvariante_unbestaetigt",
+        "kandidaten": [
+          3023
+        ],
+        "bekannte_GEOM": [
+          3023
+        ]
+      }
+    },
+    {
+      "zeile": 225,
+      "schritt": 9,
+      "ldraw_farbe": 72,
+      "position_ldu": [
+        10.00002,
+        -87.99977,
+        -50.0
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "referenz": "3666.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          3666
+        ],
+        "bekannte_GEOM": [
+          3666
+        ]
+      }
+    },
+    {
+      "zeile": 226,
+      "schritt": 9,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        -30.00005,
+        -95.99977,
+        190.0001
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "referenz": "30925.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          30925
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 227,
+      "schritt": 9,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        49.99999,
+        -95.99977,
+        190.0001
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "referenz": "30925.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          30925
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 228,
+      "schritt": 9,
+      "ldraw_farbe": 36,
+      "position_ldu": [
+        69.99998,
+        -77.99978,
+        188.0002
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        1.0,
+        1e-06,
+        0.0,
+        1e-06,
+        -1.0,
+        0.0
+      ],
+      "referenz": "11477.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          11477
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 229,
+      "schritt": 9,
+      "ldraw_farbe": 36,
+      "position_ldu": [
+        -50.00005,
+        -77.99978,
+        188.0001
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        1.0,
+        -1.0,
+        0.0,
+        0.0,
+        1e-06,
+        -1.0,
+        0.0
+      ],
+      "referenz": "11477.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          11477
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 230,
+      "schritt": 9,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        10.0,
+        -95.99977,
+        100.0
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "referenz": "3795.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          3795
+        ],
+        "bekannte_GEOM": [
+          3795
+        ]
+      }
+    },
+    {
+      "zeile": 232,
+      "schritt": 10,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        -60.00002,
+        -103.9998,
+        110.0
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "3623.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          3623
+        ],
+        "bekannte_GEOM": [
+          3623
+        ]
+      }
+    },
+    {
+      "zeile": 233,
+      "schritt": 10,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        80.00004,
+        -103.9998,
+        110.0
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "3623.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          3623
+        ],
+        "bekannte_GEOM": [
+          3623
+        ]
+      }
+    },
+    {
+      "zeile": 235,
+      "schritt": 11,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        -29.99998,
+        -87.99977,
+        -70.00001
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "29119.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          29119
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 236,
+      "schritt": 11,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        10.00001,
+        -79.99978,
+        -10.0
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "93273.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          93273
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 237,
+      "schritt": 11,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        10.0,
+        -143.9998,
+        70.00002
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "referenz": "52031.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          52031
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 238,
+      "schritt": 11,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        -60.00002,
+        -95.99977,
+        29.99998
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "63864.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          63864
+        ],
+        "bekannte_GEOM": [
+          63864
+        ]
+      }
+    },
+    {
+      "zeile": 239,
+      "schritt": 11,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        80.00002,
+        -95.99977,
+        30.00002
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "63864.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          63864
+        ],
+        "bekannte_GEOM": [
+          63864
+        ]
+      }
+    },
+    {
+      "zeile": 240,
+      "schritt": 11,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        -19.9999,
+        -103.9998,
+        -170.0008
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "63864.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          63864
+        ],
+        "bekannte_GEOM": [
+          63864
+        ]
+      }
+    },
+    {
+      "zeile": 241,
+      "schritt": 11,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        40.00012,
+        -103.9998,
+        -170.0008
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "63864.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          63864
+        ],
+        "bekannte_GEOM": [
+          63864
+        ]
+      }
+    },
+    {
+      "zeile": 242,
+      "schritt": 11,
+      "ldraw_farbe": 71,
+      "position_ldu": [
+        -29.99998,
+        -87.99977,
+        -110.0
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "3021.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          3021
+        ],
+        "bekannte_GEOM": [
+          3021
+        ]
+      }
+    },
+    {
+      "zeile": 243,
+      "schritt": 11,
+      "ldraw_farbe": 71,
+      "position_ldu": [
+        50.00004,
+        -87.99977,
+        -110.0
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "3021.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          3021
+        ],
+        "bekannte_GEOM": [
+          3021
+        ]
+      }
+    },
+    {
+      "zeile": 244,
+      "schritt": 11,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        -58.00001,
+        -67.99979,
+        -29.99999
+      ],
+      "matrix": [
+        0.0,
+        1.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "referenz": "85984.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          85984
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 245,
+      "schritt": 11,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        -58.00003,
+        -67.99978,
+        -9.99998
+      ],
+      "matrix": [
+        0.0,
+        1.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "referenz": "85984.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          85984
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 246,
+      "schritt": 11,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        78.00004,
+        -67.99978,
+        -10.0
+      ],
+      "matrix": [
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "referenz": "85984.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          85984
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 247,
+      "schritt": 11,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        78.00004,
+        -67.99978,
+        -30.0
+      ],
+      "matrix": [
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "referenz": "85984.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          85984
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 248,
+      "schritt": 11,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        -59.99997,
+        -95.99977,
+        -140.0
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "3023b.dat",
+      "spiel_zuordnung": {
+        "status": "buchstabenvariante_unbestaetigt",
+        "kandidaten": [
+          3023
+        ],
+        "bekannte_GEOM": [
+          3023
+        ]
+      }
+    },
+    {
+      "zeile": 249,
+      "schritt": 11,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        80.00008,
+        -95.99977,
+        -140.0
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "3023b.dat",
+      "spiel_zuordnung": {
+        "status": "buchstabenvariante_unbestaetigt",
+        "kandidaten": [
+          3023
+        ],
+        "bekannte_GEOM": [
+          3023
+        ]
+      }
+    },
+    {
+      "zeile": 250,
+      "schritt": 11,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        -66.0,
+        -67.99978,
+        -70.0
+      ],
+      "matrix": [
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "referenz": "3023b.dat",
+      "spiel_zuordnung": {
+        "status": "buchstabenvariante_unbestaetigt",
+        "kandidaten": [
+          3023
+        ],
+        "bekannte_GEOM": [
+          3023
+        ]
+      }
+    },
+    {
+      "zeile": 251,
+      "schritt": 11,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        86.00005,
+        -67.99978,
+        -70.00001
+      ],
+      "matrix": [
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "referenz": "3023b.dat",
+      "spiel_zuordnung": {
+        "status": "buchstabenvariante_unbestaetigt",
+        "kandidaten": [
+          3023
+        ],
+        "bekannte_GEOM": [
+          3023
+        ]
+      }
+    },
+    {
+      "zeile": 252,
+      "schritt": 11,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        -60.00002,
+        -95.99977,
+        140.0
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "3023b.dat",
+      "spiel_zuordnung": {
+        "status": "buchstabenvariante_unbestaetigt",
+        "kandidaten": [
+          3023
+        ],
+        "bekannte_GEOM": [
+          3023
+        ]
+      }
+    },
+    {
+      "zeile": 253,
+      "schritt": 11,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        80.00002,
+        -95.99975,
+        140.0
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "3023b.dat",
+      "spiel_zuordnung": {
+        "status": "buchstabenvariante_unbestaetigt",
+        "kandidaten": [
+          3023
+        ],
+        "bekannte_GEOM": [
+          3023
+        ]
+      }
+    },
+    {
+      "zeile": 254,
+      "schritt": 11,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        -59.99991,
+        -95.99977,
+        -210.0008
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "3024.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          3024
+        ],
+        "bekannte_GEOM": [
+          3024
+        ]
+      }
+    },
+    {
+      "zeile": 255,
+      "schritt": 11,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        80.00011,
+        -95.99977,
+        -210.0008
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "3024.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          3024
+        ],
+        "bekannte_GEOM": [
+          3024
+        ]
+      }
+    },
+    {
+      "zeile": 256,
+      "schritt": 11,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        -60.00004,
+        -95.99977,
+        70.0
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "3024.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          3024
+        ],
+        "bekannte_GEOM": [
+          3024
+        ]
+      }
+    },
+    {
+      "zeile": 257,
+      "schritt": 11,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        80.0,
+        -95.99977,
+        70.00003
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "3024.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          3024
+        ],
+        "bekannte_GEOM": [
+          3024
+        ]
+      }
+    },
+    {
+      "zeile": 258,
+      "schritt": 11,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        -60.00006,
+        -77.99979,
+        188.0001
+      ],
+      "matrix": [
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "referenz": "3024.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          3024
+        ],
+        "bekannte_GEOM": [
+          3024
+        ]
+      }
+    },
+    {
+      "zeile": 259,
+      "schritt": 11,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        79.99998,
+        -77.99978,
+        188.0002
+      ],
+      "matrix": [
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "referenz": "3024.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          3024
+        ],
+        "bekannte_GEOM": [
+          3024
+        ]
+      }
+    },
+    {
+      "zeile": 261,
+      "schritt": 12,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        -29.99998,
+        -95.99977,
+        -50.00003
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "referenz": "2412b.dat",
+      "spiel_zuordnung": {
+        "status": "buchstabenvariante_unbestaetigt",
+        "kandidaten": [
+          2412
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 262,
+      "schritt": 12,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        10.00002,
+        -95.99977,
+        -50.00002
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "referenz": "2412b.dat",
+      "spiel_zuordnung": {
+        "status": "buchstabenvariante_unbestaetigt",
+        "kandidaten": [
+          2412
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 263,
+      "schritt": 12,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        50.00002,
+        -95.99977,
+        -49.99998
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "referenz": "2412b.dat",
+      "spiel_zuordnung": {
+        "status": "buchstabenvariante_unbestaetigt",
+        "kandidaten": [
+          2412
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 264,
+      "schritt": 12,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        -29.99988,
+        -103.9998,
+        -240.0008
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "referenz": "93606.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          93606
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 265,
+      "schritt": 12,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        -39.99998,
+        -103.9998,
+        -140.0
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "6636.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          6636
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 266,
+      "schritt": 12,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        60.00012,
+        -103.9998,
+        -140.0008
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "6636.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          6636
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 267,
+      "schritt": 12,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        50.00004,
+        -87.99977,
+        -69.99998
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "29120.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          29120
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 268,
+      "schritt": 12,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        9.999969,
+        -103.9998,
+        180.0001
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "referenz": "3795.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          3795
+        ],
+        "bekannte_GEOM": [
+          3795
+        ]
+      }
+    },
+    {
+      "zeile": 269,
+      "schritt": 12,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        -9.99999,
+        -119.9998,
+        110.0
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "referenz": "4865b.dat",
+      "spiel_zuordnung": {
+        "status": "buchstabenvariante_unbestaetigt",
+        "kandidaten": [
+          4865
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 270,
+      "schritt": 12,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        30.00001,
+        -119.9998,
+        110.0
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "referenz": "4865b.dat",
+      "spiel_zuordnung": {
+        "status": "buchstabenvariante_unbestaetigt",
+        "kandidaten": [
+          4865
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 271,
+      "schritt": 12,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        -40.00002,
+        -119.9998,
+        110.0
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        -1e-06,
+        0.0,
+        1.0,
+        0.0,
+        1e-06,
+        0.0,
+        1.0
+      ],
+      "referenz": "3040b.dat",
+      "spiel_zuordnung": {
+        "status": "buchstabenvariante_unbestaetigt",
+        "kandidaten": [
+          3040
+        ],
+        "bekannte_GEOM": [
+          3040
+        ]
+      }
+    },
+    {
+      "zeile": 272,
+      "schritt": 12,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        60.0,
+        -119.9998,
+        110.0
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        -1e-06,
+        0.0,
+        1.0,
+        0.0,
+        1e-06,
+        0.0,
+        1.0
+      ],
+      "referenz": "3040b.dat",
+      "spiel_zuordnung": {
+        "status": "buchstabenvariante_unbestaetigt",
+        "kandidaten": [
+          3040
+        ],
+        "bekannte_GEOM": [
+          3040
+        ]
+      }
+    },
+    {
+      "zeile": 273,
+      "schritt": 12,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        -60.00002,
+        -111.9998,
+        110.0
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "3070b.dat",
+      "spiel_zuordnung": {
+        "status": "buchstabenvariante_unbestaetigt",
+        "kandidaten": [
+          3070
+        ],
+        "bekannte_GEOM": [
+          3070
+        ]
+      }
+    },
+    {
+      "zeile": 274,
+      "schritt": 12,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        80.00004,
+        -111.9998,
+        110.0
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "3070b.dat",
+      "spiel_zuordnung": {
+        "status": "buchstabenvariante_unbestaetigt",
+        "kandidaten": [
+          3070
+        ],
+        "bekannte_GEOM": [
+          3070
+        ]
+      }
+    },
+    {
+      "zeile": 275,
+      "schritt": 12,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        9.999969,
+        -111.9998,
+        160.0001
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "referenz": "3795.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          3795
+        ],
+        "bekannte_GEOM": [
+          3795
+        ]
+      }
+    },
+    {
+      "zeile": 277,
+      "schritt": 13,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        10.00014,
+        -79.99978,
+        -250.0008
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "referenz": "3460.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          3460
+        ],
+        "bekannte_GEOM": [
+          3460
+        ]
+      }
+    },
+    {
+      "zeile": 278,
+      "schritt": 13,
+      "ldraw_farbe": 0,
+      "position_ldu": [
+        -19.99997,
+        -95.99977,
+        -110.0
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "3623.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          3623
+        ],
+        "bekannte_GEOM": [
+          3623
+        ]
+      }
+    },
+    {
+      "zeile": 279,
+      "schritt": 13,
+      "ldraw_farbe": 0,
+      "position_ldu": [
+        2e-05,
+        -15.99977,
+        -70.0
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "3623.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          3623
+        ],
+        "bekannte_GEOM": [
+          3623
+        ]
+      }
+    },
+    {
+      "zeile": 280,
+      "schritt": 13,
+      "ldraw_farbe": 0,
+      "position_ldu": [
+        40.00004,
+        -95.99977,
+        -110.0
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "3623.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          3623
+        ],
+        "bekannte_GEOM": [
+          3623
+        ]
+      }
+    },
+    {
+      "zeile": 281,
+      "schritt": 13,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        -58.0,
+        -67.99978,
+        -60.0
+      ],
+      "matrix": [
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "referenz": "15068.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          15068
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 282,
+      "schritt": 13,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        78.00006,
+        -67.99978,
+        -60.00001
+      ],
+      "matrix": [
+        0.0,
+        -1.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "referenz": "15068.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          15068
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 283,
+      "schritt": 13,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        -59.99991,
+        -103.9998,
+        -180.0008
+      ],
+      "matrix": [
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "referenz": "85970.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          85970
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 284,
+      "schritt": 13,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        80.00039,
+        -103.9998,
+        -180.0007
+      ],
+      "matrix": [
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "referenz": "85970.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          85970
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 285,
+      "schritt": 13,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        -60.00004,
+        -95.99977,
+        80.00001
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "referenz": "11477.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          11477
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 286,
+      "schritt": 13,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        80.00004,
+        -95.99977,
+        80.00004
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "referenz": "11477.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          11477
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 287,
+      "schritt": 13,
+      "ldraw_farbe": 46,
+      "position_ldu": [
+        -39.99987,
+        -79.99978,
+        -270.0009
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "3024.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          3024
+        ],
+        "bekannte_GEOM": [
+          3024
+        ]
+      }
+    },
+    {
+      "zeile": 288,
+      "schritt": 13,
+      "ldraw_farbe": 40,
+      "position_ldu": [
+        -40.00002,
+        -127.9998,
+        70.0
+      ],
+      "matrix": [
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "referenz": "3665.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          3665
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 290,
+      "schritt": 14,
+      "ldraw_farbe": 14,
+      "position_ldu": [
+        9.99996,
+        -103.9998,
+        190.0002
+      ],
+      "matrix": [
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "referenz": "85984.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          85984
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 291,
+      "schritt": 14,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        49.99997,
+        -103.9998,
+        190.0002
+      ],
+      "matrix": [
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "referenz": "85984.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          85984
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 292,
+      "schritt": 14,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        -30.00005,
+        -103.9998,
+        190.0001
+      ],
+      "matrix": [
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "referenz": "85984.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          85984
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 293,
+      "schritt": 14,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        10.0,
+        -127.9998,
+        110.0
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "referenz": "3666.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          3666
+        ],
+        "bekannte_GEOM": [
+          3666
+        ]
+      }
+    },
+    {
+      "zeile": 294,
+      "schritt": 14,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        -60.00007,
+        -87.99978,
+        150.0002
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "referenz": "3665.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          3665
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 295,
+      "schritt": 14,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        79.99997,
+        -87.99978,
+        150.0003
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "referenz": "3665.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          3665
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 296,
+      "schritt": 14,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        79.99997,
+        -111.9998,
+        160.0003
+      ],
+      "matrix": [
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "referenz": "61678.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          61678
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 297,
+      "schritt": 14,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        -60.00006,
+        -111.9998,
+        160.0001
+      ],
+      "matrix": [
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "referenz": "61678.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          61678
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 299,
+      "schritt": 15,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        40.00004,
+        -87.99977,
+        -80.0
+      ],
+      "matrix": [
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "referenz": "29119.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          29119
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 300,
+      "schritt": 15,
+      "ldraw_farbe": 47,
+      "position_ldu": [
+        -59.99988,
+        -71.99978,
+        -260.0009
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "referenz": "29119.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          29119
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 301,
+      "schritt": 15,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        -59.99991,
+        -111.9998,
+        -170.0008
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "3070b.dat",
+      "spiel_zuordnung": {
+        "status": "buchstabenvariante_unbestaetigt",
+        "kandidaten": [
+          3070
+        ],
+        "bekannte_GEOM": [
+          3070
+        ]
+      }
+    },
+    {
+      "zeile": 302,
+      "schritt": 15,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        80.00039,
+        -111.9998,
+        -170.0007
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "3070b.dat",
+      "spiel_zuordnung": {
+        "status": "buchstabenvariante_unbestaetigt",
+        "kandidaten": [
+          3070
+        ],
+        "bekannte_GEOM": [
+          3070
+        ]
+      }
+    },
+    {
+      "zeile": 303,
+      "schritt": 15,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        -19.99999,
+        -87.99977,
+        -80.00001
+      ],
+      "matrix": [
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "referenz": "29120.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          29120
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 304,
+      "schritt": 15,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        -19.99997,
+        -103.9998,
+        -120.0
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "2412b.dat",
+      "spiel_zuordnung": {
+        "status": "buchstabenvariante_unbestaetigt",
+        "kandidaten": [
+          2412
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 305,
+      "schritt": 15,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        40.00004,
+        -103.9998,
+        -120.0
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "2412b.dat",
+      "spiel_zuordnung": {
+        "status": "buchstabenvariante_unbestaetigt",
+        "kandidaten": [
+          2412
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 306,
+      "schritt": 15,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        -59.99992,
+        -111.9998,
+        -220.0008
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "referenz": "61678.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          61678
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 307,
+      "schritt": 15,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        80.00014,
+        -111.9998,
+        -220.0008
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "referenz": "61678.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          61678
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 308,
+      "schritt": 15,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        9.999969,
+        -135.9998,
+        90.00002
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "referenz": "3666.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          3666
+        ],
+        "bekannte_GEOM": [
+          3666
+        ]
+      }
+    },
+    {
+      "zeile": 309,
+      "schritt": 15,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        -59.99988,
+        -71.99978,
+        -250.0009
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "3024.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          3024
+        ],
+        "bekannte_GEOM": [
+          3024
+        ]
+      }
+    },
+    {
+      "zeile": 310,
+      "schritt": 15,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        80.00014,
+        -71.99978,
+        -250.0008
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "3024.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          3024
+        ],
+        "bekannte_GEOM": [
+          3024
+        ]
+      }
+    },
+    {
+      "zeile": 312,
+      "schritt": 16,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        50.00014,
+        -103.9998,
+        -240.0008
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "referenz": "93606.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          93606
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 313,
+      "schritt": 16,
+      "ldraw_farbe": 47,
+      "position_ldu": [
+        80.00016,
+        -71.99978,
+        -260.0008
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "referenz": "29120.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          29120
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 314,
+      "schritt": 16,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        9.99998,
+        -119.9998,
+        140.0002
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "referenz": "3795.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          3795
+        ],
+        "bekannte_GEOM": [
+          3795
+        ]
+      }
+    },
+    {
+      "zeile": 315,
+      "schritt": 16,
+      "ldraw_farbe": 14,
+      "position_ldu": [
+        9.99996,
+        -111.9998,
+        170.0001
+      ],
+      "matrix": [
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "referenz": "85984.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          85984
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 316,
+      "schritt": 16,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        49.99998,
+        -111.9998,
+        170.0002
+      ],
+      "matrix": [
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "referenz": "85984.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          85984
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 317,
+      "schritt": 16,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        -30.00006,
+        -111.9998,
+        170.0001
+      ],
+      "matrix": [
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "referenz": "85984.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          85984
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 319,
+      "schritt": 17,
+      "ldraw_farbe": 40,
+      "position_ldu": [
+        60.0,
+        -127.9998,
+        70.00002
+      ],
+      "matrix": [
+        -1.0,
+        0.0,
+        1e-06,
+        0.0,
+        1.0,
+        0.0,
+        -1e-06,
+        0.0,
+        -1.0
+      ],
+      "referenz": "3665.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          3665
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 320,
+      "schritt": 17,
+      "ldraw_farbe": 14,
+      "position_ldu": [
+        9.99999,
+        -143.9998,
+        120.0002
+      ],
+      "matrix": [
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "referenz": "93606.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          93606
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 321,
+      "schritt": 17,
+      "ldraw_farbe": 46,
+      "position_ldu": [
+        60.00017,
+        -79.99978,
+        -270.0008
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "referenz": "3024.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          3024
+        ],
+        "bekannte_GEOM": [
+          3024
+        ]
+      }
+    },
+    {
+      "zeile": 322,
+      "schritt": 17,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        10.00015,
+        -79.99978,
+        -270.0008
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "referenz": "3710.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          3710
+        ],
+        "bekannte_GEOM": [
+          3710
+        ]
+      }
+    },
+    {
+      "zeile": 323,
+      "schritt": 17,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        -30.00005,
+        -143.9998,
+        120.0
+      ],
+      "matrix": [
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "referenz": "93606.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          93606
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 324,
+      "schritt": 17,
+      "ldraw_farbe": 179,
+      "position_ldu": [
+        50.0,
+        -143.9998,
+        120.0002
+      ],
+      "matrix": [
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "referenz": "93606.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          93606
+        ],
+        "bekannte_GEOM": []
+      }
+    },
+    {
+      "zeile": 326,
+      "schritt": 18,
+      "ldraw_farbe": 14,
+      "position_ldu": [
+        10.00015,
+        -79.99978,
+        -260.0009
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "referenz": "15068.dat",
+      "spiel_zuordnung": {
+        "status": "id_oder_katalogalias",
+        "kandidaten": [
+          15068
+        ],
+        "bekannte_GEOM": []
+      }
+    }
+  ],
+  "step_delimiters": 19,
+  "metadata": [
+    "0 Name:  Machio Beast",
+    "0 Author:  ",
+    "0 STUDIOSTEPDESC Chassis 114/119"
+  ],
+  "xml": {
+    "name": "Machio Beast",
+    "parts": 302,
+    "steps": 19,
+    "tags": {
+      "LXFML": 1,
+      "Meta": 1,
+      "Application": 1,
+      "Cameras": 1,
+      "Camera": 20,
+      "Bricks": 1,
+      "Brick": 602,
+      "Part": 302,
+      "Bone": 302,
+      "GroupSystems": 1,
+      "BrickGroupSystem": 2,
+      "Group": 20,
+      "Configurations": 1,
+      "Configuration": 1,
+      "Build": 1,
+      "BuildingInstruction": 1,
+      "Steps": 1,
+      "Step": 19,
+      "In": 301
+    }
+  },
+  "preview_size": [
+    1219,
+    890
+  ],
+  "name": "Machio Beast",
+  "source_file": "Download/Machio Beast.io",
+  "mapping_counts": {
+    "id_oder_katalogalias": 245,
+    "nicht_zugeordnet": 19,
+    "buchstabenvariante_unbestaetigt": 37
+  },
+  "unmapped_parts": {
+    "4459.dat": 1,
+    "3749.dat": 4,
+    "3713.dat": 1,
+    "2343.dat": 12,
+    "3829c01.dat": 1
+  },
+  "native_matches": [
+    {
+      "id": "MachioWidebody_VC000",
+      "name": "Machio Beast",
+      "parts": 301,
+      "terrain": "Street",
+      "source_file": ".claude/quellen/l2kd-encyclopedia/vehicle_parts/MachioWidebody_VC000.json"
+    }
+  ],
+  "import_status": "nicht_in_spielgarage_importiert",
+  "import_blockers": [
+    "Keine spielnativen FieldIndex-Verbindungen enthalten",
+    "LDraw-Ursprünge, Farben, Chassis-/Rad-Baugruppen und Sockets müssen abgeglichen werden",
+    "Unvollständige Geometrie und unbestätigte Varianten nicht durch erfundene Verbindungen ersetzen"
+  ],
+  "security_status": "strukturelle_Pruefung_bestanden_keine_Antivirusgarantie"
+}

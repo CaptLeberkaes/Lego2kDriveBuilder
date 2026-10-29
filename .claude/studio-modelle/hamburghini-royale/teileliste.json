@@ -1,0 +1,1050 @@
+[
+  {
+    "referenz": "11211.dat",
+    "ldraw_farbe": 72,
+    "anzahl": 2,
+    "spiel_zuordnung": {
+      "status": "id_oder_katalogalias",
+      "kandidaten": [
+        11211
+      ],
+      "bekannte_GEOM": [
+        11211
+      ]
+    }
+  },
+  {
+    "referenz": "11213.dat",
+    "ldraw_farbe": 19,
+    "anzahl": 6,
+    "spiel_zuordnung": {
+      "status": "id_oder_katalogalias",
+      "kandidaten": [
+        11213
+      ],
+      "bekannte_GEOM": []
+    }
+  },
+  {
+    "referenz": "15068.dat",
+    "ldraw_farbe": 70,
+    "anzahl": 8,
+    "spiel_zuordnung": {
+      "status": "id_oder_katalogalias",
+      "kandidaten": [
+        15068
+      ],
+      "bekannte_GEOM": []
+    }
+  },
+  {
+    "referenz": "15068.dat",
+    "ldraw_farbe": 72,
+    "anzahl": 5,
+    "spiel_zuordnung": {
+      "status": "id_oder_katalogalias",
+      "kandidaten": [
+        15068
+      ],
+      "bekannte_GEOM": []
+    }
+  },
+  {
+    "referenz": "18651.dat",
+    "ldraw_farbe": 71,
+    "anzahl": 2,
+    "spiel_zuordnung": {
+      "status": "id_oder_katalogalias",
+      "kandidaten": [
+        18651
+      ],
+      "bekannte_GEOM": []
+    }
+  },
+  {
+    "referenz": "18654.dat",
+    "ldraw_farbe": 179,
+    "anzahl": 2,
+    "spiel_zuordnung": {
+      "status": "id_oder_katalogalias",
+      "kandidaten": [
+        18654
+      ],
+      "bekannte_GEOM": []
+    }
+  },
+  {
+    "referenz": "18677.dat",
+    "ldraw_farbe": 72,
+    "anzahl": 2,
+    "spiel_zuordnung": {
+      "status": "id_oder_katalogalias",
+      "kandidaten": [
+        18677
+      ],
+      "bekannte_GEOM": []
+    }
+  },
+  {
+    "referenz": "18980.dat",
+    "ldraw_farbe": 19,
+    "anzahl": 3,
+    "spiel_zuordnung": {
+      "status": "id_oder_katalogalias",
+      "kandidaten": [
+        18980
+      ],
+      "bekannte_GEOM": []
+    }
+  },
+  {
+    "referenz": "21445.dat",
+    "ldraw_farbe": 72,
+    "anzahl": 4,
+    "spiel_zuordnung": {
+      "status": "id_oder_katalogalias",
+      "kandidaten": [
+        21445
+      ],
+      "bekannte_GEOM": []
+    }
+  },
+  {
+    "referenz": "22885.dat",
+    "ldraw_farbe": 70,
+    "anzahl": 9,
+    "spiel_zuordnung": {
+      "status": "id_oder_katalogalias",
+      "kandidaten": [
+        22885
+      ],
+      "bekannte_GEOM": []
+    }
+  },
+  {
+    "referenz": "23444.dat",
+    "ldraw_farbe": 179,
+    "anzahl": 1,
+    "spiel_zuordnung": {
+      "status": "id_oder_katalogalias",
+      "kandidaten": [
+        23444
+      ],
+      "bekannte_GEOM": []
+    }
+  },
+  {
+    "referenz": "2412b.dat",
+    "ldraw_farbe": 72,
+    "anzahl": 1,
+    "spiel_zuordnung": {
+      "status": "buchstabenvariante_unbestaetigt",
+      "kandidaten": [
+        2412
+      ],
+      "bekannte_GEOM": []
+    }
+  },
+  {
+    "referenz": "24246.dat",
+    "ldraw_farbe": 15,
+    "anzahl": 3,
+    "spiel_zuordnung": {
+      "status": "id_oder_katalogalias",
+      "kandidaten": [
+        24246
+      ],
+      "bekannte_GEOM": []
+    }
+  },
+  {
+    "referenz": "24246.dat",
+    "ldraw_farbe": 57,
+    "anzahl": 2,
+    "spiel_zuordnung": {
+      "status": "id_oder_katalogalias",
+      "kandidaten": [
+        24246
+      ],
+      "bekannte_GEOM": []
+    }
+  },
+  {
+    "referenz": "24246.dat",
+    "ldraw_farbe": 320,
+    "anzahl": 8,
+    "spiel_zuordnung": {
+      "status": "id_oder_katalogalias",
+      "kandidaten": [
+        24246
+      ],
+      "bekannte_GEOM": []
+    }
+  },
+  {
+    "referenz": "24299.dat",
+    "ldraw_farbe": 2,
+    "anzahl": 1,
+    "spiel_zuordnung": {
+      "status": "id_oder_katalogalias",
+      "kandidaten": [
+        24299
+      ],
+      "bekannte_GEOM": []
+    }
+  },
+  {
+    "referenz": "24307.dat",
+    "ldraw_farbe": 2,
+    "anzahl": 1,
+    "spiel_zuordnung": {
+      "status": "id_oder_katalogalias",
+      "kandidaten": [
+        24307
+      ],
+      "bekannte_GEOM": []
+    }
+  },
+  {
+    "referenz": "2436b.dat",
+    "ldraw_farbe": 70,
+    "anzahl": 1,
+    "spiel_zuordnung": {
+      "status": "buchstabenvariante_unbestaetigt",
+      "kandidaten": [
+        2436
+      ],
+      "bekannte_GEOM": []
+    }
+  },
+  {
+    "referenz": "2450.dat",
+    "ldraw_farbe": 2,
+    "anzahl": 2,
+    "spiel_zuordnung": {
+      "status": "id_oder_katalogalias",
+      "kandidaten": [
+        2450
+      ],
+      "bekannte_GEOM": []
+    }
+  },
+  {
+    "referenz": "25214.dat",
+    "ldraw_farbe": 179,
+    "anzahl": 2,
+    "spiel_zuordnung": {
+      "status": "id_oder_katalogalias",
+      "kandidaten": [
+        25214
+      ],
+      "bekannte_GEOM": []
+    }
+  },
+  {
+    "referenz": "25269.dat",
+    "ldraw_farbe": 15,
+    "anzahl": 1,
+    "spiel_zuordnung": {
+      "status": "id_oder_katalogalias",
+      "kandidaten": [
+        25269
+      ],
+      "bekannte_GEOM": []
+    }
+  },
+  {
+    "referenz": "25269.dat",
+    "ldraw_farbe": 320,
+    "anzahl": 3,
+    "spiel_zuordnung": {
+      "status": "id_oder_katalogalias",
+      "kandidaten": [
+        25269
+      ],
+      "bekannte_GEOM": []
+    }
+  },
+  {
+    "referenz": "26601.dat",
+    "ldraw_farbe": 2,
+    "anzahl": 2,
+    "spiel_zuordnung": {
+      "status": "id_oder_katalogalias",
+      "kandidaten": [
+        26601
+      ],
+      "bekannte_GEOM": []
+    }
+  },
+  {
+    "referenz": "26601.dat",
+    "ldraw_farbe": 30,
+    "anzahl": 1,
+    "spiel_zuordnung": {
+      "status": "id_oder_katalogalias",
+      "kandidaten": [
+        26601
+      ],
+      "bekannte_GEOM": []
+    }
+  },
+  {
+    "referenz": "26603.dat",
+    "ldraw_farbe": 15,
+    "anzahl": 2,
+    "spiel_zuordnung": {
+      "status": "id_oder_katalogalias",
+      "kandidaten": [
+        26603
+      ],
+      "bekannte_GEOM": []
+    }
+  },
+  {
+    "referenz": "26603.dat",
+    "ldraw_farbe": 72,
+    "anzahl": 4,
+    "spiel_zuordnung": {
+      "status": "id_oder_katalogalias",
+      "kandidaten": [
+        26603
+      ],
+      "bekannte_GEOM": []
+    }
+  },
+  {
+    "referenz": "3001.dat",
+    "ldraw_farbe": 70,
+    "anzahl": 1,
+    "spiel_zuordnung": {
+      "status": "id_oder_katalogalias",
+      "kandidaten": [
+        3001
+      ],
+      "bekannte_GEOM": [
+        3001
+      ]
+    }
+  },
+  {
+    "referenz": "30028.dat",
+    "ldraw_farbe": 0,
+    "anzahl": 4,
+    "spiel_zuordnung": {
+      "status": "id_oder_katalogalias",
+      "kandidaten": [
+        30028
+      ],
+      "bekannte_GEOM": []
+    }
+  },
+  {
+    "referenz": "3005.dat",
+    "ldraw_farbe": 4,
+    "anzahl": 2,
+    "spiel_zuordnung": {
+      "status": "id_oder_katalogalias",
+      "kandidaten": [
+        3005
+      ],
+      "bekannte_GEOM": [
+        3005
+      ]
+    }
+  },
+  {
+    "referenz": "3005.dat",
+    "ldraw_farbe": 70,
+    "anzahl": 4,
+    "spiel_zuordnung": {
+      "status": "id_oder_katalogalias",
+      "kandidaten": [
+        3005
+      ],
+      "bekannte_GEOM": [
+        3005
+      ]
+    }
+  },
+  {
+    "referenz": "3010.dat",
+    "ldraw_farbe": 4,
+    "anzahl": 2,
+    "spiel_zuordnung": {
+      "status": "id_oder_katalogalias",
+      "kandidaten": [
+        3010
+      ],
+      "bekannte_GEOM": [
+        3010
+      ]
+    }
+  },
+  {
+    "referenz": "3020.dat",
+    "ldraw_farbe": 70,
+    "anzahl": 4,
+    "spiel_zuordnung": {
+      "status": "id_oder_katalogalias",
+      "kandidaten": [
+        3020
+      ],
+      "bekannte_GEOM": [
+        3020
+      ]
+    }
+  },
+  {
+    "referenz": "3020.dat",
+    "ldraw_farbe": 72,
+    "anzahl": 1,
+    "spiel_zuordnung": {
+      "status": "id_oder_katalogalias",
+      "kandidaten": [
+        3020
+      ],
+      "bekannte_GEOM": [
+        3020
+      ]
+    }
+  },
+  {
+    "referenz": "3021.dat",
+    "ldraw_farbe": 2,
+    "anzahl": 2,
+    "spiel_zuordnung": {
+      "status": "id_oder_katalogalias",
+      "kandidaten": [
+        3021
+      ],
+      "bekannte_GEOM": [
+        3021
+      ]
+    }
+  },
+  {
+    "referenz": "3021.dat",
+    "ldraw_farbe": 30,
+    "anzahl": 2,
+    "spiel_zuordnung": {
+      "status": "id_oder_katalogalias",
+      "kandidaten": [
+        3021
+      ],
+      "bekannte_GEOM": [
+        3021
+      ]
+    }
+  },
+  {
+    "referenz": "3021.dat",
+    "ldraw_farbe": 72,
+    "anzahl": 4,
+    "spiel_zuordnung": {
+      "status": "id_oder_katalogalias",
+      "kandidaten": [
+        3021
+      ],
+      "bekannte_GEOM": [
+        3021
+      ]
+    }
+  },
+  {
+    "referenz": "3022.dat",
+    "ldraw_farbe": 30,
+    "anzahl": 1,
+    "spiel_zuordnung": {
+      "status": "id_oder_katalogalias",
+      "kandidaten": [
+        3022
+      ],
+      "bekannte_GEOM": [
+        3022
+      ]
+    }
+  },
+  {
+    "referenz": "3022.dat",
+    "ldraw_farbe": 70,
+    "anzahl": 4,
+    "spiel_zuordnung": {
+      "status": "id_oder_katalogalias",
+      "kandidaten": [
+        3022
+      ],
+      "bekannte_GEOM": [
+        3022
+      ]
+    }
+  },
+  {
+    "referenz": "3023b.dat",
+    "ldraw_farbe": 2,
+    "anzahl": 1,
+    "spiel_zuordnung": {
+      "status": "buchstabenvariante_unbestaetigt",
+      "kandidaten": [
+        3023
+      ],
+      "bekannte_GEOM": [
+        3023
+      ]
+    }
+  },
+  {
+    "referenz": "3023b.dat",
+    "ldraw_farbe": 10,
+    "anzahl": 1,
+    "spiel_zuordnung": {
+      "status": "buchstabenvariante_unbestaetigt",
+      "kandidaten": [
+        3023
+      ],
+      "bekannte_GEOM": [
+        3023
+      ]
+    }
+  },
+  {
+    "referenz": "3023b.dat",
+    "ldraw_farbe": 30,
+    "anzahl": 2,
+    "spiel_zuordnung": {
+      "status": "buchstabenvariante_unbestaetigt",
+      "kandidaten": [
+        3023
+      ],
+      "bekannte_GEOM": [
+        3023
+      ]
+    }
+  },
+  {
+    "referenz": "3023b.dat",
+    "ldraw_farbe": 70,
+    "anzahl": 2,
+    "spiel_zuordnung": {
+      "status": "buchstabenvariante_unbestaetigt",
+      "kandidaten": [
+        3023
+      ],
+      "bekannte_GEOM": [
+        3023
+      ]
+    }
+  },
+  {
+    "referenz": "3023b.dat",
+    "ldraw_farbe": 72,
+    "anzahl": 3,
+    "spiel_zuordnung": {
+      "status": "buchstabenvariante_unbestaetigt",
+      "kandidaten": [
+        3023
+      ],
+      "bekannte_GEOM": [
+        3023
+      ]
+    }
+  },
+  {
+    "referenz": "3023b.dat",
+    "ldraw_farbe": 320,
+    "anzahl": 1,
+    "spiel_zuordnung": {
+      "status": "buchstabenvariante_unbestaetigt",
+      "kandidaten": [
+        3023
+      ],
+      "bekannte_GEOM": [
+        3023
+      ]
+    }
+  },
+  {
+    "referenz": "3024.dat",
+    "ldraw_farbe": 2,
+    "anzahl": 2,
+    "spiel_zuordnung": {
+      "status": "id_oder_katalogalias",
+      "kandidaten": [
+        3024
+      ],
+      "bekannte_GEOM": [
+        3024
+      ]
+    }
+  },
+  {
+    "referenz": "3024.dat",
+    "ldraw_farbe": 70,
+    "anzahl": 8,
+    "spiel_zuordnung": {
+      "status": "id_oder_katalogalias",
+      "kandidaten": [
+        3024
+      ],
+      "bekannte_GEOM": [
+        3024
+      ]
+    }
+  },
+  {
+    "referenz": "3024.dat",
+    "ldraw_farbe": 320,
+    "anzahl": 3,
+    "spiel_zuordnung": {
+      "status": "id_oder_katalogalias",
+      "kandidaten": [
+        3024
+      ],
+      "bekannte_GEOM": [
+        3024
+      ]
+    }
+  },
+  {
+    "referenz": "3034.dat",
+    "ldraw_farbe": 72,
+    "anzahl": 2,
+    "spiel_zuordnung": {
+      "status": "id_oder_katalogalias",
+      "kandidaten": [
+        3034
+      ],
+      "bekannte_GEOM": [
+        3034
+      ]
+    }
+  },
+  {
+    "referenz": "30357.dat",
+    "ldraw_farbe": 30,
+    "anzahl": 2,
+    "spiel_zuordnung": {
+      "status": "id_oder_katalogalias",
+      "kandidaten": [
+        30357
+      ],
+      "bekannte_GEOM": []
+    }
+  },
+  {
+    "referenz": "3065.dat",
+    "ldraw_farbe": 47,
+    "anzahl": 1,
+    "spiel_zuordnung": {
+      "status": "id_oder_katalogalias",
+      "kandidaten": [
+        3065
+      ],
+      "bekannte_GEOM": []
+    }
+  },
+  {
+    "referenz": "3069b.dat",
+    "ldraw_farbe": 14,
+    "anzahl": 2,
+    "spiel_zuordnung": {
+      "status": "buchstabenvariante_unbestaetigt",
+      "kandidaten": [
+        3069
+      ],
+      "bekannte_GEOM": [
+        3069
+      ]
+    }
+  },
+  {
+    "referenz": "3069b.dat",
+    "ldraw_farbe": 15,
+    "anzahl": 1,
+    "spiel_zuordnung": {
+      "status": "buchstabenvariante_unbestaetigt",
+      "kandidaten": [
+        3069
+      ],
+      "bekannte_GEOM": [
+        3069
+      ]
+    }
+  },
+  {
+    "referenz": "3069b.dat",
+    "ldraw_farbe": 36,
+    "anzahl": 1,
+    "spiel_zuordnung": {
+      "status": "buchstabenvariante_unbestaetigt",
+      "kandidaten": [
+        3069
+      ],
+      "bekannte_GEOM": [
+        3069
+      ]
+    }
+  },
+  {
+    "referenz": "3069b.dat",
+    "ldraw_farbe": 320,
+    "anzahl": 1,
+    "spiel_zuordnung": {
+      "status": "buchstabenvariante_unbestaetigt",
+      "kandidaten": [
+        3069
+      ],
+      "bekannte_GEOM": [
+        3069
+      ]
+    }
+  },
+  {
+    "referenz": "32952.dat",
+    "ldraw_farbe": 70,
+    "anzahl": 2,
+    "spiel_zuordnung": {
+      "status": "id_oder_katalogalias",
+      "kandidaten": [
+        32952
+      ],
+      "bekannte_GEOM": []
+    }
+  },
+  {
+    "referenz": "33909.dat",
+    "ldraw_farbe": 14,
+    "anzahl": 13,
+    "spiel_zuordnung": {
+      "status": "id_oder_katalogalias",
+      "kandidaten": [
+        33909
+      ],
+      "bekannte_GEOM": []
+    }
+  },
+  {
+    "referenz": "3623.dat",
+    "ldraw_farbe": 2,
+    "anzahl": 2,
+    "spiel_zuordnung": {
+      "status": "id_oder_katalogalias",
+      "kandidaten": [
+        3623
+      ],
+      "bekannte_GEOM": [
+        3623
+      ]
+    }
+  },
+  {
+    "referenz": "3623.dat",
+    "ldraw_farbe": 320,
+    "anzahl": 1,
+    "spiel_zuordnung": {
+      "status": "id_oder_katalogalias",
+      "kandidaten": [
+        3623
+      ],
+      "bekannte_GEOM": [
+        3623
+      ]
+    }
+  },
+  {
+    "referenz": "3710.dat",
+    "ldraw_farbe": 320,
+    "anzahl": 1,
+    "spiel_zuordnung": {
+      "status": "id_oder_katalogalias",
+      "kandidaten": [
+        3710
+      ],
+      "bekannte_GEOM": [
+        3710
+      ]
+    }
+  },
+  {
+    "referenz": "3795.dat",
+    "ldraw_farbe": 70,
+    "anzahl": 3,
+    "spiel_zuordnung": {
+      "status": "id_oder_katalogalias",
+      "kandidaten": [
+        3795
+      ],
+      "bekannte_GEOM": [
+        3795
+      ]
+    }
+  },
+  {
+    "referenz": "3935.dat",
+    "ldraw_farbe": 2,
+    "anzahl": 1,
+    "spiel_zuordnung": {
+      "status": "id_oder_katalogalias",
+      "kandidaten": [
+        3935
+      ],
+      "bekannte_GEOM": []
+    }
+  },
+  {
+    "referenz": "3936.dat",
+    "ldraw_farbe": 2,
+    "anzahl": 1,
+    "spiel_zuordnung": {
+      "status": "id_oder_katalogalias",
+      "kandidaten": [
+        3936
+      ],
+      "bekannte_GEOM": []
+    }
+  },
+  {
+    "referenz": "3958.dat",
+    "ldraw_farbe": 2,
+    "anzahl": 1,
+    "spiel_zuordnung": {
+      "status": "id_oder_katalogalias",
+      "kandidaten": [
+        3958
+      ],
+      "bekannte_GEOM": []
+    }
+  },
+  {
+    "referenz": "4032a.dat",
+    "ldraw_farbe": 10,
+    "anzahl": 5,
+    "spiel_zuordnung": {
+      "status": "buchstabenvariante_unbestaetigt",
+      "kandidaten": [
+        4032
+      ],
+      "bekannte_GEOM": []
+    }
+  },
+  {
+    "referenz": "4032a.dat",
+    "ldraw_farbe": 27,
+    "anzahl": 6,
+    "spiel_zuordnung": {
+      "status": "buchstabenvariante_unbestaetigt",
+      "kandidaten": [
+        4032
+      ],
+      "bekannte_GEOM": []
+    }
+  },
+  {
+    "referenz": "41539.dat",
+    "ldraw_farbe": 19,
+    "anzahl": 1,
+    "spiel_zuordnung": {
+      "status": "id_oder_katalogalias",
+      "kandidaten": [
+        41539
+      ],
+      "bekannte_GEOM": []
+    }
+  },
+  {
+    "referenz": "43722.dat",
+    "ldraw_farbe": 2,
+    "anzahl": 1,
+    "spiel_zuordnung": {
+      "status": "id_oder_katalogalias",
+      "kandidaten": [
+        43722
+      ],
+      "bekannte_GEOM": []
+    }
+  },
+  {
+    "referenz": "43723.dat",
+    "ldraw_farbe": 2,
+    "anzahl": 1,
+    "spiel_zuordnung": {
+      "status": "id_oder_katalogalias",
+      "kandidaten": [
+        43723
+      ],
+      "bekannte_GEOM": []
+    }
+  },
+  {
+    "referenz": "48092.dat",
+    "ldraw_farbe": 4,
+    "anzahl": 2,
+    "spiel_zuordnung": {
+      "status": "id_oder_katalogalias",
+      "kandidaten": [
+        48092
+      ],
+      "bekannte_GEOM": []
+    }
+  },
+  {
+    "referenz": "6061.dat",
+    "ldraw_farbe": 72,
+    "anzahl": 1,
+    "spiel_zuordnung": {
+      "status": "id_oder_katalogalias",
+      "kandidaten": [
+        6061
+      ],
+      "bekannte_GEOM": []
+    }
+  },
+  {
+    "referenz": "6063.dat",
+    "ldraw_farbe": 15,
+    "anzahl": 1,
+    "spiel_zuordnung": {
+      "status": "id_oder_katalogalias",
+      "kandidaten": [
+        6063
+      ],
+      "bekannte_GEOM": []
+    }
+  },
+  {
+    "referenz": "63864.dat",
+    "ldraw_farbe": 320,
+    "anzahl": 2,
+    "spiel_zuordnung": {
+      "status": "id_oder_katalogalias",
+      "kandidaten": [
+        63864
+      ],
+      "bekannte_GEOM": [
+        63864
+      ]
+    }
+  },
+  {
+    "referenz": "63868.dat",
+    "ldraw_farbe": 72,
+    "anzahl": 2,
+    "spiel_zuordnung": {
+      "status": "id_oder_katalogalias",
+      "kandidaten": [
+        63868
+      ],
+      "bekannte_GEOM": []
+    }
+  },
+  {
+    "referenz": "74967.dat",
+    "ldraw_farbe": 297,
+    "anzahl": 4,
+    "spiel_zuordnung": {
+      "status": "id_oder_katalogalias",
+      "kandidaten": [
+        74967
+      ],
+      "bekannte_GEOM": []
+    }
+  },
+  {
+    "referenz": "85080.dat",
+    "ldraw_farbe": 4,
+    "anzahl": 2,
+    "spiel_zuordnung": {
+      "status": "id_oder_katalogalias",
+      "kandidaten": [
+        85080
+      ],
+      "bekannte_GEOM": []
+    }
+  },
+  {
+    "referenz": "87079.dat",
+    "ldraw_farbe": 14,
+    "anzahl": 1,
+    "spiel_zuordnung": {
+      "status": "id_oder_katalogalias",
+      "kandidaten": [
+        87079
+      ],
+      "bekannte_GEOM": []
+    }
+  },
+  {
+    "referenz": "87087.dat",
+    "ldraw_farbe": 4,
+    "anzahl": 2,
+    "spiel_zuordnung": {
+      "status": "id_oder_katalogalias",
+      "kandidaten": [
+        87087
+      ],
+      "bekannte_GEOM": [
+        87087
+      ]
+    }
+  },
+  {
+    "referenz": "87559.dat",
+    "ldraw_farbe": 19,
+    "anzahl": 8,
+    "spiel_zuordnung": {
+      "status": "id_oder_katalogalias",
+      "kandidaten": [
+        87559
+      ],
+      "bekannte_GEOM": []
+    }
+  },
+  {
+    "referenz": "93273.dat",
+    "ldraw_farbe": 70,
+    "anzahl": 6,
+    "spiel_zuordnung": {
+      "status": "id_oder_katalogalias",
+      "kandidaten": [
+        93273
+      ],
+      "bekannte_GEOM": []
+    }
+  },
+  {
+    "referenz": "98138.dat",
+    "ldraw_farbe": 15,
+    "anzahl": 10,
+    "spiel_zuordnung": {
+      "status": "id_oder_katalogalias",
+      "kandidaten": [
+        98138
+      ],
+      "bekannte_GEOM": []
+    }
+  },
+  {
+    "referenz": "98138.dat",
+    "ldraw_farbe": 47,
+    "anzahl": 2,
+    "spiel_zuordnung": {
+      "status": "id_oder_katalogalias",
+      "kandidaten": [
+        98138
+      ],
+      "bekannte_GEOM": []
+    }
+  },
+  {
+    "referenz": "99780.dat",
+    "ldraw_farbe": 19,
+    "anzahl": 3,
+    "spiel_zuordnung": {
+      "status": "id_oder_katalogalias",
+      "kandidaten": [
+        99780
+      ],
+      "bekannte_GEOM": []
+    }
+  }
+]

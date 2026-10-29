@@ -1,17 +1,25 @@
 {
-  "zeit": "2026-10-29 19:56:47",
-  "status": "angewendet; noch nicht im Spiel getestet",
-  "quelle_sha256": "7a2ac33f901e5733be94c23da1065721d4966ba8b79b03571840832ce6de9aff",
-  "ergebnis_sha256": "d58bd152ca049ead1e8f53811fe9b906539506cefc0ce12dca961068a1527e15",
+  "zeit": "2026-10-29 20:43:46",
+  "status": "angewendet 2026-10-29 20:43; Stichprobe im Spiel durch Nutzer",
+  "quelle_sha256": "7f4505b21bd8ffd72fb0b7bf9876b89e9b3f526061d34c715b285901a24227a2",
+  "ergebnis_sha256": "7f4505b21bd8ffd72fb0b7bf9876b89e9b3f526061d34c715b285901a24227a2",
   "katalog": {
     "BrickPack": 189,
-    "LegoAssembly": 382,
+    "Chassis": 775,
+    "Flair": 548,
+    "LegoAssy": 30,
+    "LegoDeco": 546,
     "LegoPart": 2028,
-    "Vehicle": 662
+    "Vehicle": 662,
+    "Wheel": 327
   },
   "ergaenzungen_pro_liste": [
-    3231,
-    3231
+    0,
+    0
+  ],
+  "entfernte_falschtypen_pro_liste": [
+    0,
+    0
   ],
   "pruefungen": [
     "Original bytegenau",
@@ -20,17 +28,24 @@
     "Nur zwei LockRewards-Listen verändert",
     "Idempotent"
   ],
+  "belegte_assettypen": {
+    "LegoWheelAssembly": "Wheel",
+    "LegoAssembly": "LegoAssy",
+    "ChassisConfig": "Chassis",
+    "LegoFlairAssembly": "Flair",
+    "LegoDecoration": "LegoDeco"
+  },
   "unsicher": [
-    "LegoAssembly-Typ für Räder/Propeller im Spiel prüfen",
+    "Chassis, Flairs und Sticker exemplarisch im Builder prüfen",
+    "Propeller und fahrzeugspezifische Decorations: kein PrimaryAssetType konfiguriert, nicht als Freigabe möglich",
     "662 Fahrzeuge einschließlich 14 laut Katalog nicht regulär gültiger Vorlagen",
     "Premium-Pass-Menü bleibt gegebenenfalls gesperrt; keine Lizenzfreigabe geändert"
   ],
-  "sicherung": "C:\\Users\\Ben\\Documents\\_PRIVATE\\Git\\Lego2kDriveBuilder\\_sicherungen\\freischaltung_2026-10-29_19-56-47",
+  "sicherung": "C:\\Users\\Ben\\Documents\\_PRIVATE\\Git\\Lego2kDriveBuilder\\_sicherungen\\freischaltung_2026-10-29_20-43-31",
+  "kontrolllauf": "Erneuter Probelauf auf dem Live-Save: 0 Ergänzungen pro Liste (vollständig eingetragen)",
   "spielstart_pruefung": {
-    "freigaben_nach_spielspeicherung_erhalten": true,
-    "abweichungen_zum_kandidaten": [
-      "/Timestamp"
-    ],
-    "garage_sichtbar_getestet": false
+    "quelle": "Nutzer nach Neustart",
+    "beobachtung": "Zufallstest im Spiel: keine Sonderteile mehr zum Freischalten verfügbar",
+    "umfang": "Stichprobe, kein Einzeltest jedes Teils"
   }
 }

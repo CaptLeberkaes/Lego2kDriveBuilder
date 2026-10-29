@@ -1,0 +1,127 @@
+[
+  {
+    "name": "Hamburghini Royale",
+    "sha256": "af979e8168ea18363c591d5285b09a3c320a9976013292c4a73948a620148a62",
+    "teile": 227,
+    "schritt_trenner": 21,
+    "zuordnungen": {
+      "id_oder_katalogalias": 199,
+      "buchstabenvariante_unbestaetigt": 28
+    },
+    "originale": [
+      {
+        "id": "BurgerCar_VC000",
+        "name": "Hamburghini Royale",
+        "parts": 226,
+        "terrain": "Street",
+        "source_file": ".claude/quellen/l2kd-encyclopedia/vehicle_parts/BurgerCar_VC000.json"
+      }
+    ],
+    "import_status": "nicht_in_spielgarage_importiert"
+  },
+  {
+    "name": "Machio Beast",
+    "sha256": "476654c9b1f194c8cda5a54c11832554bc4471f0b1e962b3d69d03cae6347f9e",
+    "teile": 301,
+    "schritt_trenner": 19,
+    "zuordnungen": {
+      "id_oder_katalogalias": 245,
+      "nicht_zugeordnet": 19,
+      "buchstabenvariante_unbestaetigt": 37
+    },
+    "originale": [
+      {
+        "id": "MachioWidebody_VC000",
+        "name": "Machio Beast",
+        "parts": 301,
+        "terrain": "Street",
+        "source_file": ".claude/quellen/l2kd-encyclopedia/vehicle_parts/MachioWidebody_VC000.json"
+      }
+    ],
+    "import_status": "nicht_in_spielgarage_importiert"
+  },
+  {
+    "name": "Out For the Count",
+    "sha256": "a89e4564ef9c56dde41592bcb3266d215719966702b618fd9d1a8e756c5e3617",
+    "teile": 345,
+    "schritt_trenner": 31,
+    "zuordnungen": {
+      "id_oder_katalogalias": 306,
+      "nicht_zugeordnet": 5,
+      "buchstabenvariante_unbestaetigt": 34
+    },
+    "originale": [
+      {
+        "id": "CountFistula_VC000",
+        "name": "Out For the Count",
+        "parts": 345,
+        "terrain": "Street",
+        "source_file": ".claude/quellen/l2kd-encyclopedia/vehicle_parts/CountFistula_VC000.json"
+      }
+    ],
+    "import_status": "nicht_in_spielgarage_importiert"
+  },
+  {
+    "name": "Royal Outtaliner",
+    "sha256": "d424d515211a0a07553fa29bce89c8e1915d48e5cb0466cd4bd1d4c36eba5897",
+    "teile": 113,
+    "schritt_trenner": 8,
+    "zuordnungen": {
+      "id_oder_katalogalias": 100,
+      "buchstabenvariante_unbestaetigt": 11,
+      "nicht_zugeordnet": 2
+    },
+    "originale": [
+      {
+        "id": "Traffic_HV_01Street",
+        "name": "Royal Outtaliner",
+        "parts": 115,
+        "terrain": "Street",
+        "source_file": ".claude/quellen/l2kd-encyclopedia/vehicle_parts/Traffic_HV_01Street.json"
+      }
+    ],
+    "import_status": "nicht_in_spielgarage_importiert"
+  },
+  {
+    "name": "Royal People Rover",
+    "sha256": "a583efb4b11a66fbe93bf94ce8c6c9a93327af88439b68026211423aa4115836",
+    "teile": 132,
+    "schritt_trenner": 10,
+    "zuordnungen": {
+      "id_oder_katalogalias": 118,
+      "buchstabenvariante_unbestaetigt": 10,
+      "nicht_zugeordnet": 4
+    },
+    "originale": [
+      {
+        "id": "Traffic_HV_01Offroad",
+        "name": "Royal People Rover",
+        "parts": 131,
+        "terrain": "Offroad",
+        "source_file": ".claude/quellen/l2kd-encyclopedia/vehicle_parts/Traffic_HV_01Offroad.json"
+      }
+    ],
+    "import_status": "nicht_in_spielgarage_importiert"
+  },
+  {
+    "name": "Royal Sailor",
+    "sha256": "79f5859bc59cc204f92bf1115d2bc1dc27c8346f3da07c26d8c87cee439e1141",
+    "teile": 123,
+    "schritt_trenner": 9,
+    "zuordnungen": {
+      "buchstabenvariante_unbestaetigt": 11,
+      "id_oder_katalogalias": 110,
+      "nicht_zugeordnet": 2
+    },
+    "originale": [
+      {
+        "id": "Traffic_HV_01Boat",
+        "name": "Royal Sailor",
+        "parts": 123,
+        "terrain": "Boat",
+        "source_file": ".claude/quellen/l2kd-encyclopedia/vehicle_parts/Traffic_HV_01Boat.json"
+      }
+    ],
+    "import_status": "nicht_in_spielgarage_importiert"
+  }
+]

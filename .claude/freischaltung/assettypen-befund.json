@@ -1,0 +1,16 @@
+{
+  "datum": "2026-10-29",
+  "quelle": "PrimaryAssetTypesToScan aus der geladenen Konfiguration der lokal installierten Spielversion",
+  "methode": "Ausschließlich lesender Zugriff auf LEGO2KDrive-Win64-Shipping; nur Konfigurationszeilen mit PrimaryAssetType= und AssetBaseClass= ausgewertet. Keine Speicheränderung oder Injektion.",
+  "typen": [
+    {"PrimaryAssetType": "Wheel", "AssetBaseClass": "/Script/ArtemisLego.LegoWheelAssembly", "Directories": ["/Game/LEGO/Wheel"]},
+    {"PrimaryAssetType": "LegoAssy", "AssetBaseClass": "/Script/ArtemisLego.LegoAssembly", "Directories": ["/Game/LEGO/Assemblies"]},
+    {"PrimaryAssetType": "LegoPart", "AssetBaseClass": "/Script/ArtemisLego.LegoPart", "Directories": ["/Game/LEGO/Bricks"]},
+    {"PrimaryAssetType": "BrickPack", "AssetBaseClass": "/Script/Artemis.BrickPack", "Directories": ["/Game/LEGO/BrickPacks"]},
+    {"PrimaryAssetType": "Vehicle", "AssetBaseClass": "/Script/Artemis.VehicleConfig", "Directories": ["/Game/Game/Vehicle/Configs"]},
+    {"PrimaryAssetType": "Chassis", "AssetBaseClass": "/Script/Artemis.ChassisConfig", "Directories": ["/Game/Game/Vehicle/Inventory/BoatChassisConfigs", "/Game/Game/Vehicle/Inventory/CarChassisConfigs"]}
+  ],
+  "folgerung": "LegoAssembly war als Freigabetyp falsch. Alle 327 Rad-IDs müssen Wheel verwenden, die 30 normalen Baugruppen LegoAssy. Der Typ der 25 Propeller ist weiterhin unbelegt.",
+  "builder_verifiziert": true,
+  "builder_verifikation": {"asset": "Wheel:Traffic_BBWheelFront_02Street", "quelle": "Nutzer bestätigt nach Neustart: Ja, jetzt verfügbar", "umfang": "Taxi-Rad als Funktionsnachweis; weitere Räder/Baugruppen nicht einzeln getestet"}
+}

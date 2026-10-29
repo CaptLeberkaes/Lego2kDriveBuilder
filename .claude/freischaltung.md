@@ -1,5 +1,53 @@
 # Lokale Freischaltung – 29.10.2026
 
+## Nachtrag 21:36: Alle Bauanleitungen als abgeschlossen markiert
+
+Der Nutzer schloss das Küstenwachen-Boot regulär ab; danach enthielt
+`ArtemisVehicle.sav` erstmals `GarageInstructionCompletionMap` mit einem echten
+Eintrag: Schlüssel = rohe FGuid `3678FD2D4119867D522499940DE3B887`, Wert =
+`OwnerId` leer, `TimesCompleted` 1, `CompletedWithoutSkips` wahr.
+
+`anleitungen_diagnose.py` (nur lesend) fand diese GUID als Text im
+Asset-Registry-Stringpool. Im selben Abschnitt stehen genau 662 eindeutige
+GUIDs, eine pro VehicleConfig (dazwischen nur Themenwerte wie City, BOAT,
+Creator); 662 = Fahrzeuge im Katalog. Liste: `freischaltung/anleitungs-guids-live.json`.
+Zuordnung GUID→Fahrzeugname nicht ermittelt.
+
+`anleitungen_abschliessen.py --anwenden` kopiert den Boot-Wert bytegenau für
+die 661 fehlenden GUIDs; sonst kein Feld verändert, idempotent. Sicherung:
+`_sicherungen/anleitungen_2026-10-29_21-36-47/`. **Spieltest bestätigt:** Der
+Nutzer meldete nach Neustart „Yes, all green“ – alle Anleitungen zeigen das
+grüne Abschluss-Symbol.
+
+## Aktueller Stand: Korrektur um 20:23
+
+**Ursache der fehlenden Räder gefunden:** Die tatsächlich geladene
+PrimaryAssetTypesToScan-Konfiguration registriert LegoWheelAssembly als
+`Wheel` und LegoAssembly als `LegoAssy`. Der zuvor angenommene Freigabetyp
+`LegoAssembly` ist falsch. Befund mit exakten Klassen und Verzeichnissen:
+`.claude/freischaltung/assettypen-befund.json`.
+
+`freischalten.py` korrigiert jetzt beide LockRewards-Listen: je 382 vom ersten
+Versuch stammende Falschtyp-Einträge entfernt; 327 `Wheel` und 30 `LegoAssy`
+eingetragen. Insbesondere ist `Wheel:Traffic_BBWheelFront_02Street` vorhanden.
+Die 25 Propeller sind bis zur Klärung ihres Asset-Typs ausgenommen. Alle
+ursprünglichen Freigaben, Bauteile, Fahrzeuge und Story-Felder bleiben erhalten.
+Vorheriger Stand vollständig gesichert nach
+`_sicherungen/freischaltung_2026-10-29_20-23-08/`.
+
+Erneut geprüft: Original und Ergebnis bytegenau rücklesbar, idempotent,
+ausschließlich zwei Freigabelisten verändert, alle ursprünglichen Freigaben
+erhalten. Die entfernten Einträge waren sämtlich nicht im allerersten
+Original-Backup enthalten. **Builder-Spieltest bestätigt:** Der Nutzer meldete
+nach dem Neustart am 29.10.2026 ausdrücklich „Ja, jetzt verfügbar“ für das
+Taxi-Rad. Damit ist Wheel:Traffic_BBWheelFront_02Street praktisch bestätigt;
+die übrigen 326 Räder und 30 Baugruppen wurden nicht einzeln getestet. Auch
+nach erneutem Speichern durch das Spiel blieben alle korrigierten Freigaben
+erhalten; nur /Timestamp wich vom Kandidaten ab. Das Anleitungs-Abschlussfeld
+wurde nicht geändert: Die direkte Rad-Freigabe genügt für dieses Sonderteil.
+Die folgenden Abschnitte beschreiben auch den historischen,
+fehlerhaften ersten Versuch und sind keine Behauptung, dass er funktioniert.
+
 ## Nutzerziel und bestätigter Kontext
 
 Der Nutzer möchte lokal ohne Online-Funktionen und ohne 2K-Anmeldung spielen.
@@ -57,6 +105,25 @@ anderer Inhalte). Damit ist Laden und erneutes Speichern bestätigt, die
 sichtbare/benutzbare Verfügbarkeit im Garagenmenü jedoch weiterhin offen.
 
 ## Noch offener Spieltest
+
+**Neue Nutzerrückmeldung:** Das Taxi-Rad ist im normalen Builder weiterhin
+nicht verfügbar. Die bloße Existenz von `LegoAssembly:Traffic_BBWheelFront_02Street`
+in den beiden LockRewards-Listen genügt somit nachweislich nicht. Diese
+Zuordnung nicht länger als erfolgreiche Rad-Freigabe darstellen. Der Nutzer
+möchte eine allgemeine Lösung für alle Modelle, das Vintage-Taxi ist nur ein
+Beispiel. Im nach regulärem Verlassen gespeicherten ArtemisVehicle.sav fehlen
+GarageInstructionCompletionMap und CurrentStepNumber weiterhin vollständig.
+
+Lesend ermittelte Reflexionsmetadaten der installierten Spielversion:
+GarageInstructionCompletionMap hat Struct-Schlüssel (Guid-Konstruktor identisch
+mit InstructionsGuid) und Struct-Werte; GarageInstructionCompletionData nennt
+die Felder TimesCompleted und CompletedWithoutSkips. Die GUIDs der einzelnen
+Anleitungen sind bisher nicht bekannt. Keine erfundenen GUIDs eintragen.
+Das aktive Taxi referenzierte die Radbaugruppe Traffic_BBWheelFront_02Street.
+
+Der öffentliche „Instruction Finisher“ setzt lediglich vorhandene
+CurrentStepNumber-Felder auf den daneben gespeicherten MaxStepNumber-Wert.
+Er erstellt weder alle Anleitungen noch deren Abschlussdaten.
 
 Spiel nach Änderung gestartet. Computer-Use-Erfassung scheiterte nach erneutem
 Binden des Spielfensters mit `window capture timed out: timed out waiting on

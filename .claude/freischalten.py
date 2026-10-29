@@ -2,7 +2,8 @@
 
 Kein Konto, keine Serveranfragen, keine Änderungen an Story-Fortschritt oder XP.
 Kataloge: .claude/quellen/l2kd-encyclopedia (öffentliche Asset-Exporte).
-Die Annahme LegoAssembly für Räder/Propeller muss im Spiel geprüft werden.
+Asset-Typen Wheel und LegoAssy sind aus der geladenen Spielkonfiguration belegt.
+Die sichtbare Verfügbarkeit nach dem Schreiben muss im Builder geprüft werden.
 """
 import argparse
 import collections
@@ -51,12 +52,29 @@ def catalog():
         result.add(('BrickPack', original))
     for name in load_catalog('vehicles'):
         result.add(('Vehicle', name))
-    # Alle drei Klassen leiten sich von LegoAssembly ab. Der Asset-Typ ist
-    # eine begründete Annahme, noch keine bestätigte Garage-Freigabe.
-    for category in ('assemblies', 'wheels', 'propellers'):
-        for name in load_catalog(category):
-            result.add(('LegoAssembly', name))
+    # Belegt durch PrimaryAssetTypesToScan im laufenden Spiel, siehe
+    # .claude/freischaltung/assettypen-befund.json. Klassenname und registrierter
+    # PrimaryAssetType sind verschieden! Propeller bleiben bis zu einem Beleg
+    # ihres Asset-Typs ausgenommen.
+    for name in load_catalog('assemblies'):
+        result.add(('LegoAssy', name))
+    for name in load_catalog('wheels'):
+        result.add(('Wheel', name))
+    # Chassis, Flair und LegoDeco: Originalnamen per Laufzeitdiagnose belegt
+    # (assetnamen_diagnose.py -> assetnamen_belegen.py). Propeller und
+    # /Game/LEGO/Decorations haben keinen PrimaryAssetType und fehlen deshalb.
+    belegt = json.loads((ARBEIT / 'assetnamen-belegt.json').read_text(encoding='utf-8'))
+    for typ, eintrag in belegt.items():
+        for name in eintrag['belegt']:
+            result.add((typ, name))
     return result
+
+
+def obsolete_ids():
+    """Nur die vom früheren Versuch hinzugefügten falschen Typ-Zuordnungen."""
+    return {('LegoAssembly', name)
+            for category in ('assemblies', 'wheels', 'propellers')
+            for name in load_catalog(category)}
 
 
 def identity(entry):
@@ -85,11 +103,15 @@ def prepare(source, wanted):
     sf = g.SaveFile.from_bytes(source)
     if sf.dump() != source:
         raise ValueError('Originaldatei wird nicht bytegenau reproduziert')
-    counts = []
+    counts, removed_counts = [], []
+    obsolete = obsolete_ids()
     for path in reward_paths():
         arr = at(sf.props, *path).value
         if not isinstance(arr, g.StructArray) or arr.struct_name != 'LockRewardEntry' or not arr.elems:
             raise ValueError('Unerwartetes Freischaltformat')
+        old_count = len(arr.elems)
+        arr.elems = [e for e in arr.elems if identity(e) not in obsolete]
+        removed_counts.append(old_count - len(arr.elems))
         existing = {identity(e) for e in arr.elems}
         missing = sorted(wanted - existing)
         template = arr.elems[0]
@@ -100,8 +122,11 @@ def prepare(source, wanted):
     if parsed.dump() != payload:
         raise ValueError('Rückleseprüfung fehlgeschlagen')
     for path in reward_paths():
-        if not wanted <= {identity(e) for e in at(parsed.props, *path).value.elems}:
+        identities = {identity(e) for e in at(parsed.props, *path).value.elems}
+        if not wanted <= identities:
             raise ValueError('Freigaben beim Rücklesen unvollständig')
+        if identities & obsolete:
+            raise ValueError('Veraltete falsche Asset-Typen nicht bereinigt')
     # Entfernt man die Ergänzungen, muss die vollständige Originaldatei
     # bytegenau herauskommen: keine unbeabsichtigten Story-/Kontoänderungen.
     original = g.SaveFile.from_bytes(source)
@@ -109,13 +134,14 @@ def prepare(source, wanted):
         at(parsed.props, *path).value = copy.deepcopy(at(original.props, *path).value)
     if parsed.dump() != source:
         raise ValueError('Nicht freigegebene Felder wurden verändert')
-    return payload, counts
+    return payload, counts, removed_counts
 
 
 def game_running():
     check = subprocess.run(
         ['tasklist', '/FI', 'IMAGENAME eq LEGO2KDrive*', '/FO', 'CSV', '/NH'],
-        capture_output=True, text=True, check=True,
+        # Konsolenausgabe ist OEM-kodiert ("ausgeführt" scheitert an cp1252).
+        capture_output=True, encoding='oem', errors='replace', check=True,
     )
     return 'lego2kdrive' in check.stdout.lower()
 
@@ -126,10 +152,10 @@ def main():
     args = parser.parse_args()
     source = SPIELSTAND.read_bytes()
     wanted = catalog()
-    payload, counts = prepare(source, wanted)
+    payload, counts, removed_counts = prepare(source, wanted)
     # Wiederholtes Anwenden darf keine Duplikate oder weiteren Änderungen erzeugen.
-    repeated, additions = prepare(payload, wanted)
-    if repeated != payload or any(additions):
+    repeated, additions, removals = prepare(payload, wanted)
+    if repeated != payload or any(additions) or any(removals):
         raise ValueError('Idempotenzprüfung fehlgeschlagen')
     ARBEIT.mkdir(parents=True, exist_ok=True)
     candidate = ARBEIT / 'ArtemisPlayerInfo.sav'
@@ -141,9 +167,14 @@ def main():
         'ergebnis_sha256': hashlib.sha256(payload).hexdigest(),
         'katalog': dict(collections.Counter(t for t, n in sorted(wanted))),
         'ergaenzungen_pro_liste': counts,
+        'entfernte_falschtypen_pro_liste': removed_counts,
         'pruefungen': ['Original bytegenau', 'GVAS rücklesbar', 'Katalog vollständig eingetragen',
                        'Nur zwei LockRewards-Listen verändert', 'Idempotent'],
-        'unsicher': ['LegoAssembly-Typ für Räder/Propeller im Spiel prüfen',
+        'belegte_assettypen': {'LegoWheelAssembly': 'Wheel', 'LegoAssembly': 'LegoAssy',
+                               'ChassisConfig': 'Chassis', 'LegoFlairAssembly': 'Flair',
+                               'LegoDecoration': 'LegoDeco'},
+        'unsicher': ['Chassis, Flairs und Sticker exemplarisch im Builder prüfen',
+                    'Propeller und fahrzeugspezifische Decorations: kein PrimaryAssetType konfiguriert, nicht als Freigabe möglich',
                     '662 Fahrzeuge einschließlich 14 laut Katalog nicht regulär gültiger Vorlagen',
                     'Premium-Pass-Menü bleibt gegebenenfalls gesperrt; keine Lizenzfreigabe geändert'],
     }

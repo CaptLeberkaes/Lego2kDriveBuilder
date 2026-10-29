@@ -1,0 +1,144 @@
+{
+ "stand": "2026-10-29 vor Originalkopien",
+ "plaetze": 50,
+ "belegt": [
+  {
+   "platz": 0,
+   "name": "Bulldozest",
+   "teile": 350,
+   "chassis": "ChassisConfig_GarageChampionStreet"
+  },
+  {
+   "platz": 1,
+   "name": "Allrad-Dynamo",
+   "teile": 66,
+   "chassis": "ChassisConfig_ATV_20014"
+  },
+  {
+   "platz": 2,
+   "name": "Neues Fahrzeug 04",
+   "teile": 34,
+   "chassis": "ChassisConfig_FireEngine_10263_Garage"
+  },
+  {
+   "platz": 3,
+   "name": "Shuttle Rover",
+   "teile": 150,
+   "chassis": "ChassisConfig_PoliceTruck_7032_Garage"
+  },
+  {
+   "platz": 4,
+   "name": "Neues Fahrzeug 05",
+   "teile": 11,
+   "chassis": "ChassisConfig_FireEngine_10263_Garage"
+  },
+  {
+   "platz": 5,
+   "name": "Neues Fahrzeug 06",
+   "teile": 17,
+   "chassis": "ChassisConfig_Dragster_6639_Garage"
+  },
+  {
+   "platz": 6,
+   "name": "Neues Fahrzeug 07",
+   "teile": 16,
+   "chassis": "ChassisConfig_EndOfStreet_VC000"
+  },
+  {
+   "platz": 7,
+   "name": "Neues Fahrzeug 08",
+   "teile": 23,
+   "chassis": "ChassisConfig_ExtremeSpeed_VC000"
+  },
+  {
+   "platz": 8,
+   "name": "Neues Fahrzeug 09",
+   "teile": 11,
+   "chassis": "ChassisConfig_Sedan_60050_Garage"
+  },
+  {
+   "platz": 9,
+   "name": "Neues Fahrzeug 10",
+   "teile": 26,
+   "chassis": "ChassisConfig_TriCycle"
+  },
+  {
+   "platz": 10,
+   "name": "Neues Fahrzeug 11",
+   "teile": 17,
+   "chassis": "ChassisConfig_ClassicCar_10261_Garage"
+  },
+  {
+   "platz": 11,
+   "name": "Neues Fahrzeug 12",
+   "teile": 16,
+   "chassis": "ChassisConfig_GarageChampionStreet"
+  },
+  {
+   "platz": 12,
+   "name": "Neues Fahrzeug 13",
+   "teile": 20,
+   "chassis": "ChassisConfig_SweetRemix_VC000"
+  },
+  {
+   "platz": 13,
+   "name": "Neues Fahrzeug 14",
+   "teile": 11,
+   "chassis": "ChassisConfig_EcoCar_60200_Garage"
+  },
+  {
+   "platz": 14,
+   "name": "Neues Fahrzeug 15",
+   "teile": 16,
+   "chassis": "ChassisConfig_MiningDrill_60185_Garage"
+  },
+  {
+   "platz": 15,
+   "name": "Neues Fahrzeug 16",
+   "teile": 54,
+   "chassis": "ChassisConfig_BigOlTexasTruck_Garage"
+  },
+  {
+   "platz": 16,
+   "name": "Neues Fahrzeug 17",
+   "teile": 18,
+   "chassis": "ChassisConfig_DuneBuggy_60145_Garage"
+  },
+  {
+   "platz": 17,
+   "name": "Neues Fahrzeug 18",
+   "teile": 16,
+   "chassis": "ChassisConfig_PoliceTruck_7032_Garage"
+  },
+  {
+   "platz": 18,
+   "name": "Neues Fahrzeug 19",
+   "teile": 39,
+   "chassis": "ChassisConfig_Explorer"
+  },
+  {
+   "platz": 19,
+   "name": "Neues Fahrzeug 20",
+   "teile": 22,
+   "chassis": "ChassisConfig_GarageOffroadChampion"
+  },
+  {
+   "platz": 20,
+   "name": "Neues Fahrzeug 21",
+   "teile": 33,
+   "chassis": "ChassisConfig_HeartOfAdventure"
+  },
+  {
+   "platz": 21,
+   "name": "Neues Fahrzeug 22",
+   "teile": 48,
+   "chassis": "ChassisConfig_ShowOff"
+  },
+  {
+   "platz": 22,
+   "name": "Neues Fahrzeug 23",
+   "teile": 35,
+   "chassis": "ChassisConfig_MudDrifter_VC000"
+  }
+ ]
+}

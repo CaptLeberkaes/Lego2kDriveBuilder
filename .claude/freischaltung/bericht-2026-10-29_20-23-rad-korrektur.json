@@ -1,0 +1,49 @@
+{
+  "zeit": "2026-10-29 20:23:08",
+  "status": "angewendet; Taxi-Rad im Builder durch Nutzer bestätigt",
+  "quelle_sha256": "792b2398a9810a8223da6ca44b934d7014c7a7926bddcef4bf7873443041a491",
+  "ergebnis_sha256": "67ed96351be58b32510c5da2c5f749b6b5ac9a63d7aa0d834b2c6f78d6c561ce",
+  "katalog": {
+    "BrickPack": 189,
+    "LegoAssy": 30,
+    "LegoPart": 2028,
+    "Vehicle": 662,
+    "Wheel": 327
+  },
+  "ergaenzungen_pro_liste": [
+    357,
+    357
+  ],
+  "entfernte_falschtypen_pro_liste": [
+    382,
+    382
+  ],
+  "pruefungen": [
+    "Original bytegenau",
+    "GVAS rücklesbar",
+    "Katalog vollständig eingetragen",
+    "Nur zwei LockRewards-Listen verändert",
+    "Idempotent"
+  ],
+  "belegte_assettypen": {
+    "LegoWheelAssembly": "Wheel",
+    "LegoAssembly": "LegoAssy"
+  },
+  "unsicher": [
+    "Taxi-Rad bestätigt; weitere Räder und Baugruppen nicht einzeln getestet",
+    "25 Propeller ausgenommen: kein belegter PrimaryAssetType vorhanden",
+    "662 Fahrzeuge einschließlich 14 laut Katalog nicht regulär gültiger Vorlagen",
+    "Premium-Pass-Menü bleibt gegebenenfalls gesperrt; keine Lizenzfreigabe geändert"
+  ],
+  "sicherung": "C:\\Users\\Ben\\Documents\\_PRIVATE\\Git\\Lego2kDriveBuilder\\_sicherungen\\freischaltung_2026-10-29_20-23-08",
+  "spielstart_pruefung": {
+    "korrigierte_freigaben_erhalten": true,
+    "abweichungen_zum_kandidaten": [
+      "/Timestamp"
+    ],
+    "builder_sichtbar_getestet": true,
+    "verifiziertes_asset": "Wheel:Traffic_BBWheelFront_02Street",
+    "bestaetigung": "Nutzer: Ja, jetzt verfügbar",
+    "umfang": "Weitere 326 Räder und 30 Baugruppen nicht einzeln getestet"
+  }
+}
