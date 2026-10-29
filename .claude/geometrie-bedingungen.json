@@ -1,0 +1,822 @@
+{
+  "hinweis": "Bedingungen und Rasterdomänen sind Modellannahmen, kein vollständiger CAD-/Anschlussnachweis.",
+  "ergebnisse": [
+    {
+      "teil": 3823,
+      "seite": "unten",
+      "feld": 0,
+      "beobachtungen": 1,
+      "status": "bedingt_durch_GEOM_Annahmen",
+      "moegliche_masken": 28,
+      "bestaetigte_zellen": [],
+      "ausgeschlossene_zellen": [],
+      "vollstaendig_eindeutig": false,
+      "bedingungen": [
+        {
+          "teil": 3823,
+          "seite": "unten",
+          "feld": 0,
+          "kandidaten": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              3,
+              0
+            ],
+            [
+              3,
+              1
+            ]
+          ],
+          "noppen": 6,
+          "widerspruch": false,
+          "domaene": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              3,
+              0
+            ],
+            [
+              3,
+              1
+            ]
+          ],
+          "quelle": "ArtemisDownloadedVehicle.sav",
+          "fahrzeug": "Bulldozest",
+          "index": 226,
+          "partner_index": 225,
+          "partner_teil": 3001,
+          "partner_feld": 1,
+          "typ": "ELegoConnectResult::FixedConnection"
+        }
+      ]
+    },
+    {
+      "teil": 11211,
+      "seite": "oben",
+      "feld": 0,
+      "beobachtungen": 4,
+      "status": "bedingt_durch_GEOM_Annahmen",
+      "moegliche_masken": 1,
+      "bestaetigte_zellen": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "ausgeschlossene_zellen": [],
+      "vollstaendig_eindeutig": true,
+      "bedingungen": [
+        {
+          "teil": 11211,
+          "seite": "oben",
+          "feld": 0,
+          "kandidaten": [
+            [
+              1,
+              0
+            ]
+          ],
+          "noppen": 1,
+          "widerspruch": false,
+          "domaene": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "quelle": "ArtemisDownloadedVehicle.sav",
+          "fahrzeug": "For JokerMessiah",
+          "index": 126,
+          "partner_index": 130,
+          "partner_teil": 3666,
+          "partner_feld": 1,
+          "typ": "ELegoConnectResult::HingeConnection"
+        },
+        {
+          "teil": 11211,
+          "seite": "oben",
+          "feld": 0,
+          "kandidaten": [
+            [
+              0,
+              0
+            ]
+          ],
+          "noppen": 1,
+          "widerspruch": false,
+          "domaene": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "quelle": "ArtemisDownloadedVehicle.sav",
+          "fahrzeug": "For JokerMessiah",
+          "index": 128,
+          "partner_index": 130,
+          "partner_teil": 3666,
+          "partner_feld": 1,
+          "typ": "ELegoConnectResult::HingeConnection"
+        },
+        {
+          "teil": 11211,
+          "seite": "oben",
+          "feld": 0,
+          "kandidaten": [
+            [
+              1,
+              0
+            ]
+          ],
+          "noppen": 1,
+          "widerspruch": false,
+          "domaene": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "quelle": "ArtemisDownloadedVehicle.sav",
+          "fahrzeug": "ASCOTT BAILER 2.0",
+          "index": 166,
+          "partner_index": 160,
+          "partner_teil": 3024,
+          "partner_feld": 1,
+          "typ": "ELegoConnectResult::HingeConnection"
+        },
+        {
+          "teil": 11211,
+          "seite": "oben",
+          "feld": 0,
+          "kandidaten": [
+            [
+              0,
+              0
+            ]
+          ],
+          "noppen": 1,
+          "widerspruch": false,
+          "domaene": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "quelle": "ArtemisDownloadedVehicle.sav",
+          "fahrzeug": "ASCOTT BAILER 2.0",
+          "index": 167,
+          "partner_index": 159,
+          "partner_teil": 3024,
+          "partner_feld": 1,
+          "typ": "ELegoConnectResult::HingeConnection"
+        }
+      ]
+    },
+    {
+      "teil": 11211,
+      "seite": "unten",
+      "feld": 2,
+      "beobachtungen": 2,
+      "status": "bedingt_durch_GEOM_Annahmen",
+      "moegliche_masken": 1,
+      "bestaetigte_zellen": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "ausgeschlossene_zellen": [],
+      "vollstaendig_eindeutig": true,
+      "bedingungen": [
+        {
+          "teil": 11211,
+          "seite": "unten",
+          "feld": 2,
+          "kandidaten": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "noppen": 2,
+          "widerspruch": false,
+          "domaene": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "quelle": "ArtemisDownloadedVehicle.sav",
+          "fahrzeug": "ASCOTT BAILER 2.0",
+          "index": 166,
+          "partner_index": 25,
+          "partner_teil": 3023,
+          "partner_feld": 0,
+          "typ": "ELegoConnectResult::FixedConnection"
+        },
+        {
+          "teil": 11211,
+          "seite": "unten",
+          "feld": 2,
+          "kandidaten": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "noppen": 2,
+          "widerspruch": false,
+          "domaene": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "quelle": "ArtemisDownloadedVehicle.sav",
+          "fahrzeug": "ASCOTT BAILER 2.0",
+          "index": 167,
+          "partner_index": 26,
+          "partner_teil": 3023,
+          "partner_feld": 0,
+          "typ": "ELegoConnectResult::FixedConnection"
+        }
+      ]
+    },
+    {
+      "teil": 37352,
+      "seite": "unten",
+      "feld": 0,
+      "beobachtungen": 2,
+      "status": "bedingt_durch_GEOM_Annahmen",
+      "moegliche_masken": 1,
+      "bestaetigte_zellen": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "ausgeschlossene_zellen": [],
+      "vollstaendig_eindeutig": true,
+      "bedingungen": [
+        {
+          "teil": 37352,
+          "seite": "unten",
+          "feld": 0,
+          "kandidaten": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "noppen": 2,
+          "widerspruch": false,
+          "domaene": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "quelle": "ArtemisDownloadedVehicle.sav",
+          "fahrzeug": "Model G022",
+          "index": 161,
+          "partner_index": 160,
+          "partner_teil": 3710,
+          "partner_feld": 0,
+          "typ": "ELegoConnectResult::FixedConnection"
+        },
+        {
+          "teil": 37352,
+          "seite": "unten",
+          "feld": 0,
+          "kandidaten": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "noppen": 2,
+          "widerspruch": false,
+          "domaene": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "quelle": "ArtemisDownloadedVehicle.sav",
+          "fahrzeug": "Model G022",
+          "index": 162,
+          "partner_index": 160,
+          "partner_teil": 3710,
+          "partner_feld": 0,
+          "typ": "ELegoConnectResult::FixedConnection"
+        }
+      ]
+    },
+    {
+      "teil": 87087,
+      "seite": "oben",
+      "feld": 2,
+      "beobachtungen": 8,
+      "status": "bedingt_durch_GEOM_Annahmen",
+      "moegliche_masken": 1,
+      "bestaetigte_zellen": [
+        [
+          0,
+          0
+        ]
+      ],
+      "ausgeschlossene_zellen": [],
+      "vollstaendig_eindeutig": true,
+      "bedingungen": [
+        {
+          "teil": 87087,
+          "seite": "oben",
+          "feld": 2,
+          "kandidaten": [
+            [
+              0,
+              0
+            ]
+          ],
+          "noppen": 1,
+          "widerspruch": false,
+          "domaene": [
+            [
+              0,
+              0
+            ]
+          ],
+          "quelle": "ArtemisDownloadedVehicle.sav",
+          "fahrzeug": "Anakins Podracer Mk1",
+          "index": 173,
+          "partner_index": 10,
+          "partner_teil": 3069,
+          "partner_feld": 0,
+          "typ": "ELegoConnectResult::HingeConnection"
+        },
+        {
+          "teil": 87087,
+          "seite": "oben",
+          "feld": 2,
+          "kandidaten": [
+            [
+              0,
+              0
+            ]
+          ],
+          "noppen": 1,
+          "widerspruch": false,
+          "domaene": [
+            [
+              0,
+              0
+            ]
+          ],
+          "quelle": "ArtemisDownloadedVehicle.sav",
+          "fahrzeug": "Anakins Podracer Mk1",
+          "index": 167,
+          "partner_index": 10,
+          "partner_teil": 3069,
+          "partner_feld": 0,
+          "typ": "ELegoConnectResult::HingeConnection"
+        },
+        {
+          "teil": 87087,
+          "seite": "oben",
+          "feld": 2,
+          "kandidaten": [
+            [
+              0,
+              0
+            ]
+          ],
+          "noppen": 1,
+          "widerspruch": false,
+          "domaene": [
+            [
+              0,
+              0
+            ]
+          ],
+          "quelle": "ArtemisDownloadedVehicle.sav",
+          "fahrzeug": "Anakins Podracer Mk1",
+          "index": 179,
+          "partner_index": 11,
+          "partner_teil": 3069,
+          "partner_feld": 0,
+          "typ": "ELegoConnectResult::HingeConnection"
+        },
+        {
+          "teil": 87087,
+          "seite": "oben",
+          "feld": 2,
+          "kandidaten": [
+            [
+              0,
+              0
+            ]
+          ],
+          "noppen": 1,
+          "widerspruch": false,
+          "domaene": [
+            [
+              0,
+              0
+            ]
+          ],
+          "quelle": "ArtemisDownloadedVehicle.sav",
+          "fahrzeug": "Anakins Podracer Mk1",
+          "index": 185,
+          "partner_index": 11,
+          "partner_teil": 3069,
+          "partner_feld": 0,
+          "typ": "ELegoConnectResult::HingeConnection"
+        },
+        {
+          "teil": 87087,
+          "seite": "oben",
+          "feld": 2,
+          "kandidaten": [
+            [
+              0,
+              0
+            ]
+          ],
+          "noppen": 1,
+          "widerspruch": false,
+          "domaene": [
+            [
+              0,
+              0
+            ]
+          ],
+          "quelle": "ArtemisDownloadedVehicle.sav",
+          "fahrzeug": "Octan Space Racer",
+          "index": 13,
+          "partner_index": 199,
+          "partner_teil": 3020,
+          "partner_feld": 1,
+          "typ": "ELegoConnectResult::HingeConnection"
+        },
+        {
+          "teil": 87087,
+          "seite": "oben",
+          "feld": 2,
+          "kandidaten": [
+            [
+              0,
+              0
+            ]
+          ],
+          "noppen": 1,
+          "widerspruch": false,
+          "domaene": [
+            [
+              0,
+              0
+            ]
+          ],
+          "quelle": "ArtemisDownloadedVehicle.sav",
+          "fahrzeug": "Octan Space Racer",
+          "index": 21,
+          "partner_index": 199,
+          "partner_teil": 3020,
+          "partner_feld": 1,
+          "typ": "ELegoConnectResult::HingeConnection"
+        },
+        {
+          "teil": 87087,
+          "seite": "oben",
+          "feld": 2,
+          "kandidaten": [
+            [
+              0,
+              0
+            ]
+          ],
+          "noppen": 1,
+          "widerspruch": false,
+          "domaene": [
+            [
+              0,
+              0
+            ]
+          ],
+          "quelle": "ArtemisDownloadedVehicle.sav",
+          "fahrzeug": "Octan Space Racer",
+          "index": 16,
+          "partner_index": 199,
+          "partner_teil": 3020,
+          "partner_feld": 1,
+          "typ": "ELegoConnectResult::HingeConnection"
+        },
+        {
+          "teil": 87087,
+          "seite": "oben",
+          "feld": 2,
+          "kandidaten": [
+            [
+              0,
+              0
+            ]
+          ],
+          "noppen": 1,
+          "widerspruch": false,
+          "domaene": [
+            [
+              0,
+              0
+            ]
+          ],
+          "quelle": "ArtemisDownloadedVehicle.sav",
+          "fahrzeug": "Octan Space Racer",
+          "index": 24,
+          "partner_index": 199,
+          "partner_teil": 3020,
+          "partner_feld": 1,
+          "typ": "ELegoConnectResult::HingeConnection"
+        }
+      ]
+    },
+    {
+      "teil": 87087,
+      "seite": "unten",
+      "feld": 1,
+      "beobachtungen": 6,
+      "status": "bedingt_durch_GEOM_Annahmen",
+      "moegliche_masken": 1,
+      "bestaetigte_zellen": [
+        [
+          0,
+          0
+        ]
+      ],
+      "ausgeschlossene_zellen": [],
+      "vollstaendig_eindeutig": true,
+      "bedingungen": [
+        {
+          "teil": 87087,
+          "seite": "unten",
+          "feld": 1,
+          "kandidaten": [
+            [
+              0,
+              0
+            ]
+          ],
+          "noppen": 1,
+          "widerspruch": false,
+          "domaene": [
+            [
+              0,
+              0
+            ]
+          ],
+          "quelle": "ArtemisDownloadedVehicle.sav",
+          "fahrzeug": "Modern Racer",
+          "index": 60,
+          "partner_index": 2,
+          "partner_teil": 3020,
+          "partner_feld": 0,
+          "typ": "ELegoConnectResult::HingeConnection"
+        },
+        {
+          "teil": 87087,
+          "seite": "unten",
+          "feld": 1,
+          "kandidaten": [
+            [
+              0,
+              0
+            ]
+          ],
+          "noppen": 1,
+          "widerspruch": false,
+          "domaene": [
+            [
+              0,
+              0
+            ]
+          ],
+          "quelle": "ArtemisDownloadedVehicle.sav",
+          "fahrzeug": "Modern Racer",
+          "index": 59,
+          "partner_index": 2,
+          "partner_teil": 3020,
+          "partner_feld": 0,
+          "typ": "ELegoConnectResult::HingeConnection"
+        },
+        {
+          "teil": 87087,
+          "seite": "unten",
+          "feld": 1,
+          "kandidaten": [
+            [
+              0,
+              0
+            ]
+          ],
+          "noppen": 1,
+          "widerspruch": false,
+          "domaene": [
+            [
+              0,
+              0
+            ]
+          ],
+          "quelle": "ArtemisDownloadedVehicle.sav",
+          "fahrzeug": "ASCOTT BAILER 2.0",
+          "index": 182,
+          "partner_index": 185,
+          "partner_teil": 3710,
+          "partner_feld": 0,
+          "typ": "ELegoConnectResult::HingeConnection"
+        },
+        {
+          "teil": 87087,
+          "seite": "unten",
+          "feld": 1,
+          "kandidaten": [
+            [
+              0,
+              0
+            ]
+          ],
+          "noppen": 1,
+          "widerspruch": false,
+          "domaene": [
+            [
+              0,
+              0
+            ]
+          ],
+          "quelle": "ArtemisDownloadedVehicle.sav",
+          "fahrzeug": "ASCOTT BAILER 2.0",
+          "index": 183,
+          "partner_index": 185,
+          "partner_teil": 3710,
+          "partner_feld": 0,
+          "typ": "ELegoConnectResult::HingeConnection"
+        },
+        {
+          "teil": 87087,
+          "seite": "unten",
+          "feld": 1,
+          "kandidaten": [
+            [
+              0,
+              0
+            ]
+          ],
+          "noppen": 1,
+          "widerspruch": false,
+          "domaene": [
+            [
+              0,
+              0
+            ]
+          ],
+          "quelle": "ArtemisDownloadedVehicle.sav",
+          "fahrzeug": "Brute Chopper",
+          "index": 130,
+          "partner_index": 132,
+          "partner_teil": 3023,
+          "partner_feld": 0,
+          "typ": "ELegoConnectResult::HingeConnection"
+        },
+        {
+          "teil": 87087,
+          "seite": "unten",
+          "feld": 1,
+          "kandidaten": [
+            [
+              0,
+              0
+            ]
+          ],
+          "noppen": 1,
+          "widerspruch": false,
+          "domaene": [
+            [
+              0,
+              0
+            ]
+          ],
+          "quelle": "ArtemisDownloadedVehicle.sav",
+          "fahrzeug": "Brute Chopper",
+          "index": 136,
+          "partner_index": 135,
+          "partner_teil": 3023,
+          "partner_feld": 0,
+          "typ": "ELegoConnectResult::HingeConnection"
+        }
+      ]
+    }
+  ]
+}

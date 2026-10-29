@@ -1,0 +1,65 @@
+{
+  "date": "2026-10-29",
+  "files": [
+    {
+      "local": ".claude\\quellen\\l2kd-encyclopedia\\chassis_by_id.json",
+      "url": "https://github.com/r0levrai/l2kd-encyclopedia/blob/main/data/chassis_by_id.json",
+      "sha256": "7fbe868cabc7e076bc2b1be1f98a157f0b22a7647827a55796a4db42c06cf97f",
+      "bytes": 135852
+    },
+    {
+      "local": ".claude\\quellen\\l2kd-encyclopedia\\wheels_by_id.json",
+      "url": "https://github.com/r0levrai/l2kd-encyclopedia/blob/main/data/wheels_by_id.json",
+      "sha256": "07c42c4fc3489345b9fc04224c2ecea419148976ac904e124c7a63d08fc3bdf9",
+      "bytes": 134648
+    },
+    {
+      "local": ".claude\\quellen\\l2kd-encyclopedia\\3d.py",
+      "url": "https://github.com/r0levrai/l2kd-encyclopedia/blob/main/3d/3d.py",
+      "sha256": "4bde933537cd87ad89a745eba8a3a3b82957cfa8d4e8259c3036dfd479314b6c",
+      "bytes": 5894
+    },
+    {
+      "local": ".claude\\quellen\\l2kd-encyclopedia\\brick.js",
+      "url": "https://github.com/r0levrai/l2kd-encyclopedia/blob/main/brick.js",
+      "sha256": "1950004a00f25079bbfdb49baa3b2dc19b2fc03ac836b4ba9d86cdc47fa5c04e",
+      "bytes": 2626
+    },
+    {
+      "local": ".claude\\quellen\\l2kd-encyclopedia\\index.js",
+      "url": "https://github.com/r0levrai/l2kd-encyclopedia/blob/main/index.js",
+      "sha256": "1d090c2af23267ae3bd73ff780c665cc444d6f47fe15c61505ba2e322bcf9362",
+      "bytes": 5012
+    },
+    {
+      "local": ".claude\\quellen\\lego-builder\\Brick.jsx",
+      "url": "https://github.com/bhushan6/lego-builder/blob/main/src/components/3D/Brick.jsx",
+      "sha256": "10e1f7184ec22cf0f45717fa5cee46ef540ca6ab431ce5fc9174a5a75d480ffe",
+      "bytes": 3658
+    },
+    {
+      "local": ".claude\\quellen\\lego-builder\\BrickCursor.jsx",
+      "url": "https://github.com/bhushan6/lego-builder/blob/main/src/components/3D/BrickCursor.jsx",
+      "sha256": "069077d295586f7b5856300fbcd2d513d941c1fb7476c3a2fd3bc10021b46901",
+      "bytes": 2569
+    },
+    {
+      "local": ".claude\\quellen\\lego-builder\\helpers.js",
+      "url": "https://github.com/bhushan6/lego-builder/blob/main/src/utils/helpers.js",
+      "sha256": "e9a239ffae35631278c825bcd636c6c968cb5198c3156a823891361ce5a7f25e",
+      "bytes": 3264
+    },
+    {
+      "local": ".claude\\quellen\\lego-builder\\constants.js",
+      "url": "https://github.com/bhushan6/lego-builder/blob/main/src/utils/constants.js",
+      "sha256": "ce22cde623a5fe6ec9cc37f2f151d615ce9b1ae41699e938acbafd9f0ec78a11",
+      "bytes": 1133
+    },
+    {
+      "local": ".claude\\quellen\\lego-builder\\LICENSE",
+      "url": "https://github.com/bhushan6/lego-builder/blob/main/LICENSE",
+      "sha256": "4250286d19bc3cfbc9eb8fd42f76007b278cf5c9008161fcc38e4f0cb10f5293",
+      "bytes": 1069
+    }
+  ]
+}

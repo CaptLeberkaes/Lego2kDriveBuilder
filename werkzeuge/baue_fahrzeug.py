@@ -1,307 +1,427 @@
-"""Legt ein neues Fahrzeug in ArtemisVehicle.sav an.
+"""Fahrzeug aus einem JSON-Bauplan bauen; vor jedem Schreiben vollständig prüfen.
 
-Chassis und Räder werden von einem vorhandenen Fahrzeug (Vorlage) übernommen,
-die Karosserie kommt aus einem Bauplan (JSON). Verbindungen werden aus den
-Noppenpositionen berechnet.
-
-Aufruf: python baue_fahrzeug.py <quelle.sav> <ziel.sav> <bauplan.json>
-
-Bauplan:
-{
-  "name": "test1", "vorlage_datei": "…", "vorlage_name": "Brute Chopper",
-  "teile": [{"teil": 3004, "farbe": 7, "pos": [x, y, z], "dreh": 0, "leuchtend": false}, ...]
-}
-pos = Mittelpunkt der Ecknoppe (lokal 0,0) in Einheiten (1 Noppe = 25), z = Unterkante.
-dreh = Drehung um die Hochachse in Grad (0, 90, 180, 270).
-Lokales Raster: Länge entlang +x, Breite entlang -y.
+Aufruf: baue_fahrzeug.py quelle.sav ziel.sav plan.json [--pruefen] [--bericht datei.json]
+Geometrie: baugeometrie.py; Noppe=25, Platte=10. rot=[x,y,z,w] oder dreh=Grad.
+Referenzen: Teile-id bzw. teil:0, chassis:0, rad:fl:0, modul:<alte Assemblynummer>:0.
 """
+import argparse
 import copy
 import json
-import math
 import os
+from pathlib import Path
 import struct
-import sys
 import time
 import uuid
 
 import gvas_rw as g
+from baugeometrie import (GEOM, cells, world_cells, connect, quat_z, yaw_of,
+                          quaternion, vector, rotate, multiply, conjugate, unreachable)
 
-# Geometrie je Teil: Länge, Breite (Noppen), Höhe (Einheiten), Felder unten/oben,
-# optional eigene Zellen für Unterseite/Noppen (lokale (u, v), v nach -y)
-GEOM = {
-    3001: dict(l=4, w=2, h=30, unten=0, oben=1),
-    3004: dict(l=2, w=1, h=30, unten=1, oben=0),
-    3005: dict(l=1, w=1, h=30, unten=1, oben=0),
-    3003: dict(l=2, w=2, h=30, unten=1, oben=0),
-    3022: dict(l=2, w=2, h=10, unten=1, oben=0),
-    3010: dict(l=4, w=1, h=30, unten=1, oben=0),
-    3622: dict(l=3, w=1, h=30, unten=1, oben=0),
-    3020: dict(l=4, w=2, h=10, unten=1, oben=0),
-    3023: dict(l=2, w=1, h=10, unten=1, oben=0),
-    3024: dict(l=1, w=1, h=10, unten=1, oben=0),
-    3710: dict(l=4, w=1, h=10, unten=1, oben=0),
-    3666: dict(l=6, w=1, h=10, unten=1, oben=0),
-    3832: dict(l=10, w=2, h=10, unten=1, oben=0),
-    3069: dict(l=2, w=1, h=10, unten=0, oben=None),
-    # gebogene Dachschräge 2x4: Länge entlang x, Rundung nach -y; Gegenseite um 180° drehen
-    88930: dict(l=4, w=2, h=20, unten=0, oben=None),
-    3623: dict(l=3, w=1, h=10, unten=1, oben=0),
-    3070: dict(l=1, w=1, h=10, unten=0, oben=None),
-    63864: dict(l=3, w=1, h=10, unten=0, oben=None),
-    2431: dict(l=4, w=1, h=10, unten=0, oben=None),
-    37352: dict(l=2, w=1, h=30, unten=0, oben=None),
-    11211: dict(l=2, w=1, h=30, unten=2, oben=0),
-    87087: dict(l=1, w=1, h=30, unten=1, oben=2),
-    6141: dict(l=1, w=1, h=10, unten=0, oben=1),
-    # Kotflügel: Noppenblock 2x1 am Ursprung, 1 Stein hoch (laut Spiel/Vorlage G022);
-    # Bogen links ungedreht, rechts um 180° gedreht einsetzen
-    98282: dict(l=2, w=1, h=30, unten=0, oben=1),
-    3823: dict(l=4, w=2, h=60, unten=0, oben=1),  # Spiel zählt 3 Noppen je Reihe
-    # Chassis-Platte von PoliceTruck_7032 (4x10, Mittelloch, Radausschnitte)
-    4212: dict(l=10, w=4, h=10, unten=1, oben=0,
-               oben_zellen=[(u, v) for v in (1, 2) for u in range(10) if u not in (4, 5)]
-               + [(u, v) for v in (0, 3) for u in (0, 3, 4, 5, 6, 9)]),
-}
+TYPES = {"HingeConnection", "FixedConnection", "CylindricalConnection",
+         "PrismaticConnection", "BallConnection"}
 
 
-def quat_z(deg):
-    a = math.radians(deg) / 2
-    s, c = math.sin(a), math.cos(a)
-    return (0.0, 0.0, -s, -c) if c < 0 else (0.0, 0.0, s, c)
-
-
-def yaw_of(q):
-    x, y, z, w = q
-    return round(math.degrees(2 * math.atan2(z, w))) % 360
-
-
-def cells(geo, key):
-    if key + "_zellen" in geo:
-        return geo[key + "_zellen"]
-    return [(u, v) for u in range(geo["l"]) for v in range(geo["w"])]
-
-
-def world_cells(design, pos, yaw, key):
-    geo = GEOM[design]
-    c, s = round(math.cos(math.radians(yaw))), round(math.sin(math.radians(yaw)))
-    out = set()
-    for u, v in cells(geo, key):
-        lx, ly = u * 25, -v * 25
-        out.add((round(pos[0] + lx * c - ly * s, 1), round(pos[1] + lx * s + ly * c, 1)))
-    return out
-
-
-def connect(parts):
-    """parts: list of dict(design, pos, yaw); returns connection tuples."""
-    conns = []
-    for a, pa in enumerate(parts):
-        for b, pb in enumerate(parts):
-            if a == b or pa["design"] not in GEOM or pb["design"] not in GEOM:
-                continue
-            ga, gb = GEOM[pa["design"]], GEOM[pb["design"]]
-            if ga["oben"] is None or gb["unten"] is None:
-                continue
-            if abs(pa["pos"][2] + ga["h"] - pb["pos"][2]) > 0.5:
-                continue
-            n = len(world_cells(pa["design"], pa["pos"], pa["yaw"], "oben")
-                    & world_cells(pb["design"], pb["pos"], pb["yaw"], "unten"))
-            if n:
-                # a liegt unten (Noppen), b sitzt oben (Unterseite)
-                if a < b:
-                    conns.append((a, b, ga["oben"], gb["unten"], n))
-                else:
-                    conns.append((b, a, gb["unten"], ga["oben"], n))
-    return conns
+def text_value(props, name):
+    return g.R(g.val(props, name)).fstr()
 
 
 def set_prop(props, name, raw):
     g.get(props, name).value = raw
 
 
-def main(src, dst, plan_path):
-    plan = json.load(open(plan_path, encoding="utf-8"))
-    f = g.SaveFile(src)
-    data = g.val(f.props, "Data")
-    vehicles = g.val(data, "CustomVehicles")
-    if "vorlage_datei" in plan:
-        pool = g.val(g.val(g.SaveFile(os.path.expandvars(plan["vorlage_datei"])).props, "Data"), "DownloadedVehicles").elems
-    else:
-        pool = vehicles.elems
-    tpl = next(v for v in pool if g.val(v, "VehicleName") == g.wstr(plan["vorlage_name"]))
-    veh = copy.deepcopy(tpl)
-    # als eigenes, neu erstelltes Fahrzeug kennzeichnen (Spieler-ID von eigenem Fahrzeug)
-    own_id = next((g.val(v, "ImmediateCreatorId") for v in vehicles.elems
-                   if g.val(v, "ImmediateCreatorId") != b"\0\0\0\0"), b"\0\0\0\0")
-    for name in ("OriginalCreatorId", "ImmediateCreatorId"):
-        set_prop(veh, name, own_id)
-    for name in ("OriginalParentGuid", "ImmediateParentGuid"):
-        set_prop(veh, name, bytes(16))
-    set_prop(veh, "ParentType", g.wstr("ECustomVehicleParentType::Created"))
-    pg = g.val(veh, "PartGraph")
-    parts_a, tfs_a = g.val(pg, "Parts"), g.val(pg, "PartTransforms")
-    asm_a, con_a = g.val(pg, "Assemblies"), g.val(pg, "Connections")
+def indices(assembly):
+    off = struct.unpack("<H", g.val(assembly, "PartOffset"))[0]
+    n = struct.unpack("<H", g.val(assembly, "NumParts"))[0]
+    return list(range(off, off+n))
 
-    # Chassis + Räder behalten, alles andere (Karosserie, Flairs) entfernen
-    chassis, wheels = [], []
-    for a in asm_a.elems:
-        if b"/Chassis/" in g.val(a, "AssemblyAsset"):
-            chassis.append(a)
-        elif b"Wheel" in g.val(a, "AssemblyType"):
-            wheels.append(a)
 
-    def rng(a):
-        off = struct.unpack("<H", g.val(a, "PartOffset"))[0]
-        n = struct.unpack("<H", g.val(a, "NumParts"))[0]
-        return list(range(off, off + n))
+def connection_indices(c):
+    return tuple(struct.unpack("<H", g.val(c, key))[0] for key in ("PartIndexA", "PartIndexB"))
 
-    old_chassis = [i for a in chassis for i in rng(a)]
-    old_wheels = [i for a in wheels for i in rng(a)]
-    body = plan["teile"]
-    n_ch = len(old_chassis)
-    new_index = {old: k for k, old in enumerate(old_chassis)}
-    for k, old in enumerate(old_wheels):
-        new_index[old] = n_ch + len(body) + k
 
-    tf_tpl = tfs_a.elems[old_chassis[0]]
-    new_parts, new_tfs = [], []
-    chassis_colors = {int(k): c for k, c in plan.get("chassisfarben", {}).items()}
-    for old in old_chassis:
-        b = bytearray(parts_a.elems[old])
-        design = struct.unpack("<I", b[:4])[0]
-        if design in chassis_colors:
-            b[4] = chassis_colors[design]
-        new_parts.append(bytes(b))
-        new_tfs.append(tfs_a.elems[old])
-    geo_parts = []
-    for old in old_chassis:
-        b = parts_a.elems[old]
-        t = tfs_a.elems[old]
-        geo_parts.append(dict(design=struct.unpack("<I", b[:4])[0],
-                              pos=struct.unpack("<fff", g.val(t, "Translation")),
-                              yaw=yaw_of(struct.unpack("<ffff", g.val(t, "Rotation")))))
-    for t in body:
-        flag = 1 if t.get("leuchtend") else 0
-        new_parts.append(struct.pack("<IBBBB", t["teil"], t["farbe"], flag, 0, 0))
-        tf = copy.deepcopy(tf_tpl)
-        set_prop(tf, "Rotation", struct.pack("<ffff", *quat_z(t.get("dreh", 0))))
-        set_prop(tf, "Translation", struct.pack("<fff", *t["pos"]))
-        new_tfs.append(tf)
-        geo_parts.append(dict(design=t["teil"], pos=t["pos"], yaw=t.get("dreh", 0) % 360))
-    # Felgenfarbe je Rad (fl/fr/bl/br), überschreibt chassisfarben
-    felgen = {}
+def integer(value, maximum, label, minimum=0):
+    if isinstance(value, bool) or not isinstance(value, int) or not minimum <= value <= maximum:
+        raise ValueError(f"{label}: Ganzzahl von {minimum} bis {maximum} erwartet")
+    return value
+
+
+def connection(a, b, fa, fb, strength, kind=None):
+    integer(a, 65535, "PartIndexA"); integer(b, 65535, "PartIndexB")
+    integer(fa, 255, "FieldIndexA"); integer(fb, 255, "FieldIndexB")
+    integer(strength, 255, "Stärke", 1)
+    kind = kind or ("HingeConnection" if strength == 1 else "FixedConnection")
+    kind = kind.removeprefix("ELegoConnectResult::")
+    if kind not in TYPES or (kind == "FixedConnection" and strength < 2) or (kind != "FixedConnection" and strength != 1):
+        raise ValueError(f"Unpassender Verbindungstyp/Stärke: {kind}/{strength}")
+    return [g.Prop("PartIndexA", "UInt16Property", struct.pack("<H", a)),
+            g.Prop("PartIndexB", "UInt16Property", struct.pack("<H", b)),
+            g.Prop("FieldIndexA", "ByteProperty", bytes([fa]), hdr={"enum": "None"}),
+            g.Prop("FieldIndexB", "ByteProperty", bytes([fb]), hdr={"enum": "None"}),
+            g.Prop("Strength", "ByteProperty", bytes([strength]), hdr={"enum": "None"}),
+            g.Prop("Type", "EnumProperty", g.wstr("ELegoConnectResult::"+kind), hdr={"enum": "ELegoConnectResult"})]
+
+
+def validate_plan(plan):
+    if not isinstance(plan, dict):
+        raise ValueError("Der Bauplan muss ein JSON-Objekt sein")
+    allowed = {"name", "vorlage_name", "vorlage_datei", "teile", "chassisfarben",
+               "felgen", "radtausch", "behalten", "verbindungen", "fahrer"}
+    if set(plan)-allowed:
+        raise ValueError(f"Unbekannte Bauplanfelder: {sorted(set(plan)-allowed)}")
+    for key in ("name", "vorlage_name"):
+        if not isinstance(plan.get(key), str) or not plan[key].strip():
+            raise ValueError(f"{key}: nichtleerer Name erforderlich")
+    if not isinstance(plan.get("teile"), list):
+        raise ValueError("teile muss eine Liste sein")
+    if not isinstance(plan.get("verbindungen", []), list) or not isinstance(plan.get("behalten", []), list):
+        raise ValueError("verbindungen und behalten müssen Listen sein")
+    if any(not isinstance(x, str) for x in plan.get("behalten", [])):
+        raise ValueError("behalten muss Namen als Zeichenketten enthalten")
+    if "vorlage_datei" in plan and not isinstance(plan["vorlage_datei"], str):
+        raise ValueError("vorlage_datei muss ein Pfad sein")
+    if len(plan["teile"]) > 65535:
+        raise ValueError("Zu viele Teile für UInt16-Indizes")
+    names = set()
+    for i, part in enumerate(plan["teile"]):
+        if not isinstance(part, dict) or set(part)-{"id", "teil", "farbe", "pos", "dreh", "rot", "leuchtend"}:
+            raise ValueError(f"Teil {i}: ungültige oder unbekannte Felder")
+        integer(part.get("teil"), 2**32-1, f"Teil {i}: Nummer", 1)
+        integer(part.get("farbe"), 255, f"Teil {i}: Farbe")
+        vector(part.get("pos"))
+        if "rot" in part and "dreh" in part:
+            raise ValueError(f"Teil {i}: entweder rot oder dreh angeben")
+        quaternion(part["rot"]) if "rot" in part else quat_z(part.get("dreh", 0))
+        if not isinstance(part.get("leuchtend", False), bool):
+            raise ValueError(f"Teil {i}: leuchtend muss true/false sein")
+        name = part.get("id", f"teil:{i}")
+        if not isinstance(name, str) or not name or name in names or name.startswith(("chassis:", "rad:", "modul:")):
+            raise ValueError(f"Teil {i}: ungültige/doppelte id {name!r}")
+        names.add(name)
+        uncertain = part["teil"] not in GEOM or GEOM[part["teil"]].get("maske_unbekannt")
+        if uncertain and not plan.get("verbindungen"):
+            raise ValueError(f"Teil {i} ({part['teil']}): Anschlussgeometrie unbekannt; explizite Verbindungen erforderlich")
+    for key in ("chassisfarben", "felgen", "radtausch"):
+        if not isinstance(plan.get(key, {}), dict):
+            raise ValueError(f"{key} muss ein Objekt sein")
+    for key in ("chassisfarben", "felgen"):
+        for color in plan.get(key, {}).values():
+            integer(color, 255, key)
+    return plan
+
+
+def pool_from(save):
+    data = g.val(save.props, "Data")
+    return [v for key in ("CustomVehicles", "DownloadedVehicles")
+            for p in data if p.name == key for v in p.value.elems]
+
+
+def find_vehicle(pool, name):
+    hits = [v for v in pool if text_value(v, "VehicleName") == name]
+    if len(hits) != 1:
+        raise ValueError(f"Vorlage {name!r}: {len(hits)} Treffer; eindeutige Quelle/Name erforderlich")
+    return hits[0]
+
+
+def read_triggers(vehicle):
+    r = g.R(g.val(vehicle, "FlairTriggers"))
+    values = [r.fstr() for _ in range(r.i32())]
+    if r.p != len(r.d):
+        raise ValueError("FlairTriggers enthält unerwartete Daten")
+    return values
+
+
+def is_flair(assembly):
+    return "/Flair/" in text_value(assembly, "AssemblyAsset")
+
+
+def build_vehicle(src, plan):
+    """Reine Vorbereitung: liest Quelle, erzeugt Ergebnis im Speicher, schreibt nichts."""
+    validate_plan(plan)
+    save = g.SaveFile(src)
+    data = g.val(save.props, "Data")
+    vehicles = g.val(data, "CustomVehicles").elems
+    pool = pool_from(g.SaveFile(os.path.expandvars(plan["vorlage_datei"]))) if "vorlage_datei" in plan else vehicles
+    vehicle = copy.deepcopy(find_vehicle(pool, plan["vorlage_name"]))
+    graph = g.val(vehicle, "PartGraph")
+    old_parts = g.val(graph, "Parts").elems
+    old_tfs = g.val(graph, "PartTransforms").elems
+    old_assemblies = g.val(graph, "Assemblies").elems
+    old_connections = g.val(graph, "Connections").elems
+    if len(old_parts) != len(old_tfs):
+        raise ValueError("Vorlage: Parts und PartTransforms haben unterschiedliche Längen")
+    for assembly in old_assemblies:
+        if any(i >= len(old_parts) for i in indices(assembly)):
+            raise ValueError("Vorlage: Baugruppenbereich außerhalb der Teileliste")
+    chassis = [a for a in old_assemblies if "/Chassis/" in text_value(a, "AssemblyAsset")]
+    wheels = [a for a in old_assemblies if "Wheel" in text_value(a, "AssemblyType")]
+    if not chassis or not any(indices(a) for a in chassis):
+        raise ValueError("Vorlage enthält kein Chassis")
+    if any(not indices(a) for a in chassis + wheels):
+        raise ValueError("Vorlage enthält eine leere Chassis-/Rad-Baugruppe")
+    selectors = plan.get("behalten", [])
+    modules = []
+    matched = set()
+    for a in old_assemblies:
+        if a in chassis or a in wheels:
+            continue
+        asset = text_value(a, "AssemblyAsset")
+        for selector in selectors:
+            if not isinstance(selector, str):
+                raise ValueError("behalten: Namen oder flairs/baugruppen erforderlich")
+            if selector == asset or selector == asset.split("/")[-1].split(".")[0] or selector == ("flairs" if is_flair(a) else "baugruppen"):
+                matched.add(selector)
+                if a not in modules:
+                    modules.append(a)
+    if set(selectors)-matched:
+        raise ValueError(f"behalten: nicht gefundene Baugruppen {sorted(set(selectors)-matched)}")
+    slot_hits = [i for i, v in enumerate(vehicles) if text_value(v, "VehicleName") == plan["name"]]
+    if len(slot_hits) > 1:
+        raise ValueError("Mehrere Fahrzeuge mit dem Zielnamen; eindeutigen Namen verwenden")
+    ancillary = next((p.value for p in data if p.name == "AncillaryCustomSlot"), None)
+    ancillary_slot = struct.unpack("<i", ancillary)[0] if ancillary is not None else None
+    free = [i for i, v in enumerate(vehicles) if not text_value(v, "VehicleName") and i != ancillary_slot]
+    if not slot_hits and not free:
+        raise ValueError("Kein freier Fahrzeugplatz verfügbar")
+    slot = slot_hits[0] if slot_hits else free[0]
+    if slot == ancillary_slot:
+        raise ValueError("Für den Zielplatz existiert eine Garagen-Arbeitskopie. Garage verlassen, Spiel schließen und erneut ausführen.")
+
+    parts, transforms, assemblies = [], [], []
+    mapping, refs, wheel_ids, chassis_ids = {}, {}, set(), set()
+    colors = {int(k): v for k, v in plan.get("chassisfarben", {}).items()}
+    warnings = []
+
+    def append_part(raw, tf):
+        raw = bytearray(raw)
+        design = struct.unpack("<I", raw[:4])[0]
+        if design in colors:
+            raw[4] = colors[design]
+        parts.append(bytes(raw)); transforms.append(copy.deepcopy(tf))
+        return len(parts)-1
+
+    for a in chassis + modules:
+        new_a = copy.deepcopy(a)
+        set_prop(new_a, "PartOffset", struct.pack("<H", len(parts)))
+        asm_index = old_assemblies.index(a)
+        for k, old in enumerate(indices(a)):
+            if old in mapping:
+                raise ValueError("Überlappende Baugruppenbereiche in der Vorlage")
+            new = append_part(old_parts[old], old_tfs[old]); mapping[old] = new
+            if a in chassis:
+                refs[f"chassis:{len(chassis_ids)}"] = new; chassis_ids.add(new)
+            else:
+                refs[f"modul:{asm_index}:{k}"] = new
+        assemblies.append(new_a)
+    body_ids = []
+    tf_template = old_tfs[indices(chassis[0])[0]]
+    for i, part in enumerate(plan["teile"]):
+        tf = copy.deepcopy(tf_template)
+        rot = quaternion(part["rot"]) if "rot" in part else quat_z(part.get("dreh", 0))
+        set_prop(tf, "Rotation", struct.pack("<ffff", *rot))
+        set_prop(tf, "Translation", struct.pack("<fff", *vector(part["pos"])))
+        set_prop(tf, "Scale3D", struct.pack("<fff", 1, 1, 1))
+        new = len(parts)
+        parts.append(struct.pack("<IBBBB", part["teil"], part["farbe"], int(part.get("leuchtend", False)), 0, 0))
+        transforms.append(tf); body_ids.append(new)
+        for ref in {part.get("id", f"teil:{i}"), f"teil:{i}"}:
+            if ref in refs:
+                raise ValueError(f"Mehrdeutige Teile-Referenz {ref}")
+            refs[ref] = new
+
+    wheel_connections = []
+    valid_wheel_names = {text_value(a, "AssemblyName") for a in wheels}
+    for key in ("radtausch", "felgen"):
+        if set(plan.get(key, {}))-valid_wheel_names:
+            raise ValueError(f"{key}: unbekannte Radnamen")
     for a in wheels:
-        name = g.val(a, "AssemblyName")[4:-1].decode()
-        if name in plan.get("felgen", {}):
-            felgen[rng(a)[0]] = plan["felgen"][name]
-    # Radtausch: {"fl": "Fahrzeugname"} übernimmt die Rad-Baugruppe gleichen Namens
-    # aus einem anderen Fahrzeug (Felge zuerst, Reifen zuletzt). Lage: x/z der alten
-    # Felge, Reifenebene (y) wie beim alten Reifen.
-    swaps = plan.get("radtausch", {})
-    for i, a in enumerate(wheels):
-        name = g.val(a, "AssemblyName")[4:-1].decode()
-        idx = rng(a)
-        if name in swaps:
-            src_v = next(v for v in vehicles.elems + pool
-                         if g.val(v, "VehicleName") == g.wstr(swaps[name]))
-            spg = g.val(src_v, "PartGraph")
-            sa = next(x for x in g.val(spg, "Assemblies").elems
-                      if g.val(x, "AssemblyName") == g.val(a, "AssemblyName"))
-            sidx = rng(sa)
-            assert len(sidx) == len(idx), "Rad-Baugruppen mit anderer Teilezahl"
-            old_rim = struct.unpack("<fff", g.val(tfs_a.elems[idx[0]], "Translation"))
-            old_tire_y = struct.unpack("<fff", g.val(tfs_a.elems[idx[-1]], "Translation"))[1]
-            s_tire_y = struct.unpack("<fff", g.val(g.val(spg, "PartTransforms").elems[sidx[-1]], "Translation"))[1]
-            for k, si in enumerate(sidx):
-                parts_a.elems[idx[k]] = g.val(spg, "Parts").elems[si]
-                tf = copy.deepcopy(g.val(spg, "PartTransforms").elems[si])
-                sy = struct.unpack("<fff", g.val(tf, "Translation"))[1]
-                set_prop(tf, "Translation", struct.pack("<fff", old_rim[0], old_tire_y + sy - s_tire_y, old_rim[2]))
-                tfs_a.elems[idx[k]] = tf
-            new_a = copy.deepcopy(sa)
-            wheels[i] = new_a
-    for old in old_wheels:
-        b = bytearray(parts_a.elems[old])
-        design = struct.unpack("<I", b[:4])[0]
-        if design in chassis_colors:
-            b[4] = chassis_colors[design]
-        if old in felgen:
-            b[4] = felgen[old]
-        new_parts.append(bytes(b))
-        new_tfs.append(tfs_a.elems[old])
-    parts_a.elems, tfs_a.elems = new_parts, new_tfs
-
-    # Baugruppen-Offsets neu setzen
-    off = 0
-    for a in chassis:
-        set_prop(a, "PartOffset", struct.pack("<H", off))
-        off += struct.unpack("<H", g.val(a, "NumParts"))[0]
-    off = n_ch + len(body)
-    for a in wheels:
-        set_prop(a, "PartOffset", struct.pack("<H", off))
-        off += struct.unpack("<H", g.val(a, "NumParts"))[0]
-    asm_a.elems = chassis + wheels
-
-    # Verbindungen: bestehende zwischen behaltenen Teilen + neu berechnete
-    hinge_tpl = fixed_tpl = None
-    kept = []
-    for c in con_a.elems:
-        a = struct.unpack("<H", g.val(c, "PartIndexA"))[0]
-        b = struct.unpack("<H", g.val(c, "PartIndexB"))[0]
-        typ = g.val(c, "Type")
-        if b"Hinge" in typ:
-            hinge_tpl = hinge_tpl or c
-        else:
-            fixed_tpl = fixed_tpl or c
-        if a in new_index and b in new_index:
+        name = text_value(a, "AssemblyName")
+        donor_parts, donor_tfs, donor_connections = old_parts, old_tfs, old_connections
+        donor_assembly = a
+        swap = plan.get("radtausch", {}).get(name)
+        delta, shift = (0, 0, 0, 1), (0, 0, 0)
+        swapped = swap is not None
+        if swapped:
+            spec = {"fahrzeug": swap} if isinstance(swap, str) else swap
+            if not isinstance(spec, dict) or set(spec)-{"fahrzeug", "datei", "versatz"}:
+                raise ValueError("radtausch: Fahrzeugname oder fahrzeug/datei/versatz erforderlich")
+            donor_pool = pool_from(g.SaveFile(os.path.expandvars(spec["datei"]))) if "datei" in spec else pool
+            donor = find_vehicle(donor_pool, spec.get("fahrzeug"))
+            donor_graph = g.val(donor, "PartGraph")
+            choices = [x for x in g.val(donor_graph, "Assemblies").elems
+                       if "Wheel" in text_value(x, "AssemblyType") and text_value(x, "AssemblyName") == name]
+            if len(choices) != 1 or not indices(choices[0]):
+                raise ValueError(f"Rad {name}: Spenderbaugruppe fehlt oder ist mehrdeutig")
+            donor_assembly = choices[0]
+            donor_parts = g.val(donor_graph, "Parts").elems
+            donor_tfs = g.val(donor_graph, "PartTransforms").elems
+            donor_connections = g.val(donor_graph, "Connections").elems
+            old_set = set(indices(a))
+            if any((x in old_set) != (y in old_set) for x, y in map(connection_indices, old_connections)):
+                raise ValueError(f"Rad {name} besitzt externe Verbindungen; Tausch benötigt eine explizite Anpassung")
+            source_tf = donor_tfs[indices(donor_assembly)[0]]
+            target_tf = old_tfs[indices(a)[0]]
+            sq = quaternion(struct.unpack("<ffff", g.val(source_tf, "Rotation")))
+            tq = quaternion(struct.unpack("<ffff", g.val(target_tf, "Rotation")))
+            delta = multiply(tq, conjugate(sq))
+            source_pos = struct.unpack("<fff", g.val(source_tf, "Translation"))
+            target_pos = struct.unpack("<fff", g.val(target_tf, "Translation"))
+            offset = vector(spec.get("versatz", [0, 0, 0]))
+            rotated_source = rotate(delta, source_pos)
+            shift = tuple(target_pos[i]+offset[i]-rotated_source[i] for i in range(3))
+            warnings.append(f"Rad {name}: starre Übernahme am ersten Baugruppenteil; Achslage im Spiel prüfen, bei Bedarf versatz setzen")
+        new_a = copy.deepcopy(donor_assembly)
+        set_prop(new_a, "PartOffset", struct.pack("<H", len(parts)))
+        donor_map = {}
+        for k, old in enumerate(indices(donor_assembly)):
+            tf = copy.deepcopy(donor_tfs[old])
+            if swapped:
+                pos = rotate(delta, struct.unpack("<fff", g.val(tf, "Translation")))
+                set_prop(tf, "Translation", struct.pack("<fff", *(pos[i]+shift[i] for i in range(3))))
+                rot = multiply(delta, quaternion(struct.unpack("<ffff", g.val(tf, "Rotation"))))
+                set_prop(tf, "Rotation", struct.pack("<ffff", *rot))
+            new = append_part(donor_parts[old], tf)
+            donor_map[old] = new; wheel_ids.add(new); refs[f"rad:{name}:{k}"] = new
+            if not swapped:
+                mapping[old] = new
+            if name in plan.get("felgen", {}) and parts[new][4] != 255:
+                raw = bytearray(parts[new]); raw[4] = plan["felgen"][name]; parts[new] = bytes(raw)
+        if swapped:
+            for c in donor_connections:
+                x, y = connection_indices(c)
+                if x in donor_map and y in donor_map:
+                    c = copy.deepcopy(c)
+                    set_prop(c, "PartIndexA", struct.pack("<H", donor_map[x]))
+                    set_prop(c, "PartIndexB", struct.pack("<H", donor_map[y]))
+                    wheel_connections.append(c)
+        assemblies.append(new_a)
+    if len(parts) > 65535:
+        raise ValueError("Zu viele Teile für UInt16-Indizes")
+    connections = []
+    for c in old_connections:
+        a, b = connection_indices(c)
+        if a in mapping and b in mapping:
             c = copy.deepcopy(c)
-            set_prop(c, "PartIndexA", struct.pack("<H", new_index[a]))
-            set_prop(c, "PartIndexB", struct.pack("<H", new_index[b]))
-            kept.append(c)
-    new_conns = connect(geo_parts)
-    chassis_ids = set(range(n_ch))
-    for a, b, fa, fb, n in new_conns:
-        if a in chassis_ids and b in chassis_ids:
-            continue  # Chassis-intern bereits vorhanden
-        c = copy.deepcopy(fixed_tpl if n > 1 else hinge_tpl)
-        set_prop(c, "PartIndexA", struct.pack("<H", a))
-        set_prop(c, "PartIndexB", struct.pack("<H", b))
-        set_prop(c, "FieldIndexA", bytes([fa]))
-        set_prop(c, "FieldIndexB", bytes([fb]))
-        set_prop(c, "Strength", bytes([n]))
-        kept.append(c)
-    con_a.elems = kept
+            set_prop(c, "PartIndexA", struct.pack("<H", mapping[a]))
+            set_prop(c, "PartIndexB", struct.pack("<H", mapping[b]))
+            connections.append(c)
+    connections.extend(wheel_connections)
+    geo_parts = [dict(design=struct.unpack("<I", raw[:4])[0],
+                      pos=struct.unpack("<fff", g.val(tf, "Translation")),
+                      rot=struct.unpack("<ffff", g.val(tf, "Rotation")),
+                      scale=struct.unpack("<fff", g.val(tf, "Scale3D")))
+                 for raw, tf in zip(parts, transforms)]
+    for a, b, fa, fb, n in connect(geo_parts):
+        if a in body_ids or b in body_ids:
+            connections.append(connection(a, b, fa, fb, n))
 
-    # Rest des Fahrzeugs
-    set_prop(veh, "VehicleName", g.wstr(plan["name"]))
-    set_prop(veh, "Guid", uuid.uuid4().bytes)
-    g.val(veh, "Sockets").elems = []
-    set_prop(veh, "FlairTriggers", struct.pack("<i", 0))
-    set_prop(veh, "VersionId", struct.pack("<I", 1))
-    ticks = int((time.time() + 62135596800) * 10_000_000)
-    set_prop(veh, "LastEdited", struct.pack("<q", ticks))
+    def resolve(ref):
+        if isinstance(ref, str) and ref in refs:
+            return refs[ref]
+        if isinstance(ref, int) and not isinstance(ref, bool) and 0 <= ref < len(parts):
+            return ref
+        raise ValueError(f"Unbekannte Teile-Referenz: {ref!r}")
+
+    manual_pairs = set()
+    for spec in plan.get("verbindungen", []):
+        if not isinstance(spec, dict) or set(spec)-{"a", "b", "fa", "fb", "noppen", "typ"}:
+            raise ValueError("verbindungen: unbekannte oder ungültige Felder")
+        a, b = resolve(spec.get("a")), resolve(spec.get("b"))
+        if a == b:
+            raise ValueError("Ein Teil kann nicht mit sich selbst verbunden werden")
+        pair = frozenset((a, b))
+        if pair not in manual_pairs:
+            connections = [c for c in connections if frozenset(connection_indices(c)) != pair]
+            manual_pairs.add(pair)
+        connections.append(connection(a, b, spec.get("fa"), spec.get("fb"), spec.get("noppen"), spec.get("typ")))
+    if manual_pairs:
+        warnings.append("Explizite Anschlüsse wurden strukturell geprüft; ihre physische Lage ist nicht vollständig verifiziert")
+    loose = unreachable(len(parts), list(map(connection_indices, connections)), chassis_ids, wheel_ids)
+    if loose:
+        raise ValueError(f"Teile ohne Pfad zum Chassis: {loose}. Bauplan/Anschlüsse korrigieren; nichts geschrieben.")
+    g.val(graph, "Parts").elems = parts
+    g.val(graph, "PartTransforms").elems = transforms
+    g.val(graph, "Assemblies").elems = assemblies
+    g.val(graph, "Connections").elems = connections
+    sockets = []
+    for socket in g.val(vehicle, "Sockets").elems:
+        old = struct.unpack("<i", g.val(socket, "BrickIndex"))[0]
+        if old in mapping:
+            socket = copy.deepcopy(socket)
+            set_prop(socket, "BrickIndex", struct.pack("<i", mapping[old])); sockets.append(socket)
+    if "fahrer" in plan:
+        driver = plan["fahrer"]
+        if not isinstance(driver, dict) or set(driver)-{"teil", "pos", "dreh"}:
+            raise ValueError("fahrer: teil, pos und dreh=[Pitch,Yaw,Roll] erwartet")
+        sockets = [s for s in sockets if text_value(s, "SocketName") != "TrafficSeat_DriverSit"]
+        def native(name, kind, values):
+            return g.Prop(name, "StructProperty", struct.pack("<fff", *vector(values)), hdr={"struct": kind, "guid": bytes(16)})
+        sockets.append([g.Prop("SocketName", "NameProperty", g.wstr("TrafficSeat_DriverSit")),
+                        g.Prop("BrickIndex", "IntProperty", struct.pack("<i", resolve(driver.get("teil")))),
+                        native("RelativeLocation", "Vector", driver.get("pos", [0, 0, 0])),
+                        native("RelativeRotation", "Rotator", driver.get("dreh", [0, 0, 0])),
+                        native("RelativeScale", "Vector", [1, 1, 1])])
+    g.val(vehicle, "Sockets").elems = sockets
+    triggers = read_triggers(vehicle)
+    flairs = [a for a in old_assemblies if is_flair(a)]
+    if len(flairs) != len(triggers):
+        raise ValueError("Vorlage: Flair-Anzahl stimmt nicht mit FlairTriggers überein")
+    selected = [t for a, t in zip(flairs, triggers) if a in modules]
+    set_prop(vehicle, "FlairTriggers", struct.pack("<i", len(selected))+b"".join(g.wstr(t) for t in selected))
+    removed = [text_value(a, "AssemblyAsset") for a in old_assemblies if a not in chassis+wheels+modules]
+    if removed:
+        warnings.append("Entfernte Baugruppen: " + ", ".join(removed))
+    own_id = next((g.val(v, "ImmediateCreatorId") for v in vehicles if g.val(v, "ImmediateCreatorId") != g.wstr("")), None)
+    if own_id is None:
+        raise ValueError("Keine eigene Spielerkennung im Quellspielstand gefunden")
+    for name in ("OriginalCreatorId", "ImmediateCreatorId"):
+        set_prop(vehicle, name, own_id)
+    for name in ("OriginalParentGuid", "ImmediateParentGuid"):
+        set_prop(vehicle, name, bytes(16))
+    set_prop(vehicle, "ParentType", g.wstr("ECustomVehicleParentType::Created"))
+    set_prop(vehicle, "VehicleName", g.wstr(plan["name"]))
+    set_prop(vehicle, "Guid", g.val(vehicles[slot], "Guid") if slot_hits else uuid.uuid4().bytes)
+    set_prop(vehicle, "VersionId", struct.pack("<I", 1))
+    set_prop(vehicle, "LastEdited", struct.pack("<q", int((time.time()+62135596800)*10_000_000)))
     for name in ("StudOccluders", "StudOffsets"):
-        set_prop(pg, name, struct.pack("<i", 0))
-    set_prop(pg, "StudOcclusionHash", struct.pack("<I", 0))
+        set_prop(graph, name, struct.pack("<i", 0))
+    set_prop(graph, "StudOcclusionHash", struct.pack("<I", 0))
+    vehicles[slot] = vehicle
+    warnings.append("GarageSaveDataMap bleibt unverändert; Auswirkungen auf Garagen-Metadaten sind im Spiel noch zu prüfen")
+    report = {"name": plan["name"], "slot": slot, "teile": len(parts), "verbindungen": len(connections),
+              "koerperteile": len(body_ids), "baugruppen": len(assemblies), "warnungen": warnings,
+              "referenzen": refs, "lose_teile": [],
+              "geometrie_unbekannt": sorted({p["design"] for i, p in enumerate(geo_parts)
+                                             if i not in wheel_ids and (p["design"] not in GEOM
+                                                 or GEOM[p["design"]].get("maske_unbekannt"))})}
+    return save, report
 
-    # gleichnamiges Fahrzeug ersetzen (Guid behalten), sonst freien Platz nehmen
-    name_raw = g.wstr(plan["name"])
-    slot = next((i for i, v in enumerate(vehicles.elems) if g.val(v, "VehicleName") == name_raw), None)
-    if slot is not None:
-        set_prop(veh, "Guid", g.val(vehicles.elems[slot], "Guid"))
-    else:
-        slot = next(i for i, v in enumerate(vehicles.elems) if g.val(v, "VehicleName") == b"\0\0\0\0")
-    vehicles.elems[slot] = veh
-    f.save(dst)
 
-    # Bericht
-    body_ids = set(range(n_ch, n_ch + len(body)))
-    linked = {x for a, b, *_ in new_conns for x in (a, b)}
-    print(f"Platz {slot}: {plan['name']} – {len(new_parts)} Teile, {len(kept)} Verbindungen")
-    for i in sorted(body_ids - linked):
-        print("  WARNUNG: Teil ohne Verbindung:", i, body[i - n_ch])
-    for a, b, fa, fb, n in new_conns:
-        print(f"  {a:3d} ({geo_parts[a]['design']}) F{fa} -> {b:3d} ({geo_parts[b]['design']}) F{fb}  Noppen {n}")
+def main(src, dst, plan_path, pruefen=False, bericht=None):
+    with open(plan_path, encoding="utf-8") as stream:
+        plan = json.load(stream)
+    save, report = build_vehicle(src, plan)
+    # Serialisierung auch im Prüfmodus erneut einlesen, ohne eine SAV zu schreiben.
+    raw = save.dump()
+    if g.SaveFile.from_bytes(raw).dump() != raw:
+        raise ValueError("Serialisierungsprüfung fehlgeschlagen")
+    if not pruefen:
+        save.save(dst)
+    if bericht:
+        Path(bericht).write_text(json.dumps(report, ensure_ascii=False, indent=2)+"\n", encoding="utf-8")
+    print(f"{'Geprüft' if pruefen else 'Geschrieben'}: {report['name']} – Platz {report['slot']}, "
+          f"{report['teile']} Teile, {report['verbindungen']} Verbindungen")
+    for warning in report["warnungen"]:
+        print("HINWEIS:", warning)
+    return report
 
 
 if __name__ == "__main__":
-    main(*sys.argv[1:4])
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("quelle"); parser.add_argument("ziel"); parser.add_argument("bauplan")
+    parser.add_argument("--pruefen", action="store_true", help="Nur im Speicher bauen und prüfen")
+    parser.add_argument("--bericht", help="Bereinigten JSON-Prüfbericht schreiben")
+    args = parser.parse_args()
+    try:
+        main(args.quelle, args.ziel, args.bauplan, args.pruefen, args.bericht)
+    except (ValueError, KeyError, StopIteration, EOFError, OSError) as error:
+        parser.exit(2, f"FEHLER: {error}\n")

@@ -1,0 +1,7 @@
+{
+  "offline_tests": 20,
+  "real_save_copy_integration": true,
+  "integration_parts": 14,
+  "integration_connections": 7,
+  "live_save_unchanged": true
+}

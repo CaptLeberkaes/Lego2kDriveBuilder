@@ -18,18 +18,23 @@ import struct
 import sys
 
 import gvas_rw as g
+from baue_fahrzeug import connection, integer, text_value
+from baugeometrie import vector, quaternion
 
 
 def main(src, dst, plan_path):
     plan = json.load(open(plan_path, encoding="utf-8"))
     f = g.SaveFile(src)
     data = g.val(f.props, "Data")
-    targets = [v for v in g.val(data, "CustomVehicles").elems
-               if g.val(v, "VehicleName") == g.wstr(plan["fahrzeug"])]
-    assert len(targets) == 1, f"Fahrzeug {plan['fahrzeug']} {len(targets)}x gefunden"
+    vehicles = g.val(data, "CustomVehicles").elems
+    slots = [i for i, v in enumerate(vehicles) if text_value(v, "VehicleName") == plan["fahrzeug"]]
+    if len(slots) != 1:
+        raise ValueError(f"Fahrzeug {plan['fahrzeug']} {len(slots)}x gefunden")
+    targets = [vehicles[slots[0]]]
     if any(p.name == "AncillaryCustomVehicle" for p in data):
         anc = g.val(data, "AncillaryCustomVehicle")
-        if g.val(anc, "VehicleName") == g.wstr(plan["fahrzeug"]):
+        ancillary_slot = struct.unpack("<i", g.val(data, "AncillaryCustomSlot"))[0]
+        if ancillary_slot == slots[0]:
             print("Garagen-Arbeitskopie gefunden, wird mitgetauscht")
             targets.append(anc)
     for veh in targets:
@@ -44,25 +49,45 @@ def swap(veh, plan):
 
     def index_of(design):
         if isinstance(design, str) and design.startswith("#"):
-            return int(design[1:])  # direkte Teilenummer im Fahrzeug, z.B. "#4"
+            return integer(int(design[1:]), len(ids)-1, "Teileindex")
         hits = [i for i, d in enumerate(ids) if d == design]
-        assert len(hits) == 1, f"Teil {design} kommt {len(hits)}x vor"
+        if len(hits) != 1:
+            raise ValueError(f"Teil {design} kommt {len(hits)}x vor")
         return hits[0]
 
-    where = {t["von"]: index_of(t["von"]) for t in plan["teile"]}
+    where = {}
+    for t in plan["teile"]:
+        i = index_of(t["von"])
+        if i in where.values():
+            raise ValueError(f"Teilindex {i} wird mehrfach getauscht")
+        where[t["von"]] = i
+        integer(t["nach"], 2**32-1, "Neue Teilenummer", 1)
+        if "farbe" in t:
+            integer(t["farbe"], 255, "Farbe")
+        if "pos" in t:
+            vector(t["pos"])
+        if "rot" in t:
+            quaternion(t["rot"])
     for c in plan.get("verbindungen", []):
-        a, b = where.get(c["a"]) or index_of(c["a"]), where.get(c["b"]) or index_of(c["b"])
+        a = where[c["a"]] if c["a"] in where else index_of(c["a"])
+        b = where[c["b"]] if c["b"] in where else index_of(c["b"])
+        if a == b:
+            raise ValueError("Eine Verbindung benötigt zwei verschiedene Teile")
+        validated = connection(a, b, c["fa"], c["fb"], c["noppen"], c.get("typ"))
+        found = False
         for con in g.val(pg, "Connections").elems:
             pa = struct.unpack("<H", g.val(con, "PartIndexA"))[0]
             pb = struct.unpack("<H", g.val(con, "PartIndexB"))[0]
             if {pa, pb} == {a, b}:
+                found = True
                 fa, fb = (c["fa"], c["fb"]) if pa == a else (c["fb"], c["fa"])
                 g.get(con, "FieldIndexA").value = bytes([fa])
                 g.get(con, "FieldIndexB").value = bytes([fb])
                 g.get(con, "Strength").value = bytes([c["noppen"]])
-                typ = "ELegoConnectResult::" + ("HingeConnection" if c["noppen"] == 1 else "FixedConnection")
-                g.get(con, "Type").value = g.wstr(typ)
+                g.get(con, "Type").value = g.val(validated, "Type")
                 print(f"Verbindung {pa}-{pb}: Felder {fa}/{fb}, {c['noppen']} Noppen")
+        if not found:
+            raise ValueError(f"Verbindung {a}-{b} existiert nicht; nichts geschrieben")
     for t in plan["teile"]:
         i = where[t["von"]]
         b = bytearray(parts[i])
@@ -71,9 +96,9 @@ def swap(veh, plan):
             b[4] = t["farbe"]
         parts[i] = bytes(b)
         if "pos" in t:
-            g.get(tfs[i], "Translation").value = struct.pack("<fff", *t["pos"])
+            g.get(tfs[i], "Translation").value = struct.pack("<fff", *vector(t["pos"]))
         if "rot" in t:
-            g.get(tfs[i], "Rotation").value = struct.pack("<ffff", *t["rot"])
+            g.get(tfs[i], "Rotation").value = struct.pack("<ffff", *quaternion(t["rot"]))
         print(f"Teil {i}: {t['von']} -> {t['nach']}")
 
 

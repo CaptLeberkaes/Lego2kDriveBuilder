@@ -1,0 +1,341 @@
+{
+  "menu_name": "Alte Schule",
+  "chassis_config": "/Game/Game/Vehicle/Inventory/CarChassisConfigs/ChassisConfig_FireEngine_10263_Garage.ChassisConfig_FireEngine_10263_Garage",
+  "parts": [
+    {
+      "index": 0,
+      "design": 2445,
+      "color": 1,
+      "flags": 2,
+      "transform": {
+        "Rotation": [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        "Translation": [
+          137.5,
+          -12.49998664855957,
+          0.0
+        ],
+        "Scale3D": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "index": 1,
+      "design": 30157,
+      "color": 1,
+      "flags": 2,
+      "transform": {
+        "Rotation": [
+          0.0,
+          0.0,
+          0.7071067690849304,
+          0.7071067690849304
+        ],
+        "Translation": [
+          112.50003051757812,
+          -37.49996566772461,
+          10.000009536743164
+        ],
+        "Scale3D": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "index": 2,
+      "design": 30157,
+      "color": 1,
+      "flags": 2,
+      "transform": {
+        "Rotation": [
+          0.0,
+          0.0,
+          0.7071067690849304,
+          0.7071067690849304
+        ],
+        "Translation": [
+          -137.50009155273438,
+          -37.49998474121094,
+          10.000009536743164
+        ],
+        "Scale3D": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "index": 3,
+      "design": 56902,
+      "color": 49,
+      "flags": 2,
+      "transform": {
+        "Rotation": [
+          0.0,
+          0.0,
+          0.9999998807907104,
+          -1.1920928955078125e-07
+        ],
+        "Translation": [
+          125.00008392333984,
+          -87.49995422363281,
+          8.12501049041748
+        ],
+        "Scale3D": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "index": 4,
+      "design": 61254,
+      "color": 255,
+      "flags": 2,
+      "transform": {
+        "Rotation": [
+          0.0,
+          0.0,
+          -1.1920928955078125e-07,
+          -0.9999998807907104
+        ],
+        "Translation": [
+          125.00007629394531,
+          -51.72675323486328,
+          8.12501049041748
+        ],
+        "Scale3D": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "index": 5,
+      "design": 56902,
+      "color": 49,
+      "flags": 2,
+      "transform": {
+        "Rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "Translation": [
+          125.00006103515625,
+          87.50004577636719,
+          8.125008583068848
+        ],
+        "Scale3D": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "index": 6,
+      "design": 61254,
+      "color": 255,
+      "flags": 2,
+      "transform": {
+        "Rotation": [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        "Translation": [
+          125.00006103515625,
+          51.726829528808594,
+          8.125008583068848
+        ],
+        "Scale3D": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "index": 7,
+      "design": 56902,
+      "color": 49,
+      "flags": 2,
+      "transform": {
+        "Rotation": [
+          0.0,
+          0.0,
+          0.9999998807907104,
+          -1.1920928955078125e-07
+        ],
+        "Translation": [
+          -125.00005340576172,
+          -87.49995422363281,
+          8.125008583068848
+        ],
+        "Scale3D": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "index": 8,
+      "design": 61254,
+      "color": 255,
+      "flags": 2,
+      "transform": {
+        "Rotation": [
+          0.0,
+          0.0,
+          -1.1920928955078125e-07,
+          -0.9999998807907104
+        ],
+        "Translation": [
+          -125.00006103515625,
+          -51.72675323486328,
+          8.125008583068848
+        ],
+        "Scale3D": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "index": 9,
+      "design": 56902,
+      "color": 49,
+      "flags": 2,
+      "transform": {
+        "Rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "Translation": [
+          -125.00009155273438,
+          87.50001525878906,
+          8.125008583068848
+        ],
+        "Scale3D": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "index": 10,
+      "design": 61254,
+      "color": 255,
+      "flags": 2,
+      "transform": {
+        "Rotation": [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        "Translation": [
+          -125.00009155273438,
+          51.72679901123047,
+          8.125008583068848
+        ],
+        "Scale3D": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    }
+  ],
+  "assemblies": [
+    {
+      "AssemblyAsset": "/Game/LEGO/Chassis/FireEngineChassis_10263.FireEngineChassis_10263",
+      "AssemblyType": "None",
+      "AssemblyName": "None",
+      "PartOffset": 0,
+      "NumParts": 3
+    },
+    {
+      "AssemblyAsset": "/Game/LEGO/Wheel/56902_61254_New.56902_61254_New",
+      "AssemblyType": "Wheel",
+      "AssemblyName": "fl",
+      "PartOffset": 3,
+      "NumParts": 2
+    },
+    {
+      "AssemblyAsset": "/Game/LEGO/Wheel/56902_61254_New.56902_61254_New",
+      "AssemblyType": "Wheel",
+      "AssemblyName": "fr",
+      "PartOffset": 5,
+      "NumParts": 2
+    },
+    {
+      "AssemblyAsset": "/Game/LEGO/Wheel/56902_61254_New.56902_61254_New",
+      "AssemblyType": "Wheel",
+      "AssemblyName": "bl",
+      "PartOffset": 7,
+      "NumParts": 2
+    },
+    {
+      "AssemblyAsset": "/Game/LEGO/Wheel/56902_61254_New.56902_61254_New",
+      "AssemblyType": "Wheel",
+      "AssemblyName": "br",
+      "PartOffset": 9,
+      "NumParts": 2
+    }
+  ],
+  "connections": [
+    {
+      "PartIndexA": 0,
+      "PartIndexB": 1,
+      "FieldIndexA": 1,
+      "FieldIndexB": 3,
+      "Strength": 4,
+      "Type": "ELegoConnectResult::FixedConnection"
+    },
+    {
+      "PartIndexA": 0,
+      "PartIndexB": 2,
+      "FieldIndexA": 1,
+      "FieldIndexB": 3,
+      "Strength": 4,
+      "Type": "ELegoConnectResult::FixedConnection"
+    },
+    {
+      "PartIndexA": 0,
+      "PartIndexB": 1,
+      "FieldIndexA": 1,
+      "FieldIndexB": 3,
+      "Strength": 4,
+      "Type": "ELegoConnectResult::FixedConnection"
+    },
+    {
+      "PartIndexA": 0,
+      "PartIndexB": 2,
+      "FieldIndexA": 1,
+      "FieldIndexB": 3,
+      "Strength": 4,
+      "Type": "ELegoConnectResult::FixedConnection"
+    }
+  ]
+}

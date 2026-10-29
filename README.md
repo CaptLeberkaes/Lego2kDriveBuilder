@@ -3,6 +3,9 @@
 Ziel: echte LEGO-Modelle (nach Fotos) im Spiel nachbauen, indem wir die Fahrzeug-Speicherdatei direkt schreiben.
 Stand: 29.10.2026, erarbeitet mit Claude Code.
 
+Aktueller Builder mit Prüfmodus, 3D-Verbindungen, Chassis-Katalog und Regressionstests:
+[Änderungen und Bedienung](.claude/builder-verbesserungen-2026-10-29.md).
+
 ## Schnellstart ohne Programmieren: 2K Drive Tools
 
 **https://2kdrivetools.github.io/** – fertige Werkzeuge für LEGO-2K-Drive-Spielstände direkt im Browser, nichts zu installieren.
@@ -45,7 +48,8 @@ der Ordner kann überall liegen (die Skripte arbeiten mit relativen Pfaden und `
 - Teile ohne Verbindungseintrag lädt das Spiel, markiert sie aber als **„lose“** und verweigert das Speichern.
   Beim Laden berechnet das Spiel Verbindungen **nicht** neu → man muss sie selbst schreiben.
   **Beim Speichern berechnet das Spiel sie neu** (falsche Noppenzahl, nicht berührende Teile werden korrigiert).
-  Es reicht also, dass beim Laden jedes Teil irgendwie verbunden ist.
+  Der Builder prüft vor dem Schreiben für jedes normale Teil einen Verbindungspfad zum Chassis.
+  Das ersetzt keine vollständige Prüfung der physischen Baubarkeit.
 
 ## Sicherheitsregeln
 
@@ -131,7 +135,8 @@ Byte 5 im Detail (geprüft an 20 Fahrzeugen):
   Weitere Typen (immer `Strength` 1): **CylindricalConnection** = Stange/Pin in rundem Loch (z.B. 4274 Pin + 6126 Flamme,
   3700 Technic-Stein + 24316 Achse), **PrismaticConnection** = Achse in Kreuzloch (3708 + 32064, 65249 + 32123),
   **BallConnection** = Kugelgelenk (14417 + 14418).
-- Verbindungen innerhalb einer Baugruppe (Chassis, Flair) stehen in der Liste **doppelt**.
+- Verbindungen können einmal, doppelt oder dreifach vorkommen, auch innerhalb von Baugruppen.
+  Bestehende Einträge bleiben erhalten; beim Lernen zählen identische Einträge je Fahrzeug nur einmal.
 
 ### Teilenummern
 
@@ -217,13 +222,15 @@ Weitere Indizes kommen in Vorlagen vor (33, 36, 44, 45, 46, 47, 51, 57, 62, 64, 
 ```
 
 - `pos` = Mitte der Ecknoppe (lokal 0,0), z = Unterkante; Teil liegt lokal entlang +x (Länge) und −y (Breite).
-- `dreh` = Drehung um die Hochachse (0/90/180/270).
+- `dreh` = Drehung um die Hochachse in Grad; alternativ `rot` = Quaternion `[x,y,z,w]` für volle 3D-Lagen.
+  Unbekannte Anschlussgeometrie erfordert ausdrücklich vorgegebene Verbindungen; Einzelheiten im aktuellen Builder-Dokument unter `.claude/`.
 - `felgen`: Felgenfarbe je Rad, z.B. `{"fl": 1, "fr": 1}` (fl/fr = vorne, bl/br = hinten).
 - `radtausch`: Rad-Baugruppe aus anderem Fahrzeug übernehmen, z.B. `{"fl": "Bulldozest", "fr": "Bulldozest"}`
   (dort: Räder 13971_61254 = Eisenbahn-artige Felge). Lage wird an die alten Räder angepasst.
 - Chassis PoliceTruck (4×10-Platte 4212, Oberkante z = 50): Noppen in den inneren Reihen (y = ±12,5) überall
   außer Mittelloch (x = −12,5/12,5); äußere Reihen (y = ±37,5) nur bei x = −112,5, −37,5, −12,5, 12,5, 37,5, 112,5.
-- Neue Teilegeometrie in `GEOM` (baue_fahrzeug.py) eintragen: Länge, Breite, Höhe, Anschlusspunkte unten/oben.
+- Neue Teilegeometrie in `GEOM` (`werkzeuge/baugeometrie.py`) eintragen: Länge, Breite, Höhe, belegte Anschlusspunkte unten/oben.
+  Unbekannte Masken nicht aus der gesamten Fläche eines Nachbarteils ableiten; siehe den Geometrie-Lerner und die Belege unter `.claude/`.
 
 ### Kotflügel 98282
 
@@ -303,3 +310,7 @@ Ausgewertet mit `zeige_fahrzeug.py`-ähnlichen Listen (Teil, Farbe, Lage, Verbin
    den alten Stand zurückschrieb.
 8. 4 weitere Creators-Hub-Modelle (u.a. „the cooker“, „Explorateur nocturne“) ausgewertet → ~360 Teile,
    Bedeutung von Oberflächen-Bit 2/4, Reihenfolge der Flair-Auslöser, neue Verbindungstypen. ✅
+9. **„Shuttle Rover“** (`baupläne/raketen_shuttle.json`, 134 Karosserieteile): orange Außentank, weiße Booster,
+   Space Shuttle oben drauf, leuchtende Flammen, 17 Noppen lang → Spiel lädt ohne Fehler. ✅
+   Erstmals verwendet: Schrägen 3040 (Noppe am Ursprung, Schräge nach lokal +y; `dreh` 270 = nach vorn),
+   2445, 3031, 3460, 3062, 88930 als runde Oberkante; Teile unter Platten hängend (Düsen, Flammen).

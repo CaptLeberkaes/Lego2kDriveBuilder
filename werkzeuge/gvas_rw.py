@@ -5,7 +5,12 @@ bytes (native structs). Arrays of structs keep their element list; everything
 we never edit (maps, sets, simple arrays) stays as raw payload bytes.
 load() + dump() reproduce the original file byte for byte.
 """
+import os
+from pathlib import Path
 import struct
+import tempfile
+import time
+import uuid
 
 NATIVE = {"Vector", "Vector2D", "Rotator", "Quat", "LinearColor", "Color",
           "IntPoint", "Guid", "DateTime", "Timespan", "Box", "Box2D"}
@@ -56,7 +61,8 @@ def wstr(s):
     if s == "":
         return struct.pack("<i", 0)
     try:
-        b = s.encode("latin-1") + b"\0"
+        # Nicht-ASCII immer als UTF-16 schreiben: eindeutig für UE und beide Leser.
+        b = s.encode("ascii") + b"\0"
         return struct.pack("<i", len(b)) + b
     except UnicodeEncodeError:
         b = s.encode("utf-16-le") + b"\0\0"
@@ -183,7 +189,21 @@ def encode(p):
 
 class SaveFile:
     def __init__(self, path):
-        data = open(path, "rb").read()
+        self.source_path = Path(path).resolve()
+        data = self.source_path.read_bytes()
+        self._read(data)
+
+    @classmethod
+    def from_bytes(cls, data):
+        result = cls.__new__(cls)
+        result.source_path = None
+        result._read(data)
+        return result
+
+    def _read(self, data):
+        if not data.startswith(b"GVAS"):
+            raise ValueError("Keine GVAS-Speicherdatei")
+        self.source_bytes = data
         r = R(data)
         r.take(4 + 4 + 4 + 6 + 4)
         r.fstr()
@@ -199,7 +219,41 @@ class SaveFile:
         return self.header + write_props(self.props) + self.tail
 
     def save(self, path):
-        open(path, "wb").write(self.dump())
+        """Erneut prüfen, vorhandenes Ziel sichern, dann atomar ersetzen.
+
+        Bei zwischenzeitlichen Zieländerungen abbrechen. Die Quelle wird nur
+        ersetzt, wenn ihr Inhalt noch dem eingelesenen Snapshot entspricht.
+        """
+        destination = Path(path).resolve()
+        payload = self.dump()
+        if self.from_bytes(payload).dump() != payload:
+            raise ValueError("GVAS-Rückleseprüfung fehlgeschlagen")
+        previous = destination.read_bytes() if destination.exists() else None
+        if destination == self.source_path and previous != self.source_bytes:
+            raise ValueError("Spielstand wurde seit dem Einlesen verändert; erneut einlesen")
+        self.last_backup = None
+        if previous is not None:
+            backup_dir = (Path(__file__).resolve().parent.parent / "_sicherungen" /
+                          (time.strftime("geschrieben_%Y-%m-%d_%H-%M-%S") + "_" + uuid.uuid4().hex[:8]))
+            backup_dir.mkdir(parents=True)
+            self.last_backup = backup_dir / destination.name
+            self.last_backup.write_bytes(previous)
+        temp_path = None
+        try:
+            with tempfile.NamedTemporaryFile(dir=destination.parent, prefix="."+destination.name+".", suffix=".tmp", delete=False) as stream:
+                temp_path = Path(stream.name)
+                stream.write(payload)
+                stream.flush()
+                os.fsync(stream.fileno())
+            current = destination.read_bytes() if destination.exists() else None
+            if current != previous:
+                raise ValueError("Zieldatei wurde während der Vorbereitung verändert; nichts ersetzt")
+            os.replace(temp_path, destination)
+            if destination == self.source_path:
+                self.source_bytes = payload
+        finally:
+            if temp_path is not None and temp_path.exists():
+                temp_path.unlink()
 
 
 def get(props, name):

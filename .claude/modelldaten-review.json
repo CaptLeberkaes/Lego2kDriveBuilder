@@ -1,0 +1,257 @@
+{
+  "date": "2026-10-29",
+  "sources": [
+    {
+      "file": "ArtemisDownloadedVehicle.sav",
+      "sha256": "24d4c101c29d18285ec072683a419291c2822a1b73fe3e9d04b04aeaea788c14",
+      "bytes": 3036732
+    },
+    {
+      "file": "ArtemisVehicle.sav",
+      "sha256": "5975636f5cb8504a4362bef0d9203260407755e22da12a0bf1db1acb07b0d6b4",
+      "bytes": 655047
+    }
+  ],
+  "scope": "Observed configurations only; internal names are not a verified complete Body Shop menu catalogue. Shuttle excluded.",
+  "roundtrip_byte_exact": {
+    "ArtemisDownloadedVehicle.sav": true,
+    "ArtemisVehicle.sav": true
+  },
+  "tool_sha256": {
+    "werkzeuge\\baue_fahrzeug.py": "a7fef20c1f4d3f1f405f4e252549f85e290e95fb1ed2071f8f5fa017aeeeabf8",
+    "werkzeuge\\geometrie.py": "bed49d1786941ac24bee4c03c111b6fa5ed3ea9af63b70d97bdb67e722b306a2",
+    "werkzeuge\\anschluesse.py": "dccd9ccea461525273281020232d886318f263548e88f1288ccf40f8b0689ea6",
+    "werkzeuge\\gvas_rw.py": "cb2687b8e0f8130488affc471a41954be90d5e98e7c99acbb3ad0201f564367a"
+  },
+  "downloaded_summary": {
+    "models": 16,
+    "parts": 3507,
+    "distinct_designs": 375,
+    "GEOM_entries": 32,
+    "design_instances_with_GEOM": 980,
+    "distinct_designs_with_GEOM": 32,
+    "parts_with_nonzero_quaternion_x_or_y": 1263,
+    "connection_types": {
+      "FixedConnection": 1962,
+      "CylindricalConnection": 357,
+      "HingeConnection": 2719,
+      "PrismaticConnection": 170,
+      "BallConnection": 3
+    },
+    "canonical_record_multiplicity_histogram": {
+      "2": 297,
+      "3": 281,
+      "1": 3774
+    }
+  },
+  "models": [
+    {
+      "name": "Anakins Podracer Mk1",
+      "slot": 0,
+      "parts": 254,
+      "connections": 513,
+      "chassis_parts": 8,
+      "chassis_parts_with_GEOM": 4,
+      "first_non_hinge_type": "FixedConnection",
+      "non_wheel_parts_without_chassis_path": [],
+      "wheel_parts_without_chassis_path": 8,
+      "sockets": 1,
+      "flair_triggers": 0
+    },
+    {
+      "name": "Bulldozest",
+      "slot": 1,
+      "parts": 350,
+      "connections": 460,
+      "chassis_parts": 8,
+      "chassis_parts_with_GEOM": 1,
+      "first_non_hinge_type": "FixedConnection",
+      "non_wheel_parts_without_chassis_path": [],
+      "wheel_parts_without_chassis_path": 8,
+      "sockets": 1,
+      "flair_triggers": 0
+    },
+    {
+      "name": "Modern Racer",
+      "slot": 2,
+      "parts": 236,
+      "connections": 298,
+      "chassis_parts": 8,
+      "chassis_parts_with_GEOM": 1,
+      "first_non_hinge_type": "FixedConnection",
+      "non_wheel_parts_without_chassis_path": [],
+      "wheel_parts_without_chassis_path": 8,
+      "sockets": 1,
+      "flair_triggers": 0
+    },
+    {
+      "name": "Model G022",
+      "slot": 3,
+      "parts": 194,
+      "connections": 221,
+      "chassis_parts": 8,
+      "chassis_parts_with_GEOM": 1,
+      "first_non_hinge_type": "FixedConnection",
+      "non_wheel_parts_without_chassis_path": [],
+      "wheel_parts_without_chassis_path": 8,
+      "sockets": 1,
+      "flair_triggers": 2
+    },
+    {
+      "name": "New Vehicle 49",
+      "slot": 4,
+      "parts": 96,
+      "connections": 123,
+      "chassis_parts": 12,
+      "chassis_parts_with_GEOM": 5,
+      "first_non_hinge_type": "FixedConnection",
+      "non_wheel_parts_without_chassis_path": [],
+      "wheel_parts_without_chassis_path": 8,
+      "sockets": 1,
+      "flair_triggers": 0
+    },
+    {
+      "name": "Octan Space Racer",
+      "slot": 5,
+      "parts": 226,
+      "connections": 454,
+      "chassis_parts": 41,
+      "chassis_parts_with_GEOM": 8,
+      "first_non_hinge_type": "FixedConnection",
+      "non_wheel_parts_without_chassis_path": [],
+      "wheel_parts_without_chassis_path": 8,
+      "sockets": 1,
+      "flair_triggers": 2
+    },
+    {
+      "name": "Helicopter",
+      "slot": 6,
+      "parts": 108,
+      "connections": 169,
+      "chassis_parts": 3,
+      "chassis_parts_with_GEOM": 2,
+      "first_non_hinge_type": "FixedConnection",
+      "non_wheel_parts_without_chassis_path": [],
+      "wheel_parts_without_chassis_path": 8,
+      "sockets": 1,
+      "flair_triggers": 6
+    },
+    {
+      "name": "4.U.Bentherehkdtht7",
+      "slot": 7,
+      "parts": 201,
+      "connections": 242,
+      "chassis_parts": 8,
+      "chassis_parts_with_GEOM": 1,
+      "first_non_hinge_type": "FixedConnection",
+      "non_wheel_parts_without_chassis_path": [],
+      "wheel_parts_without_chassis_path": 8,
+      "sockets": 1,
+      "flair_triggers": 0
+    },
+    {
+      "name": "For JokerMessiah",
+      "slot": 8,
+      "parts": 313,
+      "connections": 466,
+      "chassis_parts": 38,
+      "chassis_parts_with_GEOM": 25,
+      "first_non_hinge_type": "FixedConnection",
+      "non_wheel_parts_without_chassis_path": [],
+      "wheel_parts_without_chassis_path": 0,
+      "sockets": 0,
+      "flair_triggers": 0
+    },
+    {
+      "name": "ASCOTT BAILER 2.0",
+      "slot": 9,
+      "parts": 232,
+      "connections": 298,
+      "chassis_parts": 8,
+      "chassis_parts_with_GEOM": 1,
+      "first_non_hinge_type": "FixedConnection",
+      "non_wheel_parts_without_chassis_path": [],
+      "wheel_parts_without_chassis_path": 8,
+      "sockets": 1,
+      "flair_triggers": 0
+    },
+    {
+      "name": "Brute Chopper",
+      "slot": 10,
+      "parts": 222,
+      "connections": 267,
+      "chassis_parts": 8,
+      "chassis_parts_with_GEOM": 4,
+      "first_non_hinge_type": "FixedConnection",
+      "non_wheel_parts_without_chassis_path": [],
+      "wheel_parts_without_chassis_path": 8,
+      "sockets": 1,
+      "flair_triggers": 0
+    },
+    {
+      "name": "Bat Boat",
+      "slot": 11,
+      "parts": 148,
+      "connections": 239,
+      "chassis_parts": 4,
+      "chassis_parts_with_GEOM": 0,
+      "first_non_hinge_type": "FixedConnection",
+      "non_wheel_parts_without_chassis_path": [],
+      "wheel_parts_without_chassis_path": 0,
+      "sockets": 1,
+      "flair_triggers": 1
+    },
+    {
+      "name": "Minigame bots farm",
+      "slot": 12,
+      "parts": 350,
+      "connections": 526,
+      "chassis_parts": 40,
+      "chassis_parts_with_GEOM": 6,
+      "first_non_hinge_type": "FixedConnection",
+      "non_wheel_parts_without_chassis_path": [],
+      "wheel_parts_without_chassis_path": 8,
+      "sockets": 1,
+      "flair_triggers": 4
+    },
+    {
+      "name": "New Vehicle 29",
+      "slot": 13,
+      "parts": 119,
+      "connections": 212,
+      "chassis_parts": 15,
+      "chassis_parts_with_GEOM": 2,
+      "first_non_hinge_type": "PrismaticConnection",
+      "non_wheel_parts_without_chassis_path": [],
+      "wheel_parts_without_chassis_path": 8,
+      "sockets": 0,
+      "flair_triggers": 3
+    },
+    {
+      "name": "the cooker",
+      "slot": 14,
+      "parts": 252,
+      "connections": 381,
+      "chassis_parts": 44,
+      "chassis_parts_with_GEOM": 7,
+      "first_non_hinge_type": "CylindricalConnection",
+      "non_wheel_parts_without_chassis_path": [],
+      "wheel_parts_without_chassis_path": 16,
+      "sockets": 1,
+      "flair_triggers": 0
+    },
+    {
+      "name": "Explorateur nocturne",
+      "slot": 15,
+      "parts": 206,
+      "connections": 342,
+      "chassis_parts": 9,
+      "chassis_parts_with_GEOM": 3,
+      "first_non_hinge_type": "FixedConnection",
+      "non_wheel_parts_without_chassis_path": [],
+      "wheel_parts_without_chassis_path": 0,
+      "sockets": 1,
+      "flair_triggers": 9
+    }
+  ]
+}

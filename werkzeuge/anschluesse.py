@@ -10,6 +10,8 @@ import struct
 import sys
 
 import gvas
+from geometrie import canonical
+from baugeometrie import GEOM
 
 
 def vehicles(path):
@@ -24,6 +26,16 @@ def z_axis(q):
     """Lokale Hochachse eines Teils nach Rotation (Quaternion x, y, z, w)."""
     x, y, z, w = q
     return (2 * (x * z + w * y), 2 * (y * z - w * x), 1 - 2 * (x * x + y * y))
+
+
+def field_role(design, field):
+    """Lokale Anschlussseite; Welt-z allein beweist bei Seitennoppen keine Rolle."""
+    geo = GEOM.get(design, {})
+    if field == geo.get("oben"):
+        return "unten"  # Lokale Oberseite trägt ein anderes Teil.
+    if field == geo.get("unten"):
+        return "oben"   # Lokale Unterseite sitzt auf einem anderen Teil.
+    return "seitlich/gedreht"  # Historischer Schlüssel, schließt unbekannte Felder ein.
 
 
 def main(paths, out=None, md=None):
@@ -42,17 +54,15 @@ def main(paths, out=None, md=None):
             design = [struct.unpack("<I", b[:4])[0] for b in parts]
             for b in parts:
                 colors[(b[4], b[5])] += 1
+            seen = set()
             for c in pg["Connections"]["items"]:
+                signature = canonical(c)
+                if signature in seen:
+                    continue  # Doppelte/dreifache Einträge sind kein unabhängiger Beleg.
+                seen.add(signature)
                 a, b = c["PartIndexA"], c["PartIndexB"]
-                za, zb = tfs[a]["Translation"][2], tfs[b]["Translation"][2]
-                upa = z_axis(tfs[a]["Rotation"])[2] > 0.9
-                upb = z_axis(tfs[b]["Rotation"])[2] > 0.9
-                if abs(za - zb) < 0.5 or not (upa and upb):
-                    ra = rb = "seitlich/gedreht"
-                elif zb > za:
-                    ra, rb = "unten", "oben"
-                else:
-                    ra, rb = "oben", "unten"
+                ra = field_role(design[a], c["FieldIndexA"])
+                rb = field_role(design[b], c["FieldIndexB"])
                 stats[design[a]][(c["FieldIndexA"], ra)] += 1
                 stats[design[b]][(c["FieldIndexB"], rb)] += 1
     result = {}
@@ -75,10 +85,12 @@ def fields(entry, role):
 
 def write_md(path, result, chassis, assemblies, colors):
     lines = ["# Anschlusspunkte je Teil (FieldIndex)", "",
-             "Aus Creators-Hub-Modellen ermittelt (anschluesse.py). Haeufigster Wert zuerst.", "",
+             "Aus Creators-Hub-Modellen ermittelt (anschluesse.py). Haeufigster Wert zuerst.",
+             "Identische Verbindungen werden je Fahrzeug nur einmal gezählt. Lokale Ober-/Unterseiten stammen aus GEOM, nicht aus einem Welt-z-Vergleich.", "",
              "- **Unterseite**: Feld, mit dem das Teil auf etwas sitzt",
              "- **Noppen oben**: Feld, das ein Teil darueber traegt",
-             "- **seitlich/gedreht**: Verbindungen gedrehter Teile oder Seitennoppen (nicht eindeutig zuzuordnen)", "",
+             "- **seitlich/gedreht**: Seitennoppen oder Felder unbekannter Geometrie; eine bloße Drehung macht eine lokale Unterseite nicht zur Seitennoppe",
+             "- Zum Ermitteln neuer Felder und Masken geometrie.py verwenden; diese Tabelle zählt Beobachtungen bekannter bzw. noch nicht zugeordneter Felder.", "",
              "| Teil | Unterseite | Noppen oben | seitlich/gedreht |", "|---|---|---|---|"]
     for d, e in result.items():
         lines.append(f"| {d} | {fields(e, 'oben')} | {fields(e, 'unten')} | {fields(e, 'seitlich/gedreht')} |")

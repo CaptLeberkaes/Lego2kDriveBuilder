@@ -1,0 +1,2143 @@
+{
+  "date": "2026-10-29",
+  "sources": [
+    {
+      "file": "ArtemisDownloadedVehicle.sav",
+      "sha256": "24d4c101c29d18285ec072683a419291c2822a1b73fe3e9d04b04aeaea788c14",
+      "bytes": 3036732
+    },
+    {
+      "file": "ArtemisVehicle.sav",
+      "sha256": "5975636f5cb8504a4362bef0d9203260407755e22da12a0bf1db1acb07b0d6b4",
+      "bytes": 655047
+    }
+  ],
+  "scope": "Observed configurations only; internal names are not a verified complete Body Shop menu catalogue. Shuttle excluded.",
+  "configurations": [
+    {
+      "chassis_config": "/Game/Game/Vehicle/Inventory/CarChassisConfigs/ChassisConfig_PoliceTruck_7032_Garage.ChassisConfig_PoliceTruck_7032_Garage",
+      "vehicle_class": "EVehicleClass::CAR",
+      "menu_name": "Eileen",
+      "menu_name_status": "confirmed_by_user_saved_baseline",
+      "observations": [
+        {
+          "save_file": "ArtemisDownloadedVehicle.sav",
+          "slot": 0,
+          "model_name": "Anakins Podracer Mk1",
+          "chassis_assemblies": [
+            "/Game/LEGO/Chassis/OffroadEileen_VC000.OffroadEileen_VC000"
+          ],
+          "chassis_part_count": 8,
+          "chassis_design_counts": {
+            "6157": 2,
+            "3004": 2,
+            "3020": 1,
+            "3660": 2,
+            "4212": 1
+          },
+          "chassis_parts_with_GEOM": 4,
+          "chassis_designs_without_GEOM": [
+            3660,
+            6157
+          ],
+          "wheels": [
+            {
+              "name": "fl",
+              "asset": "/Game/LEGO/Wheel/6014_6015.6014_6015",
+              "part_count": 2
+            },
+            {
+              "name": "fr",
+              "asset": "/Game/LEGO/Wheel/6014_6015.6014_6015",
+              "part_count": 2
+            },
+            {
+              "name": "bl",
+              "asset": "/Game/LEGO/Wheel/6014_6015.6014_6015",
+              "part_count": 2
+            },
+            {
+              "name": "br",
+              "asset": "/Game/LEGO/Wheel/6014_6015.6014_6015",
+              "part_count": 2
+            }
+          ]
+        },
+        {
+          "save_file": "ArtemisDownloadedVehicle.sav",
+          "slot": 10,
+          "model_name": "Brute Chopper",
+          "chassis_assemblies": [
+            "/Game/LEGO/Chassis/OffroadEileen_VC000.OffroadEileen_VC000"
+          ],
+          "chassis_part_count": 8,
+          "chassis_design_counts": {
+            "6157": 2,
+            "3004": 2,
+            "3020": 1,
+            "3660": 2,
+            "4212": 1
+          },
+          "chassis_parts_with_GEOM": 4,
+          "chassis_designs_without_GEOM": [
+            3660,
+            6157
+          ],
+          "wheels": [
+            {
+              "name": "fl",
+              "asset": "/Game/LEGO/Wheel/6014_6015.6014_6015",
+              "part_count": 2
+            },
+            {
+              "name": "fr",
+              "asset": "/Game/LEGO/Wheel/6014_6015.6014_6015",
+              "part_count": 2
+            },
+            {
+              "name": "bl",
+              "asset": "/Game/LEGO/Wheel/6014_6015.6014_6015",
+              "part_count": 2
+            },
+            {
+              "name": "br",
+              "asset": "/Game/LEGO/Wheel/6014_6015.6014_6015",
+              "part_count": 2
+            }
+          ]
+        },
+        {
+          "save_file": "ArtemisVehicle.sav",
+          "slot": 2,
+          "model_name": "test2",
+          "chassis_assemblies": [
+            "/Game/LEGO/Chassis/OffroadEileen_VC000.OffroadEileen_VC000"
+          ],
+          "chassis_part_count": 8,
+          "chassis_design_counts": {
+            "6157": 2,
+            "3004": 2,
+            "3020": 1,
+            "3660": 2,
+            "4212": 1
+          },
+          "chassis_parts_with_GEOM": 4,
+          "chassis_designs_without_GEOM": [
+            3660,
+            6157
+          ],
+          "wheels": [
+            {
+              "name": "fl",
+              "asset": "/Game/LEGO/Wheel/13971_61254.13971_61254",
+              "part_count": 2
+            },
+            {
+              "name": "fr",
+              "asset": "/Game/LEGO/Wheel/13971_61254.13971_61254",
+              "part_count": 2
+            },
+            {
+              "name": "bl",
+              "asset": "/Game/LEGO/Wheel/6014_6015.6014_6015",
+              "part_count": 2
+            },
+            {
+              "name": "br",
+              "asset": "/Game/LEGO/Wheel/6014_6015.6014_6015",
+              "part_count": 2
+            }
+          ]
+        },
+        {
+          "save_file": "ArtemisVehicle.sav",
+          "slot": 18,
+          "state": "saved",
+          "source_sha256": "5f4902f62802c64ba87cd0ecc5bb8e99bd0f5f07474db5bdf0f9dbfe3ecb11c8",
+          "model_name": "Neues Fahrzeug 18",
+          "chassis_assemblies": [
+            "/Game/LEGO/Chassis/OffroadEileen_VC000.OffroadEileen_VC000"
+          ],
+          "chassis_part_count": 8,
+          "chassis_design_counts": {
+            "6157": 2,
+            "3004": 2,
+            "3020": 1,
+            "3660": 2,
+            "4212": 1
+          },
+          "chassis_parts_with_GEOM": 4,
+          "chassis_designs_without_GEOM": [
+            3660,
+            6157
+          ],
+          "wheels": [
+            {
+              "name": "fl",
+              "asset": "/Game/LEGO/Wheel/6014_6015.6014_6015",
+              "part_count": 2
+            },
+            {
+              "name": "fr",
+              "asset": "/Game/LEGO/Wheel/6014_6015.6014_6015",
+              "part_count": 2
+            },
+            {
+              "name": "bl",
+              "asset": "/Game/LEGO/Wheel/6014_6015.6014_6015",
+              "part_count": 2
+            },
+            {
+              "name": "br",
+              "asset": "/Game/LEGO/Wheel/6014_6015.6014_6015",
+              "part_count": 2
+            }
+          ]
+        }
+      ],
+      "encyclopedia": {
+        "source": "https://github.com/r0levrai/l2kd-encyclopedia/blob/main/data/chassis_by_id.json",
+        "id": "PoliceTruck_7032_Garage",
+        "english_name": "Eileen",
+        "terrain": "Offroad",
+        "default_engine": "EngineConfig_RangeRover",
+        "stats": null,
+        "status": "external_metadata; geometry comes from local save"
+      }
+    },
+    {
+      "chassis_config": "/Game/Game/Vehicle/Inventory/CarChassisConfigs/ChassisConfig_GarageChampionStreet.ChassisConfig_GarageChampionStreet",
+      "vehicle_class": "EVehicleClass::CAR",
+      "menu_name": "Straßen-Champion",
+      "menu_name_status": "confirmed_by_user_saved_baseline",
+      "observations": [
+        {
+          "save_file": "ArtemisDownloadedVehicle.sav",
+          "slot": 1,
+          "model_name": "Bulldozest",
+          "chassis_assemblies": [
+            "/Game/LEGO/Chassis/GarageChampionStreet_VC000.GarageChampionStreet_VC000"
+          ],
+          "chassis_part_count": 8,
+          "chassis_design_counts": {
+            "65634": 1,
+            "65635": 2,
+            "3020": 1,
+            "6562": 4
+          },
+          "chassis_parts_with_GEOM": 1,
+          "chassis_designs_without_GEOM": [
+            6562,
+            65634,
+            65635
+          ],
+          "wheels": [
+            {
+              "name": "fl",
+              "asset": "/Game/LEGO/Wheel/13971_61254.13971_61254",
+              "part_count": 2
+            },
+            {
+              "name": "fr",
+              "asset": "/Game/LEGO/Wheel/13971_61254.13971_61254",
+              "part_count": 2
+            },
+            {
+              "name": "bl",
+              "asset": "/Game/LEGO/Wheel/13971_61254.13971_61254",
+              "part_count": 2
+            },
+            {
+              "name": "br",
+              "asset": "/Game/LEGO/Wheel/13971_61254.13971_61254",
+              "part_count": 2
+            }
+          ]
+        },
+        {
+          "save_file": "ArtemisDownloadedVehicle.sav",
+          "slot": 2,
+          "model_name": "Modern Racer",
+          "chassis_assemblies": [
+            "/Game/LEGO/Chassis/GarageChampionStreet_VC000.GarageChampionStreet_VC000"
+          ],
+          "chassis_part_count": 8,
+          "chassis_design_counts": {
+            "65634": 1,
+            "65635": 2,
+            "3020": 1,
+            "6562": 4
+          },
+          "chassis_parts_with_GEOM": 1,
+          "chassis_designs_without_GEOM": [
+            6562,
+            65634,
+            65635
+          ],
+          "wheels": [
+            {
+              "name": "fl",
+              "asset": "/Game/LEGO/Wheel/18977_66727_Lunar.18977_66727_Lunar",
+              "part_count": 2
+            },
+            {
+              "name": "fr",
+              "asset": "/Game/LEGO/Wheel/18977_66727_Lunar.18977_66727_Lunar",
+              "part_count": 2
+            },
+            {
+              "name": "bl",
+              "asset": "/Game/LEGO/Wheel/18977_66727_Lunar.18977_66727_Lunar",
+              "part_count": 2
+            },
+            {
+              "name": "br",
+              "asset": "/Game/LEGO/Wheel/18977_66727_Lunar.18977_66727_Lunar",
+              "part_count": 2
+            }
+          ]
+        },
+        {
+          "save_file": "ArtemisDownloadedVehicle.sav",
+          "slot": 3,
+          "model_name": "Model G022",
+          "chassis_assemblies": [
+            "/Game/LEGO/Chassis/GarageChampionStreet_VC000.GarageChampionStreet_VC000"
+          ],
+          "chassis_part_count": 8,
+          "chassis_design_counts": {
+            "65634": 1,
+            "65635": 2,
+            "3020": 1,
+            "6562": 4
+          },
+          "chassis_parts_with_GEOM": 1,
+          "chassis_designs_without_GEOM": [
+            6562,
+            65634,
+            65635
+          ],
+          "wheels": [
+            {
+              "name": "fl",
+              "asset": "/Game/LEGO/Wheel/55981_58090_Reversed.55981_58090_Reversed",
+              "part_count": 2
+            },
+            {
+              "name": "fr",
+              "asset": "/Game/LEGO/Wheel/55981_58090_Reversed.55981_58090_Reversed",
+              "part_count": 2
+            },
+            {
+              "name": "bl",
+              "asset": "/Game/LEGO/Wheel/55981_58090_Reversed.55981_58090_Reversed",
+              "part_count": 2
+            },
+            {
+              "name": "br",
+              "asset": "/Game/LEGO/Wheel/55981_58090_Reversed.55981_58090_Reversed",
+              "part_count": 2
+            }
+          ]
+        },
+        {
+          "save_file": "ArtemisDownloadedVehicle.sav",
+          "slot": 7,
+          "model_name": "4.U.Bentherehkdtht7",
+          "chassis_assemblies": [
+            "/Game/LEGO/Chassis/GarageChampionStreet_VC000.GarageChampionStreet_VC000"
+          ],
+          "chassis_part_count": 8,
+          "chassis_design_counts": {
+            "65634": 1,
+            "65635": 2,
+            "3020": 1,
+            "6562": 4
+          },
+          "chassis_parts_with_GEOM": 1,
+          "chassis_designs_without_GEOM": [
+            6562,
+            65634,
+            65635
+          ],
+          "wheels": [
+            {
+              "name": "fl",
+              "asset": "/Game/LEGO/Wheel/18977_66727_Lunar.18977_66727_Lunar",
+              "part_count": 2
+            },
+            {
+              "name": "fr",
+              "asset": "/Game/LEGO/Wheel/18977_66727_Lunar.18977_66727_Lunar",
+              "part_count": 2
+            },
+            {
+              "name": "bl",
+              "asset": "/Game/LEGO/Wheel/18977_66727_Lunar.18977_66727_Lunar",
+              "part_count": 2
+            },
+            {
+              "name": "br",
+              "asset": "/Game/LEGO/Wheel/18977_66727_Lunar.18977_66727_Lunar",
+              "part_count": 2
+            }
+          ]
+        },
+        {
+          "save_file": "ArtemisDownloadedVehicle.sav",
+          "slot": 9,
+          "model_name": "ASCOTT BAILER 2.0",
+          "chassis_assemblies": [
+            "/Game/LEGO/Chassis/GarageChampionStreet_VC000.GarageChampionStreet_VC000"
+          ],
+          "chassis_part_count": 8,
+          "chassis_design_counts": {
+            "65634": 1,
+            "65635": 2,
+            "3020": 1,
+            "6562": 4
+          },
+          "chassis_parts_with_GEOM": 1,
+          "chassis_designs_without_GEOM": [
+            6562,
+            65634,
+            65635
+          ],
+          "wheels": [
+            {
+              "name": "fl",
+              "asset": "/Game/LEGO/Wheel/McLarenSolusGT_StreetWheelFront_76918.McLarenSolusGT_StreetWheelFront_76918",
+              "part_count": 2
+            },
+            {
+              "name": "fr",
+              "asset": "/Game/LEGO/Wheel/McLarenSolusGT_StreetWheelFront_76918.McLarenSolusGT_StreetWheelFront_76918",
+              "part_count": 2
+            },
+            {
+              "name": "bl",
+              "asset": "/Game/LEGO/Wheel/McLarenSolusGT_StreetWheelFront_76918.McLarenSolusGT_StreetWheelFront_76918",
+              "part_count": 2
+            },
+            {
+              "name": "br",
+              "asset": "/Game/LEGO/Wheel/McLarenSolusGT_StreetWheelFront_76918.McLarenSolusGT_StreetWheelFront_76918",
+              "part_count": 2
+            }
+          ]
+        },
+        {
+          "save_file": "ArtemisVehicle.sav",
+          "slot": 0,
+          "model_name": "Bulldozest",
+          "chassis_assemblies": [
+            "/Game/LEGO/Chassis/GarageChampionStreet_VC000.GarageChampionStreet_VC000"
+          ],
+          "chassis_part_count": 8,
+          "chassis_design_counts": {
+            "65634": 1,
+            "65635": 2,
+            "3020": 1,
+            "6562": 4
+          },
+          "chassis_parts_with_GEOM": 1,
+          "chassis_designs_without_GEOM": [
+            6562,
+            65634,
+            65635
+          ],
+          "wheels": [
+            {
+              "name": "fl",
+              "asset": "/Game/LEGO/Wheel/13971_61254.13971_61254",
+              "part_count": 2
+            },
+            {
+              "name": "fr",
+              "asset": "/Game/LEGO/Wheel/13971_61254.13971_61254",
+              "part_count": 2
+            },
+            {
+              "name": "bl",
+              "asset": "/Game/LEGO/Wheel/13971_61254.13971_61254",
+              "part_count": 2
+            },
+            {
+              "name": "br",
+              "asset": "/Game/LEGO/Wheel/13971_61254.13971_61254",
+              "part_count": 2
+            }
+          ]
+        },
+        {
+          "save_file": "ArtemisVehicle.sav",
+          "slot": 12,
+          "state": "saved",
+          "source_sha256": "5f4902f62802c64ba87cd0ecc5bb8e99bd0f5f07474db5bdf0f9dbfe3ecb11c8",
+          "model_name": "Neues Fahrzeug 12",
+          "chassis_assemblies": [
+            "/Game/LEGO/Chassis/GarageChampionStreet_VC000.GarageChampionStreet_VC000"
+          ],
+          "chassis_part_count": 8,
+          "chassis_design_counts": {
+            "65634": 1,
+            "65635": 2,
+            "3020": 1,
+            "6562": 4
+          },
+          "chassis_parts_with_GEOM": 1,
+          "chassis_designs_without_GEOM": [
+            6562,
+            65634,
+            65635
+          ],
+          "wheels": [
+            {
+              "name": "fl",
+              "asset": "/Game/LEGO/Wheel/55981_58090_Reversed.55981_58090_Reversed",
+              "part_count": 2
+            },
+            {
+              "name": "fr",
+              "asset": "/Game/LEGO/Wheel/55981_58090_Reversed.55981_58090_Reversed",
+              "part_count": 2
+            },
+            {
+              "name": "bl",
+              "asset": "/Game/LEGO/Wheel/55981_58090_Reversed.55981_58090_Reversed",
+              "part_count": 2
+            },
+            {
+              "name": "br",
+              "asset": "/Game/LEGO/Wheel/55981_58090_Reversed.55981_58090_Reversed",
+              "part_count": 2
+            }
+          ]
+        }
+      ],
+      "encyclopedia": {
+        "source": "https://github.com/r0levrai/l2kd-encyclopedia/blob/main/data/chassis_by_id.json",
+        "id": "GarageChampionStreet",
+        "english_name": "Street Champion",
+        "terrain": "Street",
+        "default_engine": "EngineConfig_CorvetteZ06",
+        "stats": null,
+        "status": "external_metadata; geometry comes from local save"
+      }
+    },
+    {
+      "chassis_config": "/Game/Game/Vehicle/Inventory/CarChassisConfigs/ChassisConfig_SweetRemix_VC000.ChassisConfig_SweetRemix_VC000",
+      "vehicle_class": "EVehicleClass::CAR",
+      "menu_name": "Süße Mischung",
+      "menu_name_status": "confirmed_by_user_saved_baseline",
+      "observations": [
+        {
+          "save_file": "ArtemisDownloadedVehicle.sav",
+          "slot": 4,
+          "model_name": "New Vehicle 49",
+          "chassis_assemblies": [
+            "/Game/LEGO/Chassis/SweetRemixChassis_VC000.SweetRemixChassis_VC000"
+          ],
+          "chassis_part_count": 12,
+          "chassis_design_counts": {
+            "3710": 2,
+            "3023": 2,
+            "64799": 1,
+            "3020": 1,
+            "33909": 2,
+            "10313": 4
+          },
+          "chassis_parts_with_GEOM": 5,
+          "chassis_designs_without_GEOM": [
+            10313,
+            33909,
+            64799
+          ],
+          "wheels": [
+            {
+              "name": "fl",
+              "asset": "/Game/LEGO/Wheel/50951_93595.50951_93595",
+              "part_count": 2
+            },
+            {
+              "name": "fr",
+              "asset": "/Game/LEGO/Wheel/50951_93595.50951_93595",
+              "part_count": 2
+            },
+            {
+              "name": "bl",
+              "asset": "/Game/LEGO/Wheel/50951_93595.50951_93595",
+              "part_count": 2
+            },
+            {
+              "name": "br",
+              "asset": "/Game/LEGO/Wheel/50951_93595.50951_93595",
+              "part_count": 2
+            }
+          ]
+        },
+        {
+          "save_file": "ArtemisVehicle.sav",
+          "slot": 13,
+          "state": "saved",
+          "source_sha256": "5f4902f62802c64ba87cd0ecc5bb8e99bd0f5f07474db5bdf0f9dbfe3ecb11c8",
+          "model_name": "Neues Fahrzeug 13",
+          "chassis_assemblies": [
+            "/Game/LEGO/Chassis/SweetRemixChassis_VC000.SweetRemixChassis_VC000"
+          ],
+          "chassis_part_count": 12,
+          "chassis_design_counts": {
+            "3710": 2,
+            "3023": 2,
+            "64799": 1,
+            "3020": 1,
+            "33909": 2,
+            "10313": 4
+          },
+          "chassis_parts_with_GEOM": 5,
+          "chassis_designs_without_GEOM": [
+            10313,
+            33909,
+            64799
+          ],
+          "wheels": [
+            {
+              "name": "fl",
+              "asset": "/Game/LEGO/Wheel/50951_93595.50951_93595",
+              "part_count": 2
+            },
+            {
+              "name": "fr",
+              "asset": "/Game/LEGO/Wheel/50951_93595.50951_93595",
+              "part_count": 2
+            },
+            {
+              "name": "bl",
+              "asset": "/Game/LEGO/Wheel/50951_93595.50951_93595",
+              "part_count": 2
+            },
+            {
+              "name": "br",
+              "asset": "/Game/LEGO/Wheel/50951_93595.50951_93595",
+              "part_count": 2
+            }
+          ]
+        }
+      ],
+      "encyclopedia": {
+        "source": "https://github.com/r0levrai/l2kd-encyclopedia/blob/main/data/chassis_by_id.json",
+        "id": "SweetRemix_VC000",
+        "english_name": "Sweet Remix (new!)",
+        "terrain": "Street",
+        "default_engine": "EngineConfig_Ferarri488",
+        "stats": null,
+        "status": "external_metadata; geometry comes from local save"
+      }
+    },
+    {
+      "chassis_config": "/Game/Game/Vehicle/Inventory/CarChassisConfigs/ChassisConfig_LapRecord.ChassisConfig_LapRecord",
+      "vehicle_class": "EVehicleClass::CAR",
+      "menu_name": null,
+      "menu_name_status": "unverified",
+      "observations": [
+        {
+          "save_file": "ArtemisDownloadedVehicle.sav",
+          "slot": 5,
+          "model_name": "Octan Space Racer",
+          "chassis_assemblies": [
+            "/Game/LEGO/Chassis/LapRecordChassis_VC000.LapRecordChassis_VC000"
+          ],
+          "chassis_part_count": 41,
+          "chassis_design_counts": {
+            "2780": 4,
+            "6541": 4,
+            "4282": 1,
+            "62462": 4,
+            "11214": 4,
+            "87087": 8,
+            "4592": 8,
+            "4593": 8
+          },
+          "chassis_parts_with_GEOM": 8,
+          "chassis_designs_without_GEOM": [
+            2780,
+            4282,
+            4592,
+            4593,
+            6541,
+            11214,
+            62462
+          ],
+          "wheels": [
+            {
+              "name": "fl",
+              "asset": "/Game/LEGO/Wheel/55981_89201.55981_89201",
+              "part_count": 2
+            },
+            {
+              "name": "fr",
+              "asset": "/Game/LEGO/Wheel/55981_89201.55981_89201",
+              "part_count": 2
+            },
+            {
+              "name": "bl",
+              "asset": "/Game/LEGO/Wheel/55981_89201.55981_89201",
+              "part_count": 2
+            },
+            {
+              "name": "br",
+              "asset": "/Game/LEGO/Wheel/55981_89201.55981_89201",
+              "part_count": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chassis_config": "/Game/Game/Vehicle/Inventory/CarChassisConfigs/ChassisConfig_EcoCar_60200_Garage.ChassisConfig_EcoCar_60200_Garage",
+      "vehicle_class": "EVehicleClass::CAR",
+      "menu_name": "Winziger Schrecken",
+      "menu_name_status": "confirmed_by_user_saved_baseline",
+      "observations": [
+        {
+          "save_file": "ArtemisDownloadedVehicle.sav",
+          "slot": 6,
+          "model_name": "Helicopter",
+          "chassis_assemblies": [
+            "/Game/LEGO/Chassis/StreetTinyTerror_VC000.StreetTinyTerror_VC000"
+          ],
+          "chassis_part_count": 3,
+          "chassis_design_counts": {
+            "2441": 1,
+            "3023": 2
+          },
+          "chassis_parts_with_GEOM": 2,
+          "chassis_designs_without_GEOM": [
+            2441
+          ],
+          "wheels": [
+            {
+              "name": "fl",
+              "asset": "/Game/LEGO/Wheel/74967_30028.74967_30028",
+              "part_count": 2
+            },
+            {
+              "name": "fr",
+              "asset": "/Game/LEGO/Wheel/74967_30028.74967_30028",
+              "part_count": 2
+            },
+            {
+              "name": "bl",
+              "asset": "/Game/LEGO/Wheel/74967_30028.74967_30028",
+              "part_count": 2
+            },
+            {
+              "name": "br",
+              "asset": "/Game/LEGO/Wheel/74967_30028.74967_30028",
+              "part_count": 2
+            }
+          ]
+        },
+        {
+          "save_file": "ArtemisVehicle.sav",
+          "slot": 14,
+          "state": "saved",
+          "source_sha256": "5f4902f62802c64ba87cd0ecc5bb8e99bd0f5f07474db5bdf0f9dbfe3ecb11c8",
+          "model_name": "Neues Fahrzeug 14",
+          "chassis_assemblies": [
+            "/Game/LEGO/Chassis/StreetTinyTerror_VC000.StreetTinyTerror_VC000"
+          ],
+          "chassis_part_count": 3,
+          "chassis_design_counts": {
+            "2441": 1,
+            "3023": 2
+          },
+          "chassis_parts_with_GEOM": 2,
+          "chassis_designs_without_GEOM": [
+            2441
+          ],
+          "wheels": [
+            {
+              "name": "fl",
+              "asset": "/Game/LEGO/Wheel/74967_30028.74967_30028",
+              "part_count": 2
+            },
+            {
+              "name": "fr",
+              "asset": "/Game/LEGO/Wheel/74967_30028.74967_30028",
+              "part_count": 2
+            },
+            {
+              "name": "bl",
+              "asset": "/Game/LEGO/Wheel/74967_30028.74967_30028",
+              "part_count": 2
+            },
+            {
+              "name": "br",
+              "asset": "/Game/LEGO/Wheel/74967_30028.74967_30028",
+              "part_count": 2
+            }
+          ]
+        }
+      ],
+      "encyclopedia": {
+        "source": "https://github.com/r0levrai/l2kd-encyclopedia/blob/main/data/chassis_by_id.json",
+        "id": "EcoCar_60200_Garage",
+        "english_name": "Tiny Terror",
+        "terrain": "Street",
+        "default_engine": "EngineConfig_VWGolf",
+        "stats": null,
+        "status": "external_metadata; geometry comes from local save"
+      }
+    },
+    {
+      "chassis_config": "/Game/Game/Vehicle/Inventory/BoatChassisConfigs/ChassisConfig_WakePro.ChassisConfig_WakePro",
+      "vehicle_class": "EVehicleClass::BOAT",
+      "menu_name": null,
+      "menu_name_status": "unverified",
+      "observations": [
+        {
+          "save_file": "ArtemisDownloadedVehicle.sav",
+          "slot": 8,
+          "model_name": "For JokerMessiah",
+          "chassis_assemblies": [
+            "/Game/LEGO/Chassis/WakePro_VC000.WakePro_VC000"
+          ],
+          "chassis_part_count": 38,
+          "chassis_design_counts": {
+            "3023": 5,
+            "3020": 9,
+            "42863": 1,
+            "2445": 1,
+            "32803": 8,
+            "3460": 6,
+            "3710": 2,
+            "99781": 1,
+            "35264": 1,
+            "18677": 2,
+            "3024": 2
+          },
+          "chassis_parts_with_GEOM": 25,
+          "chassis_designs_without_GEOM": [
+            18677,
+            32803,
+            35264,
+            42863,
+            99781
+          ],
+          "wheels": []
+        }
+      ]
+    },
+    {
+      "chassis_config": "/Game/Game/Vehicle/Inventory/BoatChassisConfigs/ChassisConfig_Speedboat_4641_Garage.ChassisConfig_Speedboat_4641_Garage",
+      "vehicle_class": "EVehicleClass::BOAT",
+      "menu_name": null,
+      "menu_name_status": "unverified",
+      "observations": [
+        {
+          "save_file": "ArtemisDownloadedVehicle.sav",
+          "slot": 11,
+          "model_name": "Bat Boat",
+          "chassis_assemblies": [
+            "/Game/LEGO/Chassis/WaterFlyingvhull_VC000.WaterFlyingvhull_VC000"
+          ],
+          "chassis_part_count": 4,
+          "chassis_design_counts": {
+            "87611": 1,
+            "3034": 1,
+            "52501": 1,
+            "60219": 1
+          },
+          "chassis_parts_with_GEOM": 0,
+          "chassis_designs_without_GEOM": [
+            3034,
+            52501,
+            60219,
+            87611
+          ],
+          "wheels": []
+        }
+      ]
+    },
+    {
+      "chassis_config": "/Game/Game/Vehicle/Inventory/CarChassisConfigs/ChassisConfig_ShowOff.ChassisConfig_ShowOff",
+      "vehicle_class": "EVehicleClass::CAR",
+      "menu_name": "Klotzer",
+      "menu_name_status": "confirmed_by_user_saved_baseline",
+      "observations": [
+        {
+          "save_file": "ArtemisDownloadedVehicle.sav",
+          "slot": 12,
+          "model_name": "Minigame bots farm",
+          "chassis_assemblies": [
+            "/Game/LEGO/Chassis/ShowOff_VC000.ShowOff_VC000"
+          ],
+          "chassis_part_count": 40,
+          "chassis_design_counts": {
+            "3002": 2,
+            "4871": 6,
+            "32064": 12,
+            "3708": 2,
+            "21445": 4,
+            "3023": 4,
+            "43093": 4,
+            "62462": 6
+          },
+          "chassis_parts_with_GEOM": 6,
+          "chassis_designs_without_GEOM": [
+            3708,
+            4871,
+            21445,
+            32064,
+            43093,
+            62462
+          ],
+          "wheels": [
+            {
+              "name": "fl",
+              "asset": "/Game/LEGO/Wheel/56145_61481.56145_61481",
+              "part_count": 2
+            },
+            {
+              "name": "fr",
+              "asset": "/Game/LEGO/Wheel/56145_61481.56145_61481",
+              "part_count": 2
+            },
+            {
+              "name": "bl",
+              "asset": "/Game/LEGO/Wheel/56145_61481.56145_61481",
+              "part_count": 2
+            },
+            {
+              "name": "br",
+              "asset": "/Game/LEGO/Wheel/56145_61481.56145_61481",
+              "part_count": 2
+            }
+          ]
+        },
+        {
+          "save_file": "ArtemisVehicle.sav",
+          "slot": 22,
+          "state": "saved",
+          "source_sha256": "5f4902f62802c64ba87cd0ecc5bb8e99bd0f5f07474db5bdf0f9dbfe3ecb11c8",
+          "model_name": "Neues Fahrzeug 22",
+          "chassis_assemblies": [
+            "/Game/LEGO/Chassis/ShowOff_VC000.ShowOff_VC000"
+          ],
+          "chassis_part_count": 40,
+          "chassis_design_counts": {
+            "3002": 2,
+            "4871": 6,
+            "32064": 12,
+            "3708": 2,
+            "21445": 4,
+            "3023": 4,
+            "43093": 4,
+            "62462": 6
+          },
+          "chassis_parts_with_GEOM": 6,
+          "chassis_designs_without_GEOM": [
+            3708,
+            4871,
+            21445,
+            32064,
+            43093,
+            62462
+          ],
+          "wheels": [
+            {
+              "name": "fl",
+              "asset": "/Game/LEGO/Wheel/56145_61481.56145_61481",
+              "part_count": 2
+            },
+            {
+              "name": "fr",
+              "asset": "/Game/LEGO/Wheel/56145_61481.56145_61481",
+              "part_count": 2
+            },
+            {
+              "name": "bl",
+              "asset": "/Game/LEGO/Wheel/56145_61481.56145_61481",
+              "part_count": 2
+            },
+            {
+              "name": "br",
+              "asset": "/Game/LEGO/Wheel/56145_61481.56145_61481",
+              "part_count": 2
+            }
+          ]
+        }
+      ],
+      "encyclopedia": {
+        "source": "https://github.com/r0levrai/l2kd-encyclopedia/blob/main/data/chassis_by_id.json",
+        "id": "ShowOff",
+        "english_name": "Show Off",
+        "terrain": "Offroad",
+        "default_engine": null,
+        "stats": null,
+        "status": "external_metadata; geometry comes from local save"
+      }
+    },
+    {
+      "chassis_config": "/Game/Game/Vehicle/Inventory/CarChassisConfigs/ChassisConfig_ExtremeSpeed_VC000.ChassisConfig_ExtremeSpeed_VC000",
+      "vehicle_class": "EVehicleClass::CAR",
+      "menu_name": "Extremtempo",
+      "menu_name_status": "confirmed_by_user_saved_baseline",
+      "observations": [
+        {
+          "save_file": "ArtemisDownloadedVehicle.sav",
+          "slot": 13,
+          "model_name": "New Vehicle 29",
+          "chassis_assemblies": [
+            "/Game/LEGO/Chassis/ExtremeSpeed_VC000.ExtremeSpeed_VC000"
+          ],
+          "chassis_part_count": 15,
+          "chassis_design_counts": {
+            "65249": 4,
+            "6590": 4,
+            "4282": 1,
+            "3701": 2,
+            "3700": 2,
+            "3004": 1,
+            "3023": 1
+          },
+          "chassis_parts_with_GEOM": 2,
+          "chassis_designs_without_GEOM": [
+            3700,
+            3701,
+            4282,
+            6590,
+            65249
+          ],
+          "wheels": [
+            {
+              "name": "fl",
+              "asset": "/Game/LEGO/Wheel/55981_30648.55981_30648",
+              "part_count": 2
+            },
+            {
+              "name": "fr",
+              "asset": "/Game/LEGO/Wheel/55981_30648.55981_30648",
+              "part_count": 2
+            },
+            {
+              "name": "bl",
+              "asset": "/Game/LEGO/Wheel/55981_30648.55981_30648",
+              "part_count": 2
+            },
+            {
+              "name": "br",
+              "asset": "/Game/LEGO/Wheel/55981_30648.55981_30648",
+              "part_count": 2
+            }
+          ]
+        },
+        {
+          "save_file": "ArtemisVehicle.sav",
+          "slot": 8,
+          "state": "saved",
+          "source_sha256": "5f4902f62802c64ba87cd0ecc5bb8e99bd0f5f07474db5bdf0f9dbfe3ecb11c8",
+          "model_name": "Neues Fahrzeug 08",
+          "chassis_assemblies": [
+            "/Game/LEGO/Chassis/ExtremeSpeed_VC000.ExtremeSpeed_VC000"
+          ],
+          "chassis_part_count": 15,
+          "chassis_design_counts": {
+            "65249": 4,
+            "6590": 4,
+            "4282": 1,
+            "3701": 2,
+            "3700": 2,
+            "3004": 1,
+            "3023": 1
+          },
+          "chassis_parts_with_GEOM": 2,
+          "chassis_designs_without_GEOM": [
+            3700,
+            3701,
+            4282,
+            6590,
+            65249
+          ],
+          "wheels": [
+            {
+              "name": "fl",
+              "asset": "/Game/LEGO/Wheel/55981_30648.55981_30648",
+              "part_count": 2
+            },
+            {
+              "name": "fr",
+              "asset": "/Game/LEGO/Wheel/55981_30648.55981_30648",
+              "part_count": 2
+            },
+            {
+              "name": "bl",
+              "asset": "/Game/LEGO/Wheel/55981_30648.55981_30648",
+              "part_count": 2
+            },
+            {
+              "name": "br",
+              "asset": "/Game/LEGO/Wheel/55981_30648.55981_30648",
+              "part_count": 2
+            }
+          ]
+        }
+      ],
+      "encyclopedia": {
+        "source": "https://github.com/r0levrai/l2kd-encyclopedia/blob/main/data/chassis_by_id.json",
+        "id": "ExtremeSpeed_VC000",
+        "english_name": "Extreme Speed",
+        "terrain": "Street",
+        "default_engine": "EngineConfig_Ferarri488",
+        "stats": null,
+        "status": "external_metadata; geometry comes from local save"
+      }
+    },
+    {
+      "chassis_config": "/Game/Game/Vehicle/Inventory/CarChassisConfigs/ChassisConfig_Mammoth_VC000.ChassisConfig_Mammoth_VC000",
+      "vehicle_class": "EVehicleClass::CAR",
+      "menu_name": null,
+      "menu_name_status": "unverified",
+      "observations": [
+        {
+          "save_file": "ArtemisDownloadedVehicle.sav",
+          "slot": 14,
+          "model_name": "the cooker",
+          "chassis_assemblies": [
+            "/Game/LEGO/Chassis/MammothChassis_VC000.MammothChassis_VC000"
+          ],
+          "chassis_part_count": 44,
+          "chassis_design_counts": {
+            "24316": 4,
+            "3029": 1,
+            "76959": 12,
+            "3020": 1,
+            "48336": 3,
+            "3700": 4,
+            "3028": 1,
+            "73109": 2,
+            "3795": 1,
+            "93888": 1,
+            "3035": 1,
+            "44237": 2,
+            "32803": 4,
+            "3033": 1,
+            "3010": 1,
+            "3710": 1,
+            "3023": 4
+          },
+          "chassis_parts_with_GEOM": 7,
+          "chassis_designs_without_GEOM": [
+            3028,
+            3029,
+            3033,
+            3035,
+            3700,
+            3795,
+            24316,
+            32803,
+            44237,
+            48336,
+            73109,
+            76959,
+            93888
+          ],
+          "wheels": [
+            {
+              "name": "fl",
+              "asset": "/Game/LEGO/Wheel/BuzzosRoyalRigWheelBack_VC000.BuzzosRoyalRigWheelBack_VC000",
+              "part_count": 4
+            },
+            {
+              "name": "fr",
+              "asset": "/Game/LEGO/Wheel/BuzzosRoyalRigWheelBack_VC000.BuzzosRoyalRigWheelBack_VC000",
+              "part_count": 4
+            },
+            {
+              "name": "bl",
+              "asset": "/Game/LEGO/Wheel/BuzzosRoyalRigWheelBack_VC000.BuzzosRoyalRigWheelBack_VC000",
+              "part_count": 4
+            },
+            {
+              "name": "br",
+              "asset": "/Game/LEGO/Wheel/BuzzosRoyalRigWheelBack_VC000.BuzzosRoyalRigWheelBack_VC000",
+              "part_count": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chassis_config": "/Game/Game/Vehicle/Inventory/BoatChassisConfigs/ChassisConfig_SwampBoat_5866_Garage.ChassisConfig_SwampBoat_5866_Garage",
+      "vehicle_class": "EVehicleClass::BOAT",
+      "menu_name": null,
+      "menu_name_status": "unverified",
+      "observations": [
+        {
+          "save_file": "ArtemisDownloadedVehicle.sav",
+          "slot": 15,
+          "model_name": "Explorateur nocturne",
+          "chassis_assemblies": [
+            "/Game/LEGO/Chassis/WaterFanBoatHydro_VC000.WaterFanBoatHydro_VC000"
+          ],
+          "chassis_part_count": 9,
+          "chassis_design_counts": {
+            "4287": 6,
+            "3832": 2,
+            "3004": 1
+          },
+          "chassis_parts_with_GEOM": 3,
+          "chassis_designs_without_GEOM": [
+            4287
+          ],
+          "wheels": []
+        }
+      ]
+    },
+    {
+      "chassis_config": "/Game/Game/Vehicle/Inventory/CarChassisConfigs/ChassisConfig_ATV_20014.ChassisConfig_ATV_20014",
+      "vehicle_class": "EVehicleClass::CAR",
+      "menu_name": null,
+      "menu_name_status": "unverified",
+      "observations": [
+        {
+          "save_file": "ArtemisVehicle.sav",
+          "slot": 1,
+          "model_name": "Allrad-Dynamo",
+          "chassis_assemblies": [
+            "/Game/LEGO/Chassis/ATVChassis_20014.ATVChassis_20014"
+          ],
+          "chassis_part_count": 4,
+          "chassis_design_counts": {
+            "6157": 3,
+            "3795": 1
+          },
+          "chassis_parts_with_GEOM": 0,
+          "chassis_designs_without_GEOM": [
+            3795,
+            6157
+          ],
+          "wheels": [
+            {
+              "name": "fl",
+              "asset": "/Game/LEGO/Wheel/Traffic_HVWheelFront_04Offroad.Traffic_HVWheelFront_04Offroad",
+              "part_count": 2
+            },
+            {
+              "name": "fr",
+              "asset": "/Game/LEGO/Wheel/Traffic_HVWheelFront_04Offroad.Traffic_HVWheelFront_04Offroad",
+              "part_count": 2
+            },
+            {
+              "name": "bl",
+              "asset": "/Game/LEGO/Wheel/Traffic_HVWheelFront_04Offroad.Traffic_HVWheelFront_04Offroad",
+              "part_count": 2
+            },
+            {
+              "name": "br",
+              "asset": "/Game/LEGO/Wheel/Traffic_HVWheelFront_04Offroad.Traffic_HVWheelFront_04Offroad",
+              "part_count": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chassis_config": "/Game/Game/Vehicle/Inventory/CarChassisConfigs/ChassisConfig_FireEngine_10263_Garage.ChassisConfig_FireEngine_10263_Garage",
+      "vehicle_class": "EVehicleClass::CAR",
+      "menu_name": "Alte Schule",
+      "menu_name_status": "confirmed_by_user_saved_baseline",
+      "observations": [
+        {
+          "save_file": "ArtemisVehicle.sav",
+          "slot": 3,
+          "model_name": "Neues Fahrzeug 04",
+          "chassis_assemblies": [
+            "/Game/LEGO/Chassis/FireEngineChassis_10263.FireEngineChassis_10263"
+          ],
+          "chassis_part_count": 3,
+          "chassis_design_counts": {
+            "2445": 1,
+            "30157": 2
+          },
+          "chassis_parts_with_GEOM": 1,
+          "chassis_designs_without_GEOM": [
+            30157
+          ],
+          "wheels": [
+            {
+              "name": "fl",
+              "asset": "/Game/LEGO/Wheel/55981_58090_Reversed.55981_58090_Reversed",
+              "part_count": 2
+            },
+            {
+              "name": "fr",
+              "asset": "/Game/LEGO/Wheel/55981_58090_Reversed.55981_58090_Reversed",
+              "part_count": 2
+            },
+            {
+              "name": "bl",
+              "asset": "/Game/LEGO/Wheel/13971_2346_Reversed.13971_2346_Reversed",
+              "part_count": 2
+            },
+            {
+              "name": "br",
+              "asset": "/Game/LEGO/Wheel/13971_2346_Reversed.13971_2346_Reversed",
+              "part_count": 2
+            }
+          ]
+        },
+        {
+          "save_file": "ArtemisVehicle.sav",
+          "slot": 5,
+          "state": "saved",
+          "source_sha256": "5f4902f62802c64ba87cd0ecc5bb8e99bd0f5f07474db5bdf0f9dbfe3ecb11c8",
+          "model_name": "Neues Fahrzeug 05",
+          "chassis_assemblies": [
+            "/Game/LEGO/Chassis/FireEngineChassis_10263.FireEngineChassis_10263"
+          ],
+          "chassis_part_count": 3,
+          "chassis_design_counts": {
+            "2445": 1,
+            "30157": 2
+          },
+          "chassis_parts_with_GEOM": 1,
+          "chassis_designs_without_GEOM": [
+            30157
+          ],
+          "wheels": [
+            {
+              "name": "fl",
+              "asset": "/Game/LEGO/Wheel/56902_61254_New.56902_61254_New",
+              "part_count": 2
+            },
+            {
+              "name": "fr",
+              "asset": "/Game/LEGO/Wheel/56902_61254_New.56902_61254_New",
+              "part_count": 2
+            },
+            {
+              "name": "bl",
+              "asset": "/Game/LEGO/Wheel/56902_61254_New.56902_61254_New",
+              "part_count": 2
+            },
+            {
+              "name": "br",
+              "asset": "/Game/LEGO/Wheel/56902_61254_New.56902_61254_New",
+              "part_count": 2
+            }
+          ]
+        }
+      ],
+      "encyclopedia": {
+        "source": "https://github.com/r0levrai/l2kd-encyclopedia/blob/main/data/chassis_by_id.json",
+        "id": "FireEngine_10263_Garage",
+        "english_name": "Old School",
+        "terrain": "Street",
+        "default_engine": "EngineConfig_DodgeChallenger1970",
+        "stats": null,
+        "status": "external_metadata; geometry comes from local save"
+      }
+    },
+    {
+      "chassis_config": "/Game/Game/Vehicle/Inventory/CarChassisConfigs/ChassisConfig_Dragster_6639_Garage.ChassisConfig_Dragster_6639_Garage",
+      "vehicle_class": "EVehicleClass::CAR",
+      "observations": [
+        {
+          "save_file": "ArtemisVehicle.sav",
+          "slot": 6,
+          "state": "saved",
+          "source_sha256": "5f4902f62802c64ba87cd0ecc5bb8e99bd0f5f07474db5bdf0f9dbfe3ecb11c8",
+          "model_name": "Neues Fahrzeug 06",
+          "chassis_assemblies": [
+            "/Game/LEGO/Chassis/StreetElDragon_VC000.StreetElDragon_VC000"
+          ],
+          "chassis_part_count": 9,
+          "chassis_design_counts": {
+            "3795": 1,
+            "2445": 1,
+            "6157": 1,
+            "28964": 1,
+            "3002": 1,
+            "3700": 2,
+            "43093": 2
+          },
+          "chassis_parts_with_GEOM": 3,
+          "chassis_designs_without_GEOM": [
+            3700,
+            6157,
+            28964,
+            43093
+          ],
+          "wheels": [
+            {
+              "name": "fl",
+              "asset": "/Game/LEGO/Wheel/4624_3139.4624_3139",
+              "part_count": 2
+            },
+            {
+              "name": "fr",
+              "asset": "/Game/LEGO/Wheel/4624_3139.4624_3139",
+              "part_count": 2
+            },
+            {
+              "name": "bl",
+              "asset": "/Game/LEGO/Wheel/55982_58090_Reversed.55982_58090_Reversed",
+              "part_count": 2
+            },
+            {
+              "name": "br",
+              "asset": "/Game/LEGO/Wheel/55982_58090_Reversed.55982_58090_Reversed",
+              "part_count": 2
+            }
+          ]
+        }
+      ],
+      "menu_name": "El Dragón",
+      "menu_name_status": "confirmed_by_user_saved_baseline",
+      "encyclopedia": {
+        "source": "https://github.com/r0levrai/l2kd-encyclopedia/blob/main/data/chassis_by_id.json",
+        "id": "Dragster_6639_Garage",
+        "english_name": "El DragÃ³n",
+        "terrain": "Street",
+        "default_engine": "EngineConfig_DodgeChallenger1970v2",
+        "stats": null,
+        "status": "external_metadata; geometry comes from local save"
+      }
+    },
+    {
+      "chassis_config": "/Game/Game/Vehicle/Inventory/CarChassisConfigs/ChassisConfig_EndOfStreet_VC000.ChassisConfig_EndOfStreet_VC000",
+      "vehicle_class": "EVehicleClass::CAR",
+      "observations": [
+        {
+          "save_file": "ArtemisVehicle.sav",
+          "slot": 7,
+          "state": "saved",
+          "source_sha256": "5f4902f62802c64ba87cd0ecc5bb8e99bd0f5f07474db5bdf0f9dbfe3ecb11c8",
+          "model_name": "Neues Fahrzeug 07",
+          "chassis_assemblies": [
+            "/Game/LEGO/Chassis/EndOfStreet_VC000.EndOfStreet_VC000"
+          ],
+          "chassis_part_count": 8,
+          "chassis_design_counts": {
+            "2926": 2,
+            "3020": 3,
+            "3034": 2,
+            "3710": 1
+          },
+          "chassis_parts_with_GEOM": 6,
+          "chassis_designs_without_GEOM": [
+            2926
+          ],
+          "wheels": [
+            {
+              "name": "fl",
+              "asset": "/Game/LEGO/Wheel/6014_6015.6014_6015",
+              "part_count": 2
+            },
+            {
+              "name": "fr",
+              "asset": "/Game/LEGO/Wheel/6014_6015.6014_6015",
+              "part_count": 2
+            },
+            {
+              "name": "bl",
+              "asset": "/Game/LEGO/Wheel/6014_6015.6014_6015",
+              "part_count": 2
+            },
+            {
+              "name": "br",
+              "asset": "/Game/LEGO/Wheel/6014_6015.6014_6015",
+              "part_count": 2
+            }
+          ]
+        }
+      ],
+      "menu_name": "Ende der Straße",
+      "menu_name_status": "confirmed_by_user_saved_baseline",
+      "encyclopedia": {
+        "source": "https://github.com/r0levrai/l2kd-encyclopedia/blob/main/data/chassis_by_id.json",
+        "id": "EndOfStreet_VC000",
+        "english_name": "End of Street",
+        "terrain": "Street",
+        "default_engine": "EngineConfig_Ferarri488",
+        "stats": null,
+        "status": "external_metadata; geometry comes from local save"
+      }
+    },
+    {
+      "chassis_config": "/Game/Game/Vehicle/Inventory/CarChassisConfigs/ChassisConfig_Sedan_60050_Garage.ChassisConfig_Sedan_60050_Garage",
+      "vehicle_class": "EVehicleClass::CAR",
+      "observations": [
+        {
+          "save_file": "ArtemisVehicle.sav",
+          "slot": 9,
+          "state": "saved",
+          "source_sha256": "5f4902f62802c64ba87cd0ecc5bb8e99bd0f5f07474db5bdf0f9dbfe3ecb11c8",
+          "model_name": "Neues Fahrzeug 09",
+          "chassis_assemblies": [
+            "/Game/LEGO/Chassis/SedanChassis_60050.SedanChassis_60050"
+          ],
+          "chassis_part_count": 3,
+          "chassis_design_counts": {
+            "52036": 1,
+            "6157": 2
+          },
+          "chassis_parts_with_GEOM": 0,
+          "chassis_designs_without_GEOM": [
+            6157,
+            52036
+          ],
+          "wheels": [
+            {
+              "name": "fl",
+              "asset": "/Game/LEGO/Wheel/6014_87697.6014_87697",
+              "part_count": 2
+            },
+            {
+              "name": "fr",
+              "asset": "/Game/LEGO/Wheel/6014_87697.6014_87697",
+              "part_count": 2
+            },
+            {
+              "name": "bl",
+              "asset": "/Game/LEGO/Wheel/6014_87697.6014_87697",
+              "part_count": 2
+            },
+            {
+              "name": "br",
+              "asset": "/Game/LEGO/Wheel/6014_87697.6014_87697",
+              "part_count": 2
+            }
+          ]
+        }
+      ],
+      "menu_name": "Gerade und schmal",
+      "menu_name_status": "confirmed_by_user_saved_baseline",
+      "encyclopedia": {
+        "source": "https://github.com/r0levrai/l2kd-encyclopedia/blob/main/data/chassis_by_id.json",
+        "id": "Sedan_60050_Garage",
+        "english_name": "Straight & Narrow",
+        "terrain": "Street",
+        "default_engine": "EngineConfig_HondaCivic",
+        "stats": null,
+        "status": "external_metadata; geometry comes from local save"
+      }
+    },
+    {
+      "chassis_config": "/Game/Game/Vehicle/Inventory/CarChassisConfigs/ChassisConfig_TriCycle.ChassisConfig_TriCycle",
+      "vehicle_class": "EVehicleClass::CAR",
+      "observations": [
+        {
+          "save_file": "ArtemisVehicle.sav",
+          "slot": 10,
+          "state": "saved",
+          "source_sha256": "5f4902f62802c64ba87cd0ecc5bb8e99bd0f5f07474db5bdf0f9dbfe3ecb11c8",
+          "model_name": "Neues Fahrzeug 10",
+          "chassis_assemblies": [
+            "/Game/LEGO/Chassis/Tricycle_VC000.Tricycle_VC000"
+          ],
+          "chassis_part_count": 18,
+          "chassis_design_counts": {
+            "65249": 2,
+            "6590": 2,
+            "3029": 1,
+            "32064": 2,
+            "3706": 2,
+            "11478": 2,
+            "32123": 4,
+            "3701": 2,
+            "3020": 1
+          },
+          "chassis_parts_with_GEOM": 2,
+          "chassis_designs_without_GEOM": [
+            3701,
+            3706,
+            6590,
+            11478,
+            32064,
+            32123,
+            65249
+          ],
+          "wheels": [
+            {
+              "name": "fl",
+              "asset": "/Game/LEGO/Wheel/55982_58090_Reversed.55982_58090_Reversed",
+              "part_count": 2
+            },
+            {
+              "name": "fr",
+              "asset": "/Game/LEGO/Wheel/55982_58090_Reversed.55982_58090_Reversed",
+              "part_count": 2
+            },
+            {
+              "name": "bl",
+              "asset": "/Game/LEGO/Wheel/55982_58090_Reversed.55982_58090_Reversed",
+              "part_count": 2
+            },
+            {
+              "name": "br",
+              "asset": "/Game/LEGO/Wheel/55982_58090_Reversed.55982_58090_Reversed",
+              "part_count": 2
+            }
+          ]
+        }
+      ],
+      "menu_name": "Lenkstange",
+      "menu_name_status": "confirmed_by_user_saved_baseline",
+      "encyclopedia": {
+        "source": "https://github.com/r0levrai/l2kd-encyclopedia/blob/main/data/chassis_by_id.json",
+        "id": "TriCycle",
+        "english_name": "Handlebar",
+        "terrain": "Street",
+        "default_engine": "EngineConfig_Ferarri488",
+        "stats": null,
+        "status": "external_metadata; geometry comes from local save"
+      }
+    },
+    {
+      "chassis_config": "/Game/Game/Vehicle/Inventory/CarChassisConfigs/ChassisConfig_ClassicCar_10261_Garage.ChassisConfig_ClassicCar_10261_Garage",
+      "vehicle_class": "EVehicleClass::CAR",
+      "observations": [
+        {
+          "save_file": "ArtemisVehicle.sav",
+          "slot": 11,
+          "state": "saved",
+          "source_sha256": "5f4902f62802c64ba87cd0ecc5bb8e99bd0f5f07474db5bdf0f9dbfe3ecb11c8",
+          "model_name": "Neues Fahrzeug 11",
+          "chassis_assemblies": [
+            "/Game/LEGO/Chassis/StreetAceofRace_VC000.StreetAceofRace_VC000"
+          ],
+          "chassis_part_count": 9,
+          "chassis_design_counts": {
+            "3958": 1,
+            "11215": 2,
+            "10313": 4,
+            "60479": 2
+          },
+          "chassis_parts_with_GEOM": 0,
+          "chassis_designs_without_GEOM": [
+            3958,
+            10313,
+            11215,
+            60479
+          ],
+          "wheels": [
+            {
+              "name": "fl",
+              "asset": "/Game/LEGO/Wheel/11208_11209_Newer.11208_11209_Newer",
+              "part_count": 2
+            },
+            {
+              "name": "fr",
+              "asset": "/Game/LEGO/Wheel/11208_11209_Newer.11208_11209_Newer",
+              "part_count": 2
+            },
+            {
+              "name": "bl",
+              "asset": "/Game/LEGO/Wheel/11208_11209_Newer.11208_11209_Newer",
+              "part_count": 2
+            },
+            {
+              "name": "br",
+              "asset": "/Game/LEGO/Wheel/11208_11209_Newer.11208_11209_Newer",
+              "part_count": 2
+            }
+          ]
+        }
+      ],
+      "menu_name": "Renn-Ass",
+      "menu_name_status": "confirmed_by_user_saved_baseline",
+      "encyclopedia": {
+        "source": "https://github.com/r0levrai/l2kd-encyclopedia/blob/main/data/chassis_by_id.json",
+        "id": "ClassicCar_10261_Garage",
+        "english_name": "Ace of Race",
+        "terrain": "Street",
+        "default_engine": "EngineConfig_DodgeChallenger1970v2",
+        "stats": null,
+        "status": "external_metadata; geometry comes from local save"
+      }
+    },
+    {
+      "chassis_config": "/Game/Game/Vehicle/Inventory/CarChassisConfigs/ChassisConfig_MiningDrill_60185_Garage.ChassisConfig_MiningDrill_60185_Garage",
+      "vehicle_class": "EVehicleClass::CAR",
+      "observations": [
+        {
+          "save_file": "ArtemisVehicle.sav",
+          "slot": 15,
+          "state": "saved",
+          "source_sha256": "5f4902f62802c64ba87cd0ecc5bb8e99bd0f5f07474db5bdf0f9dbfe3ecb11c8",
+          "model_name": "Neues Fahrzeug 15",
+          "chassis_assemblies": [
+            "/Game/LEGO/Chassis/OffroadRoughhouse_VC000.OffroadRoughhouse_VC000"
+          ],
+          "chassis_part_count": 8,
+          "chassis_design_counts": {
+            "3702": 2,
+            "3031": 1,
+            "3001": 1,
+            "2780": 4
+          },
+          "chassis_parts_with_GEOM": 2,
+          "chassis_designs_without_GEOM": [
+            2780,
+            3702
+          ],
+          "wheels": [
+            {
+              "name": "fl",
+              "asset": "/Game/LEGO/Wheel/55981_92402.55981_92402",
+              "part_count": 2
+            },
+            {
+              "name": "fr",
+              "asset": "/Game/LEGO/Wheel/55981_92402.55981_92402",
+              "part_count": 2
+            },
+            {
+              "name": "bl",
+              "asset": "/Game/LEGO/Wheel/55981_92402.55981_92402",
+              "part_count": 2
+            },
+            {
+              "name": "br",
+              "asset": "/Game/LEGO/Wheel/55981_92402.55981_92402",
+              "part_count": 2
+            }
+          ]
+        }
+      ],
+      "menu_name": "Arbeitstier",
+      "menu_name_status": "confirmed_by_user_saved_baseline",
+      "encyclopedia": {
+        "source": "https://github.com/r0levrai/l2kd-encyclopedia/blob/main/data/chassis_by_id.json",
+        "id": "MiningDrill_60185_Garage",
+        "english_name": "Roughhouse",
+        "terrain": "Offroad",
+        "default_engine": "EngineConfig_DodgeChallenger1970",
+        "stats": null,
+        "status": "external_metadata; geometry comes from local save"
+      }
+    },
+    {
+      "chassis_config": "/Game/Game/Vehicle/Inventory/CarChassisConfigs/ChassisConfig_BigOlTexasTruck_Garage.ChassisConfig_BigOlTexasTruck_Garage",
+      "vehicle_class": "EVehicleClass::CAR",
+      "observations": [
+        {
+          "save_file": "ArtemisVehicle.sav",
+          "slot": 16,
+          "state": "saved",
+          "source_sha256": "5f4902f62802c64ba87cd0ecc5bb8e99bd0f5f07474db5bdf0f9dbfe3ecb11c8",
+          "model_name": "Neues Fahrzeug 16",
+          "chassis_assemblies": [
+            "/Game/LEGO/Chassis/BigOlTexasTruckChassis_Garage.BigOlTexasTruckChassis_Garage"
+          ],
+          "chassis_part_count": 46,
+          "chassis_design_counts": {
+            "59426": 4,
+            "6590": 4,
+            "32523": 4,
+            "2780": 6,
+            "6558": 2,
+            "3701": 4,
+            "3020": 2,
+            "3710": 1,
+            "3666": 4,
+            "3665": 4,
+            "4274": 4,
+            "3894": 2,
+            "98138": 4,
+            "75535": 1
+          },
+          "chassis_parts_with_GEOM": 7,
+          "chassis_designs_without_GEOM": [
+            2780,
+            3665,
+            3701,
+            3894,
+            4274,
+            6558,
+            6590,
+            32523,
+            59426,
+            75535,
+            98138
+          ],
+          "wheels": [
+            {
+              "name": "fl",
+              "asset": "/Game/LEGO/Wheel/44292_44309.44292_44309",
+              "part_count": 2
+            },
+            {
+              "name": "fr",
+              "asset": "/Game/LEGO/Wheel/44292_44309.44292_44309",
+              "part_count": 2
+            },
+            {
+              "name": "bl",
+              "asset": "/Game/LEGO/Wheel/44292_44309.44292_44309",
+              "part_count": 2
+            },
+            {
+              "name": "br",
+              "asset": "/Game/LEGO/Wheel/44292_44309.44292_44309",
+              "part_count": 2
+            }
+          ]
+        }
+      ],
+      "menu_name": "Big Tex",
+      "menu_name_status": "confirmed_by_user_saved_baseline",
+      "encyclopedia": {
+        "source": "https://github.com/r0levrai/l2kd-encyclopedia/blob/main/data/chassis_by_id.json",
+        "id": "BigOlTexasTruck_Garage",
+        "english_name": "Big Tex",
+        "terrain": "Offroad",
+        "default_engine": "EngineConfig_LincolnNavigator",
+        "stats": null,
+        "status": "external_metadata; geometry comes from local save"
+      }
+    },
+    {
+      "chassis_config": "/Game/Game/Vehicle/Inventory/CarChassisConfigs/ChassisConfig_DuneBuggy_60145_Garage.ChassisConfig_DuneBuggy_60145_Garage",
+      "vehicle_class": "EVehicleClass::CAR",
+      "observations": [
+        {
+          "save_file": "ArtemisVehicle.sav",
+          "slot": 17,
+          "state": "saved",
+          "source_sha256": "5f4902f62802c64ba87cd0ecc5bb8e99bd0f5f07474db5bdf0f9dbfe3ecb11c8",
+          "model_name": "Neues Fahrzeug 17",
+          "chassis_assemblies": [
+            "/Game/LEGO/Chassis/OffroadDunezipper_VC000.OffroadDunezipper_VC000"
+          ],
+          "chassis_part_count": 10,
+          "chassis_design_counts": {
+            "47720": 2,
+            "52036": 1,
+            "3020": 1,
+            "24201": 6
+          },
+          "chassis_parts_with_GEOM": 1,
+          "chassis_designs_without_GEOM": [
+            24201,
+            47720,
+            52036
+          ],
+          "wheels": [
+            {
+              "name": "fl",
+              "asset": "/Game/LEGO/Wheel/55981_92402.55981_92402",
+              "part_count": 2
+            },
+            {
+              "name": "fr",
+              "asset": "/Game/LEGO/Wheel/55981_92402.55981_92402",
+              "part_count": 2
+            },
+            {
+              "name": "bl",
+              "asset": "/Game/LEGO/Wheel/55981_92402.55981_92402",
+              "part_count": 2
+            },
+            {
+              "name": "br",
+              "asset": "/Game/LEGO/Wheel/55981_92402.55981_92402",
+              "part_count": 2
+            }
+          ]
+        }
+      ],
+      "menu_name": "Dünenläufer",
+      "menu_name_status": "confirmed_by_user_saved_baseline",
+      "encyclopedia": {
+        "source": "https://github.com/r0levrai/l2kd-encyclopedia/blob/main/data/chassis_by_id.json",
+        "id": "DuneBuggy_60145_Garage",
+        "english_name": "Dune Zipper",
+        "terrain": "Offroad",
+        "default_engine": "EngineConfig_TriumphBonneville",
+        "stats": null,
+        "status": "external_metadata; geometry comes from local save"
+      }
+    },
+    {
+      "chassis_config": "/Game/Game/Vehicle/Inventory/CarChassisConfigs/ChassisConfig_Explorer.ChassisConfig_Explorer",
+      "vehicle_class": "EVehicleClass::CAR",
+      "observations": [
+        {
+          "save_file": "ArtemisVehicle.sav",
+          "slot": 19,
+          "state": "saved",
+          "source_sha256": "5f4902f62802c64ba87cd0ecc5bb8e99bd0f5f07474db5bdf0f9dbfe3ecb11c8",
+          "model_name": "Neues Fahrzeug 19",
+          "chassis_assemblies": [
+            "/Game/LEGO/Chassis/Explorer_VC000.Explorer_VC000"
+          ],
+          "chassis_part_count": 31,
+          "chassis_design_counts": {
+            "40490": 2,
+            "2780": 14,
+            "32140": 4,
+            "3702": 2,
+            "3030": 1,
+            "65249": 4,
+            "6590": 4
+          },
+          "chassis_parts_with_GEOM": 0,
+          "chassis_designs_without_GEOM": [
+            2780,
+            3030,
+            3702,
+            6590,
+            32140,
+            40490,
+            65249
+          ],
+          "wheels": [
+            {
+              "name": "fl",
+              "asset": "/Game/LEGO/Wheel/55982_30391_Reversed.55982_30391_Reversed",
+              "part_count": 2
+            },
+            {
+              "name": "fr",
+              "asset": "/Game/LEGO/Wheel/55982_30391_Reversed.55982_30391_Reversed",
+              "part_count": 2
+            },
+            {
+              "name": "bl",
+              "asset": "/Game/LEGO/Wheel/55982_30391_Reversed.55982_30391_Reversed",
+              "part_count": 2
+            },
+            {
+              "name": "br",
+              "asset": "/Game/LEGO/Wheel/55982_30391_Reversed.55982_30391_Reversed",
+              "part_count": 2
+            }
+          ]
+        }
+      ],
+      "menu_name": "Explorer",
+      "menu_name_status": "confirmed_by_user_saved_baseline",
+      "encyclopedia": {
+        "source": "https://github.com/r0levrai/l2kd-encyclopedia/blob/main/data/chassis_by_id.json",
+        "id": "Explorer",
+        "english_name": "Explorer",
+        "terrain": "Offroad",
+        "default_engine": null,
+        "stats": null,
+        "status": "external_metadata; geometry comes from local save"
+      }
+    },
+    {
+      "chassis_config": "/Game/Game/Vehicle/Inventory/CarChassisConfigs/ChassisConfig_GarageOffroadChampion.ChassisConfig_GarageOffroadChampion",
+      "vehicle_class": "EVehicleClass::CAR",
+      "observations": [
+        {
+          "save_file": "ArtemisVehicle.sav",
+          "slot": 20,
+          "state": "saved",
+          "source_sha256": "5f4902f62802c64ba87cd0ecc5bb8e99bd0f5f07474db5bdf0f9dbfe3ecb11c8",
+          "model_name": "Neues Fahrzeug 20",
+          "chassis_assemblies": [
+            "/Game/LEGO/Chassis/GarageChampionOffroad_VC000.GarageChampionOffroad_VC000"
+          ],
+          "chassis_part_count": 14,
+          "chassis_design_counts": {
+            "65634": 1,
+            "3795": 1,
+            "3024": 2,
+            "3031": 1,
+            "65635": 2,
+            "3021": 2,
+            "3710": 1,
+            "6562": 4
+          },
+          "chassis_parts_with_GEOM": 7,
+          "chassis_designs_without_GEOM": [
+            6562,
+            65634,
+            65635
+          ],
+          "wheels": [
+            {
+              "name": "fl",
+              "asset": "/Game/LEGO/Wheel/55981_30391_Reversed.55981_30391_Reversed",
+              "part_count": 2
+            },
+            {
+              "name": "fr",
+              "asset": "/Game/LEGO/Wheel/55981_30391_Reversed.55981_30391_Reversed",
+              "part_count": 2
+            },
+            {
+              "name": "bl",
+              "asset": "/Game/LEGO/Wheel/55981_30391_Reversed.55981_30391_Reversed",
+              "part_count": 2
+            },
+            {
+              "name": "br",
+              "asset": "/Game/LEGO/Wheel/55981_30391_Reversed.55981_30391_Reversed",
+              "part_count": 2
+            }
+          ]
+        }
+      ],
+      "menu_name": "Gelände-Champion",
+      "menu_name_status": "confirmed_by_user_saved_baseline",
+      "encyclopedia": {
+        "source": "https://github.com/r0levrai/l2kd-encyclopedia/blob/main/data/chassis_by_id.json",
+        "id": "GarageOffroadChampion",
+        "english_name": "Dirt Champion",
+        "terrain": "Offroad",
+        "default_engine": "EngineConfig_FordMustang",
+        "stats": null,
+        "status": "external_metadata; geometry comes from local save"
+      }
+    },
+    {
+      "chassis_config": "/Game/Game/Vehicle/Inventory/CarChassisConfigs/ChassisConfig_HeartOfAdventure.ChassisConfig_HeartOfAdventure",
+      "vehicle_class": "EVehicleClass::CAR",
+      "observations": [
+        {
+          "save_file": "ArtemisVehicle.sav",
+          "slot": 21,
+          "state": "saved",
+          "source_sha256": "5f4902f62802c64ba87cd0ecc5bb8e99bd0f5f07474db5bdf0f9dbfe3ecb11c8",
+          "model_name": "Neues Fahrzeug 21",
+          "chassis_assemblies": [
+            "/Game/LEGO/Chassis/HeartOfAdventure_VC000.HeartOfAdventure_VC000"
+          ],
+          "chassis_part_count": 25,
+          "chassis_design_counts": {
+            "65249": 4,
+            "32123": 4,
+            "32526": 4,
+            "6628": 4,
+            "4282": 2,
+            "65635": 2,
+            "6562": 4,
+            "3028": 1
+          },
+          "chassis_parts_with_GEOM": 1,
+          "chassis_designs_without_GEOM": [
+            4282,
+            6562,
+            6628,
+            32123,
+            32526,
+            65249,
+            65635
+          ],
+          "wheels": [
+            {
+              "name": "fl",
+              "asset": "/Game/LEGO/Wheel/MonsterSchoolBusWheelBack_LU000.MonsterSchoolBusWheelBack_LU000",
+              "part_count": 2
+            },
+            {
+              "name": "fr",
+              "asset": "/Game/LEGO/Wheel/MonsterSchoolBusWheelBack_LU000.MonsterSchoolBusWheelBack_LU000",
+              "part_count": 2
+            },
+            {
+              "name": "bl",
+              "asset": "/Game/LEGO/Wheel/MonsterSchoolBusWheelBack_LU000.MonsterSchoolBusWheelBack_LU000",
+              "part_count": 2
+            },
+            {
+              "name": "br",
+              "asset": "/Game/LEGO/Wheel/MonsterSchoolBusWheelBack_LU000.MonsterSchoolBusWheelBack_LU000",
+              "part_count": 2
+            }
+          ]
+        }
+      ],
+      "menu_name": "Herz des Abenteuers",
+      "menu_name_status": "confirmed_by_user_saved_baseline",
+      "encyclopedia": {
+        "source": "https://github.com/r0levrai/l2kd-encyclopedia/blob/main/data/chassis_by_id.json",
+        "id": "HeartOfAdventure",
+        "english_name": "Heart of Adventure",
+        "terrain": "Offroad",
+        "default_engine": null,
+        "stats": null,
+        "status": "external_metadata; geometry comes from local save"
+      }
+    },
+    {
+      "chassis_config": "/Game/Game/Vehicle/Inventory/CarChassisConfigs/ChassisConfig_MudDrifter_VC000.ChassisConfig_MudDrifter_VC000",
+      "vehicle_class": "EVehicleClass::CAR",
+      "observations": [
+        {
+          "save_file": "ArtemisVehicle.sav",
+          "slot": 23,
+          "state": "saved",
+          "source_sha256": "5f4902f62802c64ba87cd0ecc5bb8e99bd0f5f07474db5bdf0f9dbfe3ecb11c8",
+          "model_name": "Neues Fahrzeug 23",
+          "chassis_assemblies": [
+            "/Game/LEGO/Chassis/MudDrifterChassis_VC000.MudDrifterChassis_VC000"
+          ],
+          "chassis_part_count": 27,
+          "chassis_design_counts": {
+            "28326": 2,
+            "3023": 10,
+            "3031": 2,
+            "3710": 1,
+            "11458": 2,
+            "6562": 2,
+            "3794": 4,
+            "3623": 2,
+            "87079": 1,
+            "2926": 1
+          },
+          "chassis_parts_with_GEOM": 15,
+          "chassis_designs_without_GEOM": [
+            2926,
+            3794,
+            6562,
+            11458,
+            28326,
+            87079
+          ],
+          "wheels": [
+            {
+              "name": "fl",
+              "asset": "/Game/LEGO/Wheel/6014_6015.6014_6015",
+              "part_count": 2
+            },
+            {
+              "name": "fr",
+              "asset": "/Game/LEGO/Wheel/6014_6015.6014_6015",
+              "part_count": 2
+            },
+            {
+              "name": "bl",
+              "asset": "/Game/LEGO/Wheel/13971_61254.13971_61254",
+              "part_count": 2
+            },
+            {
+              "name": "br",
+              "asset": "/Game/LEGO/Wheel/13971_61254.13971_61254",
+              "part_count": 2
+            }
+          ]
+        }
+      ],
+      "menu_name": "Schlammdrifter",
+      "menu_name_status": "confirmed_by_user_saved_baseline",
+      "encyclopedia": {
+        "source": "https://github.com/r0levrai/l2kd-encyclopedia/blob/main/data/chassis_by_id.json",
+        "id": "MudDrifter_VC000",
+        "english_name": "Mud Drifter (new!)",
+        "terrain": "Offroad",
+        "default_engine": "EngineConfig_RangeRover",
+        "stats": null,
+        "status": "external_metadata; geometry comes from local save"
+      }
+    }
+  ],
+  "baseline_source_sha256": "5f4902f62802c64ba87cd0ecc5bb8e99bd0f5f07474db5bdf0f9dbfe3ecb11c8"
+}

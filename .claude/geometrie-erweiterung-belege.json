@@ -1,0 +1,2176 @@
+[
+  {
+    "design": 3007,
+    "size": [
+      8,
+      2,
+      30
+    ],
+    "fields": {
+      "unten": {
+        "1": 2
+      },
+      "oben": {
+        "0": 4
+      }
+    },
+    "examples": [
+      {
+        "vehicle": "Bulldozest",
+        "indices": [
+          204,
+          32
+        ],
+        "side": "unten",
+        "field": 1,
+        "strength": 4
+      },
+      {
+        "vehicle": "Bulldozest",
+        "indices": [
+          205,
+          32
+        ],
+        "side": "unten",
+        "field": 1,
+        "strength": 4
+      },
+      {
+        "vehicle": "Bulldozest",
+        "indices": [
+          271,
+          277
+        ],
+        "side": "oben",
+        "field": 0,
+        "strength": 8
+      },
+      {
+        "vehicle": "Bulldozest",
+        "indices": [
+          270,
+          277
+        ],
+        "side": "oben",
+        "field": 0,
+        "strength": 8
+      },
+      {
+        "vehicle": "Bulldozest",
+        "indices": [
+          271,
+          278
+        ],
+        "side": "oben",
+        "field": 0,
+        "strength": 4
+      },
+      {
+        "vehicle": "Bulldozest",
+        "indices": [
+          270,
+          278
+        ],
+        "side": "oben",
+        "field": 0,
+        "strength": 4
+      }
+    ]
+  },
+  {
+    "design": 3008,
+    "size": [
+      8,
+      1,
+      30
+    ],
+    "fields": {
+      "oben": {
+        "0": 4
+      },
+      "unten": {
+        "1": 1
+      }
+    },
+    "examples": [
+      {
+        "vehicle": "Bulldozest",
+        "indices": [
+          30,
+          81
+        ],
+        "side": "oben",
+        "field": 0,
+        "strength": 1
+      },
+      {
+        "vehicle": "Bulldozest",
+        "indices": [
+          29,
+          83
+        ],
+        "side": "oben",
+        "field": 0,
+        "strength": 1
+      },
+      {
+        "vehicle": "New Vehicle 49",
+        "indices": [
+          25,
+          87
+        ],
+        "side": "oben",
+        "field": 0,
+        "strength": 7
+      },
+      {
+        "vehicle": "New Vehicle 49",
+        "indices": [
+          25,
+          36
+        ],
+        "side": "oben",
+        "field": 0,
+        "strength": 1
+      },
+      {
+        "vehicle": "New Vehicle 49",
+        "indices": [
+          25,
+          22
+        ],
+        "side": "unten",
+        "field": 1,
+        "strength": 1
+      }
+    ]
+  },
+  {
+    "design": 3009,
+    "size": [
+      6,
+      1,
+      30
+    ],
+    "fields": {
+      "unten": {
+        "1": 15
+      },
+      "oben": {
+        "0": 13
+      }
+    },
+    "examples": [
+      {
+        "vehicle": "Model G022",
+        "indices": [
+          116,
+          139
+        ],
+        "side": "unten",
+        "field": 1,
+        "strength": 4
+      },
+      {
+        "vehicle": "Model G022",
+        "indices": [
+          78,
+          85
+        ],
+        "side": "oben",
+        "field": 0,
+        "strength": 1
+      },
+      {
+        "vehicle": "Model G022",
+        "indices": [
+          78,
+          86
+        ],
+        "side": "oben",
+        "field": 0,
+        "strength": 1
+      },
+      {
+        "vehicle": "Model G022",
+        "indices": [
+          78,
+          87
+        ],
+        "side": "oben",
+        "field": 0,
+        "strength": 4
+      },
+      {
+        "vehicle": "Model G022",
+        "indices": [
+          115,
+          15
+        ],
+        "side": "unten",
+        "field": 1,
+        "strength": 1
+      },
+      {
+        "vehicle": "Model G022",
+        "indices": [
+          116,
+          15
+        ],
+        "side": "unten",
+        "field": 1,
+        "strength": 1
+      },
+      {
+        "vehicle": "Model G022",
+        "indices": [
+          115,
+          14
+        ],
+        "side": "unten",
+        "field": 1,
+        "strength": 1
+      },
+      {
+        "vehicle": "Model G022",
+        "indices": [
+          116,
+          14
+        ],
+        "side": "unten",
+        "field": 1,
+        "strength": 1
+      },
+      {
+        "vehicle": "New Vehicle 49",
+        "indices": [
+          61,
+          52
+        ],
+        "side": "unten",
+        "field": 1,
+        "strength": 1
+      },
+      {
+        "vehicle": "New Vehicle 49",
+        "indices": [
+          61,
+          51
+        ],
+        "side": "unten",
+        "field": 1,
+        "strength": 1
+      },
+      {
+        "vehicle": "New Vehicle 49",
+        "indices": [
+          62,
+          49
+        ],
+        "side": "unten",
+        "field": 1,
+        "strength": 1
+      },
+      {
+        "vehicle": "New Vehicle 49",
+        "indices": [
+          62,
+          48
+        ],
+        "side": "unten",
+        "field": 1,
+        "strength": 4
+      },
+      {
+        "vehicle": "New Vehicle 49",
+        "indices": [
+          62,
+          47
+        ],
+        "side": "unten",
+        "field": 1,
+        "strength": 1
+      },
+      {
+        "vehicle": "New Vehicle 49",
+        "indices": [
+          39,
+          49
+        ],
+        "side": "oben",
+        "field": 0,
+        "strength": 1
+      },
+      {
+        "vehicle": "New Vehicle 49",
+        "indices": [
+          39,
+          48
+        ],
+        "side": "oben",
+        "field": 0,
+        "strength": 4
+      },
+      {
+        "vehicle": "New Vehicle 49",
+        "indices": [
+          39,
+          47
+        ],
+        "side": "oben",
+        "field": 0,
+        "strength": 1
+      },
+      {
+        "vehicle": "New Vehicle 49",
+        "indices": [
+          39,
+          36
+        ],
+        "side": "unten",
+        "field": 1,
+        "strength": 1
+      },
+      {
+        "vehicle": "New Vehicle 49",
+        "indices": [
+          39,
+          35
+        ],
+        "side": "unten",
+        "field": 1,
+        "strength": 4
+      },
+      {
+        "vehicle": "New Vehicle 49",
+        "indices": [
+          39,
+          34
+        ],
+        "side": "unten",
+        "field": 1,
+        "strength": 1
+      },
+      {
+        "vehicle": "New Vehicle 49",
+        "indices": [
+          24,
+          36
+        ],
+        "side": "oben",
+        "field": 0,
+        "strength": 1
+      },
+      {
+        "vehicle": "New Vehicle 49",
+        "indices": [
+          24,
+          35
+        ],
+        "side": "oben",
+        "field": 0,
+        "strength": 4
+      },
+      {
+        "vehicle": "New Vehicle 49",
+        "indices": [
+          24,
+          34
+        ],
+        "side": "oben",
+        "field": 0,
+        "strength": 1
+      },
+      {
+        "vehicle": "New Vehicle 49",
+        "indices": [
+          24,
+          20
+        ],
+        "side": "unten",
+        "field": 1,
+        "strength": 1
+      },
+      {
+        "vehicle": "New Vehicle 49",
+        "indices": [
+          24,
+          19
+        ],
+        "side": "unten",
+        "field": 1,
+        "strength": 4
+      },
+      {
+        "vehicle": "ASCOTT BAILER 2.0",
+        "indices": [
+          41,
+          114
+        ],
+        "side": "oben",
+        "field": 0,
+        "strength": 5
+      },
+      {
+        "vehicle": "ASCOTT BAILER 2.0",
+        "indices": [
+          41,
+          117
+        ],
+        "side": "oben",
+        "field": 0,
+        "strength": 1
+      },
+      {
+        "vehicle": "ASCOTT BAILER 2.0",
+        "indices": [
+          42,
+          122
+        ],
+        "side": "oben",
+        "field": 0,
+        "strength": 5
+      },
+      {
+        "vehicle": "ASCOTT BAILER 2.0",
+        "indices": [
+          42,
+          123
+        ],
+        "side": "oben",
+        "field": 0,
+        "strength": 1
+      }
+    ]
+  },
+  {
+    "design": 3021,
+    "size": [
+      3,
+      2,
+      10
+    ],
+    "fields": {
+      "oben": {
+        "1": 25
+      },
+      "unten": {
+        "0": 17
+      }
+    },
+    "examples": [
+      {
+        "vehicle": "Anakins Podracer Mk1",
+        "indices": [
+          128,
+          230
+        ],
+        "side": "oben",
+        "field": 1,
+        "strength": 2
+      },
+      {
+        "vehicle": "Anakins Podracer Mk1",
+        "indices": [
+          69,
+          201
+        ],
+        "side": "oben",
+        "field": 1,
+        "strength": 2
+      },
+      {
+        "vehicle": "Bulldozest",
+        "indices": [
+          18,
+          2
+        ],
+        "side": "unten",
+        "field": 0,
+        "strength": 4
+      },
+      {
+        "vehicle": "Bulldozest",
+        "indices": [
+          18,
+          32
+        ],
+        "side": "oben",
+        "field": 1,
+        "strength": 4
+      },
+      {
+        "vehicle": "Bulldozest",
+        "indices": [
+          17,
+          2
+        ],
+        "side": "unten",
+        "field": 0,
+        "strength": 4
+      },
+      {
+        "vehicle": "Bulldozest",
+        "indices": [
+          17,
+          32
+        ],
+        "side": "oben",
+        "field": 1,
+        "strength": 4
+      },
+      {
+        "vehicle": "Modern Racer",
+        "indices": [
+          189,
+          2
+        ],
+        "side": "oben",
+        "field": 1,
+        "strength": 2
+      },
+      {
+        "vehicle": "Modern Racer",
+        "indices": [
+          188,
+          2
+        ],
+        "side": "oben",
+        "field": 1,
+        "strength": 2
+      },
+      {
+        "vehicle": "Modern Racer",
+        "indices": [
+          174,
+          175
+        ],
+        "side": "unten",
+        "field": 0,
+        "strength": 1
+      },
+      {
+        "vehicle": "Modern Racer",
+        "indices": [
+          174,
+          141
+        ],
+        "side": "oben",
+        "field": 1,
+        "strength": 2
+      },
+      {
+        "vehicle": "Modern Racer",
+        "indices": [
+          174,
+          99
+        ],
+        "side": "oben",
+        "field": 1,
+        "strength": 2
+      },
+      {
+        "vehicle": "Modern Racer",
+        "indices": [
+          174,
+          171
+        ],
+        "side": "unten",
+        "field": 0,
+        "strength": 2
+      },
+      {
+        "vehicle": "New Vehicle 49",
+        "indices": [
+          30,
+          33
+        ],
+        "side": "oben",
+        "field": 1,
+        "strength": 1
+      },
+      {
+        "vehicle": "New Vehicle 49",
+        "indices": [
+          29,
+          31
+        ],
+        "side": "oben",
+        "field": 1,
+        "strength": 6
+      },
+      {
+        "vehicle": "New Vehicle 49",
+        "indices": [
+          30,
+          19
+        ],
+        "side": "unten",
+        "field": 0,
+        "strength": 2
+      },
+      {
+        "vehicle": "New Vehicle 49",
+        "indices": [
+          29,
+          19
+        ],
+        "side": "unten",
+        "field": 0,
+        "strength": 2
+      },
+      {
+        "vehicle": "Helicopter",
+        "indices": [
+          47,
+          46
+        ],
+        "side": "oben",
+        "field": 1,
+        "strength": 2
+      },
+      {
+        "vehicle": "Helicopter",
+        "indices": [
+          47,
+          48
+        ],
+        "side": "oben",
+        "field": 1,
+        "strength": 2
+      },
+      {
+        "vehicle": "For JokerMessiah",
+        "indices": [
+          135,
+          56
+        ],
+        "side": "unten",
+        "field": 0,
+        "strength": 2
+      },
+      {
+        "vehicle": "For JokerMessiah",
+        "indices": [
+          149,
+          165
+        ],
+        "side": "unten",
+        "field": 0,
+        "strength": 2
+      },
+      {
+        "vehicle": "For JokerMessiah",
+        "indices": [
+          137,
+          228
+        ],
+        "side": "unten",
+        "field": 0,
+        "strength": 2
+      },
+      {
+        "vehicle": "For JokerMessiah",
+        "indices": [
+          137,
+          194
+        ],
+        "side": "unten",
+        "field": 0,
+        "strength": 2
+      },
+      {
+        "vehicle": "For JokerMessiah",
+        "indices": [
+          138,
+          263
+        ],
+        "side": "unten",
+        "field": 0,
+        "strength": 2
+      },
+      {
+        "vehicle": "For JokerMessiah",
+        "indices": [
+          138,
+          267
+        ],
+        "side": "unten",
+        "field": 0,
+        "strength": 2
+      },
+      {
+        "vehicle": "For JokerMessiah",
+        "indices": [
+          285,
+          9
+        ],
+        "side": "oben",
+        "field": 1,
+        "strength": 4
+      },
+      {
+        "vehicle": "Brute Chopper",
+        "indices": [
+          62,
+          59
+        ],
+        "side": "oben",
+        "field": 1,
+        "strength": 2
+      },
+      {
+        "vehicle": "Brute Chopper",
+        "indices": [
+          62,
+          63
+        ],
+        "side": "oben",
+        "field": 1,
+        "strength": 1
+      },
+      {
+        "vehicle": "Brute Chopper",
+        "indices": [
+          74,
+          72
+        ],
+        "side": "oben",
+        "field": 1,
+        "strength": 2
+      },
+      {
+        "vehicle": "Brute Chopper",
+        "indices": [
+          74,
+          78
+        ],
+        "side": "oben",
+        "field": 1,
+        "strength": 1
+      },
+      {
+        "vehicle": "Brute Chopper",
+        "indices": [
+          146,
+          7
+        ],
+        "side": "unten",
+        "field": 0,
+        "strength": 6
+      },
+      {
+        "vehicle": "Brute Chopper",
+        "indices": [
+          62,
+          186
+        ],
+        "side": "oben",
+        "field": 1,
+        "strength": 1
+      },
+      {
+        "vehicle": "Brute Chopper",
+        "indices": [
+          74,
+          189
+        ],
+        "side": "oben",
+        "field": 1,
+        "strength": 1
+      },
+      {
+        "vehicle": "Brute Chopper",
+        "indices": [
+          203,
+          202
+        ],
+        "side": "unten",
+        "field": 0,
+        "strength": 4
+      },
+      {
+        "vehicle": "Brute Chopper",
+        "indices": [
+          203,
+          206
+        ],
+        "side": "oben",
+        "field": 1,
+        "strength": 2
+      },
+      {
+        "vehicle": "New Vehicle 29",
+        "indices": [
+          20,
+          15
+        ],
+        "side": "unten",
+        "field": 0,
+        "strength": 6
+      },
+      {
+        "vehicle": "New Vehicle 29",
+        "indices": [
+          20,
+          21
+        ],
+        "side": "oben",
+        "field": 1,
+        "strength": 4
+      },
+      {
+        "vehicle": "Explorateur nocturne",
+        "indices": [
+          196,
+          192
+        ],
+        "side": "oben",
+        "field": 1,
+        "strength": 2
+      },
+      {
+        "vehicle": "Explorateur nocturne",
+        "indices": [
+          196,
+          177
+        ],
+        "side": "unten",
+        "field": 0,
+        "strength": 6
+      },
+      {
+        "vehicle": "Explorateur nocturne",
+        "indices": [
+          197,
+          192
+        ],
+        "side": "oben",
+        "field": 1,
+        "strength": 2
+      },
+      {
+        "vehicle": "Explorateur nocturne",
+        "indices": [
+          197,
+          177
+        ],
+        "side": "unten",
+        "field": 0,
+        "strength": 6
+      },
+      {
+        "vehicle": "Explorateur nocturne",
+        "indices": [
+          196,
+          198
+        ],
+        "side": "oben",
+        "field": 1,
+        "strength": 4
+      },
+      {
+        "vehicle": "Explorateur nocturne",
+        "indices": [
+          197,
+          198
+        ],
+        "side": "oben",
+        "field": 1,
+        "strength": 4
+      }
+    ]
+  },
+  {
+    "design": 3795,
+    "size": [
+      6,
+      2,
+      10
+    ],
+    "fields": {
+      "unten": {
+        "1": 18
+      },
+      "oben": {
+        "0": 33
+      }
+    },
+    "examples": [
+      {
+        "vehicle": "Bulldozest",
+        "indices": [
+          31,
+          15
+        ],
+        "side": "unten",
+        "field": 1,
+        "strength": 4
+      },
+      {
+        "vehicle": "Bulldozest",
+        "indices": [
+          31,
+          13
+        ],
+        "side": "unten",
+        "field": 1,
+        "strength": 6
+      },
+      {
+        "vehicle": "Bulldozest",
+        "indices": [
+          10,
+          206
+        ],
+        "side": "oben",
+        "field": 0,
+        "strength": 2
+      },
+      {
+        "vehicle": "Bulldozest",
+        "indices": [
+          9,
+          206
+        ],
+        "side": "oben",
+        "field": 0,
+        "strength": 2
+      },
+      {
+        "vehicle": "Bulldozest",
+        "indices": [
+          9,
+          207
+        ],
+        "side": "oben",
+        "field": 0,
+        "strength": 2
+      },
+      {
+        "vehicle": "Bulldozest",
+        "indices": [
+          8,
+          207
+        ],
+        "side": "oben",
+        "field": 0,
+        "strength": 2
+      },
+      {
+        "vehicle": "Bulldozest",
+        "indices": [
+          213,
+          272
+        ],
+        "side": "unten",
+        "field": 1,
+        "strength": 2
+      },
+      {
+        "vehicle": "Bulldozest",
+        "indices": [
+          213,
+          273
+        ],
+        "side": "unten",
+        "field": 1,
+        "strength": 2
+      },
+      {
+        "vehicle": "Bulldozest",
+        "indices": [
+          214,
+          272
+        ],
+        "side": "unten",
+        "field": 1,
+        "strength": 4
+      },
+      {
+        "vehicle": "Bulldozest",
+        "indices": [
+          214,
+          273
+        ],
+        "side": "unten",
+        "field": 1,
+        "strength": 4
+      },
+      {
+        "vehicle": "Bulldozest",
+        "indices": [
+          214,
+          331
+        ],
+        "side": "oben",
+        "field": 0,
+        "strength": 2
+      },
+      {
+        "vehicle": "Bulldozest",
+        "indices": [
+          213,
+          331
+        ],
+        "side": "oben",
+        "field": 0,
+        "strength": 2
+      },
+      {
+        "vehicle": "Bulldozest",
+        "indices": [
+          214,
+          332
+        ],
+        "side": "oben",
+        "field": 0,
+        "strength": 2
+      },
+      {
+        "vehicle": "Bulldozest",
+        "indices": [
+          213,
+          332
+        ],
+        "side": "oben",
+        "field": 0,
+        "strength": 2
+      },
+      {
+        "vehicle": "Bulldozest",
+        "indices": [
+          341,
+          337
+        ],
+        "side": "oben",
+        "field": 0,
+        "strength": 2
+      },
+      {
+        "vehicle": "Bulldozest",
+        "indices": [
+          341,
+          336
+        ],
+        "side": "oben",
+        "field": 0,
+        "strength": 2
+      },
+      {
+        "vehicle": "Model G022",
+        "indices": [
+          117,
+          118
+        ],
+        "side": "oben",
+        "field": 0,
+        "strength": 2
+      },
+      {
+        "vehicle": "Model G022",
+        "indices": [
+          117,
+          119
+        ],
+        "side": "oben",
+        "field": 0,
+        "strength": 2
+      },
+      {
+        "vehicle": "Model G022",
+        "indices": [
+          117,
+          122
+        ],
+        "side": "oben",
+        "field": 0,
+        "strength": 2
+      },
+      {
+        "vehicle": "Model G022",
+        "indices": [
+          117,
+          123
+        ],
+        "side": "oben",
+        "field": 0,
+        "strength": 2
+      },
+      {
+        "vehicle": "Model G022",
+        "indices": [
+          117,
+          124
+        ],
+        "side": "oben",
+        "field": 0,
+        "strength": 2
+      },
+      {
+        "vehicle": "Model G022",
+        "indices": [
+          117,
+          125
+        ],
+        "side": "oben",
+        "field": 0,
+        "strength": 2
+      },
+      {
+        "vehicle": "Model G022",
+        "indices": [
+          22,
+          2
+        ],
+        "side": "oben",
+        "field": 0,
+        "strength": 4
+      },
+      {
+        "vehicle": "Model G022",
+        "indices": [
+          22,
+          46
+        ],
+        "side": "oben",
+        "field": 0,
+        "strength": 1
+      },
+      {
+        "vehicle": "Model G022",
+        "indices": [
+          22,
+          47
+        ],
+        "side": "oben",
+        "field": 0,
+        "strength": 1
+      },
+      {
+        "vehicle": "Octan Space Racer",
+        "indices": [
+          200,
+          40
+        ],
+        "side": "unten",
+        "field": 1,
+        "strength": 1
+      },
+      {
+        "vehicle": "Octan Space Racer",
+        "indices": [
+          200,
+          28
+        ],
+        "side": "unten",
+        "field": 1,
+        "strength": 1
+      },
+      {
+        "vehicle": "Octan Space Racer",
+        "indices": [
+          200,
+          37
+        ],
+        "side": "unten",
+        "field": 1,
+        "strength": 1
+      },
+      {
+        "vehicle": "Octan Space Racer",
+        "indices": [
+          200,
+          25
+        ],
+        "side": "unten",
+        "field": 1,
+        "strength": 1
+      },
+      {
+        "vehicle": "Octan Space Racer",
+        "indices": [
+          173,
+          174
+        ],
+        "side": "unten",
+        "field": 1,
+        "strength": 8
+      },
+      {
+        "vehicle": "Octan Space Racer",
+        "indices": [
+          173,
+          144
+        ],
+        "side": "oben",
+        "field": 0,
+        "strength": 2
+      },
+      {
+        "vehicle": "Octan Space Racer",
+        "indices": [
+          173,
+          91
+        ],
+        "side": "oben",
+        "field": 0,
+        "strength": 4
+      },
+      {
+        "vehicle": "Helicopter",
+        "indices": [
+          5,
+          7
+        ],
+        "side": "unten",
+        "field": 1,
+        "strength": 2
+      },
+      {
+        "vehicle": "Helicopter",
+        "indices": [
+          5,
+          6
+        ],
+        "side": "unten",
+        "field": 1,
+        "strength": 2
+      },
+      {
+        "vehicle": "Helicopter",
+        "indices": [
+          5,
+          3
+        ],
+        "side": "unten",
+        "field": 1,
+        "strength": 4
+      },
+      {
+        "vehicle": "4.U.Bentherehkdtht7",
+        "indices": [
+          26,
+          2
+        ],
+        "side": "oben",
+        "field": 0,
+        "strength": 4
+      },
+      {
+        "vehicle": "4.U.Bentherehkdtht7",
+        "indices": [
+          67,
+          66
+        ],
+        "side": "oben",
+        "field": 0,
+        "strength": 6
+      },
+      {
+        "vehicle": "4.U.Bentherehkdtht7",
+        "indices": [
+          50,
+          45
+        ],
+        "side": "unten",
+        "field": 1,
+        "strength": 6
+      },
+      {
+        "vehicle": "ASCOTT BAILER 2.0",
+        "indices": [
+          72,
+          29
+        ],
+        "side": "oben",
+        "field": 0,
+        "strength": 1
+      },
+      {
+        "vehicle": "ASCOTT BAILER 2.0",
+        "indices": [
+          72,
+          28
+        ],
+        "side": "oben",
+        "field": 0,
+        "strength": 1
+      },
+      {
+        "vehicle": "ASCOTT BAILER 2.0",
+        "indices": [
+          72,
+          77
+        ],
+        "side": "oben",
+        "field": 0,
+        "strength": 1
+      },
+      {
+        "vehicle": "ASCOTT BAILER 2.0",
+        "indices": [
+          72,
+          81
+        ],
+        "side": "unten",
+        "field": 1,
+        "strength": 6
+      },
+      {
+        "vehicle": "ASCOTT BAILER 2.0",
+        "indices": [
+          72,
+          91
+        ],
+        "side": "oben",
+        "field": 0,
+        "strength": 1
+      },
+      {
+        "vehicle": "ASCOTT BAILER 2.0",
+        "indices": [
+          95,
+          97
+        ],
+        "side": "oben",
+        "field": 0,
+        "strength": 1
+      },
+      {
+        "vehicle": "ASCOTT BAILER 2.0",
+        "indices": [
+          95,
+          98
+        ],
+        "side": "oben",
+        "field": 0,
+        "strength": 1
+      },
+      {
+        "vehicle": "Bat Boat",
+        "indices": [
+          25,
+          26
+        ],
+        "side": "oben",
+        "field": 0,
+        "strength": 4
+      },
+      {
+        "vehicle": "Bat Boat",
+        "indices": [
+          25,
+          115
+        ],
+        "side": "oben",
+        "field": 0,
+        "strength": 2
+      },
+      {
+        "vehicle": "Explorateur nocturne",
+        "indices": [
+          13,
+          3
+        ],
+        "side": "unten",
+        "field": 1,
+        "strength": 2
+      },
+      {
+        "vehicle": "Explorateur nocturne",
+        "indices": [
+          13,
+          14
+        ],
+        "side": "oben",
+        "field": 0,
+        "strength": 4
+      },
+      {
+        "vehicle": "Explorateur nocturne",
+        "indices": [
+          13,
+          50
+        ],
+        "side": "unten",
+        "field": 1,
+        "strength": 6
+      },
+      {
+        "vehicle": "Explorateur nocturne",
+        "indices": [
+          13,
+          151
+        ],
+        "side": "oben",
+        "field": 0,
+        "strength": 2
+      }
+    ]
+  },
+  {
+    "design": 3032,
+    "size": [
+      6,
+      4,
+      10
+    ],
+    "fields": {
+      "unten": {
+        "1": 6
+      },
+      "oben": {
+        "0": 2
+      }
+    },
+    "examples": [
+      {
+        "vehicle": "Bat Boat",
+        "indices": [
+          59,
+          82
+        ],
+        "side": "unten",
+        "field": 1,
+        "strength": 16
+      },
+      {
+        "vehicle": "Bat Boat",
+        "indices": [
+          58,
+          83
+        ],
+        "side": "unten",
+        "field": 1,
+        "strength": 16
+      },
+      {
+        "vehicle": "Minigame bots farm",
+        "indices": [
+          200,
+          194
+        ],
+        "side": "unten",
+        "field": 1,
+        "strength": 4
+      },
+      {
+        "vehicle": "Minigame bots farm",
+        "indices": [
+          200,
+          203
+        ],
+        "side": "unten",
+        "field": 1,
+        "strength": 1
+      },
+      {
+        "vehicle": "Minigame bots farm",
+        "indices": [
+          197,
+          193
+        ],
+        "side": "unten",
+        "field": 1,
+        "strength": 4
+      },
+      {
+        "vehicle": "Minigame bots farm",
+        "indices": [
+          197,
+          202
+        ],
+        "side": "unten",
+        "field": 1,
+        "strength": 1
+      },
+      {
+        "vehicle": "Minigame bots farm",
+        "indices": [
+          197,
+          264
+        ],
+        "side": "oben",
+        "field": 0,
+        "strength": 1
+      },
+      {
+        "vehicle": "Minigame bots farm",
+        "indices": [
+          200,
+          265
+        ],
+        "side": "oben",
+        "field": 0,
+        "strength": 1
+      }
+    ]
+  },
+  {
+    "design": 3033,
+    "size": [
+      10,
+      6,
+      10
+    ],
+    "fields": {
+      "unten": {
+        "1": 4
+      },
+      "oben": {
+        "0": 4
+      }
+    },
+    "examples": [
+      {
+        "vehicle": "the cooker",
+        "indices": [
+          29,
+          38
+        ],
+        "side": "unten",
+        "field": 1,
+        "strength": 2
+      },
+      {
+        "vehicle": "the cooker",
+        "indices": [
+          29,
+          39
+        ],
+        "side": "unten",
+        "field": 1,
+        "strength": 2
+      },
+      {
+        "vehicle": "the cooker",
+        "indices": [
+          29,
+          40
+        ],
+        "side": "unten",
+        "field": 1,
+        "strength": 2
+      },
+      {
+        "vehicle": "the cooker",
+        "indices": [
+          29,
+          41
+        ],
+        "side": "unten",
+        "field": 1,
+        "strength": 2
+      },
+      {
+        "vehicle": "the cooker",
+        "indices": [
+          29,
+          60
+        ],
+        "side": "oben",
+        "field": 0,
+        "strength": 1
+      },
+      {
+        "vehicle": "the cooker",
+        "indices": [
+          29,
+          61
+        ],
+        "side": "oben",
+        "field": 0,
+        "strength": 1
+      },
+      {
+        "vehicle": "the cooker",
+        "indices": [
+          29,
+          62
+        ],
+        "side": "oben",
+        "field": 0,
+        "strength": 1
+      },
+      {
+        "vehicle": "the cooker",
+        "indices": [
+          29,
+          63
+        ],
+        "side": "oben",
+        "field": 0,
+        "strength": 1
+      }
+    ]
+  },
+  {
+    "design": 3034,
+    "size": [
+      8,
+      2,
+      10
+    ],
+    "fields": {
+      "oben": {
+        "1": 12
+      },
+      "unten": {
+        "0": 15
+      }
+    },
+    "examples": [
+      {
+        "vehicle": "Anakins Podracer Mk1",
+        "indices": [
+          8,
+          41
+        ],
+        "side": "oben",
+        "field": 1,
+        "strength": 2
+      },
+      {
+        "vehicle": "Anakins Podracer Mk1",
+        "indices": [
+          9,
+          245
+        ],
+        "side": "unten",
+        "field": 0,
+        "strength": 2
+      },
+      {
+        "vehicle": "4.U.Bentherehkdtht7",
+        "indices": [
+          48,
+          37
+        ],
+        "side": "unten",
+        "field": 0,
+        "strength": 1
+      },
+      {
+        "vehicle": "4.U.Bentherehkdtht7",
+        "indices": [
+          48,
+          38
+        ],
+        "side": "unten",
+        "field": 0,
+        "strength": 1
+      },
+      {
+        "vehicle": "4.U.Bentherehkdtht7",
+        "indices": [
+          48,
+          53
+        ],
+        "side": "oben",
+        "field": 1,
+        "strength": 1
+      },
+      {
+        "vehicle": "4.U.Bentherehkdtht7",
+        "indices": [
+          48,
+          54
+        ],
+        "side": "oben",
+        "field": 1,
+        "strength": 1
+      },
+      {
+        "vehicle": "4.U.Bentherehkdtht7",
+        "indices": [
+          48,
+          128
+        ],
+        "side": "oben",
+        "field": 1,
+        "strength": 2
+      },
+      {
+        "vehicle": "4.U.Bentherehkdtht7",
+        "indices": [
+          48,
+          131
+        ],
+        "side": "oben",
+        "field": 1,
+        "strength": 2
+      },
+      {
+        "vehicle": "Bat Boat",
+        "indices": [
+          29,
+          28
+        ],
+        "side": "unten",
+        "field": 0,
+        "strength": 4
+      },
+      {
+        "vehicle": "Bat Boat",
+        "indices": [
+          29,
+          30
+        ],
+        "side": "unten",
+        "field": 0,
+        "strength": 2
+      },
+      {
+        "vehicle": "Bat Boat",
+        "indices": [
+          29,
+          31
+        ],
+        "side": "unten",
+        "field": 0,
+        "strength": 2
+      },
+      {
+        "vehicle": "Bat Boat",
+        "indices": [
+          29,
+          32
+        ],
+        "side": "unten",
+        "field": 0,
+        "strength": 2
+      },
+      {
+        "vehicle": "Bat Boat",
+        "indices": [
+          29,
+          33
+        ],
+        "side": "unten",
+        "field": 0,
+        "strength": 2
+      },
+      {
+        "vehicle": "Bat Boat",
+        "indices": [
+          29,
+          49
+        ],
+        "side": "oben",
+        "field": 1,
+        "strength": 2
+      },
+      {
+        "vehicle": "Bat Boat",
+        "indices": [
+          77,
+          66
+        ],
+        "side": "oben",
+        "field": 1,
+        "strength": 6
+      },
+      {
+        "vehicle": "Bat Boat",
+        "indices": [
+          76,
+          70
+        ],
+        "side": "oben",
+        "field": 1,
+        "strength": 6
+      },
+      {
+        "vehicle": "New Vehicle 29",
+        "indices": [
+          86,
+          85
+        ],
+        "side": "unten",
+        "field": 0,
+        "strength": 2
+      },
+      {
+        "vehicle": "New Vehicle 29",
+        "indices": [
+          86,
+          83
+        ],
+        "side": "unten",
+        "field": 0,
+        "strength": 2
+      },
+      {
+        "vehicle": "New Vehicle 29",
+        "indices": [
+          86,
+          89
+        ],
+        "side": "oben",
+        "field": 1,
+        "strength": 8
+      },
+      {
+        "vehicle": "Explorateur nocturne",
+        "indices": [
+          17,
+          16
+        ],
+        "side": "unten",
+        "field": 0,
+        "strength": 4
+      },
+      {
+        "vehicle": "Explorateur nocturne",
+        "indices": [
+          17,
+          18
+        ],
+        "side": "unten",
+        "field": 0,
+        "strength": 2
+      },
+      {
+        "vehicle": "Explorateur nocturne",
+        "indices": [
+          17,
+          19
+        ],
+        "side": "unten",
+        "field": 0,
+        "strength": 2
+      },
+      {
+        "vehicle": "Explorateur nocturne",
+        "indices": [
+          17,
+          20
+        ],
+        "side": "unten",
+        "field": 0,
+        "strength": 2
+      },
+      {
+        "vehicle": "Explorateur nocturne",
+        "indices": [
+          17,
+          21
+        ],
+        "side": "unten",
+        "field": 0,
+        "strength": 2
+      },
+      {
+        "vehicle": "Explorateur nocturne",
+        "indices": [
+          17,
+          37
+        ],
+        "side": "oben",
+        "field": 1,
+        "strength": 2
+      },
+      {
+        "vehicle": "Explorateur nocturne",
+        "indices": [
+          17,
+          152
+        ],
+        "side": "oben",
+        "field": 1,
+        "strength": 2
+      },
+      {
+        "vehicle": "Explorateur nocturne",
+        "indices": [
+          17,
+          153
+        ],
+        "side": "oben",
+        "field": 1,
+        "strength": 2
+      }
+    ]
+  },
+  {
+    "design": 3035,
+    "size": [
+      8,
+      4,
+      10
+    ],
+    "fields": {
+      "oben": {
+        "0": 1
+      }
+    },
+    "examples": [
+      {
+        "vehicle": "the cooker",
+        "indices": [
+          26,
+          36
+        ],
+        "side": "oben",
+        "field": 0,
+        "strength": 4
+      }
+    ]
+  },
+  {
+    "design": 3028,
+    "size": [
+      12,
+      6,
+      10
+    ],
+    "fields": {
+      "oben": {
+        "0": 2
+      }
+    },
+    "examples": [
+      {
+        "vehicle": "the cooker",
+        "indices": [
+          15,
+          50
+        ],
+        "side": "oben",
+        "field": 0,
+        "strength": 6
+      },
+      {
+        "vehicle": "the cooker",
+        "indices": [
+          15,
+          51
+        ],
+        "side": "oben",
+        "field": 0,
+        "strength": 6
+      }
+    ]
+  },
+  {
+    "design": 3029,
+    "size": [
+      12,
+      4,
+      10
+    ],
+    "fields": {
+      "oben": {
+        "1": 1
+      }
+    },
+    "examples": [
+      {
+        "vehicle": "the cooker",
+        "indices": [
+          2,
+          11
+        ],
+        "side": "oben",
+        "field": 1,
+        "strength": 4
+      }
+    ]
+  },
+  {
+    "design": 3068,
+    "size": [
+      2,
+      2,
+      10
+    ],
+    "fields": {
+      "unten": {
+        "0": 18
+      }
+    },
+    "examples": [
+      {
+        "vehicle": "Bulldozest",
+        "indices": [
+          300,
+          290
+        ],
+        "side": "unten",
+        "field": 0,
+        "strength": 4
+      },
+      {
+        "vehicle": "Modern Racer",
+        "indices": [
+          205,
+          149
+        ],
+        "side": "unten",
+        "field": 0,
+        "strength": 1
+      },
+      {
+        "vehicle": "Modern Racer",
+        "indices": [
+          85,
+          149
+        ],
+        "side": "unten",
+        "field": 0,
+        "strength": 2
+      },
+      {
+        "vehicle": "Modern Racer",
+        "indices": [
+          209,
+          148
+        ],
+        "side": "unten",
+        "field": 0,
+        "strength": 2
+      },
+      {
+        "vehicle": "Modern Racer",
+        "indices": [
+          208,
+          148
+        ],
+        "side": "unten",
+        "field": 0,
+        "strength": 1
+      },
+      {
+        "vehicle": "Modern Racer",
+        "indices": [
+          205,
+          143
+        ],
+        "side": "unten",
+        "field": 0,
+        "strength": 1
+      },
+      {
+        "vehicle": "Modern Racer",
+        "indices": [
+          85,
+          143
+        ],
+        "side": "unten",
+        "field": 0,
+        "strength": 2
+      },
+      {
+        "vehicle": "Modern Racer",
+        "indices": [
+          209,
+          142
+        ],
+        "side": "unten",
+        "field": 0,
+        "strength": 2
+      },
+      {
+        "vehicle": "Modern Racer",
+        "indices": [
+          208,
+          142
+        ],
+        "side": "unten",
+        "field": 0,
+        "strength": 1
+      },
+      {
+        "vehicle": "Modern Racer",
+        "indices": [
+          208,
+          84
+        ],
+        "side": "unten",
+        "field": 0,
+        "strength": 2
+      },
+      {
+        "vehicle": "Modern Racer",
+        "indices": [
+          205,
+          83
+        ],
+        "side": "unten",
+        "field": 0,
+        "strength": 2
+      },
+      {
+        "vehicle": "Modern Racer",
+        "indices": [
+          137,
+          66
+        ],
+        "side": "unten",
+        "field": 0,
+        "strength": 4
+      },
+      {
+        "vehicle": "New Vehicle 49",
+        "indices": [
+          68,
+          87
+        ],
+        "side": "unten",
+        "field": 0,
+        "strength": 2
+      },
+      {
+        "vehicle": "4.U.Bentherehkdtht7",
+        "indices": [
+          178,
+          136
+        ],
+        "side": "unten",
+        "field": 0,
+        "strength": 2
+      },
+      {
+        "vehicle": "4.U.Bentherehkdtht7",
+        "indices": [
+          178,
+          56
+        ],
+        "side": "unten",
+        "field": 0,
+        "strength": 2
+      },
+      {
+        "vehicle": "ASCOTT BAILER 2.0",
+        "indices": [
+          193,
+          192
+        ],
+        "side": "unten",
+        "field": 0,
+        "strength": 4
+      },
+      {
+        "vehicle": "Bat Boat",
+        "indices": [
+          129,
+          128
+        ],
+        "side": "unten",
+        "field": 0,
+        "strength": 2
+      },
+      {
+        "vehicle": "Minigame bots farm",
+        "indices": [
+          339,
+          0
+        ],
+        "side": "unten",
+        "field": 0,
+        "strength": 4
+      }
+    ]
+  }
+]

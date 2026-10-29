@@ -1,0 +1,36 @@
+{
+  "zeit": "2026-10-29 19:56:47",
+  "status": "angewendet; noch nicht im Spiel getestet",
+  "quelle_sha256": "7a2ac33f901e5733be94c23da1065721d4966ba8b79b03571840832ce6de9aff",
+  "ergebnis_sha256": "d58bd152ca049ead1e8f53811fe9b906539506cefc0ce12dca961068a1527e15",
+  "katalog": {
+    "BrickPack": 189,
+    "LegoAssembly": 382,
+    "LegoPart": 2028,
+    "Vehicle": 662
+  },
+  "ergaenzungen_pro_liste": [
+    3231,
+    3231
+  ],
+  "pruefungen": [
+    "Original bytegenau",
+    "GVAS rücklesbar",
+    "Katalog vollständig eingetragen",
+    "Nur zwei LockRewards-Listen verändert",
+    "Idempotent"
+  ],
+  "unsicher": [
+    "LegoAssembly-Typ für Räder/Propeller im Spiel prüfen",
+    "662 Fahrzeuge einschließlich 14 laut Katalog nicht regulär gültiger Vorlagen",
+    "Premium-Pass-Menü bleibt gegebenenfalls gesperrt; keine Lizenzfreigabe geändert"
+  ],
+  "sicherung": "C:\\Users\\Ben\\Documents\\_PRIVATE\\Git\\Lego2kDriveBuilder\\_sicherungen\\freischaltung_2026-10-29_19-56-47",
+  "spielstart_pruefung": {
+    "freigaben_nach_spielspeicherung_erhalten": true,
+    "abweichungen_zum_kandidaten": [
+      "/Timestamp"
+    ],
+    "garage_sichtbar_getestet": false
+  }
+}

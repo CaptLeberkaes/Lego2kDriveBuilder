@@ -1,0 +1,104 @@
+{
+  "counts": {
+    "predicted": 716,
+    "exact_in_saved": 716
+  },
+  "differences": [],
+  "base_chassis_roundtrips": [
+    {
+      "menu_name": "Alte Schule",
+      "parts": 11,
+      "connections": 4
+    },
+    {
+      "menu_name": "El Dragón",
+      "parts": 17,
+      "connections": 20
+    },
+    {
+      "menu_name": "Ende der Straße",
+      "parts": 16,
+      "connections": 16
+    },
+    {
+      "menu_name": "Extremtempo",
+      "parts": 23,
+      "connections": 30
+    },
+    {
+      "menu_name": "Gerade und schmal",
+      "parts": 11,
+      "connections": 4
+    },
+    {
+      "menu_name": "Lenkstange",
+      "parts": 26,
+      "connections": 40
+    },
+    {
+      "menu_name": "Renn-Ass",
+      "parts": 17,
+      "connections": 24
+    },
+    {
+      "menu_name": "Straßen-Champion",
+      "parts": 16,
+      "connections": 14
+    },
+    {
+      "menu_name": "Süße Mischung",
+      "parts": 20,
+      "connections": 16
+    },
+    {
+      "menu_name": "Winziger Schrecken",
+      "parts": 11,
+      "connections": 4
+    },
+    {
+      "menu_name": "Arbeitstier",
+      "parts": 16,
+      "connections": 14
+    },
+    {
+      "menu_name": "Big Tex",
+      "parts": 54,
+      "connections": 132
+    },
+    {
+      "menu_name": "Dünenläufer",
+      "parts": 18,
+      "connections": 30
+    },
+    {
+      "menu_name": "Eileen",
+      "parts": 16,
+      "connections": 18
+    },
+    {
+      "menu_name": "Explorer",
+      "parts": 39,
+      "connections": 76
+    },
+    {
+      "menu_name": "Gelände-Champion",
+      "parts": 22,
+      "connections": 30
+    },
+    {
+      "menu_name": "Herz des Abenteuers",
+      "parts": 33,
+      "connections": 52
+    },
+    {
+      "menu_name": "Klotzer",
+      "parts": 48,
+      "connections": 100
+    },
+    {
+      "menu_name": "Schlammdrifter",
+      "parts": 35,
+      "connections": 52
+    }
+  ]
+}
