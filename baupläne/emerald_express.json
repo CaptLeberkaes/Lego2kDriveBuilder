@@ -1,0 +1,686 @@
+{
+ "name": "Emerald Express",
+ "vorlage_datei": "_sicherungen/geschrieben_2026-10-29_21-17-19_9935dab8/ArtemisVehicle.sav",
+ "vorlage_name": "Neues Fahrzeug 05",
+ "teile": [
+  {
+   "id": "rahmen_hinten",
+   "teil": 3795,
+   "farbe": 12,
+   "pos": [
+    -137.5,
+    12.5,
+    20
+   ]
+  },
+  {
+   "id": "rahmen_vorn",
+   "teil": 3795,
+   "farbe": 1,
+   "pos": [
+    12.5,
+    12.5,
+    20
+   ]
+  },
+  {
+   "id": "lauf_heck",
+   "teil": 3023,
+   "farbe": 1,
+   "pos": [
+    -137.5,
+    -12.5,
+    30
+   ],
+   "dreh": 90
+  },
+  {
+   "id": "lauf_mitte",
+   "teil": 3795,
+   "farbe": 1,
+   "pos": [
+    -112.5,
+    12.5,
+    30
+   ]
+  },
+  {
+   "id": "lauf_vorn",
+   "teil": 3021,
+   "farbe": 12,
+   "pos": [
+    37.5,
+    12.5,
+    30
+   ]
+  },
+  {
+   "id": "lauf_bug",
+   "teil": 3023,
+   "farbe": 12,
+   "pos": [
+    112.5,
+    -12.5,
+    30
+   ],
+   "dreh": 90
+  },
+  {
+   "id": "hausbock",
+   "teil": 3021,
+   "farbe": 12,
+   "pos": [
+    -137.5,
+    12.5,
+    40
+   ]
+  },
+  {
+   "id": "boden_2x4",
+   "teil": 3020,
+   "farbe": 38,
+   "pos": [
+    -137.5,
+    -37.5,
+    50
+   ],
+   "dreh": 90
+  },
+  {
+   "id": "boden_1x4",
+   "teil": 3710,
+   "farbe": 38,
+   "pos": [
+    -87.5,
+    -37.5,
+    50
+   ],
+   "dreh": 90
+  },
+  {
+   "id": "streifen_links",
+   "teil": 3623,
+   "farbe": 7,
+   "pos": [
+    -137.5,
+    37.5,
+    60
+   ]
+  },
+  {
+   "id": "streifen_rechts",
+   "teil": 3623,
+   "farbe": 7,
+   "pos": [
+    -137.5,
+    -37.5,
+    60
+   ]
+  },
+  {
+   "id": "rueckwand_unten",
+   "teil": 3023,
+   "farbe": 7,
+   "pos": [
+    -137.5,
+    -12.5,
+    60
+   ],
+   "dreh": 90
+  },
+  {
+   "id": "fenster_links",
+   "teil": 3004,
+   "farbe": 16,
+   "pos": [
+    -112.5,
+    37.5,
+    70
+   ]
+  },
+  {
+   "id": "fenster_rechts",
+   "teil": 3004,
+   "farbe": 16,
+   "pos": [
+    -112.5,
+    -37.5,
+    70
+   ]
+  },
+  {
+   "id": "pfosten_links",
+   "teil": 3005,
+   "farbe": 38,
+   "pos": [
+    -137.5,
+    37.5,
+    70
+   ]
+  },
+  {
+   "id": "pfosten_rechts",
+   "teil": 3005,
+   "farbe": 38,
+   "pos": [
+    -137.5,
+    -37.5,
+    70
+   ]
+  },
+  {
+   "id": "rueckwand",
+   "teil": 3004,
+   "farbe": 1,
+   "pos": [
+    -137.5,
+    -12.5,
+    70
+   ],
+   "dreh": 90
+  },
+  {
+   "id": "dach_links",
+   "teil": 88930,
+   "farbe": 11,
+   "pos": [
+    -162.5,
+    37.5,
+    100
+   ]
+  },
+  {
+   "id": "dach_rechts",
+   "teil": 88930,
+   "farbe": 11,
+   "pos": [
+    -87.5,
+    -37.5,
+    100
+   ],
+   "dreh": 180
+  },
+  {
+   "id": "winkel",
+   "teil": 3956,
+   "farbe": 11,
+   "pos": [
+    -37.5,
+    12.5,
+    40
+   ],
+   "rot": [
+    0.0,
+    0.0,
+    -0.7071068,
+    0.7071068
+   ]
+  },
+  {
+   "id": "kessel_hinten",
+   "teil": 6143,
+   "farbe": 38,
+   "pos": [
+    -55,
+    -12.5,
+    87.5
+   ],
+   "rot": [
+    0.5,
+    0.5,
+    0.5,
+    0.5
+   ]
+  },
+  {
+   "id": "kessel_vorn",
+   "teil": 6143,
+   "farbe": 38,
+   "pos": [
+    -15,
+    -12.5,
+    87.5
+   ],
+   "rot": [
+    0.5,
+    0.5,
+    0.5,
+    0.5
+   ]
+  },
+  {
+   "id": "kugelplatte",
+   "teil": 63082,
+   "farbe": 11,
+   "pos": [
+    -65,
+    -12.5,
+    87.5
+   ],
+   "rot": [
+    0.5,
+    0.5,
+    0.5,
+    0.5
+   ]
+  },
+  {
+   "id": "kesselende",
+   "teil": 4032,
+   "farbe": 38,
+   "pos": [
+    -75,
+    -12.5,
+    87.5
+   ],
+   "rot": [
+    0.5,
+    0.5,
+    0.5,
+    0.5
+   ]
+  },
+  {
+   "id": "ring_unten",
+   "teil": 3023,
+   "farbe": 11,
+   "pos": [
+    15,
+    12.5,
+    62.5
+   ],
+   "rot": [
+    -0.5,
+    0.5,
+    -0.5,
+    0.5
+   ]
+  },
+  {
+   "id": "griff",
+   "teil": 2540,
+   "farbe": 11,
+   "pos": [
+    15,
+    -12.5,
+    87.5
+   ],
+   "rot": [
+    0.5,
+    0.5,
+    0.5,
+    0.5
+   ]
+  },
+  {
+   "id": "rauchkammer",
+   "teil": 87580,
+   "farbe": 7,
+   "pos": [
+    25,
+    -12.5,
+    62.5
+   ],
+   "rot": [
+    0.7071068,
+    0,
+    0.7071068,
+    0
+   ]
+  },
+  {
+   "id": "tuer",
+   "teil": 4740,
+   "farbe": 11,
+   "pos": [
+    35,
+    0,
+    75
+   ],
+   "rot": [
+    0.5,
+    0.5,
+    0.5,
+    0.5
+   ]
+  },
+  {
+   "id": "lampe",
+   "teil": 98138,
+   "farbe": 20,
+   "pos": [
+    45,
+    0,
+    75
+   ],
+   "rot": [
+    0.5,
+    0.5,
+    0.5,
+    0.5
+   ],
+   "leuchtend": true
+  },
+  {
+   "id": "clip",
+   "teil": 6019,
+   "farbe": 11,
+   "pos": [
+    -2.5,
+    -2.5,
+    120
+   ],
+   "rot": [
+    -0.7071068,
+    -0.7071068,
+    0,
+    0
+   ]
+  },
+  {
+   "id": "clipfliese",
+   "teil": 3070,
+   "farbe": 11,
+   "pos": [
+    -2.5,
+    -2.5,
+    110
+   ],
+   "rot": [
+    0.7071068,
+    -0.7071068,
+    0,
+    0
+   ]
+  },
+  {
+   "id": "schornstein",
+   "teil": 3942,
+   "farbe": 11,
+   "pos": [
+    -15,
+    -15,
+    180
+   ],
+   "rot": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "id": "frontfliese",
+   "teil": 3068,
+   "farbe": 11,
+   "pos": [
+    12.5,
+    12.5,
+    40
+   ]
+  },
+  {
+   "id": "pufferbohle",
+   "teil": 3022,
+   "farbe": 11,
+   "pos": [
+    137.5,
+    12.5,
+    30
+   ]
+  },
+  {
+   "id": "raeumer_links",
+   "teil": 3040,
+   "farbe": 12,
+   "pos": [
+    162.5,
+    12.5,
+    0
+   ],
+   "dreh": 270
+  },
+  {
+   "id": "raeumer_rechts",
+   "teil": 3040,
+   "farbe": 12,
+   "pos": [
+    162.5,
+    -12.5,
+    0
+   ],
+   "dreh": 270
+  },
+  {
+   "id": "halter_links",
+   "teil": 4081,
+   "farbe": 11,
+   "pos": [
+    37.5,
+    12.5,
+    10
+   ]
+  },
+  {
+   "id": "halter_rechts",
+   "teil": 4081,
+   "farbe": 11,
+   "pos": [
+    37.5,
+    -12.5,
+    10
+   ],
+   "dreh": 180
+  },
+  {
+   "id": "zylinder_links",
+   "teil": 6141,
+   "farbe": 11,
+   "pos": [
+    42.5,
+    37.5,
+    17.5
+   ],
+   "rot": [
+    -0.5,
+    -0.5,
+    -0.5,
+    -0.5
+   ]
+  },
+  {
+   "id": "zylinder_rechts",
+   "teil": 6141,
+   "farbe": 11,
+   "pos": [
+    42.5,
+    -37.5,
+    17.5
+   ],
+   "rot": [
+    -0.5,
+    0.5,
+    -0.5,
+    0.5
+   ]
+  }
+ ],
+ "verbindungen": [
+  {
+   "a": "chassis:1",
+   "b": "rahmen_vorn",
+   "fa": 2,
+   "fb": 1,
+   "noppen": 4,
+   "typ": "FixedConnection"
+  },
+  {
+   "a": "chassis:2",
+   "b": "rahmen_hinten",
+   "fa": 2,
+   "fb": 1,
+   "noppen": 4,
+   "typ": "FixedConnection"
+  },
+  {
+   "a": "winkel",
+   "b": "lauf_mitte",
+   "fa": 1,
+   "fb": 0,
+   "noppen": 4,
+   "typ": "FixedConnection"
+  },
+  {
+   "a": "winkel",
+   "b": "kessel_hinten",
+   "fa": 2,
+   "fb": 2,
+   "noppen": 4,
+   "typ": "FixedConnection"
+  },
+  {
+   "a": "winkel",
+   "b": "kessel_vorn",
+   "fa": 0,
+   "fb": 1,
+   "noppen": 4,
+   "typ": "FixedConnection"
+  },
+  {
+   "a": "kessel_hinten",
+   "b": "kugelplatte",
+   "fa": 1,
+   "fb": 0,
+   "noppen": 4,
+   "typ": "FixedConnection"
+  },
+  {
+   "a": "kugelplatte",
+   "b": "kesselende",
+   "fa": 1,
+   "fb": 0,
+   "noppen": 4,
+   "typ": "FixedConnection"
+  },
+  {
+   "a": "kessel_vorn",
+   "b": "ring_unten",
+   "fa": 2,
+   "fb": 1,
+   "noppen": 2,
+   "typ": "FixedConnection"
+  },
+  {
+   "a": "kessel_vorn",
+   "b": "griff",
+   "fa": 2,
+   "fb": 1,
+   "noppen": 2,
+   "typ": "FixedConnection"
+  },
+  {
+   "a": "ring_unten",
+   "b": "rauchkammer",
+   "fa": 0,
+   "fb": 1,
+   "noppen": 2,
+   "typ": "FixedConnection"
+  },
+  {
+   "a": "griff",
+   "b": "rauchkammer",
+   "fa": 0,
+   "fb": 1,
+   "noppen": 2,
+   "typ": "FixedConnection"
+  },
+  {
+   "a": "rauchkammer",
+   "b": "tuer",
+   "fa": 0,
+   "fb": 1,
+   "noppen": 1,
+   "typ": "HingeConnection"
+  },
+  {
+   "a": "lampe",
+   "b": "tuer",
+   "fa": 0,
+   "fb": 4,
+   "noppen": 1,
+   "typ": "HingeConnection"
+  },
+  {
+   "a": "griff",
+   "b": "clip",
+   "fa": 4,
+   "fb": 2,
+   "noppen": 1,
+   "typ": "CylindricalConnection"
+  },
+  {
+   "a": "clip",
+   "b": "schornstein",
+   "fa": 1,
+   "fb": 2,
+   "noppen": 1,
+   "typ": "HingeConnection"
+  },
+  {
+   "a": "clip",
+   "b": "clipfliese",
+   "fa": 0,
+   "fb": 0,
+   "noppen": 1,
+   "typ": "HingeConnection"
+  },
+  {
+   "a": "chassis:0",
+   "b": "halter_links",
+   "fa": 1,
+   "fb": 1,
+   "noppen": 1,
+   "typ": "HingeConnection"
+  },
+  {
+   "a": "rahmen_vorn",
+   "b": "halter_links",
+   "fa": 1,
+   "fb": 0,
+   "noppen": 1,
+   "typ": "HingeConnection"
+  },
+  {
+   "a": "halter_links",
+   "b": "zylinder_links",
+   "fa": 4,
+   "fb": 0,
+   "noppen": 1,
+   "typ": "HingeConnection"
+  },
+  {
+   "a": "chassis:0",
+   "b": "halter_rechts",
+   "fa": 1,
+   "fb": 1,
+   "noppen": 1,
+   "typ": "HingeConnection"
+  },
+  {
+   "a": "rahmen_vorn",
+   "b": "halter_rechts",
+   "fa": 1,
+   "fb": 0,
+   "noppen": 1,
+   "typ": "HingeConnection"
+  },
+  {
+   "a": "halter_rechts",
+   "b": "zylinder_rechts",
+   "fa": 3,
+   "fb": 0,
+   "noppen": 1,
+   "typ": "HingeConnection"
+  }
+ ]
+}
