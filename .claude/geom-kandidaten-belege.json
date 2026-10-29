@@ -1,0 +1,3311 @@
+{
+ "hinweis": "Größe und Noppenraster sind Annahmen; Felder und Noppenzahlen aus gespeicherten Verbindungen belegt. Nur Ober-/Unterseiten, keine Seitennoppen.",
+ "fahrzeuge": 81,
+ "dateien": [
+  "ArtemisVehicle.sav",
+  "ArtemisDownloadedVehicle.sav",
+  "ArtemisExtraVehicle.sav",
+  "ArtemisChubCache.sav"
+ ],
+ "min_belege": 2,
+ "ergebnisse": [
+  {
+   "teil": 1751,
+   "groesse": [
+    4,
+    4,
+    1
+   ],
+   "geom": null,
+   "seiten": {
+    "unten": {
+     "belege": 0,
+     "felder": {},
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 0
+    },
+    "oben": {
+     "belege": 0,
+     "felder": {},
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 0
+    }
+   },
+   "ohne_flaechenkontakt": 0,
+   "widerspruch": [],
+   "beispiele": [],
+   "alias_von": null,
+   "status": "zu_wenig_belege",
+   "gegentest": {}
+  },
+  {
+   "teil": 2465,
+   "groesse": [
+    16,
+    1,
+    3
+   ],
+   "geom": null,
+   "seiten": {
+    "unten": {
+     "belege": 0,
+     "felder": {},
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 0
+    },
+    "oben": {
+     "belege": 0,
+     "felder": {},
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 0
+    }
+   },
+   "ohne_flaechenkontakt": 0,
+   "widerspruch": [],
+   "beispiele": [],
+   "alias_von": null,
+   "status": "zu_wenig_belege",
+   "gegentest": {}
+  },
+  {
+   "teil": 3006,
+   "groesse": [
+    10,
+    2,
+    3
+   ],
+   "geom": null,
+   "seiten": {
+    "unten": {
+     "belege": 0,
+     "felder": {},
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 0
+    },
+    "oben": {
+     "belege": 0,
+     "felder": {},
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 0
+    }
+   },
+   "ohne_flaechenkontakt": 0,
+   "widerspruch": [],
+   "beispiele": [],
+   "alias_von": null,
+   "status": "zu_wenig_belege",
+   "gegentest": {}
+  },
+  {
+   "teil": 3026,
+   "groesse": [
+    24,
+    6,
+    1
+   ],
+   "geom": null,
+   "seiten": {
+    "unten": {
+     "belege": 0,
+     "felder": {},
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 0
+    },
+    "oben": {
+     "belege": 0,
+     "felder": {},
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 0
+    }
+   },
+   "ohne_flaechenkontakt": 0,
+   "widerspruch": [],
+   "beispiele": [],
+   "alias_von": null,
+   "status": "zu_wenig_belege",
+   "gegentest": {}
+  },
+  {
+   "teil": 3027,
+   "groesse": [
+    16,
+    6,
+    1
+   ],
+   "geom": {
+    "l": 16,
+    "w": 6,
+    "h": 10,
+    "unten": 1,
+    "oben": 0
+   },
+   "seiten": {
+    "unten": {
+     "belege": 4,
+     "felder": {
+      "1": 4
+     },
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 1
+    },
+    "oben": {
+     "belege": 4,
+     "felder": {
+      "0": 4
+     },
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 1
+    }
+   },
+   "ohne_flaechenkontakt": 0,
+   "widerspruch": [],
+   "beispiele": [
+    {
+     "seite": "oben",
+     "feld": 0,
+     "staerke": 4,
+     "vorhergesagt": 4,
+     "fahrzeug": "New Vehicle 49",
+     "indizes": [
+      17,
+      22
+     ],
+     "partner": 3010,
+     "partner_feld": 1
+    },
+    {
+     "seite": "oben",
+     "feld": 0,
+     "staerke": 8,
+     "vorhergesagt": 8,
+     "fahrzeug": "New Vehicle 49",
+     "indizes": [
+      17,
+      21
+     ],
+     "partner": 3008,
+     "partner_feld": 1
+    },
+    {
+     "seite": "oben",
+     "feld": 0,
+     "staerke": 1,
+     "vorhergesagt": 1,
+     "fahrzeug": "New Vehicle 49",
+     "indizes": [
+      17,
+      20
+     ],
+     "partner": 3005,
+     "partner_feld": 1
+    },
+    {
+     "seite": "oben",
+     "feld": 0,
+     "staerke": 4,
+     "vorhergesagt": 4,
+     "fahrzeug": "New Vehicle 49",
+     "indizes": [
+      17,
+      19
+     ],
+     "partner": 3001,
+     "partner_feld": 0
+    },
+    {
+     "seite": "unten",
+     "feld": 1,
+     "staerke": 4,
+     "vorhergesagt": 4,
+     "fahrzeug": "New Vehicle 49",
+     "indizes": [
+      17,
+      15
+     ],
+     "partner": 3020,
+     "partner_feld": 0
+    },
+    {
+     "seite": "unten",
+     "feld": 1,
+     "staerke": 8,
+     "vorhergesagt": 8,
+     "fahrzeug": "New Vehicle 49",
+     "indizes": [
+      17,
+      14
+     ],
+     "partner": 3020,
+     "partner_feld": 0
+    }
+   ],
+   "alias_von": null,
+   "status": "angenommen",
+   "gegentest": {
+    "exakt": 8,
+    "vorhergesagt": 8
+   }
+  },
+  {
+   "teil": 3030,
+   "groesse": [
+    10,
+    4,
+    1
+   ],
+   "geom": {
+    "l": 10,
+    "w": 4,
+    "h": 10,
+    "unten": 1,
+    "oben": 0
+   },
+   "seiten": {
+    "unten": {
+     "belege": 12,
+     "felder": {
+      "1": 12
+     },
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 1
+    },
+    "oben": {
+     "belege": 43,
+     "felder": {
+      "0": 43
+     },
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 2
+    }
+   },
+   "ohne_flaechenkontakt": 0,
+   "widerspruch": [],
+   "beispiele": [
+    {
+     "seite": "oben",
+     "feld": 0,
+     "staerke": 24,
+     "vorhergesagt": 24,
+     "fahrzeug": "DeVille 0 Wheeler",
+     "indizes": [
+      39,
+      0
+     ],
+     "partner": 3033,
+     "partner_feld": 1
+    },
+    {
+     "seite": "oben",
+     "feld": 0,
+     "staerke": 8,
+     "vorhergesagt": 8,
+     "fahrzeug": "DeVille 0 Wheeler",
+     "indizes": [
+      39,
+      7
+     ],
+     "partner": 3020,
+     "partner_feld": 1
+    },
+    {
+     "seite": "oben",
+     "feld": 0,
+     "staerke": 8,
+     "vorhergesagt": 8,
+     "fahrzeug": "DeVille 0 Wheeler",
+     "indizes": [
+      39,
+      8
+     ],
+     "partner": 3795,
+     "partner_feld": 1
+    },
+    {
+     "seite": "unten",
+     "feld": 1,
+     "staerke": 8,
+     "vorhergesagt": 8,
+     "fahrzeug": "Minecraft Pig",
+     "indizes": [
+      14,
+      15
+     ],
+     "partner": 3020,
+     "partner_feld": 0
+    },
+    {
+     "seite": "unten",
+     "feld": 1,
+     "staerke": 8,
+     "vorhergesagt": 8,
+     "fahrzeug": "Minecraft Pig",
+     "indizes": [
+      14,
+      16
+     ],
+     "partner": 3020,
+     "partner_feld": 0
+    },
+    {
+     "seite": "unten",
+     "feld": 1,
+     "staerke": 8,
+     "vorhergesagt": 8,
+     "fahrzeug": "Minecraft Pig",
+     "indizes": [
+      13,
+      17
+     ],
+     "partner": 3020,
+     "partner_feld": 0
+    }
+   ],
+   "alias_von": null,
+   "status": "angenommen",
+   "gegentest": {
+    "exakt": 63,
+    "vorhergesagt": 63
+   }
+  },
+  {
+   "teil": 3036,
+   "groesse": [
+    8,
+    6,
+    1
+   ],
+   "geom": {
+    "l": 8,
+    "w": 6,
+    "h": 10,
+    "unten": 1,
+    "oben": 0
+   },
+   "seiten": {
+    "unten": {
+     "belege": 9,
+     "felder": {
+      "1": 9
+     },
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 4
+    },
+    "oben": {
+     "belege": 34,
+     "felder": {
+      "0": 34
+     },
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 4
+    }
+   },
+   "ohne_flaechenkontakt": 0,
+   "widerspruch": [],
+   "beispiele": [
+    {
+     "seite": "unten",
+     "feld": 1,
+     "staerke": 16,
+     "vorhergesagt": 16,
+     "fahrzeug": "RS3500T",
+     "indizes": [
+      0,
+      8
+     ],
+     "partner": 3034,
+     "partner_feld": 1
+    },
+    {
+     "seite": "unten",
+     "feld": 1,
+     "staerke": 16,
+     "vorhergesagt": 16,
+     "fahrzeug": "RS3500T",
+     "indizes": [
+      0,
+      9
+     ],
+     "partner": 3034,
+     "partner_feld": 1
+    },
+    {
+     "seite": "oben",
+     "feld": 0,
+     "staerke": 1,
+     "vorhergesagt": 1,
+     "fahrzeug": "RS3500T",
+     "indizes": [
+      0,
+      156
+     ],
+     "partner": 87087,
+     "partner_feld": 1
+    },
+    {
+     "seite": "oben",
+     "feld": 0,
+     "staerke": 1,
+     "vorhergesagt": 1,
+     "fahrzeug": "RS3500T",
+     "indizes": [
+      0,
+      154
+     ],
+     "partner": 87087,
+     "partner_feld": 1
+    },
+    {
+     "seite": "oben",
+     "feld": 0,
+     "staerke": 1,
+     "vorhergesagt": 1,
+     "fahrzeug": "RS3500T",
+     "indizes": [
+      0,
+      148
+     ],
+     "partner": 87087,
+     "partner_feld": 1
+    },
+    {
+     "seite": "oben",
+     "feld": 0,
+     "staerke": 1,
+     "vorhergesagt": 1,
+     "fahrzeug": "RS3500T",
+     "indizes": [
+      0,
+      142
+     ],
+     "partner": 87087,
+     "partner_feld": 1
+    }
+   ],
+   "alias_von": null,
+   "status": "angenommen",
+   "gegentest": {
+    "exakt": 46,
+    "vorhergesagt": 46
+   }
+  },
+  {
+   "teil": 3456,
+   "groesse": [
+    14,
+    6,
+    1
+   ],
+   "geom": {
+    "l": 14,
+    "w": 6,
+    "h": 10,
+    "unten": 1,
+    "oben": null
+   },
+   "seiten": {
+    "unten": {
+     "belege": 2,
+     "felder": {
+      "1": 2
+     },
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 1
+    },
+    "oben": {
+     "belege": 0,
+     "felder": {},
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 0
+    }
+   },
+   "ohne_flaechenkontakt": 0,
+   "widerspruch": [],
+   "beispiele": [
+    {
+     "seite": "unten",
+     "feld": 1,
+     "staerke": 5,
+     "vorhergesagt": 5,
+     "fahrzeug": "New Vehicle 49",
+     "indizes": [
+      63,
+      62
+     ],
+     "partner": 3009,
+     "partner_feld": 0
+    },
+    {
+     "seite": "unten",
+     "feld": 1,
+     "staerke": 5,
+     "vorhergesagt": 5,
+     "fahrzeug": "New Vehicle 49",
+     "indizes": [
+      63,
+      61
+     ],
+     "partner": 3009,
+     "partner_feld": 0
+    }
+   ],
+   "alias_von": null,
+   "status": "angenommen",
+   "gegentest": {
+    "exakt": 2,
+    "vorhergesagt": 2
+   }
+  },
+  {
+   "teil": 3958,
+   "groesse": [
+    6,
+    6,
+    1
+   ],
+   "geom": {
+    "l": 6,
+    "w": 6,
+    "h": 10,
+    "unten": 0,
+    "oben": 1
+   },
+   "seiten": {
+    "unten": {
+     "belege": 10,
+     "felder": {
+      "0": 10
+     },
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 4
+    },
+    "oben": {
+     "belege": 16,
+     "felder": {
+      "1": 16
+     },
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 5
+    }
+   },
+   "ohne_flaechenkontakt": 0,
+   "widerspruch": [],
+   "beispiele": [
+    {
+     "seite": "oben",
+     "feld": 1,
+     "staerke": 4,
+     "vorhergesagt": 4,
+     "fahrzeug": "Minigame bots farm",
+     "indizes": [
+      247,
+      271
+     ],
+     "partner": 3010,
+     "partner_feld": 1
+    },
+    {
+     "seite": "oben",
+     "feld": 1,
+     "staerke": 2,
+     "vorhergesagt": 2,
+     "fahrzeug": "Minigame bots farm",
+     "indizes": [
+      247,
+      284
+     ],
+     "partner": 3023,
+     "partner_feld": 1
+    },
+    {
+     "seite": "oben",
+     "feld": 1,
+     "staerke": 3,
+     "vorhergesagt": 3,
+     "fahrzeug": "Minigame bots farm",
+     "indizes": [
+      247,
+      340
+     ],
+     "partner": 63864,
+     "partner_feld": 0
+    },
+    {
+     "seite": "oben",
+     "feld": 1,
+     "staerke": 3,
+     "vorhergesagt": 3,
+     "fahrzeug": "Minigame bots farm",
+     "indizes": [
+      247,
+      341
+     ],
+     "partner": 63864,
+     "partner_feld": 0
+    },
+    {
+     "seite": "unten",
+     "feld": 0,
+     "staerke": 5,
+     "vorhergesagt": 5,
+     "fahrzeug": "the cooker",
+     "indizes": [
+      162,
+      147
+     ],
+     "partner": 3009,
+     "partner_feld": 0
+    },
+    {
+     "seite": "unten",
+     "feld": 0,
+     "staerke": 5,
+     "vorhergesagt": 5,
+     "fahrzeug": "the cooker",
+     "indizes": [
+      162,
+      146
+     ],
+     "partner": 3009,
+     "partner_feld": 0
+    }
+   ],
+   "alias_von": null,
+   "status": "angenommen",
+   "gegentest": {
+    "exakt": 36,
+    "vorhergesagt": 36
+   }
+  },
+  {
+   "teil": 4162,
+   "groesse": [
+    8,
+    1,
+    1
+   ],
+   "geom": {
+    "l": 8,
+    "w": 1,
+    "h": 10,
+    "unten": 0,
+    "oben": null
+   },
+   "seiten": {
+    "unten": {
+     "belege": 15,
+     "felder": {
+      "0": 15
+     },
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 5
+    },
+    "oben": {
+     "belege": 0,
+     "felder": {},
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 0
+    }
+   },
+   "ohne_flaechenkontakt": 0,
+   "widerspruch": [],
+   "beispiele": [
+    {
+     "seite": "unten",
+     "feld": 0,
+     "staerke": 8,
+     "vorhergesagt": 8,
+     "fahrzeug": "New Vehicle 49",
+     "indizes": [
+      85,
+      65
+     ],
+     "partner": 3008,
+     "partner_feld": 0
+    },
+    {
+     "seite": "unten",
+     "feld": 0,
+     "staerke": 4,
+     "vorhergesagt": 4,
+     "fahrzeug": "For JokerMessiah",
+     "indizes": [
+      124,
+      122
+     ],
+     "partner": 3020,
+     "partner_feld": 0
+    },
+    {
+     "seite": "unten",
+     "feld": 0,
+     "staerke": 1,
+     "vorhergesagt": 1,
+     "fahrzeug": "For JokerMessiah",
+     "indizes": [
+      124,
+      82
+     ],
+     "partner": 3710,
+     "partner_feld": 0
+    },
+    {
+     "seite": "unten",
+     "feld": 0,
+     "staerke": 3,
+     "vorhergesagt": 3,
+     "fahrzeug": "For JokerMessiah",
+     "indizes": [
+      124,
+      123
+     ],
+     "partner": 3021,
+     "partner_feld": 1
+    },
+    {
+     "seite": "unten",
+     "feld": 0,
+     "staerke": 4,
+     "vorhergesagt": 4,
+     "fahrzeug": "For JokerMessiah",
+     "indizes": [
+      125,
+      122
+     ],
+     "partner": 3020,
+     "partner_feld": 0
+    },
+    {
+     "seite": "unten",
+     "feld": 0,
+     "staerke": 1,
+     "vorhergesagt": 1,
+     "fahrzeug": "For JokerMessiah",
+     "indizes": [
+      125,
+      82
+     ],
+     "partner": 3710,
+     "partner_feld": 0
+    }
+   ],
+   "alias_von": null,
+   "status": "angenommen",
+   "gegentest": {
+    "exakt": 15,
+    "vorhergesagt": 15
+   }
+  },
+  {
+   "teil": 4282,
+   "groesse": [
+    16,
+    2,
+    1
+   ],
+   "geom": {
+    "l": 16,
+    "w": 2,
+    "h": 10,
+    "unten": 1,
+    "oben": 0
+   },
+   "seiten": {
+    "unten": {
+     "belege": 5,
+     "felder": {
+      "1": 5
+     },
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 4
+    },
+    "oben": {
+     "belege": 28,
+     "felder": {
+      "0": 28
+     },
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 8
+    }
+   },
+   "ohne_flaechenkontakt": 2,
+   "widerspruch": [],
+   "beispiele": [
+    {
+     "seite": "oben",
+     "feld": 0,
+     "staerke": 2,
+     "vorhergesagt": 2,
+     "fahrzeug": "Neues Fahrzeug 08",
+     "indizes": [
+      2,
+      7
+     ],
+     "partner": 3004,
+     "partner_feld": 1
+    },
+    {
+     "seite": "oben",
+     "feld": 0,
+     "staerke": 1,
+     "vorhergesagt": 1,
+     "fahrzeug": "New Vehicle 49",
+     "indizes": [
+      18,
+      23
+     ],
+     "partner": 3005,
+     "partner_feld": 1
+    },
+    {
+     "seite": "oben",
+     "feld": 0,
+     "staerke": 4,
+     "vorhergesagt": 4,
+     "fahrzeug": "New Vehicle 49",
+     "indizes": [
+      18,
+      19
+     ],
+     "partner": 3001,
+     "partner_feld": 0
+    },
+    {
+     "seite": "unten",
+     "feld": 1,
+     "staerke": 4,
+     "vorhergesagt": 4,
+     "fahrzeug": "New Vehicle 49",
+     "indizes": [
+      18,
+      16
+     ],
+     "partner": 3020,
+     "partner_feld": 0
+    },
+    {
+     "seite": "unten",
+     "feld": 1,
+     "staerke": 4,
+     "vorhergesagt": 4,
+     "fahrzeug": "New Vehicle 49",
+     "indizes": [
+      18,
+      15
+     ],
+     "partner": 3020,
+     "partner_feld": 0
+    },
+    {
+     "seite": "oben",
+     "feld": 0,
+     "staerke": 1,
+     "vorhergesagt": 1,
+     "fahrzeug": "Octan Space Racer",
+     "indizes": [
+      2,
+      13
+     ],
+     "partner": 87087,
+     "partner_feld": 1
+    }
+   ],
+   "alias_von": null,
+   "status": "angenommen",
+   "gegentest": {
+    "exakt": 36,
+    "vorhergesagt": 36
+   }
+  },
+  {
+   "teil": 4477,
+   "groesse": [
+    10,
+    1,
+    1
+   ],
+   "geom": {
+    "l": 10,
+    "w": 1,
+    "h": 10,
+    "unten": 1,
+    "oben": null
+   },
+   "seiten": {
+    "unten": {
+     "belege": 8,
+     "felder": {
+      "1": 8
+     },
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 2
+    },
+    "oben": {
+     "belege": 0,
+     "felder": {},
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 0
+    }
+   },
+   "ohne_flaechenkontakt": 0,
+   "widerspruch": [],
+   "beispiele": [
+    {
+     "seite": "unten",
+     "feld": 1,
+     "staerke": 3,
+     "vorhergesagt": 3,
+     "fahrzeug": "SHADOW Z SPEED",
+     "indizes": [
+      7,
+      9
+     ],
+     "partner": 3795,
+     "partner_feld": 0
+    },
+    {
+     "seite": "unten",
+     "feld": 1,
+     "staerke": 3,
+     "vorhergesagt": 3,
+     "fahrzeug": "SHADOW Z SPEED",
+     "indizes": [
+      15,
+      16
+     ],
+     "partner": 3795,
+     "partner_feld": 0
+    },
+    {
+     "seite": "unten",
+     "feld": 1,
+     "staerke": 2,
+     "vorhergesagt": 2,
+     "fahrzeug": "DeVille 0 Wheeler",
+     "indizes": [
+      70,
+      69
+     ],
+     "partner": 3002,
+     "partner_feld": 1
+    },
+    {
+     "seite": "unten",
+     "feld": 1,
+     "staerke": 5,
+     "vorhergesagt": 5,
+     "fahrzeug": "DeVille 0 Wheeler",
+     "indizes": [
+      70,
+      93
+     ],
+     "partner": 3009,
+     "partner_feld": 0
+    },
+    {
+     "seite": "unten",
+     "feld": 1,
+     "staerke": 1,
+     "vorhergesagt": 1,
+     "fahrzeug": "DeVille 0 Wheeler",
+     "indizes": [
+      70,
+      104
+     ],
+     "partner": 3005,
+     "partner_feld": 0
+    },
+    {
+     "seite": "unten",
+     "feld": 1,
+     "staerke": 2,
+     "vorhergesagt": 2,
+     "fahrzeug": "DeVille 0 Wheeler",
+     "indizes": [
+      79,
+      80
+     ],
+     "partner": 3002,
+     "partner_feld": 1
+    }
+   ],
+   "alias_von": null,
+   "status": "angenommen",
+   "gegentest": {
+    "exakt": 8,
+    "vorhergesagt": 8
+   }
+  },
+  {
+   "teil": 6111,
+   "groesse": [
+    10,
+    1,
+    3
+   ],
+   "geom": {
+    "l": 10,
+    "w": 1,
+    "h": 30,
+    "unten": 1,
+    "oben": 0
+   },
+   "seiten": {
+    "unten": {
+     "belege": 13,
+     "felder": {
+      "1": 13
+     },
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 2
+    },
+    "oben": {
+     "belege": 10,
+     "felder": {
+      "0": 10
+     },
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 2
+    }
+   },
+   "ohne_flaechenkontakt": 0,
+   "widerspruch": [],
+   "beispiele": [
+    {
+     "seite": "unten",
+     "feld": 1,
+     "staerke": 4,
+     "vorhergesagt": 4,
+     "fahrzeug": "FANTASTIC CLASSIC",
+     "indizes": [
+      42,
+      45
+     ],
+     "partner": 3710,
+     "partner_feld": 0
+    },
+    {
+     "seite": "unten",
+     "feld": 1,
+     "staerke": 6,
+     "vorhergesagt": 6,
+     "fahrzeug": "FANTASTIC CLASSIC",
+     "indizes": [
+      42,
+      49
+     ],
+     "partner": 3666,
+     "partner_feld": 0
+    },
+    {
+     "seite": "oben",
+     "feld": 0,
+     "staerke": 2,
+     "vorhergesagt": 2,
+     "fahrzeug": "FANTASTIC CLASSIC",
+     "indizes": [
+      42,
+      128
+     ],
+     "partner": 3034,
+     "partner_feld": 0
+    },
+    {
+     "seite": "oben",
+     "feld": 0,
+     "staerke": 3,
+     "vorhergesagt": 3,
+     "fahrzeug": "FANTASTIC CLASSIC",
+     "indizes": [
+      42,
+      141
+     ],
+     "partner": 3622,
+     "partner_feld": 1
+    },
+    {
+     "seite": "oben",
+     "feld": 0,
+     "staerke": 1,
+     "vorhergesagt": 1,
+     "fahrzeug": "FANTASTIC CLASSIC",
+     "indizes": [
+      42,
+      173
+     ],
+     "partner": 3024,
+     "partner_feld": 1
+    },
+    {
+     "seite": "unten",
+     "feld": 1,
+     "staerke": 4,
+     "vorhergesagt": 4,
+     "fahrzeug": "FANTASTIC CLASSIC",
+     "indizes": [
+      250,
+      57
+     ],
+     "partner": 3710,
+     "partner_feld": 0
+    }
+   ],
+   "alias_von": null,
+   "status": "angenommen",
+   "gegentest": {
+    "exakt": 29,
+    "vorhergesagt": 29
+   }
+  },
+  {
+   "teil": 6112,
+   "groesse": [
+    12,
+    1,
+    3
+   ],
+   "geom": null,
+   "seiten": {
+    "unten": {
+     "belege": 0,
+     "felder": {},
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 0
+    },
+    "oben": {
+     "belege": 0,
+     "felder": {},
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 0
+    }
+   },
+   "ohne_flaechenkontakt": 0,
+   "widerspruch": [],
+   "beispiele": [],
+   "alias_von": null,
+   "status": "zu_wenig_belege",
+   "gegentest": {}
+  },
+  {
+   "teil": 6212,
+   "groesse": [
+    10,
+    4,
+    3
+   ],
+   "geom": null,
+   "seiten": {
+    "unten": {
+     "belege": 0,
+     "felder": {},
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 0
+    },
+    "oben": {
+     "belege": 0,
+     "felder": {},
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 0
+    }
+   },
+   "ohne_flaechenkontakt": 0,
+   "widerspruch": [],
+   "beispiele": [],
+   "alias_von": null,
+   "status": "zu_wenig_belege",
+   "gegentest": {}
+  },
+  {
+   "teil": 6636,
+   "groesse": [
+    6,
+    1,
+    1
+   ],
+   "geom": {
+    "l": 6,
+    "w": 1,
+    "h": 10,
+    "unten": 0,
+    "oben": null
+   },
+   "seiten": {
+    "unten": {
+     "belege": 50,
+     "felder": {
+      "0": 50
+     },
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 12
+    },
+    "oben": {
+     "belege": 0,
+     "felder": {},
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 0
+    }
+   },
+   "ohne_flaechenkontakt": 0,
+   "widerspruch": [],
+   "beispiele": [
+    {
+     "seite": "unten",
+     "feld": 0,
+     "staerke": 1,
+     "vorhergesagt": 1,
+     "fahrzeug": "Minigame bots farm",
+     "indizes": [
+      266,
+      264
+     ],
+     "partner": 3005,
+     "partner_feld": 0
+    },
+    {
+     "seite": "unten",
+     "feld": 0,
+     "staerke": 1,
+     "vorhergesagt": 1,
+     "fahrzeug": "Minigame bots farm",
+     "indizes": [
+      267,
+      265
+     ],
+     "partner": 3005,
+     "partner_feld": 0
+    },
+    {
+     "seite": "unten",
+     "feld": 0,
+     "staerke": 6,
+     "vorhergesagt": 6,
+     "fahrzeug": "OLD SCHOOL COOL",
+     "indizes": [
+      146,
+      13
+     ],
+     "partner": 3795,
+     "partner_feld": 0
+    },
+    {
+     "seite": "unten",
+     "feld": 0,
+     "staerke": 2,
+     "vorhergesagt": 2,
+     "fahrzeug": "Custom Flowrider",
+     "indizes": [
+      115,
+      120
+     ],
+     "partner": 3710,
+     "partner_feld": 0
+    },
+    {
+     "seite": "unten",
+     "feld": 0,
+     "staerke": 1,
+     "vorhergesagt": 1,
+     "fahrzeug": "Custom Flowrider",
+     "indizes": [
+      115,
+      121
+     ],
+     "partner": 3024,
+     "partner_feld": 0
+    },
+    {
+     "seite": "unten",
+     "feld": 0,
+     "staerke": 2,
+     "vorhergesagt": 2,
+     "fahrzeug": "Custom Flowrider",
+     "indizes": [
+      116,
+      120
+     ],
+     "partner": 3710,
+     "partner_feld": 0
+    }
+   ],
+   "alias_von": null,
+   "status": "angenommen",
+   "gegentest": {
+    "exakt": 59,
+    "vorhergesagt": 59
+   }
+  },
+  {
+   "teil": 10202,
+   "groesse": [
+    6,
+    6,
+    1
+   ],
+   "geom": null,
+   "seiten": {
+    "unten": {
+     "belege": 0,
+     "felder": {},
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 0
+    },
+    "oben": {
+     "belege": 0,
+     "felder": {},
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 0
+    }
+   },
+   "ohne_flaechenkontakt": 0,
+   "widerspruch": [],
+   "beispiele": [],
+   "alias_von": null,
+   "status": "zu_wenig_belege",
+   "gegentest": {}
+  },
+  {
+   "teil": 11212,
+   "groesse": [
+    3,
+    3,
+    1
+   ],
+   "geom": {
+    "l": 3,
+    "w": 3,
+    "h": 10,
+    "unten": 1,
+    "oben": 0
+   },
+   "seiten": {
+    "unten": {
+     "belege": 10,
+     "felder": {
+      "1": 10
+     },
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 4
+    },
+    "oben": {
+     "belege": 16,
+     "felder": {
+      "0": 16
+     },
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 4
+    }
+   },
+   "ohne_flaechenkontakt": 0,
+   "widerspruch": [],
+   "beispiele": [
+    {
+     "seite": "unten",
+     "feld": 1,
+     "staerke": 3,
+     "vorhergesagt": 3,
+     "fahrzeug": "For JokerMessiah",
+     "indizes": [
+      134,
+      50
+     ],
+     "partner": 3623,
+     "partner_feld": 0
+    },
+    {
+     "seite": "unten",
+     "feld": 1,
+     "staerke": 3,
+     "vorhergesagt": 3,
+     "fahrzeug": "For JokerMessiah",
+     "indizes": [
+      148,
+      151
+     ],
+     "partner": 3623,
+     "partner_feld": 0
+    },
+    {
+     "seite": "unten",
+     "feld": 1,
+     "staerke": 3,
+     "vorhergesagt": 3,
+     "fahrzeug": "For JokerMessiah",
+     "indizes": [
+      175,
+      184
+     ],
+     "partner": 3623,
+     "partner_feld": 0
+    },
+    {
+     "seite": "oben",
+     "feld": 0,
+     "staerke": 1,
+     "vorhergesagt": 1,
+     "fahrzeug": "For JokerMessiah",
+     "indizes": [
+      175,
+      229
+     ],
+     "partner": 3070,
+     "partner_feld": 0
+    },
+    {
+     "seite": "oben",
+     "feld": 0,
+     "staerke": 1,
+     "vorhergesagt": 1,
+     "fahrzeug": "For JokerMessiah",
+     "indizes": [
+      236,
+      248
+     ],
+     "partner": 3070,
+     "partner_feld": 0
+    },
+    {
+     "seite": "unten",
+     "feld": 1,
+     "staerke": 3,
+     "vorhergesagt": 3,
+     "fahrzeug": "For JokerMessiah",
+     "indizes": [
+      236,
+      245
+     ],
+     "partner": 3623,
+     "partner_feld": 0
+    }
+   ],
+   "alias_von": null,
+   "status": "angenommen",
+   "gegentest": {
+    "exakt": 30,
+    "vorhergesagt": 30
+   }
+  },
+  {
+   "teil": 26603,
+   "groesse": [
+    3,
+    2,
+    1
+   ],
+   "geom": {
+    "l": 3,
+    "w": 2,
+    "h": 10,
+    "unten": 0,
+    "oben": null
+   },
+   "seiten": {
+    "unten": {
+     "belege": 69,
+     "felder": {
+      "0": 69
+     },
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 12
+    },
+    "oben": {
+     "belege": 0,
+     "felder": {},
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 0
+    }
+   },
+   "ohne_flaechenkontakt": 2,
+   "widerspruch": [],
+   "beispiele": [
+    {
+     "seite": "unten",
+     "feld": 0,
+     "staerke": 2,
+     "vorhergesagt": 2,
+     "fahrzeug": "Hamburghini",
+     "indizes": [
+      5,
+      9
+     ],
+     "partner": 3021,
+     "partner_feld": 1
+    },
+    {
+     "seite": "unten",
+     "feld": 0,
+     "staerke": 1,
+     "vorhergesagt": 1,
+     "fahrzeug": "Hamburghini",
+     "indizes": [
+      5,
+      40
+     ],
+     "partner": 3020,
+     "partner_feld": 0
+    },
+    {
+     "seite": "unten",
+     "feld": 0,
+     "staerke": 3,
+     "vorhergesagt": 3,
+     "fahrzeug": "Hamburghini",
+     "indizes": [
+      5,
+      55
+     ],
+     "partner": 3034,
+     "partner_feld": 1
+    },
+    {
+     "seite": "unten",
+     "feld": 0,
+     "staerke": 2,
+     "vorhergesagt": 2,
+     "fahrzeug": "Hamburghini",
+     "indizes": [
+      7,
+      10
+     ],
+     "partner": 3021,
+     "partner_feld": 1
+    },
+    {
+     "seite": "unten",
+     "feld": 0,
+     "staerke": 1,
+     "vorhergesagt": 1,
+     "fahrzeug": "Hamburghini",
+     "indizes": [
+      7,
+      40
+     ],
+     "partner": 3020,
+     "partner_feld": 0
+    },
+    {
+     "seite": "unten",
+     "feld": 0,
+     "staerke": 3,
+     "vorhergesagt": 3,
+     "fahrzeug": "Hamburghini",
+     "indizes": [
+      7,
+      55
+     ],
+     "partner": 3034,
+     "partner_feld": 1
+    }
+   ],
+   "alias_von": null,
+   "status": "angenommen",
+   "gegentest": {
+    "exakt": 73,
+    "vorhergesagt": 73
+   }
+  },
+  {
+   "teil": 30400,
+   "groesse": [
+    18,
+    4,
+    3
+   ],
+   "geom": null,
+   "seiten": {
+    "unten": {
+     "belege": 0,
+     "felder": {},
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 0
+    },
+    "oben": {
+     "belege": 0,
+     "felder": {},
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 0
+    }
+   },
+   "ohne_flaechenkontakt": 0,
+   "widerspruch": [],
+   "beispiele": [],
+   "alias_von": null,
+   "status": "zu_wenig_belege",
+   "gegentest": {}
+  },
+  {
+   "teil": 35275,
+   "groesse": [
+    2,
+    2,
+    3
+   ],
+   "geom": null,
+   "seiten": {
+    "unten": {
+     "belege": 0,
+     "felder": {},
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 0
+    },
+    "oben": {
+     "belege": 0,
+     "felder": {},
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 0
+    }
+   },
+   "ohne_flaechenkontakt": 0,
+   "widerspruch": [],
+   "beispiele": [],
+   "alias_von": 3003,
+   "status": "zu_wenig_belege",
+   "gegentest": {}
+  },
+  {
+   "teil": 35371,
+   "groesse": [
+    4,
+    1,
+    1
+   ],
+   "geom": null,
+   "seiten": {
+    "unten": {
+     "belege": 0,
+     "felder": {},
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 0
+    },
+    "oben": {
+     "belege": 0,
+     "felder": {},
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 0
+    }
+   },
+   "ohne_flaechenkontakt": 0,
+   "widerspruch": [],
+   "beispiele": [],
+   "alias_von": 2431,
+   "status": "zu_wenig_belege",
+   "gegentest": {}
+  },
+  {
+   "teil": 35382,
+   "groesse": [
+    1,
+    1,
+    3
+   ],
+   "geom": {
+    "l": 1,
+    "w": 1,
+    "h": 30,
+    "unten": 1,
+    "oben": 0
+   },
+   "seiten": {
+    "unten": {
+     "belege": 1,
+     "felder": {
+      "1": 1
+     },
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 1
+    },
+    "oben": {
+     "belege": 1,
+     "felder": {
+      "0": 1
+     },
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 1
+    }
+   },
+   "ohne_flaechenkontakt": 0,
+   "widerspruch": [],
+   "beispiele": [
+    {
+     "seite": "unten",
+     "feld": 1,
+     "staerke": 1,
+     "vorhergesagt": 1,
+     "fahrzeug": "Explorateur nocturne",
+     "indizes": [
+      63,
+      64
+     ],
+     "partner": 3005,
+     "partner_feld": 0
+    },
+    {
+     "seite": "oben",
+     "feld": 0,
+     "staerke": 1,
+     "vorhergesagt": 1,
+     "fahrzeug": "Explorateur nocturne",
+     "indizes": [
+      71,
+      70
+     ],
+     "partner": 3005,
+     "partner_feld": 1
+    }
+   ],
+   "alias_von": 3005,
+   "status": "angenommen",
+   "gegentest": {
+    "exakt": 2,
+    "vorhergesagt": 2
+   }
+  },
+  {
+   "teil": 35386,
+   "groesse": [
+    2,
+    1,
+    1
+   ],
+   "geom": null,
+   "seiten": {
+    "unten": {
+     "belege": 0,
+     "felder": {},
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 0
+    },
+    "oben": {
+     "belege": 0,
+     "felder": {},
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 0
+    }
+   },
+   "ohne_flaechenkontakt": 0,
+   "widerspruch": [],
+   "beispiele": [],
+   "alias_von": null,
+   "status": "zu_wenig_belege",
+   "gegentest": {}
+  },
+  {
+   "teil": 35403,
+   "groesse": [
+    1,
+    1,
+    1
+   ],
+   "geom": null,
+   "seiten": {
+    "unten": {
+     "belege": 0,
+     "felder": {},
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 0
+    },
+    "oben": {
+     "belege": 0,
+     "felder": {},
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 0
+    }
+   },
+   "ohne_flaechenkontakt": 0,
+   "widerspruch": [],
+   "beispiele": [],
+   "alias_von": null,
+   "status": "zu_wenig_belege",
+   "gegentest": {}
+  },
+  {
+   "teil": 41539,
+   "groesse": [
+    8,
+    8,
+    1
+   ],
+   "geom": {
+    "l": 8,
+    "w": 8,
+    "h": 10,
+    "unten": 0,
+    "oben": 1
+   },
+   "seiten": {
+    "unten": {
+     "belege": 2,
+     "felder": {
+      "0": 2
+     },
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 1
+    },
+    "oben": {
+     "belege": 5,
+     "felder": {
+      "1": 5
+     },
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 1
+    }
+   },
+   "ohne_flaechenkontakt": 0,
+   "widerspruch": [],
+   "beispiele": [
+    {
+     "seite": "unten",
+     "feld": 0,
+     "staerke": 2,
+     "vorhergesagt": 2,
+     "fahrzeug": "Hamburghini",
+     "indizes": [
+      14,
+      37
+     ],
+     "partner": 3023,
+     "partner_feld": 0
+    },
+    {
+     "seite": "unten",
+     "feld": 0,
+     "staerke": 2,
+     "vorhergesagt": 2,
+     "fahrzeug": "Hamburghini",
+     "indizes": [
+      14,
+      38
+     ],
+     "partner": 3023,
+     "partner_feld": 0
+    },
+    {
+     "seite": "oben",
+     "feld": 1,
+     "staerke": 1,
+     "vorhergesagt": 1,
+     "fahrzeug": "Hamburghini",
+     "indizes": [
+      14,
+      68
+     ],
+     "partner": 3005,
+     "partner_feld": 1
+    },
+    {
+     "seite": "oben",
+     "feld": 1,
+     "staerke": 1,
+     "vorhergesagt": 1,
+     "fahrzeug": "Hamburghini",
+     "indizes": [
+      14,
+      69
+     ],
+     "partner": 3005,
+     "partner_feld": 1
+    },
+    {
+     "seite": "oben",
+     "feld": 1,
+     "staerke": 1,
+     "vorhergesagt": 1,
+     "fahrzeug": "Hamburghini",
+     "indizes": [
+      14,
+      124
+     ],
+     "partner": 3005,
+     "partner_feld": 1
+    },
+    {
+     "seite": "oben",
+     "feld": 1,
+     "staerke": 4,
+     "vorhergesagt": 4,
+     "fahrzeug": "Hamburghini",
+     "indizes": [
+      14,
+      128
+     ],
+     "partner": 3001,
+     "partner_feld": 0
+    }
+   ],
+   "alias_von": null,
+   "status": "angenommen",
+   "gegentest": {
+    "exakt": 7,
+    "vorhergesagt": 7
+   }
+  },
+  {
+   "teil": 43802,
+   "groesse": [
+    8,
+    8,
+    3
+   ],
+   "geom": null,
+   "seiten": {
+    "unten": {
+     "belege": 0,
+     "felder": {},
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 0
+    },
+    "oben": {
+     "belege": 0,
+     "felder": {},
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 0
+    }
+   },
+   "ohne_flaechenkontakt": 0,
+   "widerspruch": [],
+   "beispiele": [],
+   "alias_von": null,
+   "status": "zu_wenig_belege",
+   "gegentest": {}
+  },
+  {
+   "teil": 44041,
+   "groesse": [
+    16,
+    8,
+    3
+   ],
+   "geom": null,
+   "seiten": {
+    "unten": {
+     "belege": 0,
+     "felder": {},
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 0
+    },
+    "oben": {
+     "belege": 0,
+     "felder": {},
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 0
+    }
+   },
+   "ohne_flaechenkontakt": 0,
+   "widerspruch": [],
+   "beispiele": [],
+   "alias_von": null,
+   "status": "zu_wenig_belege",
+   "gegentest": {}
+  },
+  {
+   "teil": 44042,
+   "groesse": [
+    6,
+    4,
+    3
+   ],
+   "geom": null,
+   "seiten": {
+    "unten": {
+     "belege": 0,
+     "felder": {},
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 0
+    },
+    "oben": {
+     "belege": 0,
+     "felder": {},
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 0
+    }
+   },
+   "ohne_flaechenkontakt": 0,
+   "widerspruch": [],
+   "beispiele": [],
+   "alias_von": null,
+   "status": "zu_wenig_belege",
+   "gegentest": {}
+  },
+  {
+   "teil": 44237,
+   "groesse": [
+    6,
+    2,
+    3
+   ],
+   "geom": {
+    "l": 6,
+    "w": 2,
+    "h": 30,
+    "unten": 1,
+    "oben": 0
+   },
+   "seiten": {
+    "unten": {
+     "belege": 15,
+     "felder": {
+      "1": 15
+     },
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 5
+    },
+    "oben": {
+     "belege": 14,
+     "felder": {
+      "0": 14
+     },
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 5
+    }
+   },
+   "ohne_flaechenkontakt": 0,
+   "widerspruch": [],
+   "beispiele": [
+    {
+     "seite": "unten",
+     "feld": 1,
+     "staerke": 12,
+     "vorhergesagt": 12,
+     "fahrzeug": "Bulldozest",
+     "indizes": [
+      217,
+      212
+     ],
+     "partner": 3795,
+     "partner_feld": 0
+    },
+    {
+     "seite": "unten",
+     "feld": 1,
+     "staerke": 12,
+     "vorhergesagt": 12,
+     "fahrzeug": "Bulldozest",
+     "indizes": [
+      217,
+      212
+     ],
+     "partner": 3795,
+     "partner_feld": 0
+    },
+    {
+     "seite": "unten",
+     "feld": 1,
+     "staerke": 8,
+     "vorhergesagt": 8,
+     "fahrzeug": "the cooker",
+     "indizes": [
+      27,
+      26
+     ],
+     "partner": 3035,
+     "partner_feld": 0
+    },
+    {
+     "seite": "unten",
+     "feld": 1,
+     "staerke": 8,
+     "vorhergesagt": 8,
+     "fahrzeug": "the cooker",
+     "indizes": [
+      31,
+      26
+     ],
+     "partner": 3035,
+     "partner_feld": 0
+    },
+    {
+     "seite": "oben",
+     "feld": 0,
+     "staerke": 12,
+     "vorhergesagt": 12,
+     "fahrzeug": "the cooker",
+     "indizes": [
+      27,
+      29
+     ],
+     "partner": 3033,
+     "partner_feld": 1
+    },
+    {
+     "seite": "oben",
+     "feld": 0,
+     "staerke": 12,
+     "vorhergesagt": 12,
+     "fahrzeug": "the cooker",
+     "indizes": [
+      31,
+      29
+     ],
+     "partner": 3033,
+     "partner_feld": 1
+    }
+   ],
+   "alias_von": null,
+   "status": "angenommen",
+   "gegentest": {
+    "exakt": 34,
+    "vorhergesagt": 34
+   }
+  },
+  {
+   "teil": 48288,
+   "groesse": [
+    16,
+    8,
+    1
+   ],
+   "geom": null,
+   "seiten": {
+    "unten": {
+     "belege": 0,
+     "felder": {},
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 0
+    },
+    "oben": {
+     "belege": 0,
+     "felder": {},
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 0
+    }
+   },
+   "ohne_flaechenkontakt": 0,
+   "widerspruch": [],
+   "beispiele": [],
+   "alias_von": null,
+   "status": "zu_wenig_belege",
+   "gegentest": {}
+  },
+  {
+   "teil": 60033,
+   "groesse": [
+    12,
+    4,
+    3
+   ],
+   "geom": null,
+   "seiten": {
+    "unten": {
+     "belege": 0,
+     "felder": {},
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 0
+    },
+    "oben": {
+     "belege": 0,
+     "felder": {},
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 0
+    }
+   },
+   "ohne_flaechenkontakt": 0,
+   "widerspruch": [],
+   "beispiele": [],
+   "alias_von": null,
+   "status": "zu_wenig_belege",
+   "gegentest": {}
+  },
+  {
+   "teil": 60479,
+   "groesse": [
+    12,
+    1,
+    1
+   ],
+   "geom": {
+    "l": 12,
+    "w": 1,
+    "h": 10,
+    "unten": 0,
+    "oben": null
+   },
+   "seiten": {
+    "unten": {
+     "belege": 4,
+     "felder": {
+      "0": 4
+     },
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 1
+    },
+    "oben": {
+     "belege": 0,
+     "felder": {},
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 0
+    }
+   },
+   "ohne_flaechenkontakt": 0,
+   "widerspruch": [],
+   "beispiele": [
+    {
+     "seite": "unten",
+     "feld": 0,
+     "staerke": 4,
+     "vorhergesagt": 4,
+     "fahrzeug": "Shadow Z Thunder",
+     "indizes": [
+      7,
+      6
+     ],
+     "partner": 3710,
+     "partner_feld": 0
+    },
+    {
+     "seite": "unten",
+     "feld": 0,
+     "staerke": 2,
+     "vorhergesagt": 2,
+     "fahrzeug": "Shadow Z Thunder",
+     "indizes": [
+      7,
+      59
+     ],
+     "partner": 3023,
+     "partner_feld": 0
+    },
+    {
+     "seite": "unten",
+     "feld": 0,
+     "staerke": 4,
+     "vorhergesagt": 4,
+     "fahrzeug": "Shadow Z Thunder",
+     "indizes": [
+      12,
+      15
+     ],
+     "partner": 3710,
+     "partner_feld": 0
+    },
+    {
+     "seite": "unten",
+     "feld": 0,
+     "staerke": 2,
+     "vorhergesagt": 2,
+     "fahrzeug": "Shadow Z Thunder",
+     "indizes": [
+      12,
+      55
+     ],
+     "partner": 3023,
+     "partner_feld": 0
+    }
+   ],
+   "alias_von": null,
+   "status": "angenommen",
+   "gegentest": {
+    "exakt": 4,
+    "vorhergesagt": 4
+   }
+  },
+  {
+   "teil": 69729,
+   "groesse": [
+    6,
+    2,
+    1
+   ],
+   "geom": {
+    "l": 6,
+    "w": 2,
+    "h": 10,
+    "unten": 0,
+    "oben": null
+   },
+   "seiten": {
+    "unten": {
+     "belege": 6,
+     "felder": {
+      "0": 6
+     },
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 2
+    },
+    "oben": {
+     "belege": 0,
+     "felder": {},
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 0
+    }
+   },
+   "ohne_flaechenkontakt": 1,
+   "widerspruch": [],
+   "beispiele": [
+    {
+     "seite": "unten",
+     "feld": 0,
+     "staerke": 1,
+     "vorhergesagt": 1,
+     "fahrzeug": "Modern Racer",
+     "indizes": [
+      204,
+      139
+     ],
+     "partner": 3023,
+     "partner_feld": 0
+    },
+    {
+     "seite": "unten",
+     "feld": 0,
+     "staerke": 1,
+     "vorhergesagt": 1,
+     "fahrzeug": "Modern Racer",
+     "indizes": [
+      204,
+      138
+     ],
+     "partner": 3023,
+     "partner_feld": 0
+    },
+    {
+     "seite": "unten",
+     "feld": 0,
+     "staerke": 6,
+     "vorhergesagt": 6,
+     "fahrzeug": "Modern Racer",
+     "indizes": [
+      204,
+      134
+     ],
+     "partner": 3666,
+     "partner_feld": 0
+    },
+    {
+     "seite": "unten",
+     "feld": 0,
+     "staerke": 4,
+     "vorhergesagt": 4,
+     "fahrzeug": "Modern Racer",
+     "indizes": [
+      204,
+      66
+     ],
+     "partner": 3031,
+     "partner_feld": 0
+    },
+    {
+     "seite": "unten",
+     "feld": 0,
+     "staerke": 6,
+     "vorhergesagt": 6,
+     "fahrzeug": "FANTASTIC CLASSIC",
+     "indizes": [
+      325,
+      182
+     ],
+     "partner": 3021,
+     "partner_feld": 1
+    },
+    {
+     "seite": "unten",
+     "feld": 0,
+     "staerke": 2,
+     "vorhergesagt": 2,
+     "fahrzeug": "FANTASTIC CLASSIC",
+     "indizes": [
+      325,
+      253
+     ],
+     "partner": 3710,
+     "partner_feld": 0
+    }
+   ],
+   "alias_von": null,
+   "status": "angenommen",
+   "gegentest": {
+    "exakt": 7,
+    "vorhergesagt": 7
+   }
+  },
+  {
+   "teil": 78329,
+   "groesse": [
+    5,
+    1,
+    1
+   ],
+   "geom": {
+    "l": 5,
+    "w": 1,
+    "h": 10,
+    "unten": 1,
+    "oben": 0
+   },
+   "seiten": {
+    "unten": {
+     "belege": 42,
+     "felder": {
+      "1": 42
+     },
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 7
+    },
+    "oben": {
+     "belege": 30,
+     "felder": {
+      "0": 30
+     },
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 8
+    }
+   },
+   "ohne_flaechenkontakt": 0,
+   "widerspruch": [],
+   "beispiele": [
+    {
+     "seite": "unten",
+     "feld": 1,
+     "staerke": 1,
+     "vorhergesagt": 1,
+     "fahrzeug": "SHADOW Z SPEED",
+     "indizes": [
+      20,
+      9
+     ],
+     "partner": 3795,
+     "partner_feld": 0
+    },
+    {
+     "seite": "unten",
+     "feld": 1,
+     "staerke": 1,
+     "vorhergesagt": 1,
+     "fahrzeug": "SHADOW Z SPEED",
+     "indizes": [
+      20,
+      16
+     ],
+     "partner": 3795,
+     "partner_feld": 0
+    },
+    {
+     "seite": "oben",
+     "feld": 0,
+     "staerke": 1,
+     "vorhergesagt": 1,
+     "fahrzeug": "SHADOW Z SPEED",
+     "indizes": [
+      219,
+      341
+     ],
+     "partner": 63864,
+     "partner_feld": 0
+    },
+    {
+     "seite": "oben",
+     "feld": 0,
+     "staerke": 1,
+     "vorhergesagt": 1,
+     "fahrzeug": "SHADOW Z SPEED",
+     "indizes": [
+      242,
+      239
+     ],
+     "partner": 63864,
+     "partner_feld": 0
+    },
+    {
+     "seite": "unten",
+     "feld": 1,
+     "staerke": 5,
+     "vorhergesagt": 5,
+     "fahrzeug": "Custom Lowridirt",
+     "indizes": [
+      13,
+      7
+     ],
+     "partner": 3029,
+     "partner_feld": 1
+    },
+    {
+     "seite": "unten",
+     "feld": 1,
+     "staerke": 5,
+     "vorhergesagt": 5,
+     "fahrzeug": "Custom Lowridirt",
+     "indizes": [
+      15,
+      7
+     ],
+     "partner": 3029,
+     "partner_feld": 1
+    }
+   ],
+   "alias_von": null,
+   "status": "angenommen",
+   "gegentest": {
+    "exakt": 87,
+    "vorhergesagt": 87
+   }
+  },
+  {
+   "teil": 87079,
+   "groesse": [
+    4,
+    2,
+    1
+   ],
+   "geom": {
+    "l": 4,
+    "w": 2,
+    "h": 10,
+    "unten": 0,
+    "oben": null
+   },
+   "seiten": {
+    "unten": {
+     "belege": 117,
+     "felder": {
+      "0": 117
+     },
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 23
+    },
+    "oben": {
+     "belege": 0,
+     "felder": {},
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 0
+    }
+   },
+   "ohne_flaechenkontakt": 0,
+   "widerspruch": [],
+   "beispiele": [
+    {
+     "seite": "unten",
+     "feld": 0,
+     "staerke": 1,
+     "vorhergesagt": 1,
+     "fahrzeug": "Neues Fahrzeug 23",
+     "indizes": [
+      21,
+      20
+     ],
+     "partner": 3623,
+     "partner_feld": 0
+    },
+    {
+     "seite": "unten",
+     "feld": 0,
+     "staerke": 2,
+     "vorhergesagt": 2,
+     "fahrzeug": "Neues Fahrzeug 23",
+     "indizes": [
+      21,
+      22
+     ],
+     "partner": 3023,
+     "partner_feld": 0
+    },
+    {
+     "seite": "unten",
+     "feld": 0,
+     "staerke": 1,
+     "vorhergesagt": 1,
+     "fahrzeug": "Neues Fahrzeug 23",
+     "indizes": [
+      21,
+      25
+     ],
+     "partner": 3623,
+     "partner_feld": 0
+    },
+    {
+     "seite": "unten",
+     "feld": 0,
+     "staerke": 4,
+     "vorhergesagt": 4,
+     "fahrzeug": "Modern Racer",
+     "indizes": [
+      190,
+      189
+     ],
+     "partner": 3021,
+     "partner_feld": 1
+    },
+    {
+     "seite": "unten",
+     "feld": 0,
+     "staerke": 4,
+     "vorhergesagt": 4,
+     "fahrzeug": "Modern Racer",
+     "indizes": [
+      190,
+      188
+     ],
+     "partner": 3021,
+     "partner_feld": 1
+    },
+    {
+     "seite": "unten",
+     "feld": 0,
+     "staerke": 8,
+     "vorhergesagt": 8,
+     "fahrzeug": "Helicopter",
+     "indizes": [
+      82,
+      27
+     ],
+     "partner": 3832,
+     "partner_feld": 0
+    }
+   ],
+   "alias_von": null,
+   "status": "angenommen",
+   "gegentest": {
+    "exakt": 123,
+    "vorhergesagt": 123
+   }
+  },
+  {
+   "teil": 88630,
+   "groesse": [
+    2,
+    1,
+    0
+   ],
+   "geom": null,
+   "seiten": {
+    "unten": {
+     "belege": 0,
+     "felder": {},
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 0
+    },
+    "oben": {
+     "belege": 0,
+     "felder": {},
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 0
+    }
+   },
+   "ohne_flaechenkontakt": 0,
+   "widerspruch": [],
+   "beispiele": [],
+   "alias_von": null,
+   "status": "zu_wenig_belege",
+   "gegentest": {}
+  },
+  {
+   "teil": 90498,
+   "groesse": [
+    16,
+    8,
+    1
+   ],
+   "geom": null,
+   "seiten": {
+    "unten": {
+     "belege": 0,
+     "felder": {},
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 0
+    },
+    "oben": {
+     "belege": 0,
+     "felder": {},
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 0
+    }
+   },
+   "ohne_flaechenkontakt": 0,
+   "widerspruch": [],
+   "beispiele": [],
+   "alias_von": null,
+   "status": "zu_wenig_belege",
+   "gegentest": {}
+  },
+  {
+   "teil": 91405,
+   "groesse": [
+    16,
+    16,
+    1
+   ],
+   "geom": null,
+   "seiten": {
+    "unten": {
+     "belege": 0,
+     "felder": {},
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 0
+    },
+    "oben": {
+     "belege": 0,
+     "felder": {},
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 0
+    }
+   },
+   "ohne_flaechenkontakt": 0,
+   "widerspruch": [],
+   "beispiele": [],
+   "alias_von": null,
+   "status": "zu_wenig_belege",
+   "gegentest": {}
+  },
+  {
+   "teil": 91988,
+   "groesse": [
+    14,
+    2,
+    1
+   ],
+   "geom": {
+    "l": 14,
+    "w": 2,
+    "h": 10,
+    "unten": 1,
+    "oben": 0
+   },
+   "seiten": {
+    "unten": {
+     "belege": 18,
+     "felder": {
+      "1": 18
+     },
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 3
+    },
+    "oben": {
+     "belege": 19,
+     "felder": {
+      "0": 19
+     },
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 2
+    }
+   },
+   "ohne_flaechenkontakt": 0,
+   "widerspruch": [],
+   "beispiele": [
+    {
+     "seite": "oben",
+     "feld": 0,
+     "staerke": 8,
+     "vorhergesagt": 8,
+     "fahrzeug": "New Vehicle 49",
+     "indizes": [
+      64,
+      65
+     ],
+     "partner": 3008,
+     "partner_feld": 1
+    },
+    {
+     "seite": "unten",
+     "feld": 1,
+     "staerke": 1,
+     "vorhergesagt": 1,
+     "fahrzeug": "New Vehicle 49",
+     "indizes": [
+      64,
+      62
+     ],
+     "partner": 3009,
+     "partner_feld": 0
+    },
+    {
+     "seite": "unten",
+     "feld": 1,
+     "staerke": 1,
+     "vorhergesagt": 1,
+     "fahrzeug": "New Vehicle 49",
+     "indizes": [
+      64,
+      61
+     ],
+     "partner": 3009,
+     "partner_feld": 0
+    },
+    {
+     "seite": "unten",
+     "feld": 1,
+     "staerke": 6,
+     "vorhergesagt": 6,
+     "fahrzeug": "New Vehicle 49",
+     "indizes": [
+      64,
+      60
+     ],
+     "partner": 3666,
+     "partner_feld": 0
+    },
+    {
+     "seite": "unten",
+     "feld": 1,
+     "staerke": 4,
+     "vorhergesagt": 4,
+     "fahrzeug": "New Vehicle 49",
+     "indizes": [
+      64,
+      59
+     ],
+     "partner": 3710,
+     "partner_feld": 0
+    },
+    {
+     "seite": "unten",
+     "feld": 1,
+     "staerke": 2,
+     "vorhergesagt": 2,
+     "fahrzeug": "Bananana.Bread",
+     "indizes": [
+      14,
+      129
+     ],
+     "partner": 3020,
+     "partner_feld": 0
+    }
+   ],
+   "alias_von": null,
+   "status": "angenommen",
+   "gegentest": {
+    "exakt": 52,
+    "vorhergesagt": 52
+   }
+  },
+  {
+   "teil": 92438,
+   "groesse": [
+    16,
+    8,
+    1
+   ],
+   "geom": null,
+   "seiten": {
+    "unten": {
+     "belege": 0,
+     "felder": {},
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 0
+    },
+    "oben": {
+     "belege": 0,
+     "felder": {},
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 0
+    }
+   },
+   "ohne_flaechenkontakt": 0,
+   "widerspruch": [],
+   "beispiele": [],
+   "alias_von": null,
+   "status": "zu_wenig_belege",
+   "gegentest": {}
+  },
+  {
+   "teil": 93888,
+   "groesse": [
+    8,
+    2,
+    3
+   ],
+   "geom": {
+    "l": 8,
+    "w": 2,
+    "h": 30,
+    "unten": 1,
+    "oben": 0
+   },
+   "seiten": {
+    "unten": {
+     "belege": 1,
+     "felder": {
+      "1": 1
+     },
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 1
+    },
+    "oben": {
+     "belege": 1,
+     "felder": {
+      "0": 1
+     },
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 1
+    }
+   },
+   "ohne_flaechenkontakt": 0,
+   "widerspruch": [],
+   "beispiele": [
+    {
+     "seite": "unten",
+     "feld": 1,
+     "staerke": 8,
+     "vorhergesagt": 8,
+     "fahrzeug": "the cooker",
+     "indizes": [
+      25,
+      26
+     ],
+     "partner": 3035,
+     "partner_feld": 0
+    },
+    {
+     "seite": "oben",
+     "feld": 0,
+     "staerke": 16,
+     "vorhergesagt": 16,
+     "fahrzeug": "the cooker",
+     "indizes": [
+      25,
+      29
+     ],
+     "partner": 3033,
+     "partner_feld": 1
+    }
+   ],
+   "alias_von": 3007,
+   "status": "angenommen",
+   "gegentest": {
+    "exakt": 2,
+    "vorhergesagt": 2
+   }
+  }
+ ],
+ "vorhandene_leave_one_out": [
+  {
+   "teil": 2431,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 93,
+    "vorhergesagt": 93
+   }
+  },
+  {
+   "teil": 2445,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 68,
+    "vorhergesagt": 68
+   }
+  },
+  {
+   "teil": 3001,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 290,
+    "vorhergesagt": 290
+   }
+  },
+  {
+   "teil": 3002,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 30,
+    "vorhergesagt": 30
+   }
+  },
+  {
+   "teil": 3003,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 75,
+    "vorhergesagt": 75
+   }
+  },
+  {
+   "teil": 3004,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 156,
+    "vorhergesagt": 156
+   }
+  },
+  {
+   "teil": 3005,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 139,
+    "vorhergesagt": 139
+   }
+  },
+  {
+   "teil": 3007,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 71,
+    "vorhergesagt": 71
+   }
+  },
+  {
+   "teil": 3008,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 61,
+    "vorhergesagt": 61
+   }
+  },
+  {
+   "teil": 3009,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 81,
+    "vorhergesagt": 81
+   }
+  },
+  {
+   "teil": 3010,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 198,
+    "vorhergesagt": 198
+   }
+  },
+  {
+   "teil": 3020,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 439,
+    "vorhergesagt": 439
+   }
+  },
+  {
+   "teil": 3021,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 199,
+    "vorhergesagt": 199
+   }
+  },
+  {
+   "teil": 3022,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 233,
+    "vorhergesagt": 233
+   }
+  },
+  {
+   "teil": 3023,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 492,
+    "vorhergesagt": 492
+   }
+  },
+  {
+   "teil": 3024,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 340,
+    "vorhergesagt": 340
+   }
+  },
+  {
+   "teil": 3028,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 4,
+    "vorhergesagt": 4
+   }
+  },
+  {
+   "teil": 3029,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {
+    "unten": 0
+   },
+   "gegentest": {
+    "exakt": 18,
+    "vorhergesagt": 18
+   }
+  },
+  {
+   "teil": 3031,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 185,
+    "vorhergesagt": 185
+   }
+  },
+  {
+   "teil": 3032,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 100,
+    "vorhergesagt": 100
+   }
+  },
+  {
+   "teil": 3033,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 19,
+    "vorhergesagt": 19
+   }
+  },
+  {
+   "teil": 3034,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 153,
+    "vorhergesagt": 153
+   }
+  },
+  {
+   "teil": 3035,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {
+    "unten": 1
+   },
+   "gegentest": {
+    "exakt": 47,
+    "vorhergesagt": 47
+   }
+  },
+  {
+   "teil": 3068,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 69,
+    "vorhergesagt": 69
+   }
+  },
+  {
+   "teil": 3069,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 125,
+    "vorhergesagt": 125
+   }
+  },
+  {
+   "teil": 3070,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 78,
+    "vorhergesagt": 78
+   }
+  },
+  {
+   "teil": 3460,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 179,
+    "vorhergesagt": 179
+   }
+  },
+  {
+   "teil": 3622,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 93,
+    "vorhergesagt": 93
+   }
+  },
+  {
+   "teil": 3623,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 164,
+    "vorhergesagt": 164
+   }
+  },
+  {
+   "teil": 3666,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 378,
+    "vorhergesagt": 378
+   }
+  },
+  {
+   "teil": 3710,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 317,
+    "vorhergesagt": 317
+   }
+  },
+  {
+   "teil": 3795,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 227,
+    "vorhergesagt": 227
+   }
+  },
+  {
+   "teil": 3832,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 64,
+    "vorhergesagt": 64
+   }
+  },
+  {
+   "teil": 63864,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 56,
+    "vorhergesagt": 56
+   }
+  }
+ ]
+}

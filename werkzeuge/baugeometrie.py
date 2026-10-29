@@ -13,9 +13,9 @@ GEOM = {
     3032: dict(l=6, w=4, h=10, unten=1, oben=0),
     3033: dict(l=10, w=6, h=10, unten=1, oben=0),
     3034: dict(l=8, w=2, h=10, unten=0, oben=1),
-    3035: dict(l=8, w=4, h=10, unten=None, oben=0),
-    3028: dict(l=12, w=6, h=10, unten=None, oben=0),
-    3029: dict(l=12, w=4, h=10, unten=None, oben=1),
+    3035: dict(l=8, w=4, h=10, unten=1, oben=0),  # unten: geom_kandidaten.py --vorhandene
+    3028: dict(l=12, w=6, h=10, unten=1, oben=0),   # unten: Runde 1, geom_kandidaten.py --vorhandene
+    3029: dict(l=12, w=4, h=10, unten=0, oben=1),   # unten: geom_kandidaten.py --vorhandene
     3068: dict(l=2, w=2, h=10, unten=0, oben=None),
     3001: dict(l=4, w=2, h=30, unten=0, oben=1),
     3002: dict(l=3, w=2, h=30, unten=0, oben=1),
@@ -35,6 +35,46 @@ GEOM = {
     3460: dict(l=8, w=1, h=10, unten=1, oben=0),
     2445: dict(l=12, w=2, h=10, unten=0, oben=1),
     3062: dict(l=1, w=1, h=30, unten=1, oben=0),
+    # Abgeleitet mit geom_kandidaten.py (Größe aus teiledaten.json, Felder und Noppenzahl aus
+    # gespeicherten 3D-Kontakten inkl. Creators-Hub-Cache, Gegentest exakt);
+    # Belege: .claude/geom-kandidaten-belege.json. 35382/93888 sind Aliase von 3005/3007.
+    3027: dict(l=16, w=6, h=10, unten=1, oben=0),
+    3030: dict(l=10, w=4, h=10, unten=1, oben=0),
+    3036: dict(l=8, w=6, h=10, unten=1, oben=0),
+    3456: dict(l=14, w=6, h=10, unten=1, oben=None),
+    3958: dict(l=6, w=6, h=10, unten=0, oben=1),
+    4162: dict(l=8, w=1, h=10, unten=0, oben=None),
+    4282: dict(l=16, w=2, h=10, unten=1, oben=0),
+    4477: dict(l=10, w=1, h=10, unten=1, oben=0),   # oben: Runde 1
+    6111: dict(l=10, w=1, h=30, unten=1, oben=0),
+    6636: dict(l=6, w=1, h=10, unten=0, oben=None),
+    11212: dict(l=3, w=3, h=10, unten=1, oben=0),
+    26603: dict(l=3, w=2, h=10, unten=0, oben=None),
+    35382: dict(l=1, w=1, h=30, unten=1, oben=0),
+    41539: dict(l=8, w=8, h=10, unten=0, oben=1),
+    44237: dict(l=6, w=2, h=30, unten=1, oben=0),
+    60479: dict(l=12, w=1, h=10, unten=0, oben=1),  # oben: Runde 1
+    69729: dict(l=6, w=2, h=10, unten=0, oben=None),
+    78329: dict(l=5, w=1, h=10, unten=1, oben=0),
+    87079: dict(l=4, w=2, h=10, unten=0, oben=None),
+    91988: dict(l=14, w=2, h=10, unten=1, oben=0),
+    93888: dict(l=8, w=2, h=30, unten=1, oben=0),
+    # Kopierrunde 1 (Garagenkopien Cattle Driver, Cranium Insanium, Foul Runnings Truck, Double Decker Tour Bus);
+    # Belege: .claude/geom-kandidaten-belege-runde1.json
+    2465: dict(l=16, w=1, h=30, unten=1, oben=0),   # oben: Runde 2
+    6112: dict(l=12, w=1, h=30, unten=1, oben=0),
+    6212: dict(l=10, w=4, h=30, unten=1, oben=0),
+    43802: dict(l=8, w=8, h=30, unten=1, oben=0),
+    44042: dict(l=6, w=4, h=30, unten=1, oben=0),
+    92438: dict(l=16, w=8, h=10, unten=1, oben=0),  # unten: Space Rover Explorer
+    # Kopierrunde 2 (12 Garagenkopien nach Abdeckungsliste); Belege: .claude/geom-kandidaten-belege-runde2.json
+    3006: dict(l=10, w=2, h=30, unten=1, oben=0),
+    30400: dict(l=18, w=4, h=30, unten=1, oben=0),
+    35386: dict(l=2, w=1, h=10, unten=0, oben=None),
+    # Runde 3; Belege: .claude/geom-kandidaten-belege-runde3.json (Alias von 3003)
+    35275: dict(l=2, w=2, h=30, unten=1, oben=0),
+    # Runde 4; Belege: .claude/geom-kandidaten-belege-runde4.json (10 Kontakte, Gegentest 10/10)
+    35403: dict(l=1, w=1, h=10, unten=0, oben=None),
     # Schräge 45° 2x1: Noppe am Ursprung (hohe Seite), Schräge fällt nach lokal +y ab;
     # mit dreh 270 fällt sie nach +x (vorn) ab
     3040: dict(l=1, w=2, h=30, unten=1, oben=0, unten_zellen=[(0, 0), (0, -1)], oben_zellen=[(0, 0)]),
@@ -50,8 +90,11 @@ GEOM = {
     87087: dict(l=1, w=1, h=30, unten=1, oben=2),
     6141: dict(l=1, w=1, h=10, unten=0, oben=1),
     # Kotflügel: Noppenblock 2x1 am Ursprung, 1 Stein hoch (laut Spiel/Vorlage G022);
-    # Bogen links ungedreht, rechts um 180° gedreht einsetzen
-    98282: dict(l=2, w=1, h=30, unten=0, oben=1),
+    # Bogen links ungedreht, rechts um 180° gedreht einsetzen.
+    # Oben 2x2 (zusätzliche Reihe Richtung +y), unten 2x1; aus 130 Fahrzeugen belegt:
+    # 278 Ober- und 243 Unterseitenkontakte exakt, siehe .claude/maske-98282-belege.json
+    98282: dict(l=2, w=1, h=30, unten=0, oben=1,
+                oben_zellen=[(0, 0), (1, 0), (0, -1), (1, -1)], unten_zellen=[(0, 0), (1, 0)]),
     # Ein Kontakt belegt sechs statt acht Noppen, aber nicht deren genaue Lage.
     3823: dict(l=4, w=2, h=60, unten=0, oben=1, maske_unbekannt=True),
     # Chassis-Platte von PoliceTruck_7032 (4x10, Mittelloch, Radausschnitte)

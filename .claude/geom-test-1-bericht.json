@@ -1,0 +1,40 @@
+{
+  "name": "GEOM Test 1",
+  "slot": 25,
+  "teile": 17,
+  "verbindungen": 10,
+  "koerperteile": 6,
+  "baugruppen": 5,
+  "warnungen": [
+    "GarageSaveDataMap bleibt unverändert; Auswirkungen auf Garagen-Metadaten sind im Spiel noch zu prüfen"
+  ],
+  "referenzen": {
+    "chassis:0": 0,
+    "chassis:1": 1,
+    "chassis:2": 2,
+    "stein_2x6": 3,
+    "teil:0": 3,
+    "teil:1": 4,
+    "platte_4x10": 4,
+    "teil:2": 5,
+    "fliese_2x4": 5,
+    "teil:3": 6,
+    "stein_1x10": 6,
+    "teil:4": 7,
+    "platte_1x5": 7,
+    "teil:5": 8,
+    "fliese_1x8": 8,
+    "rad:fl:0": 9,
+    "rad:fl:1": 10,
+    "rad:fr:0": 11,
+    "rad:fr:1": 12,
+    "rad:bl:0": 13,
+    "rad:bl:1": 14,
+    "rad:br:0": 15,
+    "rad:br:1": 16
+  },
+  "lose_teile": [],
+  "geometrie_unbekannt": [
+    30157
+  ]
+}

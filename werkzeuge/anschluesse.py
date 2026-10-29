@@ -2,10 +2,17 @@
 
 Ergebnis pro Teilenummer: welche Anschlusspunkte (FieldIndex) vorkommen und ob das
 Teil dabei unten (seine Noppen tragen etwas) oder oben (es sitzt auf etwas) lag.
+Gelesen werden CustomVehicles, DownloadedVehicles und der Creators-Hub-Cache
+(ArtemisChubCache.sav, CachedVehicles). Gleiche Fahrzeuge zählen nur einmal.
 Aufruf: python anschluesse.py <datei.sav> [<datei2.sav> ...] [--json ausgabe.json] [--md ausgabe.md]
+        python anschluesse.py --alle [...]   (alle Fahrzeug-Spielstände im Spielordner, nur lesen)
+        python anschluesse.py --alle "../_sicherungen/*/ArtemisChubCache.sav"   (ältere Cache-Stände dazu)
 """
 import collections
+import glob
+import hashlib
 import json
+import os
 import struct
 import sys
 
@@ -13,12 +20,50 @@ import gvas
 from geometrie import canonical
 from baugeometrie import GEOM
 
+SPIELSTAENDE = os.path.expandvars(r"%USERPROFILE%\Documents\My Games\Artemis\Saved\SaveGames")
+FAHRZEUG_DATEIEN = ("ArtemisVehicle.sav", "ArtemisDownloadedVehicle.sav", "ArtemisExtraVehicle.sav",
+                    "ArtemisChubCache.sav")
 
-def vehicles(path):
+
+def expand(paths):
+    """Platzhalter wie _sicherungen/*/ArtemisChubCache.sav selbst auflösen (PowerShell tut es nicht)."""
+    return [p for a in paths for p in (sorted(glob.glob(a)) if glob.has_magic(a) else [a])]
+
+
+def alle_spielstaende(ordner=SPIELSTAENDE):
+    return [p for p in (os.path.join(ordner, n) for n in FAHRZEUG_DATEIEN) if os.path.isfile(p)]
+
+
+def vehicles_with_source(path):
+    """(Liste, Fahrzeug) je benanntem Fahrzeug; Cache-Einträge sind eingebettete Property-Listen."""
     data = gvas.load(path)["body"]["Data"]
     for key in ("CustomVehicles", "DownloadedVehicles"):
         for v in data.get(key, {}).get("items", []):
             if v["VehicleName"]:
+                yield key, v
+    for _, entry in data.get("CachedVehicles", []):
+        v = gvas.read_props(gvas.R(bytes.fromhex(entry["Bytes"]["_bytes"])))
+        if v.get("VehicleName"):
+            yield "CachedVehicles", v
+
+
+def vehicles(path):
+    for _, v in vehicles_with_source(path):
+        yield v
+
+
+def fingerprint(vehicle):
+    """Gleicher Teilegraph = gleiches Fahrzeug, egal in welcher Datei oder Liste."""
+    return hashlib.sha1(json.dumps(vehicle["PartGraph"], sort_keys=True, default=str).encode()).hexdigest()
+
+
+def unique_vehicles(paths):
+    seen = set()
+    for path in paths:
+        for v in vehicles(path):
+            key = fingerprint(v)
+            if key not in seen:
+                seen.add(key)
                 yield v
 
 
@@ -43,37 +88,40 @@ def main(paths, out=None, md=None):
     colors = collections.Counter()
     chassis = collections.Counter()
     assemblies = collections.Counter()
-    for path in paths:
-        for v in vehicles(path):
-            pg = v["PartGraph"]
-            chassis[(v["ChassisConfig"].split(".")[-1], v["VehicleClass"].split("::")[-1])] += 1
-            for a in pg["Assemblies"]["items"]:
-                assemblies[a["AssemblyAsset"].split("/Game/LEGO/")[-1].split(".")[0]] += 1
-            parts = [bytes.fromhex(p) for p in pg["Parts"]["items"]]
-            tfs = pg["PartTransforms"]["items"]
-            design = [struct.unpack("<I", b[:4])[0] for b in parts]
-            for b in parts:
-                colors[(b[4], b[5])] += 1
-            seen = set()
-            for c in pg["Connections"]["items"]:
-                signature = canonical(c)
-                if signature in seen:
-                    continue  # Doppelte/dreifache Einträge sind kein unabhängiger Beleg.
-                seen.add(signature)
-                a, b = c["PartIndexA"], c["PartIndexB"]
-                ra = field_role(design[a], c["FieldIndexA"])
-                rb = field_role(design[b], c["FieldIndexB"])
-                stats[design[a]][(c["FieldIndexA"], ra)] += 1
-                stats[design[b]][(c["FieldIndexB"], rb)] += 1
+    count = 0
+    for v in unique_vehicles(paths):
+        count += 1
+        pg = v["PartGraph"]
+        chassis[(v["ChassisConfig"].split(".")[-1], v["VehicleClass"].split("::")[-1])] += 1
+        for a in pg["Assemblies"]["items"]:
+            assemblies[a["AssemblyAsset"].split("/Game/LEGO/")[-1].split(".")[0]] += 1
+        parts = [bytes.fromhex(p) for p in pg["Parts"]["items"]]
+        tfs = pg["PartTransforms"]["items"]
+        design = [struct.unpack("<I", b[:4])[0] for b in parts]
+        for b in parts:
+            colors[(b[4], b[5])] += 1
+        seen = set()
+        for c in pg["Connections"]["items"]:
+            signature = canonical(c)
+            if signature in seen:
+                continue  # Doppelte/dreifache Einträge sind kein unabhängiger Beleg.
+            seen.add(signature)
+            a, b = c["PartIndexA"], c["PartIndexB"]
+            ra = field_role(design[a], c["FieldIndexA"])
+            rb = field_role(design[b], c["FieldIndexB"])
+            stats[design[a]][(c["FieldIndexA"], ra)] += 1
+            stats[design[b]][(c["FieldIndexB"], rb)] += 1
     result = {}
     for d in sorted(stats):
         result[d] = {f"{f}:{r}": n for (f, r), n in sorted(stats[d].items())}
         print(d, result[d])
     print("Farben (Index, Oberflaeche):", sorted(colors.items()))
+    print(f"{count} verschiedene Fahrzeuge, {len(result)} Teile mit Anschlussbeobachtungen")
     if out:
         json.dump(result, open(out, "w", encoding="utf-8"), indent=1)
     if md:
         write_md(md, result, chassis, assemblies, colors)
+    return result
 
 
 def fields(entry, role):
@@ -85,7 +133,7 @@ def fields(entry, role):
 
 def write_md(path, result, chassis, assemblies, colors):
     lines = ["# Anschlusspunkte je Teil (FieldIndex)", "",
-             "Aus Creators-Hub-Modellen ermittelt (anschluesse.py). Haeufigster Wert zuerst.",
+             "Aus Fahrzeugen in Spielständen ermittelt (anschluesse.py: eigene, heruntergeladene und Creators-Hub-Cache). Haeufigster Wert zuerst.",
              "Identische Verbindungen werden je Fahrzeug nur einmal gezählt. Lokale Ober-/Unterseiten stammen aus GEOM, nicht aus einem Welt-z-Vergleich.", "",
              "- **Unterseite**: Feld, mit dem das Teil auf etwas sitzt",
              "- **Noppen oben**: Feld, das ein Teil darueber traegt",
@@ -113,4 +161,7 @@ if __name__ == "__main__":
             i = args.index(flag)
             opts[flag] = args[i + 1]
             del args[i:i + 2]
-    main(args, opts.get("--json"), opts.get("--md"))
+    if "--alle" in args:
+        args.remove("--alle")
+        args += alle_spielstaende()
+    main(expand(args), opts.get("--json"), opts.get("--md"))

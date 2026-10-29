@@ -30,9 +30,10 @@ der Ordner kann überall liegen (die Skripte arbeiten mit relativen Pfaden und `
 |---|---|
 | `README.md` | dieses Dokument: Format, Regeln, Erkenntnisse |
 | `teilekatalog.md` | Teile im Body Shop mit Teilenummern, nach Kategorie |
-| `anschlusspunkte.md` | Anschlusspunkte (FieldIndex) für ~360 Teile, Chassis, Räder, Farben-Statistik (erzeugt von `anschluesse.py --md`) |
+| `anschlusspunkte.md` | Anschlusspunkte (FieldIndex) für ~1000 Teile, Chassis, Räder, Farben-Statistik (erzeugt von `anschluesse.py --alle --md`, inkl. Creators-Hub-Cache) |
 | `anschlusspunkte.json` | dieselben Rohdaten maschinenlesbar |
 | `teiledaten.json` | alle 2028 Teile des Spiels: Name, Größe, Masse, Aliase (Quelle: [2kdrivetools.github.io](https://2kdrivetools.github.io/)) |
+| `sonderteile.json` | Räder, Baugruppen, Flairs, Propeller, Chassis, Fertigfahrzeuge: belegte Daten getrennt von Annahmen, mit Fahrzeugen, die das Teil enthalten (erzeugt von `sonderteile.py`) |
 | `werkzeuge\` | Python-Skripte (s.u.) |
 | `baupläne\` | Baupläne für `baue_fahrzeug.py` |
 | `test2\` | Teileliste Set 31015 mit Spiel-Abgleich, Tauschplan für gesperrte Teile |
@@ -70,7 +71,9 @@ der Ordner kann überall liegen (die Skripte arbeiten mit relativen Pfaden und `
 | `ArtemisExtraVehicle.sav` | gleiches Format, bei uns leer |
 | übrige `.sav` | Einstellungen, Spielerfortschritt, Caches |
 
-Tipp: Im Creators Hub Modelle herunterladen → `werkzeuge\anschluesse.py` lernt daraus weitere Teile.
+Tipp: Im Creators Hub Modelle ansehen oder herunterladen → `werkzeuge\anschluesse.py --alle` lernt daraus weitere Teile
+(angesehene Modelle landen im Cache `ArtemisChubCache.sav`, heruntergeladene in `ArtemisDownloadedVehicle.sav`).
+Anleitung: [.claude/sonderteile-und-abdeckung-2026-10-29.md](.claude/sonderteile-und-abdeckung-2026-10-29.md).
 Ein geladenes Modell in der Garage zu ändern erzeugt eine Kopie in `ArtemisVehicle.sav`.
 
 ## Dateiformat (`ArtemisVehicle.sav`)
@@ -205,7 +208,9 @@ Weitere Indizes kommen in Vorlagen vor (33, 36, 44, 45, 46, 47, 51, 57, 62, 64, 
 | `teiledaten.py <nummer\|text>…` | Teil in `teiledaten.json` nachschlagen (auch über Aliase), z.B. `teiledaten.py 3956 "PLATE 2X2"` |
 | `drivepass.py [--schreiben]` | alle Drive Passes auf Stufe 99 setzen (ohne Option nur anzeigen; mit Option vorher automatisch sichern) |
 | `gvas.py <datei> [ausgabe.json]` | kompletter Spielstand als JSON |
-| `anschluesse.py <sav…> [--json out] [--md out]` | Anschlusspunkte je Teil aus allen Fahrzeugen lernen; mit `--json anschlusspunkte.json --md anschlusspunkte.md` beide Dateien neu erzeugen |
+| `anschluesse.py <sav…>\|--alle [--json out] [--md out]` | Anschlusspunkte je Teil aus allen Fahrzeugen lernen (auch Creators-Hub-Cache); mit `--alle --json ..\anschlusspunkte.json --md ..\anschlusspunkte.md` beide Dateien neu erzeugen |
+| `geom_kandidaten.py [sav…] [--vorhandene] [--json out]` | GEOM-Zeilen für einfache Platten/Steine/Fliesen aus gespeicherten Kontakten ableiten und gegenprüfen; Ausgabe zum Eintragen in `baugeometrie.py` |
+| `sonderteile.py [sav…]` | `sonderteile.json` neu erzeugen: Räder, Baugruppen, Flairs, Propeller, Chassis und Fertigfahrzeuge aus Enzyklopädie, Spielpaketnamen und Spielständen |
 | `gvas_rw.py` | Spielstand lesen **und schreiben** (Byte-genau getestet) |
 | `baue_fahrzeug.py <quelle.sav> <ziel.sav> <bauplan.json>` | **neues Fahrzeug** aus Bauplan: Chassis/Räder aus Vorlage, Karosserie aus Teileliste, Verbindungen berechnet; gleichnamiges Fahrzeug wird ersetzt |
 | `tausche_teile.py <quelle.sav> <ziel.sav> <tausch.json>` | Platzhalter-Teile gegen andere Teilenummern tauschen (inkl. Garagen-Arbeitskopie) |

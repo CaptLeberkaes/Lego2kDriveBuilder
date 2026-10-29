@@ -60,6 +60,13 @@
       "url": "https://github.com/bhushan6/lego-builder/blob/main/LICENSE",
       "sha256": "4250286d19bc3cfbc9eb8fd42f76007b278cf5c9008161fcc38e4f0cb10f5293",
       "bytes": 1069
+    },
+    {
+      "local": ".claude\\quellen\\l2kd-encyclopedia\\fahrzeugteile\\vehicle_parts.json",
+      "url": "https://github.com/r0levrai/l2kd-encyclopedia/blob/1767bf76e70ac95cd90f45fc2abf51637aa441a9/data/vehicle_parts.json",
+      "sha256": "01e5be10c91d335a84c7effa02cd93bbcab05f8d7390e415354fad99be2fcc3b",
+      "bytes": 1245292,
+      "hinweis": "2026-10-29 geladen; Git-Blob-Hash gegen source-tree.json geprüft; nur als JSON gelesen"
     }
   ]
 }

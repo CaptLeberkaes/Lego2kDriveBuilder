@@ -1,0 +1,72 @@
+{
+ "name": "GEOM Test 1",
+ "vorlage_datei": "_sicherungen/2026-10-29_21-17-07/ArtemisVehicle.sav",
+ "vorlage_name": "Neues Fahrzeug 05",
+ "teile": [
+  {
+   "id": "stein_2x6",
+   "teil": 44237,
+   "farbe": 27,
+   "pos": [
+    -62.5,
+    12.5,
+    10
+   ]
+  },
+  {
+   "id": "platte_4x10",
+   "teil": 3030,
+   "farbe": 11,
+   "pos": [
+    -37.5,
+    -112.5,
+    40
+   ],
+   "dreh": 90
+  },
+  {
+   "id": "fliese_2x4",
+   "teil": 87079,
+   "farbe": 27,
+   "pos": [
+    -37.5,
+    -37.5,
+    50
+   ],
+   "dreh": 90
+  },
+  {
+   "id": "stein_1x10",
+   "teil": 6111,
+   "farbe": 27,
+   "pos": [
+    37.5,
+    -112.5,
+    50
+   ],
+   "dreh": 90
+  },
+  {
+   "id": "platte_1x5",
+   "teil": 78329,
+   "farbe": 27,
+   "pos": [
+    12.5,
+    -112.5,
+    50
+   ],
+   "dreh": 90
+  },
+  {
+   "id": "fliese_1x8",
+   "teil": 4162,
+   "farbe": 11,
+   "pos": [
+    37.5,
+    -87.5,
+    80
+   ],
+   "dreh": 90
+  }
+ ]
+}

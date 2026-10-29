@@ -1,0 +1,1746 @@
+{
+ "hinweis": "Größe und Noppenraster sind Annahmen; Felder und Noppenzahlen aus gespeicherten Verbindungen belegt. Nur Ober-/Unterseiten, keine Seitennoppen.",
+ "fahrzeuge": 91,
+ "dateien": [
+  "ArtemisVehicle.sav",
+  "ArtemisVehicle.sav",
+  "ArtemisVehicle.sav",
+  "ArtemisVehicle.sav",
+  "ArtemisVehicle.sav",
+  "ArtemisVehicle.sav",
+  "ArtemisVehicle.sav",
+  "ArtemisVehicle.sav",
+  "ArtemisVehicle.sav",
+  "ArtemisVehicle.sav",
+  "ArtemisVehicle.sav",
+  "ArtemisVehicle.sav",
+  "ArtemisVehicle.sav",
+  "ArtemisDownloadedVehicle.sav",
+  "ArtemisDownloadedVehicle.sav",
+  "ArtemisDownloadedVehicle.sav",
+  "ArtemisDownloadedVehicle.sav",
+  "ArtemisDownloadedVehicle.sav",
+  "ArtemisDownloadedVehicle.sav",
+  "ArtemisDownloadedVehicle.sav",
+  "ArtemisDownloadedVehicle.sav",
+  "ArtemisDownloadedVehicle.sav",
+  "ArtemisDownloadedVehicle.sav",
+  "ArtemisChubCache.sav",
+  "ArtemisChubCache.sav",
+  "ArtemisChubCache.sav",
+  "ArtemisChubCache.sav",
+  "ArtemisChubCache.sav",
+  "ArtemisChubCache.sav",
+  "ArtemisChubCache.sav",
+  "ArtemisChubCache.sav",
+  "ArtemisChubCache.sav",
+  "ArtemisChubCache.sav"
+ ],
+ "min_belege": 2,
+ "ergebnisse": [
+  {
+   "teil": 1751,
+   "groesse": [
+    4,
+    4,
+    1
+   ],
+   "geom": null,
+   "seiten": {
+    "unten": {
+     "belege": 0,
+     "felder": {},
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 0
+    },
+    "oben": {
+     "belege": 0,
+     "felder": {},
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 0
+    }
+   },
+   "ohne_flaechenkontakt": 0,
+   "widerspruch": [],
+   "beispiele": [],
+   "alias_von": null,
+   "status": "zu_wenig_belege",
+   "gegentest": {}
+  },
+  {
+   "teil": 2465,
+   "groesse": [
+    16,
+    1,
+    3
+   ],
+   "geom": {
+    "l": 16,
+    "w": 1,
+    "h": 30,
+    "unten": 1,
+    "oben": null
+   },
+   "seiten": {
+    "unten": {
+     "belege": 6,
+     "felder": {
+      "1": 6
+     },
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 1
+    },
+    "oben": {
+     "belege": 0,
+     "felder": {},
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 0
+    }
+   },
+   "ohne_flaechenkontakt": 0,
+   "widerspruch": [],
+   "beispiele": [
+    {
+     "seite": "unten",
+     "feld": 1,
+     "staerke": 4,
+     "vorhergesagt": 4,
+     "fahrzeug": "Double Decker Tour Bus",
+     "indizes": [
+      15,
+      16
+     ],
+     "partner": 3958,
+     "partner_feld": 1
+    },
+    {
+     "seite": "unten",
+     "feld": 1,
+     "staerke": 6,
+     "vorhergesagt": 6,
+     "fahrzeug": "Double Decker Tour Bus",
+     "indizes": [
+      15,
+      18
+     ],
+     "partner": 3958,
+     "partner_feld": 1
+    },
+    {
+     "seite": "unten",
+     "feld": 1,
+     "staerke": 6,
+     "vorhergesagt": 6,
+     "fahrzeug": "Double Decker Tour Bus",
+     "indizes": [
+      15,
+      57
+     ],
+     "partner": 3958,
+     "partner_feld": 1
+    },
+    {
+     "seite": "unten",
+     "feld": 1,
+     "staerke": 4,
+     "vorhergesagt": 4,
+     "fahrzeug": "Double Decker Tour Bus",
+     "indizes": [
+      17,
+      16
+     ],
+     "partner": 3958,
+     "partner_feld": 1
+    },
+    {
+     "seite": "unten",
+     "feld": 1,
+     "staerke": 6,
+     "vorhergesagt": 6,
+     "fahrzeug": "Double Decker Tour Bus",
+     "indizes": [
+      17,
+      18
+     ],
+     "partner": 3958,
+     "partner_feld": 1
+    },
+    {
+     "seite": "unten",
+     "feld": 1,
+     "staerke": 6,
+     "vorhergesagt": 6,
+     "fahrzeug": "Double Decker Tour Bus",
+     "indizes": [
+      17,
+      57
+     ],
+     "partner": 3958,
+     "partner_feld": 1
+    }
+   ],
+   "alias_von": null,
+   "status": "angenommen",
+   "gegentest": {
+    "exakt": 6,
+    "vorhergesagt": 6
+   }
+  },
+  {
+   "teil": 3006,
+   "groesse": [
+    10,
+    2,
+    3
+   ],
+   "geom": null,
+   "seiten": {
+    "unten": {
+     "belege": 0,
+     "felder": {},
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 0
+    },
+    "oben": {
+     "belege": 0,
+     "felder": {},
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 0
+    }
+   },
+   "ohne_flaechenkontakt": 0,
+   "widerspruch": [],
+   "beispiele": [],
+   "alias_von": null,
+   "status": "zu_wenig_belege",
+   "gegentest": {}
+  },
+  {
+   "teil": 3026,
+   "groesse": [
+    24,
+    6,
+    1
+   ],
+   "geom": null,
+   "seiten": {
+    "unten": {
+     "belege": 0,
+     "felder": {},
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 0
+    },
+    "oben": {
+     "belege": 0,
+     "felder": {},
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 0
+    }
+   },
+   "ohne_flaechenkontakt": 0,
+   "widerspruch": [],
+   "beispiele": [],
+   "alias_von": null,
+   "status": "zu_wenig_belege",
+   "gegentest": {}
+  },
+  {
+   "teil": 6112,
+   "groesse": [
+    12,
+    1,
+    3
+   ],
+   "geom": {
+    "l": 12,
+    "w": 1,
+    "h": 30,
+    "unten": 1,
+    "oben": 0
+   },
+   "seiten": {
+    "unten": {
+     "belege": 2,
+     "felder": {
+      "1": 2
+     },
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 1
+    },
+    "oben": {
+     "belege": 4,
+     "felder": {
+      "0": 4
+     },
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 1
+    }
+   },
+   "ohne_flaechenkontakt": 2,
+   "widerspruch": [],
+   "beispiele": [
+    {
+     "seite": "unten",
+     "feld": 1,
+     "staerke": 1,
+     "vorhergesagt": 1,
+     "fahrzeug": "Foul Runnings Truck",
+     "indizes": [
+      132,
+      60
+     ],
+     "partner": 3024,
+     "partner_feld": 0
+    },
+    {
+     "seite": "unten",
+     "feld": 1,
+     "staerke": 1,
+     "vorhergesagt": 1,
+     "fahrzeug": "Foul Runnings Truck",
+     "indizes": [
+      140,
+      72
+     ],
+     "partner": 3024,
+     "partner_feld": 0
+    },
+    {
+     "seite": "oben",
+     "feld": 0,
+     "staerke": 8,
+     "vorhergesagt": 8,
+     "fahrzeug": "Foul Runnings Truck",
+     "indizes": [
+      132,
+      133
+     ],
+     "partner": 3008,
+     "partner_feld": 1
+    },
+    {
+     "seite": "oben",
+     "feld": 0,
+     "staerke": 1,
+     "vorhergesagt": 1,
+     "fahrzeug": "Foul Runnings Truck",
+     "indizes": [
+      132,
+      152
+     ],
+     "partner": 3005,
+     "partner_feld": 1
+    },
+    {
+     "seite": "oben",
+     "feld": 0,
+     "staerke": 8,
+     "vorhergesagt": 8,
+     "fahrzeug": "Foul Runnings Truck",
+     "indizes": [
+      140,
+      141
+     ],
+     "partner": 3008,
+     "partner_feld": 1
+    },
+    {
+     "seite": "oben",
+     "feld": 0,
+     "staerke": 1,
+     "vorhergesagt": 1,
+     "fahrzeug": "Foul Runnings Truck",
+     "indizes": [
+      140,
+      150
+     ],
+     "partner": 3005,
+     "partner_feld": 1
+    }
+   ],
+   "alias_von": null,
+   "status": "angenommen",
+   "gegentest": {
+    "exakt": 6,
+    "vorhergesagt": 6
+   }
+  },
+  {
+   "teil": 6212,
+   "groesse": [
+    10,
+    4,
+    3
+   ],
+   "geom": {
+    "l": 10,
+    "w": 4,
+    "h": 30,
+    "unten": 1,
+    "oben": 0
+   },
+   "seiten": {
+    "unten": {
+     "belege": 3,
+     "felder": {
+      "1": 3
+     },
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 1
+    },
+    "oben": {
+     "belege": 2,
+     "felder": {
+      "0": 2
+     },
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 1
+    }
+   },
+   "ohne_flaechenkontakt": 0,
+   "widerspruch": [],
+   "beispiele": [
+    {
+     "seite": "unten",
+     "feld": 1,
+     "staerke": 4,
+     "vorhergesagt": 4,
+     "fahrzeug": "Cranium Insanium",
+     "indizes": [
+      1,
+      2
+     ],
+     "partner": 3832,
+     "partner_feld": 0
+    },
+    {
+     "seite": "unten",
+     "feld": 1,
+     "staerke": 32,
+     "vorhergesagt": 32,
+     "fahrzeug": "Cranium Insanium",
+     "indizes": [
+      1,
+      13
+     ],
+     "partner": 3035,
+     "partner_feld": 0
+    },
+    {
+     "seite": "unten",
+     "feld": 1,
+     "staerke": 4,
+     "vorhergesagt": 4,
+     "fahrzeug": "Cranium Insanium",
+     "indizes": [
+      1,
+      16
+     ],
+     "partner": 3832,
+     "partner_feld": 0
+    },
+    {
+     "seite": "oben",
+     "feld": 0,
+     "staerke": 8,
+     "vorhergesagt": 8,
+     "fahrzeug": "Cranium Insanium",
+     "indizes": [
+      1,
+      71
+     ],
+     "partner": 3001,
+     "partner_feld": 0
+    },
+    {
+     "seite": "oben",
+     "feld": 0,
+     "staerke": 8,
+     "vorhergesagt": 8,
+     "fahrzeug": "Cranium Insanium",
+     "indizes": [
+      1,
+      72
+     ],
+     "partner": 3007,
+     "partner_feld": 1
+    }
+   ],
+   "alias_von": null,
+   "status": "angenommen",
+   "gegentest": {
+    "exakt": 5,
+    "vorhergesagt": 5
+   }
+  },
+  {
+   "teil": 10202,
+   "groesse": [
+    6,
+    6,
+    1
+   ],
+   "geom": null,
+   "seiten": {
+    "unten": {
+     "belege": 0,
+     "felder": {},
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 0
+    },
+    "oben": {
+     "belege": 0,
+     "felder": {},
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 0
+    }
+   },
+   "ohne_flaechenkontakt": 0,
+   "widerspruch": [],
+   "beispiele": [],
+   "alias_von": null,
+   "status": "zu_wenig_belege",
+   "gegentest": {}
+  },
+  {
+   "teil": 30400,
+   "groesse": [
+    18,
+    4,
+    3
+   ],
+   "geom": null,
+   "seiten": {
+    "unten": {
+     "belege": 0,
+     "felder": {},
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 0
+    },
+    "oben": {
+     "belege": 0,
+     "felder": {},
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 0
+    }
+   },
+   "ohne_flaechenkontakt": 0,
+   "widerspruch": [],
+   "beispiele": [],
+   "alias_von": null,
+   "status": "zu_wenig_belege",
+   "gegentest": {}
+  },
+  {
+   "teil": 35275,
+   "groesse": [
+    2,
+    2,
+    3
+   ],
+   "geom": null,
+   "seiten": {
+    "unten": {
+     "belege": 0,
+     "felder": {},
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 0
+    },
+    "oben": {
+     "belege": 0,
+     "felder": {},
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 0
+    }
+   },
+   "ohne_flaechenkontakt": 0,
+   "widerspruch": [],
+   "beispiele": [],
+   "alias_von": 3003,
+   "status": "zu_wenig_belege",
+   "gegentest": {}
+  },
+  {
+   "teil": 35371,
+   "groesse": [
+    4,
+    1,
+    1
+   ],
+   "geom": null,
+   "seiten": {
+    "unten": {
+     "belege": 0,
+     "felder": {},
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 0
+    },
+    "oben": {
+     "belege": 0,
+     "felder": {},
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 0
+    }
+   },
+   "ohne_flaechenkontakt": 0,
+   "widerspruch": [],
+   "beispiele": [],
+   "alias_von": 2431,
+   "status": "zu_wenig_belege",
+   "gegentest": {}
+  },
+  {
+   "teil": 35386,
+   "groesse": [
+    2,
+    1,
+    1
+   ],
+   "geom": null,
+   "seiten": {
+    "unten": {
+     "belege": 0,
+     "felder": {},
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 0
+    },
+    "oben": {
+     "belege": 0,
+     "felder": {},
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 0
+    }
+   },
+   "ohne_flaechenkontakt": 0,
+   "widerspruch": [],
+   "beispiele": [],
+   "alias_von": null,
+   "status": "zu_wenig_belege",
+   "gegentest": {}
+  },
+  {
+   "teil": 35403,
+   "groesse": [
+    1,
+    1,
+    1
+   ],
+   "geom": null,
+   "seiten": {
+    "unten": {
+     "belege": 0,
+     "felder": {},
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 0
+    },
+    "oben": {
+     "belege": 0,
+     "felder": {},
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 0
+    }
+   },
+   "ohne_flaechenkontakt": 0,
+   "widerspruch": [],
+   "beispiele": [],
+   "alias_von": null,
+   "status": "zu_wenig_belege",
+   "gegentest": {}
+  },
+  {
+   "teil": 43802,
+   "groesse": [
+    8,
+    8,
+    3
+   ],
+   "geom": {
+    "l": 8,
+    "w": 8,
+    "h": 30,
+    "unten": 1,
+    "oben": 0
+   },
+   "seiten": {
+    "unten": {
+     "belege": 2,
+     "felder": {
+      "1": 2
+     },
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 1
+    },
+    "oben": {
+     "belege": 8,
+     "felder": {
+      "0": 8
+     },
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 1
+    }
+   },
+   "ohne_flaechenkontakt": 0,
+   "widerspruch": [],
+   "beispiele": [
+    {
+     "seite": "oben",
+     "feld": 0,
+     "staerke": 16,
+     "vorhergesagt": 16,
+     "fahrzeug": "Cranium Insanium",
+     "indizes": [
+      36,
+      35
+     ],
+     "partner": 93888,
+     "partner_feld": 1
+    },
+    {
+     "seite": "oben",
+     "feld": 0,
+     "staerke": 8,
+     "vorhergesagt": 8,
+     "fahrzeug": "Cranium Insanium",
+     "indizes": [
+      36,
+      37
+     ],
+     "partner": 3034,
+     "partner_feld": 0
+    },
+    {
+     "seite": "unten",
+     "feld": 1,
+     "staerke": 8,
+     "vorhergesagt": 8,
+     "fahrzeug": "Cranium Insanium",
+     "indizes": [
+      36,
+      53
+     ],
+     "partner": 3008,
+     "partner_feld": 0
+    },
+    {
+     "seite": "unten",
+     "feld": 1,
+     "staerke": 16,
+     "vorhergesagt": 16,
+     "fahrzeug": "Cranium Insanium",
+     "indizes": [
+      36,
+      107
+     ],
+     "partner": 93888,
+     "partner_feld": 0
+    },
+    {
+     "seite": "oben",
+     "feld": 0,
+     "staerke": 1,
+     "vorhergesagt": 1,
+     "fahrzeug": "Cranium Insanium",
+     "indizes": [
+      36,
+      120
+     ],
+     "partner": 3005,
+     "partner_feld": 1
+    },
+    {
+     "seite": "oben",
+     "feld": 0,
+     "staerke": 6,
+     "vorhergesagt": 6,
+     "fahrzeug": "Cranium Insanium",
+     "indizes": [
+      36,
+      123
+     ],
+     "partner": 44237,
+     "partner_feld": 1
+    }
+   ],
+   "alias_von": null,
+   "status": "angenommen",
+   "gegentest": {
+    "exakt": 10,
+    "vorhergesagt": 10
+   }
+  },
+  {
+   "teil": 44041,
+   "groesse": [
+    16,
+    8,
+    3
+   ],
+   "geom": null,
+   "seiten": {
+    "unten": {
+     "belege": 0,
+     "felder": {},
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 0
+    },
+    "oben": {
+     "belege": 0,
+     "felder": {},
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 0
+    }
+   },
+   "ohne_flaechenkontakt": 0,
+   "widerspruch": [],
+   "beispiele": [],
+   "alias_von": null,
+   "status": "zu_wenig_belege",
+   "gegentest": {}
+  },
+  {
+   "teil": 44042,
+   "groesse": [
+    6,
+    4,
+    3
+   ],
+   "geom": {
+    "l": 6,
+    "w": 4,
+    "h": 30,
+    "unten": 1,
+    "oben": 0
+   },
+   "seiten": {
+    "unten": {
+     "belege": 2,
+     "felder": {
+      "1": 2
+     },
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 1
+    },
+    "oben": {
+     "belege": 6,
+     "felder": {
+      "0": 6
+     },
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 1
+    }
+   },
+   "ohne_flaechenkontakt": 1,
+   "widerspruch": [],
+   "beispiele": [
+    {
+     "seite": "oben",
+     "feld": 0,
+     "staerke": 6,
+     "vorhergesagt": 6,
+     "fahrzeug": "Cattle Driver",
+     "indizes": [
+      4,
+      6
+     ],
+     "partner": 3666,
+     "partner_feld": 1
+    },
+    {
+     "seite": "oben",
+     "feld": 0,
+     "staerke": 6,
+     "vorhergesagt": 6,
+     "fahrzeug": "Cattle Driver",
+     "indizes": [
+      4,
+      8
+     ],
+     "partner": 3795,
+     "partner_feld": 1
+    },
+    {
+     "seite": "oben",
+     "feld": 0,
+     "staerke": 24,
+     "vorhergesagt": 24,
+     "fahrzeug": "Cattle Driver",
+     "indizes": [
+      27,
+      25
+     ],
+     "partner": 3033,
+     "partner_feld": 1
+    },
+    {
+     "seite": "unten",
+     "feld": 1,
+     "staerke": 4,
+     "vorhergesagt": 4,
+     "fahrzeug": "Cattle Driver",
+     "indizes": [
+      50,
+      6
+     ],
+     "partner": 3666,
+     "partner_feld": 0
+    },
+    {
+     "seite": "unten",
+     "feld": 1,
+     "staerke": 4,
+     "vorhergesagt": 4,
+     "fahrzeug": "Cattle Driver",
+     "indizes": [
+      50,
+      8
+     ],
+     "partner": 3795,
+     "partner_feld": 0
+    },
+    {
+     "seite": "oben",
+     "feld": 0,
+     "staerke": 3,
+     "vorhergesagt": 3,
+     "fahrzeug": "Cattle Driver",
+     "indizes": [
+      48,
+      174
+     ],
+     "partner": 2431,
+     "partner_feld": 0
+    }
+   ],
+   "alias_von": null,
+   "status": "angenommen",
+   "gegentest": {
+    "exakt": 11,
+    "vorhergesagt": 11
+   }
+  },
+  {
+   "teil": 48288,
+   "groesse": [
+    16,
+    8,
+    1
+   ],
+   "geom": null,
+   "seiten": {
+    "unten": {
+     "belege": 0,
+     "felder": {},
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 0
+    },
+    "oben": {
+     "belege": 0,
+     "felder": {},
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 0
+    }
+   },
+   "ohne_flaechenkontakt": 0,
+   "widerspruch": [],
+   "beispiele": [],
+   "alias_von": null,
+   "status": "zu_wenig_belege",
+   "gegentest": {}
+  },
+  {
+   "teil": 60033,
+   "groesse": [
+    12,
+    4,
+    3
+   ],
+   "geom": null,
+   "seiten": {
+    "unten": {
+     "belege": 0,
+     "felder": {},
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 0
+    },
+    "oben": {
+     "belege": 0,
+     "felder": {},
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 0
+    }
+   },
+   "ohne_flaechenkontakt": 0,
+   "widerspruch": [],
+   "beispiele": [],
+   "alias_von": null,
+   "status": "zu_wenig_belege",
+   "gegentest": {}
+  },
+  {
+   "teil": 88630,
+   "groesse": [
+    2,
+    1,
+    0
+   ],
+   "geom": null,
+   "seiten": {
+    "unten": {
+     "belege": 0,
+     "felder": {},
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 0
+    },
+    "oben": {
+     "belege": 0,
+     "felder": {},
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 0
+    }
+   },
+   "ohne_flaechenkontakt": 0,
+   "widerspruch": [],
+   "beispiele": [],
+   "alias_von": null,
+   "status": "zu_wenig_belege",
+   "gegentest": {}
+  },
+  {
+   "teil": 90498,
+   "groesse": [
+    16,
+    8,
+    1
+   ],
+   "geom": null,
+   "seiten": {
+    "unten": {
+     "belege": 0,
+     "felder": {},
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 0
+    },
+    "oben": {
+     "belege": 0,
+     "felder": {},
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 0
+    }
+   },
+   "ohne_flaechenkontakt": 0,
+   "widerspruch": [],
+   "beispiele": [],
+   "alias_von": null,
+   "status": "zu_wenig_belege",
+   "gegentest": {}
+  },
+  {
+   "teil": 91405,
+   "groesse": [
+    16,
+    16,
+    1
+   ],
+   "geom": null,
+   "seiten": {
+    "unten": {
+     "belege": 0,
+     "felder": {},
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 0
+    },
+    "oben": {
+     "belege": 0,
+     "felder": {},
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 0
+    }
+   },
+   "ohne_flaechenkontakt": 0,
+   "widerspruch": [],
+   "beispiele": [],
+   "alias_von": null,
+   "status": "zu_wenig_belege",
+   "gegentest": {}
+  },
+  {
+   "teil": 92438,
+   "groesse": [
+    16,
+    8,
+    1
+   ],
+   "geom": {
+    "l": 16,
+    "w": 8,
+    "h": 10,
+    "unten": null,
+    "oben": 0
+   },
+   "seiten": {
+    "unten": {
+     "belege": 1,
+     "felder": {
+      "1": 1
+     },
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 1
+    },
+    "oben": {
+     "belege": 7,
+     "felder": {
+      "0": 7
+     },
+     "noppenzahl_abweichend": 0,
+     "fahrzeuge": 1
+    }
+   },
+   "ohne_flaechenkontakt": 0,
+   "widerspruch": [],
+   "beispiele": [
+    {
+     "seite": "unten",
+     "feld": 1,
+     "staerke": 16,
+     "vorhergesagt": 16,
+     "fahrzeug": "Cattle Driver",
+     "indizes": [
+      3,
+      12
+     ],
+     "partner": 3034,
+     "partner_feld": 1
+    },
+    {
+     "seite": "oben",
+     "feld": 0,
+     "staerke": 4,
+     "vorhergesagt": 4,
+     "fahrzeug": "Cattle Driver",
+     "indizes": [
+      20,
+      21
+     ],
+     "partner": 3460,
+     "partner_feld": 1
+    },
+    {
+     "seite": "oben",
+     "feld": 0,
+     "staerke": 4,
+     "vorhergesagt": 4,
+     "fahrzeug": "Cattle Driver",
+     "indizes": [
+      20,
+      23
+     ],
+     "partner": 3460,
+     "partner_feld": 1
+    },
+    {
+     "seite": "oben",
+     "feld": 0,
+     "staerke": 24,
+     "vorhergesagt": 24,
+     "fahrzeug": "Cattle Driver",
+     "indizes": [
+      20,
+      25
+     ],
+     "partner": 3033,
+     "partner_feld": 1
+    },
+    {
+     "seite": "oben",
+     "feld": 0,
+     "staerke": 8,
+     "vorhergesagt": 8,
+     "fahrzeug": "Cattle Driver",
+     "indizes": [
+      3,
+      53
+     ],
+     "partner": 3008,
+     "partner_feld": 1
+    },
+    {
+     "seite": "oben",
+     "feld": 0,
+     "staerke": 2,
+     "vorhergesagt": 2,
+     "fahrzeug": "Cattle Driver",
+     "indizes": [
+      3,
+      137
+     ],
+     "partner": 3003,
+     "partner_feld": 1
+    }
+   ],
+   "alias_von": null,
+   "status": "angenommen",
+   "gegentest": {
+    "exakt": 8,
+    "vorhergesagt": 8
+   }
+  }
+ ],
+ "vorhandene_leave_one_out": [
+  {
+   "teil": 2431,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 98,
+    "vorhergesagt": 98
+   }
+  },
+  {
+   "teil": 2445,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 97,
+    "vorhergesagt": 97
+   }
+  },
+  {
+   "teil": 3001,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 358,
+    "vorhergesagt": 358
+   }
+  },
+  {
+   "teil": 3002,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 66,
+    "vorhergesagt": 66
+   }
+  },
+  {
+   "teil": 3003,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 143,
+    "vorhergesagt": 143
+   }
+  },
+  {
+   "teil": 3004,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 255,
+    "vorhergesagt": 255
+   }
+  },
+  {
+   "teil": 3005,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 196,
+    "vorhergesagt": 196
+   }
+  },
+  {
+   "teil": 3007,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 95,
+    "vorhergesagt": 95
+   }
+  },
+  {
+   "teil": 3008,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 97,
+    "vorhergesagt": 97
+   }
+  },
+  {
+   "teil": 3009,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 117,
+    "vorhergesagt": 117
+   }
+  },
+  {
+   "teil": 3010,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 244,
+    "vorhergesagt": 244
+   }
+  },
+  {
+   "teil": 3020,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 572,
+    "vorhergesagt": 572
+   }
+  },
+  {
+   "teil": 3021,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 234,
+    "vorhergesagt": 234
+   }
+  },
+  {
+   "teil": 3022,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 291,
+    "vorhergesagt": 291
+   }
+  },
+  {
+   "teil": 3023,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 591,
+    "vorhergesagt": 591
+   }
+  },
+  {
+   "teil": 3024,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 405,
+    "vorhergesagt": 405
+   }
+  },
+  {
+   "teil": 3027,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 8,
+    "vorhergesagt": 8
+   }
+  },
+  {
+   "teil": 3028,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {
+    "unten": 1
+   },
+   "gegentest": {
+    "exakt": 6,
+    "vorhergesagt": 6
+   }
+  },
+  {
+   "teil": 3029,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 21,
+    "vorhergesagt": 21
+   }
+  },
+  {
+   "teil": 3030,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 81,
+    "vorhergesagt": 81
+   }
+  },
+  {
+   "teil": 3031,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 201,
+    "vorhergesagt": 201
+   }
+  },
+  {
+   "teil": 3032,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 133,
+    "vorhergesagt": 133
+   }
+  },
+  {
+   "teil": 3033,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 45,
+    "vorhergesagt": 45
+   }
+  },
+  {
+   "teil": 3034,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 203,
+    "vorhergesagt": 203
+   }
+  },
+  {
+   "teil": 3035,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 69,
+    "vorhergesagt": 69
+   }
+  },
+  {
+   "teil": 3036,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 57,
+    "vorhergesagt": 57
+   }
+  },
+  {
+   "teil": 3068,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 127,
+    "vorhergesagt": 127
+   }
+  },
+  {
+   "teil": 3069,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 138,
+    "vorhergesagt": 138
+   }
+  },
+  {
+   "teil": 3070,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 87,
+    "vorhergesagt": 87
+   }
+  },
+  {
+   "teil": 3456,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 2,
+    "vorhergesagt": 2
+   }
+  },
+  {
+   "teil": 3460,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 226,
+    "vorhergesagt": 226
+   }
+  },
+  {
+   "teil": 3622,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 113,
+    "vorhergesagt": 113
+   }
+  },
+  {
+   "teil": 3623,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 204,
+    "vorhergesagt": 204
+   }
+  },
+  {
+   "teil": 3666,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 455,
+    "vorhergesagt": 455
+   }
+  },
+  {
+   "teil": 3710,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 395,
+    "vorhergesagt": 395
+   }
+  },
+  {
+   "teil": 3795,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 279,
+    "vorhergesagt": 279
+   }
+  },
+  {
+   "teil": 3832,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 155,
+    "vorhergesagt": 155
+   }
+  },
+  {
+   "teil": 3958,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 51,
+    "vorhergesagt": 51
+   }
+  },
+  {
+   "teil": 4162,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 24,
+    "vorhergesagt": 24
+   }
+  },
+  {
+   "teil": 4282,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 36,
+    "vorhergesagt": 36
+   }
+  },
+  {
+   "teil": 4477,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {
+    "oben": 0
+   },
+   "gegentest": {
+    "exakt": 30,
+    "vorhergesagt": 30
+   }
+  },
+  {
+   "teil": 6111,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 33,
+    "vorhergesagt": 33
+   }
+  },
+  {
+   "teil": 6636,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 59,
+    "vorhergesagt": 59
+   }
+  },
+  {
+   "teil": 11212,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 30,
+    "vorhergesagt": 30
+   }
+  },
+  {
+   "teil": 26603,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 73,
+    "vorhergesagt": 73
+   }
+  },
+  {
+   "teil": 35382,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 2,
+    "vorhergesagt": 2
+   }
+  },
+  {
+   "teil": 41539,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 7,
+    "vorhergesagt": 7
+   }
+  },
+  {
+   "teil": 44237,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 51,
+    "vorhergesagt": 51
+   }
+  },
+  {
+   "teil": 60479,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {
+    "oben": 1
+   },
+   "gegentest": {
+    "exakt": 26,
+    "vorhergesagt": 26
+   }
+  },
+  {
+   "teil": 63864,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 64,
+    "vorhergesagt": 64
+   }
+  },
+  {
+   "teil": 69729,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 7,
+    "vorhergesagt": 7
+   }
+  },
+  {
+   "teil": 78329,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 88,
+    "vorhergesagt": 88
+   }
+  },
+  {
+   "teil": 87079,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 128,
+    "vorhergesagt": 128
+   }
+  },
+  {
+   "teil": 91988,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 52,
+    "vorhergesagt": 52
+   }
+  },
+  {
+   "teil": 93888,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 20,
+    "vorhergesagt": 20
+   }
+  }
+ ]
+}
