@@ -1,0 +1,1372 @@
+{
+ "2310": {
+  "0:oben": 10,
+  "1:unten": 26,
+  "2:unten": 22
+ },
+ "2335": {
+  "0:seitlich/gedreht": 3,
+  "1:seitlich/gedreht": 3
+ },
+ "2357": {
+  "1:seitlich/gedreht": 6
+ },
+ "2412": {
+  "0:oben": 9,
+  "0:seitlich/gedreht": 23
+ },
+ "2419": {
+  "0:unten": 7,
+  "1:oben": 2
+ },
+ "2420": {
+  "0:oben": 10,
+  "0:seitlich/gedreht": 2,
+  "1:seitlich/gedreht": 4,
+  "1:unten": 24
+ },
+ "2431": {
+  "0:oben": 23,
+  "0:seitlich/gedreht": 7
+ },
+ "2432": {
+  "1:oben": 2
+ },
+ "2441": {
+  "1:unten": 1,
+  "3:seitlich/gedreht": 2,
+  "5:seitlich/gedreht": 2
+ },
+ "2445": {
+  "0:oben": 17,
+  "1:unten": 13
+ },
+ "2449": {
+  "0:unten": 2,
+  "1:oben": 2
+ },
+ "2460": {
+  "0:seitlich/gedreht": 1,
+  "1:seitlich/gedreht": 3
+ },
+ "2479": {
+  "0:seitlich/gedreht": 24,
+  "1:seitlich/gedreht": 3
+ },
+ "2540": {
+  "1:oben": 2,
+  "1:unten": 1,
+  "5:seitlich/gedreht": 3,
+  "6:seitlich/gedreht": 3
+ },
+ "2654": {
+  "0:seitlich/gedreht": 4
+ },
+ "2780": {
+  "0:oben": 10,
+  "0:seitlich/gedreht": 50,
+  "1:oben": 10,
+  "1:seitlich/gedreht": 50
+ },
+ "3001": {
+  "0:oben": 37,
+  "1:unten": 26
+ },
+ "3002": {
+  "0:oben": 8,
+  "1:unten": 12
+ },
+ "3003": {
+  "0:seitlich/gedreht": 2,
+  "0:unten": 9,
+  "1:oben": 9,
+  "1:seitlich/gedreht": 1,
+  "1:unten": 1
+ },
+ "3004": {
+  "0:unten": 38,
+  "1:oben": 30,
+  "1:seitlich/gedreht": 12
+ },
+ "3005": {
+  "0:unten": 44,
+  "1:oben": 21,
+  "1:seitlich/gedreht": 2,
+  "1:unten": 1
+ },
+ "3007": {
+  "0:unten": 25,
+  "1:oben": 37
+ },
+ "3008": {
+  "0:seitlich/gedreht": 12,
+  "0:unten": 5,
+  "1:oben": 4,
+  "1:seitlich/gedreht": 8
+ },
+ "3009": {
+  "0:unten": 21,
+  "1:oben": 20,
+  "1:seitlich/gedreht": 3
+ },
+ "3010": {
+  "0:unten": 38,
+  "1:oben": 33
+ },
+ "3020": {
+  "0:seitlich/gedreht": 10,
+  "0:unten": 129,
+  "1:oben": 111,
+  "1:seitlich/gedreht": 14
+ },
+ "3021": {
+  "0:oben": 41,
+  "0:seitlich/gedreht": 5,
+  "0:unten": 2,
+  "1:oben": 2,
+  "1:seitlich/gedreht": 19,
+  "1:unten": 51
+ },
+ "3022": {
+  "0:seitlich/gedreht": 18,
+  "0:unten": 56,
+  "1:oben": 33,
+  "1:seitlich/gedreht": 14
+ },
+ "3023": {
+  "0:oben": 1,
+  "0:seitlich/gedreht": 74,
+  "0:unten": 142,
+  "1:oben": 85,
+  "1:seitlich/gedreht": 88
+ },
+ "3024": {
+  "0:seitlich/gedreht": 32,
+  "0:unten": 71,
+  "1:oben": 62,
+  "1:seitlich/gedreht": 41
+ },
+ "3027": {
+  "0:unten": 5,
+  "1:oben": 4
+ },
+ "3031": {
+  "0:unten": 187,
+  "1:oben": 75
+ },
+ "3032": {
+  "0:oben": 3,
+  "0:unten": 9,
+  "1:oben": 4,
+  "1:unten": 2
+ },
+ "3034": {
+  "0:oben": 27,
+  "0:seitlich/gedreht": 8,
+  "1:oben": 1,
+  "1:seitlich/gedreht": 44,
+  "1:unten": 39
+ },
+ "3037": {
+  "0:unten": 1,
+  "1:oben": 1
+ },
+ "3039": {
+  "0:oben": 10,
+  "1:unten": 10
+ },
+ "3040": {
+  "1:seitlich/gedreht": 4
+ },
+ "3048": {
+  "0:seitlich/gedreht": 6
+ },
+ "3062": {
+  "0:unten": 4,
+  "1:oben": 4,
+  "1:seitlich/gedreht": 2
+ },
+ "3068": {
+  "0:oben": 10,
+  "0:seitlich/gedreht": 11
+ },
+ "3069": {
+  "0:oben": 49,
+  "0:seitlich/gedreht": 35
+ },
+ "3070": {
+  "0:oben": 10,
+  "0:seitlich/gedreht": 17
+ },
+ "3176": {
+  "0:seitlich/gedreht": 2,
+  "1:seitlich/gedreht": 1,
+  "3:seitlich/gedreht": 1
+ },
+ "3245": {
+  "0:unten": 4,
+  "1:oben": 4
+ },
+ "3298": {
+  "1:oben": 2
+ },
+ "3386": {
+  "0:seitlich/gedreht": 7,
+  "0:unten": 25,
+  "1:seitlich/gedreht": 33,
+  "2:oben": 20,
+  "2:seitlich/gedreht": 5,
+  "2:unten": 1
+ },
+ "3387": {
+  "0:unten": 4,
+  "1:oben": 10,
+  "2:unten": 14
+ },
+ "3456": {
+  "1:oben": 2
+ },
+ "3460": {
+  "0:seitlich/gedreht": 10,
+  "0:unten": 131,
+  "1:oben": 56,
+  "1:seitlich/gedreht": 18
+ },
+ "3587": {
+  "1:oben": 6
+ },
+ "3622": {
+  "0:unten": 6,
+  "1:oben": 4
+ },
+ "3623": {
+  "0:oben": 2,
+  "0:seitlich/gedreht": 20,
+  "0:unten": 44,
+  "1:oben": 40,
+  "1:seitlich/gedreht": 19
+ },
+ "3660": {
+  "0:oben": 21,
+  "0:seitlich/gedreht": 12,
+  "1:unten": 37
+ },
+ "3665": {
+  "0:unten": 6,
+  "1:oben": 6
+ },
+ "3666": {
+  "0:seitlich/gedreht": 39,
+  "0:unten": 78,
+  "1:oben": 64,
+  "1:seitlich/gedreht": 26
+ },
+ "3679": {
+  "0:seitlich/gedreht": 6,
+  "1:seitlich/gedreht": 6
+ },
+ "3680": {
+  "0:seitlich/gedreht": 4,
+  "1:seitlich/gedreht": 6
+ },
+ "3700": {
+  "0:oben": 2,
+  "0:seitlich/gedreht": 8,
+  "1:seitlich/gedreht": 4,
+  "1:unten": 2,
+  "2:seitlich/gedreht": 2,
+  "2:unten": 2
+ },
+ "3705": {
+  "0:oben": 2,
+  "0:seitlich/gedreht": 36
+ },
+ "3706": {
+  "0:seitlich/gedreht": 30
+ },
+ "3710": {
+  "0:seitlich/gedreht": 6,
+  "0:unten": 104,
+  "1:oben": 64,
+  "1:seitlich/gedreht": 1
+ },
+ "3747": {
+  "0:unten": 15,
+  "1:oben": 7
+ },
+ "3794": {
+  "0:oben": 29,
+  "0:seitlich/gedreht": 30,
+  "1:seitlich/gedreht": 16,
+  "1:unten": 18
+ },
+ "3795": {
+  "0:seitlich/gedreht": 3,
+  "0:unten": 109,
+  "1:oben": 54,
+  "1:seitlich/gedreht": 6,
+  "1:unten": 1
+ },
+ "3823": {
+  "0:oben": 3,
+  "1:unten": 2,
+  "2:unten": 2
+ },
+ "3828": {
+  "0:seitlich/gedreht": 2
+ },
+ "3829": {
+  "0:oben": 2,
+  "1:seitlich/gedreht": 2
+ },
+ "3832": {
+  "0:unten": 6,
+  "1:oben": 4
+ },
+ "3861": {
+  "0:unten": 1,
+  "1:oben": 1
+ },
+ "3899": {
+  "2:oben": 2
+ },
+ "3900": {
+  "1:seitlich/gedreht": 12
+ },
+ "3937": {
+  "0:oben": 12,
+  "0:seitlich/gedreht": 29,
+  "0:unten": 4,
+  "1:oben": 23,
+  "1:seitlich/gedreht": 19
+ },
+ "3938": {
+  "0:seitlich/gedreht": 24,
+  "1:seitlich/gedreht": 16,
+  "1:unten": 8
+ },
+ "3942": {
+  "0:seitlich/gedreht": 2
+ },
+ "3956": {
+  "0:seitlich/gedreht": 2,
+  "1:oben": 2
+ },
+ "4032": {
+  "0:seitlich/gedreht": 27,
+  "0:unten": 6,
+  "1:oben": 6,
+  "1:seitlich/gedreht": 25,
+  "2:seitlich/gedreht": 12
+ },
+ "4070": {
+  "0:oben": 14,
+  "1:seitlich/gedreht": 4,
+  "2:seitlich/gedreht": 2,
+  "2:unten": 16,
+  "3:seitlich/gedreht": 17,
+  "4:seitlich/gedreht": 1
+ },
+ "4079": {
+  "1:oben": 3
+ },
+ "4081": {
+  "0:seitlich/gedreht": 2,
+  "0:unten": 11,
+  "1:oben": 11,
+  "1:seitlich/gedreht": 2,
+  "2:seitlich/gedreht": 4,
+  "3:seitlich/gedreht": 4,
+  "4:seitlich/gedreht": 4
+ },
+ "4150": {
+  "0:oben": 1
+ },
+ "4162": {
+  "0:oben": 16
+ },
+ "4176": {
+  "0:unten": 1,
+  "1:oben": 5
+ },
+ "4210": {
+  "0:seitlich/gedreht": 8,
+  "3:seitlich/gedreht": 4,
+  "6:seitlich/gedreht": 4
+ },
+ "4212": {
+  "0:unten": 5,
+  "1:oben": 18,
+  "3:oben": 3
+ },
+ "4216": {
+  "0:oben": 4,
+  "2:unten": 2
+ },
+ "4274": {
+  "0:oben": 12,
+  "2:seitlich/gedreht": 12
+ },
+ "4282": {
+  "0:unten": 26,
+  "1:oben": 2
+ },
+ "4286": {
+  "0:oben": 5,
+  "1:unten": 2
+ },
+ "4304": {
+  "0:unten": 3,
+  "1:unten": 4,
+  "2:seitlich/gedreht": 4,
+  "3:oben": 6
+ },
+ "4460": {
+  "0:oben": 2,
+  "1:unten": 2
+ },
+ "4510": {
+  "4:unten": 4
+ },
+ "4519": {
+  "0:seitlich/gedreht": 21
+ },
+ "4528": {
+  "2:oben": 1
+ },
+ "4589": {
+  "0:seitlich/gedreht": 2,
+  "1:seitlich/gedreht": 14,
+  "2:seitlich/gedreht": 20,
+  "3:seitlich/gedreht": 16
+ },
+ "4590": {
+  "0:seitlich/gedreht": 1,
+  "1:seitlich/gedreht": 1,
+  "2:seitlich/gedreht": 1,
+  "3:seitlich/gedreht": 1
+ },
+ "4592": {
+  "0:oben": 8,
+  "0:seitlich/gedreht": 18,
+  "1:seitlich/gedreht": 22,
+  "1:unten": 4
+ },
+ "4593": {
+  "0:oben": 4,
+  "0:seitlich/gedreht": 22
+ },
+ "4599": {
+  "1:oben": 1,
+  "1:seitlich/gedreht": 2,
+  "4:seitlich/gedreht": 5
+ },
+ "4617": {
+  "0:seitlich/gedreht": 6
+ },
+ "4740": {
+  "0:seitlich/gedreht": 4,
+  "1:oben": 1,
+  "1:seitlich/gedreht": 3,
+  "4:seitlich/gedreht": 4,
+  "4:unten": 1
+ },
+ "4854": {
+  "0:oben": 1,
+  "1:unten": 2,
+  "2:unten": 2
+ },
+ "4855": {
+  "0:oben": 5,
+  "1:unten": 14,
+  "2:unten": 4,
+  "3:unten": 4
+ },
+ "4865": {
+  "0:oben": 9,
+  "0:seitlich/gedreht": 2
+ },
+ "4871": {
+  "0:unten": 3,
+  "1:unten": 7,
+  "2:oben": 4
+ },
+ "6019": {
+  "0:seitlich/gedreht": 2,
+  "0:unten": 6,
+  "1:oben": 6,
+  "1:seitlich/gedreht": 2,
+  "2:seitlich/gedreht": 4,
+  "2:unten": 6
+ },
+ "6040": {
+  "0:unten": 12,
+  "1:oben": 6,
+  "4:seitlich/gedreht": 6
+ },
+ "6091": {
+  "0:seitlich/gedreht": 6,
+  "1:seitlich/gedreht": 6,
+  "2:seitlich/gedreht": 4
+ },
+ "6134": {
+  "0:oben": 2,
+  "0:seitlich/gedreht": 5,
+  "0:unten": 38,
+  "1:oben": 4,
+  "1:seitlich/gedreht": 5,
+  "1:unten": 12
+ },
+ "6141": {
+  "0:oben": 10,
+  "0:seitlich/gedreht": 10,
+  "1:seitlich/gedreht": 10,
+  "1:unten": 11
+ },
+ "6143": {
+  "0:seitlich/gedreht": 12,
+  "1:seitlich/gedreht": 12,
+  "2:seitlich/gedreht": 12
+ },
+ "6157": {
+  "0:seitlich/gedreht": 32
+ },
+ "6231": {
+  "0:oben": 2,
+  "0:seitlich/gedreht": 4
+ },
+ "6239": {
+  "0:oben": 2,
+  "0:seitlich/gedreht": 2
+ },
+ "6541": {
+  "2:unten": 20,
+  "3:oben": 16,
+  "4:unten": 8
+ },
+ "6553": {
+  "0:seitlich/gedreht": 6,
+  "1:seitlich/gedreht": 3
+ },
+ "6562": {
+  "0:oben": 48
+ },
+ "6636": {
+  "0:seitlich/gedreht": 3
+ },
+ "10201": {
+  "0:seitlich/gedreht": 5,
+  "1:unten": 2,
+  "2:oben": 1
+ },
+ "10313": {
+  "0:unten": 8
+ },
+ "11090": {
+  "0:oben": 2,
+  "0:seitlich/gedreht": 4,
+  "1:seitlich/gedreht": 10
+ },
+ "11211": {
+  "0:seitlich/gedreht": 8,
+  "0:unten": 17,
+  "1:seitlich/gedreht": 33,
+  "2:oben": 13,
+  "2:seitlich/gedreht": 7,
+  "3:seitlich/gedreht": 1,
+  "4:seitlich/gedreht": 1
+ },
+ "11212": {
+  "0:unten": 36,
+  "1:oben": 14,
+  "1:unten": 2
+ },
+ "11214": {
+  "1:oben": 8
+ },
+ "11291": {
+  "0:seitlich/gedreht": 1,
+  "1:seitlich/gedreht": 4
+ },
+ "11476": {
+  "0:seitlich/gedreht": 4,
+  "1:seitlich/gedreht": 2,
+  "3:seitlich/gedreht": 2
+ },
+ "11477": {
+  "0:oben": 39,
+  "0:seitlich/gedreht": 24,
+  "1:oben": 49,
+  "1:seitlich/gedreht": 26
+ },
+ "14716": {
+  "0:unten": 4,
+  "1:oben": 4
+ },
+ "14718": {
+  "0:seitlich/gedreht": 2,
+  "1:seitlich/gedreht": 2
+ },
+ "14719": {
+  "0:oben": 8
+ },
+ "15068": {
+  "0:oben": 9,
+  "0:seitlich/gedreht": 3,
+  "1:oben": 15,
+  "1:seitlich/gedreht": 5
+ },
+ "15100": {
+  "0:seitlich/gedreht": 4,
+  "1:seitlich/gedreht": 4
+ },
+ "15712": {
+  "0:oben": 2,
+  "0:seitlich/gedreht": 10,
+  "0:unten": 2,
+  "2:oben": 6,
+  "2:seitlich/gedreht": 8
+ },
+ "18654": {
+  "2:unten": 2,
+  "3:oben": 1,
+  "3:seitlich/gedreht": 1
+ },
+ "18674": {
+  "0:oben": 1,
+  "0:seitlich/gedreht": 13,
+  "2:seitlich/gedreht": 15,
+  "2:unten": 1,
+  "3:seitlich/gedreht": 16
+ },
+ "18677": {
+  "0:oben": 4,
+  "3:unten": 8
+ },
+ "18841": {
+  "1:seitlich/gedreht": 6
+ },
+ "18974": {
+  "0:oben": 4,
+  "1:unten": 8,
+  "2:unten": 4,
+  "3:unten": 4,
+  "4:unten": 2,
+  "5:unten": 2
+ },
+ "18980": {
+  "0:oben": 2
+ },
+ "20482": {
+  "1:seitlich/gedreht": 13,
+  "1:unten": 2,
+  "3:oben": 9,
+  "3:seitlich/gedreht": 10
+ },
+ "22885": {
+  "0:unten": 4,
+  "1:seitlich/gedreht": 6
+ },
+ "22889": {
+  "0:unten": 1,
+  "1:oben": 1,
+  "2:unten": 2
+ },
+ "22961": {
+  "0:seitlich/gedreht": 4,
+  "1:oben": 2,
+  "1:seitlich/gedreht": 2,
+  "2:seitlich/gedreht": 4
+ },
+ "23443": {
+  "0:seitlich/gedreht": 5,
+  "1:seitlich/gedreht": 7
+ },
+ "23969": {
+  "0:seitlich/gedreht": 26
+ },
+ "24201": {
+  "0:oben": 1,
+  "0:seitlich/gedreht": 14,
+  "0:unten": 1,
+  "1:unten": 16
+ },
+ "24225": {
+  "1:unten": 1,
+  "3:oben": 1,
+  "4:unten": 1
+ },
+ "24234": {
+  "1:unten": 1,
+  "2:unten": 1,
+  "3:oben": 1
+ },
+ "24246": {
+  "0:oben": 4,
+  "0:seitlich/gedreht": 4
+ },
+ "24299": {
+  "0:seitlich/gedreht": 2,
+  "0:unten": 3,
+  "1:oben": 3
+ },
+ "24307": {
+  "0:seitlich/gedreht": 2,
+  "0:unten": 3,
+  "1:oben": 3
+ },
+ "24309": {
+  "0:oben": 1,
+  "0:seitlich/gedreht": 4,
+  "1:oben": 1,
+  "1:seitlich/gedreht": 4
+ },
+ "24482": {
+  "1:seitlich/gedreht": 6
+ },
+ "24599": {
+  "0:seitlich/gedreht": 16
+ },
+ "24866": {
+  "0:unten": 4,
+  "1:oben": 4
+ },
+ "25269": {
+  "0:oben": 14,
+  "0:seitlich/gedreht": 12
+ },
+ "25893": {
+  "1:seitlich/gedreht": 21
+ },
+ "26047": {
+  "0:seitlich/gedreht": 2,
+  "1:seitlich/gedreht": 2,
+  "2:seitlich/gedreht": 2,
+  "2:unten": 2
+ },
+ "26601": {
+  "0:unten": 4
+ },
+ "26603": {
+  "0:oben": 4,
+  "0:seitlich/gedreht": 4,
+  "0:unten": 2
+ },
+ "27262": {
+  "0:seitlich/gedreht": 2
+ },
+ "27925": {
+  "0:oben": 8
+ },
+ "28192": {
+  "0:oben": 44,
+  "0:seitlich/gedreht": 2,
+  "1:oben": 44,
+  "1:seitlich/gedreht": 2
+ },
+ "28216": {
+  "1:seitlich/gedreht": 2
+ },
+ "28779": {
+  "0:oben": 2
+ },
+ "29119": {
+  "0:oben": 6,
+  "0:seitlich/gedreht": 6
+ },
+ "29120": {
+  "0:oben": 6,
+  "0:seitlich/gedreht": 6
+ },
+ "30332": {
+  "0:seitlich/gedreht": 3
+ },
+ "30374": {
+  "0:seitlich/gedreht": 52
+ },
+ "30414": {
+  "0:seitlich/gedreht": 15,
+  "1:unten": 13,
+  "2:oben": 14
+ },
+ "30602": {
+  "0:oben": 1
+ },
+ "30603": {
+  "0:oben": 4
+ },
+ "30663": {
+  "0:seitlich/gedreht": 2
+ },
+ "30925": {
+  "0:unten": 6,
+  "1:oben": 3
+ },
+ "31990": {
+  "0:seitlich/gedreht": 2
+ },
+ "32013": {
+  "0:seitlich/gedreht": 6,
+  "1:seitlich/gedreht": 6
+ },
+ "32028": {
+  "0:seitlich/gedreht": 2,
+  "4:seitlich/gedreht": 3
+ },
+ "32054": {
+  "0:seitlich/gedreht": 2,
+  "0:unten": 2,
+  "1:seitlich/gedreht": 8
+ },
+ "32123": {
+  "0:seitlich/gedreht": 35
+ },
+ "32316": {
+  "0:seitlich/gedreht": 6,
+  "1:seitlich/gedreht": 6,
+  "2:seitlich/gedreht": 16,
+  "6:seitlich/gedreht": 16
+ },
+ "32523": {
+  "1:seitlich/gedreht": 16,
+  "3:seitlich/gedreht": 4,
+  "4:seitlich/gedreht": 5
+ },
+ "32530": {
+  "0:seitlich/gedreht": 8,
+  "1:seitlich/gedreht": 8,
+  "2:seitlich/gedreht": 6
+ },
+ "32803": {
+  "0:seitlich/gedreht": 19,
+  "1:seitlich/gedreht": 2,
+  "1:unten": 17
+ },
+ "32828": {
+  "0:oben": 4,
+  "2:seitlich/gedreht": 2,
+  "4:unten": 2
+ },
+ "32952": {
+  "0:unten": 2,
+  "1:oben": 6,
+  "2:seitlich/gedreht": 8
+ },
+ "33492": {
+  "0:oben": 1
+ },
+ "33909": {
+  "0:unten": 5,
+  "1:oben": 15
+ },
+ "34103": {
+  "0:oben": 3,
+  "1:unten": 1
+ },
+ "35248": {
+  "0:oben": 2
+ },
+ "35264": {
+  "0:seitlich/gedreht": 2
+ },
+ "35480": {
+  "0:seitlich/gedreht": 26,
+  "0:unten": 6,
+  "1:oben": 209,
+  "1:seitlich/gedreht": 12,
+  "2:seitlich/gedreht": 6
+ },
+ "35654": {
+  "0:seitlich/gedreht": 2,
+  "1:seitlich/gedreht": 1
+ },
+ "35787": {
+  "0:oben": 2,
+  "0:seitlich/gedreht": 2
+ },
+ "35789": {
+  "0:unten": 6,
+  "1:unten": 14,
+  "2:unten": 8,
+  "3:oben": 12
+ },
+ "36840": {
+  "0:seitlich/gedreht": 16,
+  "0:unten": 10,
+  "1:oben": 16,
+  "1:seitlich/gedreht": 16,
+  "2:seitlich/gedreht": 34
+ },
+ "36841": {
+  "0:seitlich/gedreht": 12,
+  "0:unten": 26,
+  "1:seitlich/gedreht": 40,
+  "2:oben": 20,
+  "2:seitlich/gedreht": 6
+ },
+ "37352": {
+  "0:oben": 4,
+  "0:seitlich/gedreht": 2
+ },
+ "41740": {
+  "0:oben": 1,
+  "0:seitlich/gedreht": 3,
+  "1:unten": 1
+ },
+ "41747": {
+  "1:seitlich/gedreht": 1
+ },
+ "41748": {
+  "1:seitlich/gedreht": 1
+ },
+ "41763": {
+  "0:unten": 16
+ },
+ "41769": {
+  "0:oben": 4,
+  "0:seitlich/gedreht": 1,
+  "1:unten": 4
+ },
+ "41770": {
+  "0:oben": 4,
+  "0:seitlich/gedreht": 1,
+  "1:oben": 1,
+  "1:unten": 3
+ },
+ "41854": {
+  "0:unten": 4,
+  "1:oben": 6
+ },
+ "41862": {
+  "0:unten": 2,
+  "1:oben": 3
+ },
+ "42446": {
+  "0:seitlich/gedreht": 2,
+  "2:oben": 2
+ },
+ "42863": {
+  "13:oben": 4,
+  "14:unten": 10,
+  "15:unten": 4,
+  "16:unten": 20
+ },
+ "43121": {
+  "0:seitlich/gedreht": 30,
+  "1:seitlich/gedreht": 14,
+  "3:seitlich/gedreht": 6,
+  "4:seitlich/gedreht": 6,
+  "6:seitlich/gedreht": 6,
+  "7:seitlich/gedreht": 6,
+  "8:seitlich/gedreht": 6
+ },
+ "43122": {
+  "0:seitlich/gedreht": 6
+ },
+ "43722": {
+  "0:seitlich/gedreht": 3,
+  "0:unten": 5,
+  "1:oben": 8,
+  "1:seitlich/gedreht": 2
+ },
+ "43723": {
+  "0:seitlich/gedreht": 3,
+  "0:unten": 6,
+  "1:oben": 9,
+  "1:seitlich/gedreht": 2
+ },
+ "43857": {
+  "0:seitlich/gedreht": 16,
+  "1:seitlich/gedreht": 32,
+  "2:seitlich/gedreht": 13,
+  "3:seitlich/gedreht": 12
+ },
+ "44237": {
+  "0:unten": 6,
+  "1:oben": 2
+ },
+ "44661": {
+  "0:oben": 1,
+  "0:seitlich/gedreht": 5
+ },
+ "44728": {
+  "0:oben": 5,
+  "1:unten": 5,
+  "2:seitlich/gedreht": 7
+ },
+ "45677": {
+  "0:oben": 8
+ },
+ "47905": {
+  "0:seitlich/gedreht": 1,
+  "1:seitlich/gedreht": 1,
+  "3:oben": 1
+ },
+ "48336": {
+  "0:seitlich/gedreht": 3,
+  "0:unten": 4,
+  "1:oben": 2,
+  "1:seitlich/gedreht": 2,
+  "2:seitlich/gedreht": 8
+ },
+ "48729": {
+  "0:seitlich/gedreht": 2,
+  "1:seitlich/gedreht": 2
+ },
+ "49668": {
+  "0:oben": 2,
+  "0:seitlich/gedreht": 4
+ },
+ "50746": {
+  "0:oben": 38,
+  "0:seitlich/gedreht": 26
+ },
+ "50950": {
+  "0:oben": 28,
+  "0:seitlich/gedreht": 4,
+  "1:oben": 4,
+  "1:seitlich/gedreht": 4
+ },
+ "51739": {
+  "0:unten": 4,
+  "1:oben": 2,
+  "1:seitlich/gedreht": 1
+ },
+ "52501": {
+  "0:oben": 2,
+  "2:unten": 2
+ },
+ "54383": {
+  "0:seitlich/gedreht": 6,
+  "0:unten": 17,
+  "1:oben": 15,
+  "1:seitlich/gedreht": 2,
+  "1:unten": 1
+ },
+ "54384": {
+  "0:oben": 18,
+  "0:seitlich/gedreht": 2,
+  "1:seitlich/gedreht": 6,
+  "1:unten": 17
+ },
+ "57783": {
+  "0:unten": 2,
+  "1:oben": 2
+ },
+ "58176": {
+  "0:seitlich/gedreht": 6
+ },
+ "58181": {
+  "0:unten": 1,
+  "1:oben": 2
+ },
+ "59900": {
+  "2:unten": 6,
+  "3:oben": 6,
+  "3:seitlich/gedreht": 2
+ },
+ "60187": {
+  "0:oben": 6,
+  "0:seitlich/gedreht": 26
+ },
+ "60208": {
+  "3:seitlich/gedreht": 6
+ },
+ "60219": {
+  "0:unten": 2,
+  "1:unten": 4,
+  "2:oben": 3
+ },
+ "60470": {
+  "0:seitlich/gedreht": 4,
+  "0:unten": 2,
+  "1:oben": 1,
+  "2:seitlich/gedreht": 4,
+  "3:seitlich/gedreht": 4
+ },
+ "60478": {
+  "0:seitlich/gedreht": 13,
+  "0:unten": 6,
+  "1:oben": 3,
+  "1:seitlich/gedreht": 6,
+  "1:unten": 1,
+  "2:oben": 4,
+  "2:seitlich/gedreht": 8
+ },
+ "60849": {
+  "0:seitlich/gedreht": 2
+ },
+ "60897": {
+  "0:seitlich/gedreht": 6,
+  "1:seitlich/gedreht": 4,
+  "2:seitlich/gedreht": 6
+ },
+ "61409": {
+  "0:oben": 20,
+  "0:seitlich/gedreht": 14
+ },
+ "61678": {
+  "0:oben": 4,
+  "0:seitlich/gedreht": 2,
+  "1:oben": 4,
+  "1:seitlich/gedreht": 1,
+  "2:oben": 2,
+  "2:seitlich/gedreht": 2
+ },
+ "62360": {
+  "0:oben": 1
+ },
+ "62462": {
+  "0:seitlich/gedreht": 2,
+  "0:unten": 10,
+  "1:seitlich/gedreht": 4,
+  "1:unten": 8,
+  "2:seitlich/gedreht": 4,
+  "3:seitlich/gedreht": 4
+ },
+ "63864": {
+  "0:oben": 23
+ },
+ "64225": {
+  "0:oben": 12,
+  "1:seitlich/gedreht": 3
+ },
+ "64567": {
+  "0:seitlich/gedreht": 2,
+  "1:seitlich/gedreht": 2,
+  "3:seitlich/gedreht": 1
+ },
+ "64799": {
+  "0:unten": 3,
+  "1:oben": 4
+ },
+ "65249": {
+  "0:seitlich/gedreht": 18,
+  "1:seitlich/gedreht": 6
+ },
+ "65578": {
+  "0:seitlich/gedreht": 3,
+  "1:seitlich/gedreht": 3
+ },
+ "65632": {
+  "0:oben": 1,
+  "1:unten": 1,
+  "2:unten": 1
+ },
+ "65634": {
+  "0:seitlich/gedreht": 18,
+  "1:unten": 8,
+  "2:unten": 11,
+  "3:unten": 17,
+  "4:unten": 11,
+  "5:unten": 13,
+  "6:unten": 11,
+  "7:seitlich/gedreht": 13,
+  "8:seitlich/gedreht": 13,
+  "10:seitlich/gedreht": 2,
+  "10:unten": 18,
+  "11:seitlich/gedreht": 17,
+  "11:unten": 1
+ },
+ "65635": {
+  "0:unten": 24,
+  "2:unten": 24,
+  "3:unten": 9,
+  "4:unten": 9,
+  "5:seitlich/gedreht": 24,
+  "5:unten": 12
+ },
+ "69729": {
+  "0:oben": 6,
+  "0:seitlich/gedreht": 6
+ },
+ "71075": {
+  "0:seitlich/gedreht": 2,
+  "0:unten": 2,
+  "1:oben": 2,
+  "1:seitlich/gedreht": 2
+ },
+ "71752": {
+  "0:oben": 2,
+  "0:unten": 1,
+  "2:unten": 4
+ },
+ "73111": {
+  "0:seitlich/gedreht": 6,
+  "2:seitlich/gedreht": 6
+ },
+ "73683": {
+  "0:seitlich/gedreht": 12,
+  "1:seitlich/gedreht": 12
+ },
+ "75535": {
+  "0:seitlich/gedreht": 1,
+  "1:seitlich/gedreht": 1,
+  "2:seitlich/gedreht": 2,
+  "3:seitlich/gedreht": 2
+ },
+ "77850": {
+  "0:unten": 6,
+  "1:oben": 4,
+  "3:seitlich/gedreht": 1,
+  "3:unten": 1
+ },
+ "78258": {
+  "4:seitlich/gedreht": 4,
+  "5:seitlich/gedreht": 2
+ },
+ "78329": {
+  "0:unten": 4,
+  "1:oben": 4
+ },
+ "78443": {
+  "0:oben": 3,
+  "1:unten": 1
+ },
+ "78444": {
+  "0:oben": 3,
+  "1:unten": 1
+ },
+ "79194": {
+  "0:oben": 2,
+  "1:seitlich/gedreht": 2
+ },
+ "79491": {
+  "0:seitlich/gedreht": 2
+ },
+ "85861": {
+  "2:seitlich/gedreht": 9,
+  "3:oben": 3,
+  "3:seitlich/gedreht": 25,
+  "4:seitlich/gedreht": 21,
+  "4:unten": 6
+ },
+ "85973": {
+  "0:seitlich/gedreht": 2,
+  "1:seitlich/gedreht": 2,
+  "2:seitlich/gedreht": 2
+ },
+ "85984": {
+  "0:oben": 22,
+  "0:seitlich/gedreht": 17
+ },
+ "87079": {
+  "0:oben": 19
+ },
+ "87087": {
+  "0:seitlich/gedreht": 34,
+  "1:oben": 26,
+  "2:unten": 14,
+  "3:seitlich/gedreht": 12
+ },
+ "87580": {
+  "0:unten": 2,
+  "1:oben": 2
+ },
+ "87611": {
+  "0:unten": 4,
+  "1:oben": 2,
+  "2:unten": 1,
+  "3:unten": 1,
+  "4:unten": 2
+ },
+ "87994": {
+  "0:seitlich/gedreht": 12,
+  "1:seitlich/gedreht": 2,
+  "2:seitlich/gedreht": 2
+ },
+ "88930": {
+  "0:oben": 1
+ },
+ "90393": {
+  "0:oben": 1
+ },
+ "91988": {
+  "0:unten": 1,
+  "1:oben": 4
+ },
+ "92220": {
+  "0:seitlich/gedreht": 2
+ },
+ "92280": {
+  "0:seitlich/gedreht": 8,
+  "0:unten": 4,
+  "1:oben": 10,
+  "1:seitlich/gedreht": 8,
+  "2:unten": 6
+ },
+ "92579": {
+  "0:unten": 2
+ },
+ "92583": {
+  "0:unten": 3,
+  "1:oben": 4
+ },
+ "92593": {
+  "0:unten": 4,
+  "1:seitlich/gedreht": 12
+ },
+ "92946": {
+  "0:unten": 16,
+  "1:oben": 18
+ },
+ "93094": {
+  "0:seitlich/gedreht": 1
+ },
+ "93273": {
+  "0:oben": 2,
+  "1:oben": 2,
+  "2:seitlich/gedreht": 2
+ },
+ "93604": {
+  "0:unten": 2,
+  "1:oben": 1
+ },
+ "93606": {
+  "0:oben": 4,
+  "0:seitlich/gedreht": 6,
+  "1:oben": 2,
+  "2:oben": 3,
+  "2:seitlich/gedreht": 1
+ },
+ "93609": {
+  "0:seitlich/gedreht": 1,
+  "1:seitlich/gedreht": 1
+ },
+ "98138": {
+  "0:oben": 2,
+  "0:seitlich/gedreht": 25
+ },
+ "98281": {
+  "0:oben": 4
+ },
+ "98282": {
+  "0:oben": 6,
+  "1:unten": 12
+ },
+ "98302": {
+  "0:unten": 6,
+  "1:oben": 6
+ },
+ "99207": {
+  "0:seitlich/gedreht": 6,
+  "2:unten": 6
+ },
+ "99563": {
+  "0:oben": 3
+ },
+ "99780": {
+  "0:oben": 34,
+  "0:seitlich/gedreht": 6,
+  "1:seitlich/gedreht": 16,
+  "1:unten": 17,
+  "2:seitlich/gedreht": 38
+ },
+ "99781": {
+  "0:unten": 48,
+  "1:oben": 2,
+  "1:seitlich/gedreht": 50,
+  "2:oben": 30,
+  "2:seitlich/gedreht": 4
+ }
+}

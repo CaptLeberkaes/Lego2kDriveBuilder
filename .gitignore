@@ -1,0 +1,5 @@
+Referenzfotos/
+_sicherungen/
+*.sav
+__pycache__/
+*.pyc
