@@ -16,6 +16,7 @@ der Ordner kann überall liegen (die Skripte arbeiten mit relativen Pfaden und `
 | `anschlusspunkte.json` | dieselben Rohdaten maschinenlesbar |
 | `werkzeuge\` | Python-Skripte (s.u.) |
 | `baupläne\` | Baupläne für `baue_fahrzeug.py` |
+| `test2\` | Teileliste Set 31015 mit Spiel-Abgleich, Tauschplan für gesperrte Teile |
 | `Referenzfotos\` | Fotos der echten Modelle – nur lokal, nicht im Repository |
 | `_sicherungen\` | Spielstand-Sicherungen von `sichern.py` – nur lokal, nicht im Repository |
 
@@ -76,6 +77,11 @@ Data
                          Arbeitskopie, nur solange die Garage offen ist
 ```
 
+**Achtung Arbeitskopie:** Wird das Spiel mit offener Garage beendet, bleibt `AncillaryCustomVehicle` im
+Spielstand. Beim nächsten Start schreibt das Spiel diese Kopie über den Platz aus `AncillaryCustomSlot`
+– eigene Änderungen an diesem Platz sind dann weg. Also: Garage verlassen, bevor man das Spiel schließt,
+oder die Arbeitskopie mit ändern (`tausche_teile.py` macht das).
+
 ### Ein Teil (8 Byte in `Parts`)
 
 | Byte | Bedeutung |
@@ -95,7 +101,7 @@ Data
 
 ### Verbindungen (`Connections`)
 
-- `PartIndexA` < `PartIndexB` (Indizes in `Parts`).
+- Meist `PartIndexA` < `PartIndexB` (Indizes in `Parts`); das Spiel schreibt aber auch die umgekehrte Reihenfolge.
 - `FieldIndex` = Anschlusspunkt des Teils. **Die Nummerierung ist je Teil verschieden!**
   Beispiele: 3004/3005/3007/3020/92583: 0 = Noppen oben, 1 = Unterseite;
   3001/3002/3021/3039/3660/3823/98282: 0 = Unterseite, 1 = oben. → siehe `anschlusspunkte.md`.
@@ -185,6 +191,20 @@ Weitere Indizes kommen in Vorlagen vor (0, 33, 37, 38, 45, 46, 51, 64, 69, 80, 8
 Noppenblock 2×1 am Ursprung, 1 Stein hoch; Bogen ragt nach +y. Links ungedreht, rechts 180° gedreht,
 Block direkt über dem Rad (z.B. PoliceTruck: x = −87,5/62,5 bei y = 12,5 bzw. 180° bei x = −62,5/87,5, y = −12,5).
 
+### Gesperrte Drive-Pass-Teile (Platzhalter-Tausch)
+
+Teile aus dem nicht mehr erhältlichen Drive Pass (z.B. 3956 Winkel 2×2–2×2, 2817 Platte mit Pin-Löchern)
+lassen sich nicht freischalten. Weg über den Spielstand:
+1. Im Spiel mit einem freien Platzhalter bauen (z.B. 99207 für 3956, 4032 für 6143), speichern, **Garage verlassen**, Spiel schließen.
+2. Tauschplan schreiben (Beispiel `test2	ausch_fahrzeug04.json`) und `tausche_teile.py` ausführen.
+3. Spiel starten, Lage im Spiel zurechtrücken und speichern – das Spiel berechnet die Verbindungen neu.
+
+Das Spiel zeigt und verbaut die gesperrten Teile danach normal. Solche Fahrzeuge **nicht** in den Creators Hub hochladen.
+
+Vom Spiel gespeicherte Anschlusspunkte:
+- **3956** (Winkel 2×2–2×2, Ursprung der waagrechte Schenkel): 1 = Unterseite, 0 = Noppen vorn am senkrechten Schenkel, 2 = Rückseite des senkrechten Schenkels.
+- **6143** (Rundstein 2×2, liegend mit Drehung (0,5, 0,5, 0,5, 0,5)): 1 = Unterseite, 2 = Noppen oben.
+
 ## Testprotokoll
 
 1. Format gelesen, Farbe = Byte 4 (Stein 1×1: 1 → 7). Keine Prüfsumme.
@@ -194,3 +214,6 @@ Block direkt über dem Rad (z.B. PoliceTruck: x = −87,5/62,5 bei y = 12,5 bzw.
 5. 12 Creators-Hub-Modelle ausgewertet → Anschlusspunkte für ~290 Teile. ✅
 6. **test1 komplett per Bauplan geschrieben → Spiel lädt und speichert es ohne lose Teile.** ✅
    Einzige Korrektur: Ausrichtung der Kotflügel (jetzt im Bauplan richtig).
+7. Gesperrte Teile 3956 und 6143 per Platzhalter-Tausch in „Neues Fahrzeug 04“ → Spiel zeigt sie an,
+   Lage im Spiel korrigiert und gespeichert. ✅ Erster Versuch ging verloren, weil die Garagen-Arbeitskopie
+   den alten Stand zurückschrieb.

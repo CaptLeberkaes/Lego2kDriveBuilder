@@ -1,0 +1,11 @@
+{
+ "fahrzeug": "Neues Fahrzeug 04",
+ "teile": [
+  {"von": 99207, "nach": 3956, "farbe": 11},
+  {"von": 4032, "nach": 6143, "pos": [10.0, 0.0, 75.0]}
+ ],
+ "verbindungen": [
+  {"a": "#4", "b": 99207, "fa": 0, "fb": 1, "noppen": 4},
+  {"a": 99207, "b": 4032, "fa": 0, "fb": 1, "noppen": 4}
+ ]
+}
