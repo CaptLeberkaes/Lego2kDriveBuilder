@@ -112,12 +112,15 @@ def summarize(observations):
 
 
 def main(paths,wanted,out=None):
+    from anschluesse import REFERENZ_AUSSCHLUESSE
     observations=[]
     for path in paths:
         data=gvas.load(path)['body']['Data']
         for key in ('CustomVehicles','DownloadedVehicles'):
             for vehicle in data.get(key,{}).get('items',[]):
                 if vehicle['VehicleName']:
+                    if vehicle['VehicleName'].casefold() in {n.casefold() for n in REFERENZ_AUSSCHLUESSE}:
+                        continue
                     observations.extend(constraints_from_vehicle(vehicle,wanted,Path(path).name))
     result={'hinweis':'Bedingungen und Rasterdomänen sind Modellannahmen, kein vollständiger CAD-/Anschlussnachweis.',
             'ergebnisse':summarize(observations)}

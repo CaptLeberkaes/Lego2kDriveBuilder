@@ -1,0 +1,6 @@
+{
+  "change": "kessel_vorn.pos.x += 1000",
+  "html_identical": true,
+  "original_sha256": "6ec65b705c3b7a8f46b03a199ed7e96a443c1b19686904877d913d32f74aeef3",
+  "shifted_sha256": "6ec65b705c3b7a8f46b03a199ed7e96a443c1b19686904877d913d32f74aeef3"
+}

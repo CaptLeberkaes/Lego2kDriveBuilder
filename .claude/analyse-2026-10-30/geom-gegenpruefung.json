@@ -1,0 +1,1033 @@
+{
+ "hinweis": "Größe und Noppenraster sind Annahmen; Felder und Noppenzahlen aus gespeicherten Verbindungen belegt. Nur Ober-/Unterseiten, keine Seitennoppen.",
+ "fahrzeuge": 103,
+ "dateien": [
+  "ArtemisVehicle.sav",
+  "ArtemisDownloadedVehicle.sav",
+  "ArtemisExtraVehicle.sav",
+  "ArtemisChubCache.sav"
+ ],
+ "min_belege": 2,
+ "ergebnisse": [
+  {
+   "teil": 1751,
+   "groesse": [
+    4,
+    4,
+    1
+   ],
+   "geom": null,
+   "seiten": {
+    "unten": {
+     "belege": 0,
+     "felder": {},
+     "noppenzahl_abweichend": 0,
+     "schief": 0,
+     "fahrzeuge": 0
+    },
+    "oben": {
+     "belege": 0,
+     "felder": {},
+     "noppenzahl_abweichend": 0,
+     "schief": 0,
+     "fahrzeuge": 0
+    }
+   },
+   "ohne_flaechenkontakt": 0,
+   "widerspruch": [],
+   "beispiele": [],
+   "alias_von": null,
+   "status": "zu_wenig_belege",
+   "gegentest": {}
+  },
+  {
+   "teil": 3026,
+   "groesse": [
+    24,
+    6,
+    1
+   ],
+   "geom": null,
+   "seiten": {
+    "unten": {
+     "belege": 0,
+     "felder": {},
+     "noppenzahl_abweichend": 0,
+     "schief": 0,
+     "fahrzeuge": 0
+    },
+    "oben": {
+     "belege": 0,
+     "felder": {},
+     "noppenzahl_abweichend": 0,
+     "schief": 0,
+     "fahrzeuge": 0
+    }
+   },
+   "ohne_flaechenkontakt": 0,
+   "widerspruch": [],
+   "beispiele": [],
+   "alias_von": null,
+   "status": "zu_wenig_belege",
+   "gegentest": {}
+  },
+  {
+   "teil": 10202,
+   "groesse": [
+    6,
+    6,
+    1
+   ],
+   "geom": null,
+   "seiten": {
+    "unten": {
+     "belege": 1,
+     "felder": {
+      "0": 1
+     },
+     "noppenzahl_abweichend": 0,
+     "schief": 0,
+     "fahrzeuge": 1
+    },
+    "oben": {
+     "belege": 0,
+     "felder": {},
+     "noppenzahl_abweichend": 0,
+     "schief": 0,
+     "fahrzeuge": 0
+    }
+   },
+   "ohne_flaechenkontakt": 0,
+   "widerspruch": [],
+   "beispiele": [
+    {
+     "seite": "unten",
+     "feld": 0,
+     "staerke": 2,
+     "vorhergesagt": 2,
+     "schief": false,
+     "fahrzeug": "The Organ Grinder",
+     "indizes": [
+      43,
+      44
+     ],
+     "partner": 3004,
+     "partner_feld": 0
+    }
+   ],
+   "alias_von": null,
+   "status": "zu_wenig_belege",
+   "gegentest": {}
+  },
+  {
+   "teil": 35371,
+   "groesse": [
+    4,
+    1,
+    1
+   ],
+   "geom": null,
+   "seiten": {
+    "unten": {
+     "belege": 0,
+     "felder": {},
+     "noppenzahl_abweichend": 0,
+     "schief": 0,
+     "fahrzeuge": 0
+    },
+    "oben": {
+     "belege": 0,
+     "felder": {},
+     "noppenzahl_abweichend": 0,
+     "schief": 0,
+     "fahrzeuge": 0
+    }
+   },
+   "ohne_flaechenkontakt": 0,
+   "widerspruch": [],
+   "beispiele": [],
+   "alias_von": 2431,
+   "status": "zu_wenig_belege",
+   "gegentest": {}
+  },
+  {
+   "teil": 44041,
+   "groesse": [
+    16,
+    8,
+    3
+   ],
+   "geom": null,
+   "seiten": {
+    "unten": {
+     "belege": 0,
+     "felder": {},
+     "noppenzahl_abweichend": 0,
+     "schief": 0,
+     "fahrzeuge": 0
+    },
+    "oben": {
+     "belege": 0,
+     "felder": {},
+     "noppenzahl_abweichend": 0,
+     "schief": 0,
+     "fahrzeuge": 0
+    }
+   },
+   "ohne_flaechenkontakt": 0,
+   "widerspruch": [],
+   "beispiele": [],
+   "alias_von": null,
+   "status": "zu_wenig_belege",
+   "gegentest": {}
+  },
+  {
+   "teil": 48288,
+   "groesse": [
+    16,
+    8,
+    1
+   ],
+   "geom": null,
+   "seiten": {
+    "unten": {
+     "belege": 0,
+     "felder": {},
+     "noppenzahl_abweichend": 0,
+     "schief": 0,
+     "fahrzeuge": 0
+    },
+    "oben": {
+     "belege": 0,
+     "felder": {},
+     "noppenzahl_abweichend": 0,
+     "schief": 0,
+     "fahrzeuge": 0
+    }
+   },
+   "ohne_flaechenkontakt": 0,
+   "widerspruch": [],
+   "beispiele": [],
+   "alias_von": null,
+   "status": "zu_wenig_belege",
+   "gegentest": {}
+  },
+  {
+   "teil": 60033,
+   "groesse": [
+    12,
+    4,
+    3
+   ],
+   "geom": null,
+   "seiten": {
+    "unten": {
+     "belege": 0,
+     "felder": {},
+     "noppenzahl_abweichend": 0,
+     "schief": 0,
+     "fahrzeuge": 0
+    },
+    "oben": {
+     "belege": 0,
+     "felder": {},
+     "noppenzahl_abweichend": 0,
+     "schief": 0,
+     "fahrzeuge": 0
+    }
+   },
+   "ohne_flaechenkontakt": 0,
+   "widerspruch": [],
+   "beispiele": [],
+   "alias_von": null,
+   "status": "zu_wenig_belege",
+   "gegentest": {}
+  },
+  {
+   "teil": 88630,
+   "groesse": [
+    2,
+    1,
+    0
+   ],
+   "geom": null,
+   "seiten": {
+    "unten": {
+     "belege": 0,
+     "felder": {},
+     "noppenzahl_abweichend": 0,
+     "schief": 0,
+     "fahrzeuge": 0
+    },
+    "oben": {
+     "belege": 0,
+     "felder": {},
+     "noppenzahl_abweichend": 0,
+     "schief": 0,
+     "fahrzeuge": 0
+    }
+   },
+   "ohne_flaechenkontakt": 0,
+   "widerspruch": [],
+   "beispiele": [],
+   "alias_von": null,
+   "status": "zu_wenig_belege",
+   "gegentest": {}
+  },
+  {
+   "teil": 90498,
+   "groesse": [
+    16,
+    8,
+    1
+   ],
+   "geom": null,
+   "seiten": {
+    "unten": {
+     "belege": 0,
+     "felder": {},
+     "noppenzahl_abweichend": 0,
+     "schief": 0,
+     "fahrzeuge": 0
+    },
+    "oben": {
+     "belege": 0,
+     "felder": {},
+     "noppenzahl_abweichend": 0,
+     "schief": 0,
+     "fahrzeuge": 0
+    }
+   },
+   "ohne_flaechenkontakt": 0,
+   "widerspruch": [],
+   "beispiele": [],
+   "alias_von": null,
+   "status": "zu_wenig_belege",
+   "gegentest": {}
+  },
+  {
+   "teil": 91405,
+   "groesse": [
+    16,
+    16,
+    1
+   ],
+   "geom": null,
+   "seiten": {
+    "unten": {
+     "belege": 0,
+     "felder": {},
+     "noppenzahl_abweichend": 0,
+     "schief": 0,
+     "fahrzeuge": 0
+    },
+    "oben": {
+     "belege": 0,
+     "felder": {},
+     "noppenzahl_abweichend": 0,
+     "schief": 0,
+     "fahrzeuge": 0
+    }
+   },
+   "ohne_flaechenkontakt": 0,
+   "widerspruch": [],
+   "beispiele": [],
+   "alias_von": null,
+   "status": "zu_wenig_belege",
+   "gegentest": {}
+  }
+ ],
+ "vorhandene_leave_one_out": [
+  {
+   "teil": 2431,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 111,
+    "vorhergesagt": 111,
+    "schief_uebersprungen": 6
+   }
+  },
+  {
+   "teil": 2445,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "schief_uebersprungen": 2,
+    "exakt": 111,
+    "vorhergesagt": 111
+   }
+  },
+  {
+   "teil": 2465,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 6,
+    "vorhergesagt": 6
+   }
+  },
+  {
+   "teil": 3001,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 329,
+    "vorhergesagt": 329,
+    "schief_uebersprungen": 14
+   }
+  },
+  {
+   "teil": 3002,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 86,
+    "vorhergesagt": 86
+   }
+  },
+  {
+   "teil": 3003,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 127,
+    "vorhergesagt": 127,
+    "schief_uebersprungen": 4
+   }
+  },
+  {
+   "teil": 3004,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 340,
+    "vorhergesagt": 340,
+    "schief_uebersprungen": 19
+   }
+  },
+  {
+   "teil": 3005,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 281,
+    "vorhergesagt": 281,
+    "schief_uebersprungen": 8
+   }
+  },
+  {
+   "teil": 3006,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 27,
+    "vorhergesagt": 27
+   }
+  },
+  {
+   "teil": 3007,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 76,
+    "vorhergesagt": 76,
+    "schief_uebersprungen": 4
+   }
+  },
+  {
+   "teil": 3008,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 91,
+    "vorhergesagt": 91,
+    "schief_uebersprungen": 4
+   }
+  },
+  {
+   "teil": 3009,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 169,
+    "vorhergesagt": 169,
+    "schief_uebersprungen": 2
+   }
+  },
+  {
+   "teil": 3010,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 329,
+    "vorhergesagt": 329,
+    "schief_uebersprungen": 3
+   }
+  },
+  {
+   "teil": 3020,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 641,
+    "vorhergesagt": 641,
+    "schief_uebersprungen": 21
+   }
+  },
+  {
+   "teil": 3021,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 308,
+    "vorhergesagt": 308,
+    "schief_uebersprungen": 10
+   }
+  },
+  {
+   "teil": 3022,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 365,
+    "vorhergesagt": 365,
+    "schief_uebersprungen": 8
+   }
+  },
+  {
+   "teil": 3023,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 814,
+    "vorhergesagt": 814,
+    "schief_uebersprungen": 20
+   }
+  },
+  {
+   "teil": 3024,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 561,
+    "vorhergesagt": 561,
+    "schief_uebersprungen": 11
+   }
+  },
+  {
+   "teil": 3027,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 47,
+    "vorhergesagt": 47
+   }
+  },
+  {
+   "teil": 3028,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 22,
+    "vorhergesagt": 22
+   }
+  },
+  {
+   "teil": 3029,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 49,
+    "vorhergesagt": 49
+   }
+  },
+  {
+   "teil": 3030,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 75,
+    "vorhergesagt": 75
+   }
+  },
+  {
+   "teil": 3031,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 223,
+    "vorhergesagt": 223,
+    "schief_uebersprungen": 20
+   }
+  },
+  {
+   "teil": 3032,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 269,
+    "vorhergesagt": 269,
+    "schief_uebersprungen": 14
+   }
+  },
+  {
+   "teil": 3033,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 47,
+    "vorhergesagt": 47
+   }
+  },
+  {
+   "teil": 3034,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 240,
+    "vorhergesagt": 240,
+    "schief_uebersprungen": 4
+   }
+  },
+  {
+   "teil": 3035,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 98,
+    "vorhergesagt": 98
+   }
+  },
+  {
+   "teil": 3036,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 114,
+    "vorhergesagt": 114
+   }
+  },
+  {
+   "teil": 3068,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 133,
+    "vorhergesagt": 133
+   }
+  },
+  {
+   "teil": 3069,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 175,
+    "vorhergesagt": 175,
+    "schief_uebersprungen": 4
+   }
+  },
+  {
+   "teil": 3070,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 101,
+    "vorhergesagt": 101,
+    "schief_uebersprungen": 4
+   }
+  },
+  {
+   "teil": 3456,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 2,
+    "vorhergesagt": 2
+   }
+  },
+  {
+   "teil": 3460,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 281,
+    "vorhergesagt": 281,
+    "schief_uebersprungen": 12
+   }
+  },
+  {
+   "teil": 3622,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 168,
+    "vorhergesagt": 168,
+    "schief_uebersprungen": 2
+   }
+  },
+  {
+   "teil": 3623,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 321,
+    "vorhergesagt": 321,
+    "schief_uebersprungen": 8
+   }
+  },
+  {
+   "teil": 3666,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 576,
+    "vorhergesagt": 576,
+    "schief_uebersprungen": 4
+   }
+  },
+  {
+   "teil": 3710,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 610,
+    "vorhergesagt": 610,
+    "schief_uebersprungen": 9
+   }
+  },
+  {
+   "teil": 3795,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 424,
+    "vorhergesagt": 424,
+    "schief_uebersprungen": 7
+   }
+  },
+  {
+   "teil": 3832,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 124,
+    "vorhergesagt": 124,
+    "schief_uebersprungen": 4
+   }
+  },
+  {
+   "teil": 3958,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 62,
+    "vorhergesagt": 62,
+    "schief_uebersprungen": 2
+   }
+  },
+  {
+   "teil": 4162,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 40,
+    "vorhergesagt": 40
+   }
+  },
+  {
+   "teil": 4282,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 72,
+    "vorhergesagt": 72
+   }
+  },
+  {
+   "teil": 4477,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 50,
+    "vorhergesagt": 50
+   }
+  },
+  {
+   "teil": 6111,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 41,
+    "vorhergesagt": 41
+   }
+  },
+  {
+   "teil": 6112,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 8,
+    "vorhergesagt": 8
+   }
+  },
+  {
+   "teil": 6212,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 5,
+    "vorhergesagt": 5
+   }
+  },
+  {
+   "teil": 6636,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 79,
+    "vorhergesagt": 79
+   }
+  },
+  {
+   "teil": 11212,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 45,
+    "vorhergesagt": 45
+   }
+  },
+  {
+   "teil": 26603,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 78,
+    "vorhergesagt": 78
+   }
+  },
+  {
+   "teil": 30400,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 4,
+    "vorhergesagt": 4
+   }
+  },
+  {
+   "teil": 35275,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 2,
+    "vorhergesagt": 2
+   }
+  },
+  {
+   "teil": 35382,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 2,
+    "vorhergesagt": 2
+   }
+  },
+  {
+   "teil": 35386,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 2,
+    "vorhergesagt": 2
+   }
+  },
+  {
+   "teil": 35403,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 10,
+    "vorhergesagt": 10
+   }
+  },
+  {
+   "teil": 41539,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 13,
+    "vorhergesagt": 13
+   }
+  },
+  {
+   "teil": 43802,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 8,
+    "vorhergesagt": 8,
+    "schief_uebersprungen": 2
+   }
+  },
+  {
+   "teil": 44042,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 21,
+    "vorhergesagt": 21
+   }
+  },
+  {
+   "teil": 44237,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 105,
+    "vorhergesagt": 105
+   }
+  },
+  {
+   "teil": 60479,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 46,
+    "vorhergesagt": 46,
+    "schief_uebersprungen": 2
+   }
+  },
+  {
+   "teil": 63864,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 74,
+    "vorhergesagt": 74
+   }
+  },
+  {
+   "teil": 69729,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 10,
+    "vorhergesagt": 10
+   }
+  },
+  {
+   "teil": 78329,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 95,
+    "vorhergesagt": 95
+   }
+  },
+  {
+   "teil": 87079,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 132,
+    "vorhergesagt": 132
+   }
+  },
+  {
+   "teil": 91988,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 118,
+    "vorhergesagt": 118,
+    "schief_uebersprungen": 2
+   }
+  },
+  {
+   "teil": 92438,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 11,
+    "vorhergesagt": 11
+   }
+  },
+  {
+   "teil": 93888,
+   "status": "angenommen",
+   "konflikt": [],
+   "ergaenzbar": {},
+   "gegentest": {
+    "exakt": 23,
+    "vorhergesagt": 23
+   }
+  }
+ ]
+}

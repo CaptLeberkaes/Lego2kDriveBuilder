@@ -1,5 +1,7 @@
 # Emerald Express (31015) nach Anleitung 6071644 – Analyse und Bauplan
 
+**Nachtrag 30.10.2026:** Die folgenden Aussagen „2436b nicht im Spiel“ und „61252 nicht im Spiel“ sind überholt beziehungsweise zu pauschal: Spiel-ID 2436 und Teil 61252 sind in Katalog und Referenzfahrzeugen belegt. Die genaue Buchstabenvariante 2436b benötigt einen eigenen Formabgleich. Insbesondere 61252 an 2540 ist bereits im Space Rover Explorer gespeichert. Allgemeine Wiederverwendung und korrigierte Prüfung: [Teilewissen](../teilewissen/README.md). Der bestehende Emerald-Plan beschreibt die vom Nutzer manuell verbesserte Referenz; er wurde für diese Änderung nicht umgebaut.
+
 Stand 29.10.2026. Quelle: https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6071644.pdf
 (32 Seiten, InDesign-Titel „31015_BI“). Nachgebaut wird nur das **Hauptmodell, Schritte 1–13 (S. 2–13)**.
 Ab S. 14 folgen laut Nutzer andere Modelle; sie gehören nicht dazu.

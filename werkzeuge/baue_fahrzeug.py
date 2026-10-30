@@ -15,7 +15,8 @@ import uuid
 
 import gvas_rw as g
 from baugeometrie import (GEOM, cells, world_cells, connect, quat_z, yaw_of,
-                          quaternion, vector, rotate, multiply, conjugate, unreachable)
+                          quaternion, vector, rotate, multiply, conjugate, unreachable, faces)
+from teilewissen import Library, DEFAULT_PATH as KNOWLEDGE_PATH
 
 TYPES = {"HingeConnection", "FixedConnection", "CylindricalConnection",
          "PrismaticConnection", "BallConnection"}
@@ -65,7 +66,7 @@ def validate_plan(plan):
     if not isinstance(plan, dict):
         raise ValueError("Der Bauplan muss ein JSON-Objekt sein")
     allowed = {"name", "vorlage_name", "vorlage_datei", "teile", "chassisfarben",
-               "felgen", "radtausch", "behalten", "verbindungen", "fahrer"}
+               "felgen", "radtausch", "behalten", "verbindungen", "fahrer", "teilewissen"}
     if set(plan)-allowed:
         raise ValueError(f"Unbekannte Bauplanfelder: {sorted(set(plan)-allowed)}")
     for key in ("name", "vorlage_name"):
@@ -79,15 +80,26 @@ def validate_plan(plan):
         raise ValueError("behalten muss Namen als Zeichenketten enthalten")
     if "vorlage_datei" in plan and not isinstance(plan["vorlage_datei"], str):
         raise ValueError("vorlage_datei muss ein Pfad sein")
+    knowledge = plan.get('teilewissen', True)
+    if not isinstance(knowledge, (bool, str)) or knowledge == '':
+        raise ValueError('teilewissen muss true, false oder ein Bibliothekspfad sein')
     if len(plan["teile"]) > 65535:
         raise ValueError("Zu viele Teile für UInt16-Indizes")
     names = set()
     for i, part in enumerate(plan["teile"]):
-        if not isinstance(part, dict) or set(part)-{"id", "teil", "farbe", "pos", "dreh", "rot", "leuchtend"}:
+        if not isinstance(part, dict) or set(part)-{"id", "teil", "farbe", "pos", "dreh", "rot", "leuchtend", "anschluss"}:
             raise ValueError(f"Teil {i}: ungültige oder unbekannte Felder")
         integer(part.get("teil"), 2**32-1, f"Teil {i}: Nummer", 1)
         integer(part.get("farbe"), 255, f"Teil {i}: Farbe")
-        vector(part.get("pos"))
+        if 'anschluss' in part:
+            spec = part['anschluss']
+            if (not isinstance(spec, dict) or set(spec) != {'an', 'vorlage'}
+                    or not all(isinstance(x, str) and x for x in spec.values())):
+                raise ValueError('anschluss: an und vorlage als nichtleere Zeichenketten erforderlich')
+            if any(k in part for k in ('pos', 'dreh', 'rot')):
+                raise ValueError('anschluss ersetzt pos/rot/dreh; keine konkurrierenden Lagen angeben')
+        else:
+            vector(part.get("pos"))
         if "rot" in part and "dreh" in part:
             raise ValueError(f"Teil {i}: entweder rot oder dreh angeben")
         quaternion(part["rot"]) if "rot" in part else quat_z(part.get("dreh", 0))
@@ -98,7 +110,7 @@ def validate_plan(plan):
             raise ValueError(f"Teil {i}: ungültige/doppelte id {name!r}")
         names.add(name)
         uncertain = part["teil"] not in GEOM or GEOM[part["teil"]].get("maske_unbekannt")
-        if uncertain and not plan.get("verbindungen"):
+        if uncertain and not plan.get("verbindungen") and knowledge is False:
             raise ValueError(f"Teil {i} ({part['teil']}): Anschlussgeometrie unbekannt; explizite Verbindungen erforderlich")
     for key in ("chassisfarben", "felgen", "radtausch"):
         if not isinstance(plan.get(key, {}), dict):
@@ -107,6 +119,42 @@ def validate_plan(plan):
         for color in plan.get(key, {}).values():
             integer(color, 255, key)
     return plan
+
+
+def load_knowledge(plan):
+    choice = plan.get('teilewissen', True)
+    if choice is False:
+        return None
+    path = Path(os.path.expandvars(choice)) if isinstance(choice, str) else KNOWLEDGE_PATH
+    if isinstance(choice, str) or path.exists():
+        return Library.load(path)
+    return None
+
+
+def place_parts(parts, anchors, library):
+    """Kontaktbasierte Lagen in Abhängigkeitsreihenfolge auflösen, ohne Reihenfolge zu ändern."""
+    poses = dict(anchors); pending = list(enumerate(parts)); resolved = {}
+    while pending:
+        progress = False
+        for i, part in pending[:]:
+            name = part.get('id', f'teil:{i}')
+            if 'anschluss' not in part:
+                p = dict(design=part['teil'], pos=part['pos'],
+                         rot=part.get('rot', quat_z(part.get('dreh', 0))), scale=[1,1,1])
+            else:
+                spec = part['anschluss']
+                if spec['an'] not in poses:
+                    continue
+                if library is None:
+                    raise ValueError('Kontaktplatzierung benötigt eine Teilewissen-Bibliothek')
+                p = library.place(poses[spec['an']], spec['vorlage'])
+                if p['design'] != part['teil'] or any(abs(s-1) > .001 for s in p['scale']):
+                    raise ValueError('Kontaktvorlage passt nicht zu Teilenummer/Einheitsskalierung')
+            poses[name] = poses[f'teil:{i}'] = p; resolved[i] = p
+            pending.remove((i, part)); progress = True
+        if not progress:
+            raise ValueError('Kontaktplatzierung: unbekannte Anker oder zyklische Abhängigkeit')
+    return [resolved[i] for i in range(len(parts))]
 
 
 def pool_from(save):
@@ -137,6 +185,11 @@ def is_flair(assembly):
 def build_vehicle(src, plan):
     """Reine Vorbereitung: liest Quelle, erzeugt Ergebnis im Speicher, schreibt nichts."""
     validate_plan(plan)
+    library = load_knowledge(plan)
+    for i, part in enumerate(plan['teile']):
+        if (part['teil'] not in GEOM or GEOM[part['teil']].get('maske_unbekannt')) and not plan.get('verbindungen'):
+            if library is None or str(part['teil']) not in library.data['parts']:
+                raise ValueError(f"Teil {i} ({part['teil']}): Anschlussgeometrie unbekannt; kein Kontaktbeleg vorhanden")
     save = g.SaveFile(src)
     data = g.val(save.props, "Data")
     vehicles = g.val(data, "CustomVehicles").elems
@@ -213,12 +266,18 @@ def build_vehicle(src, plan):
                 refs[f"modul:{asm_index}:{k}"] = new
         assemblies.append(new_a)
     body_ids = []
+    anchor_poses = {name: dict(design=struct.unpack('<I', parts[i][:4])[0],
+                              pos=struct.unpack('<fff', g.val(transforms[i], 'Translation')),
+                              rot=struct.unpack('<ffff', g.val(transforms[i], 'Rotation')),
+                              scale=struct.unpack('<fff', g.val(transforms[i], 'Scale3D')))
+                    for name, i in refs.items()}
+    placements = place_parts(plan['teile'], anchor_poses, library)
     tf_template = old_tfs[indices(chassis[0])[0]]
     for i, part in enumerate(plan["teile"]):
         tf = copy.deepcopy(tf_template)
-        rot = quaternion(part["rot"]) if "rot" in part else quat_z(part.get("dreh", 0))
+        rot = quaternion(placements[i]['rot'])
         set_prop(tf, "Rotation", struct.pack("<ffff", *rot))
-        set_prop(tf, "Translation", struct.pack("<fff", *vector(part["pos"])))
+        set_prop(tf, "Translation", struct.pack("<fff", *vector(placements[i]['pos'])))
         set_prop(tf, "Scale3D", struct.pack("<fff", 1, 1, 1))
         new = len(parts)
         parts.append(struct.pack("<IBBBB", part["teil"], part["farbe"], int(part.get("leuchtend", False)), 0, 0))
@@ -310,9 +369,34 @@ def build_vehicle(src, plan):
                       rot=struct.unpack("<ffff", g.val(tf, "Rotation")),
                       scale=struct.unpack("<fff", g.val(tf, "Scale3D")))
                  for raw, tf in zip(parts, transforms)]
-    for a, b, fa, fb, n in connect(geo_parts):
+    # Identische massive Standardteile an derselben Lage können keine gültige Konstruktion bilden.
+    solids = {3001,3002,3003,3004,3005,3006,3007,3008,3009,3010,3622,44237,6111,6112}
+    for i in body_ids:
+        for j in range(i):
+            if geo_parts[i]['design'] not in solids or geo_parts[j]['design'] != geo_parts[i]['design']:
+                continue
+            a, b = geo_parts[i], geo_parts[j]
+            if (sum((x-y)**2 for x,y in zip(a['pos'], b['pos'])) < .01**2
+                    and 1-abs(sum(x*y for x,y in zip(quaternion(a['rot']), quaternion(b['rot'])))) < 1e-7
+                    and max(abs(x-y) for x,y in zip(a['scale'], b['scale'])) < .001):
+                raise ValueError(f'Identische massive Teile überlagern sich: {j}, {i}')
+    automatic = {(a,b,fa,fb,n,'HingeConnection' if n == 1 else 'FixedConnection')
+                 for a,b,fa,fb,n in connect(geo_parts)}
+    observed = library.connect(geo_parts) if library else {}
+    for a, b, fa, fb, n, kind in sorted(automatic):
         if a in body_ids or b in body_ids:
-            connections.append(connection(a, b, fa, fb, n))
+            connections.append(connection(a, b, fa, fb, n, kind))
+    added_observed = []
+    for key, evidence in observed.items():
+        a,b,fa,fb,n,kind = key
+        if key in automatic or not (a in body_ids or b in body_ids):
+            continue
+        # Bekannte Standardflächen dürfen nicht durch widersprüchliche Beobachtungen ersetzt werden.
+        known_a = {x[0] for x in faces(geo_parts[a]).values()}
+        known_b = {x[0] for x in faces(geo_parts[b]).values()}
+        if fa in known_a and fb in known_b:
+            continue
+        connections.append(connection(a,b,fa,fb,n,kind)); added_observed.append(key)
 
     def resolve(ref):
         if isinstance(ref, str) and ref in refs:
@@ -322,6 +406,7 @@ def build_vehicle(src, plan):
         raise ValueError(f"Unbekannte Teile-Referenz: {ref!r}")
 
     manual_pairs = set()
+    manual_status = []
     for spec in plan.get("verbindungen", []):
         if not isinstance(spec, dict) or set(spec)-{"a", "b", "fa", "fb", "noppen", "typ"}:
             raise ValueError("verbindungen: unbekannte oder ungültige Felder")
@@ -332,12 +417,29 @@ def build_vehicle(src, plan):
         if pair not in manual_pairs:
             connections = [c for c in connections if frozenset(connection_indices(c)) != pair]
             manual_pairs.add(pair)
-        connections.append(connection(a, b, spec.get("fa"), spec.get("fb"), spec.get("noppen"), spec.get("typ")))
+        new_connection = connection(a, b, spec.get("fa"), spec.get("fb"), spec.get("noppen"), spec.get("typ"))
+        fa, fb, n = spec['fa'], spec['fb'], spec['noppen']
+        kind = text_value(new_connection, 'Type').split('::')[-1]
+        key = (a,b,fa,fb,n,kind) if a < b else (b,a,fb,fa,n,kind)
+        known_a = {x[0] for x in faces(geo_parts[a]).values()}
+        known_b = {x[0] for x in faces(geo_parts[b]).values()}
+        if fa in known_a and fb in known_b and key not in automatic:
+            raise ValueError(f'Expliziter Anschluss widerspricht bekannten Anschlussflächen: {a}, {b}')
+        status = 'geometrisch' if key in automatic else 'beobachtete_paarlage' if key in observed else 'ungeprueft'
+        manual_status.append(dict(a=a, b=b, status=status, belege=observed.get(key, [])))
+        connections.append(new_connection)
     if manual_pairs:
-        warnings.append("Explizite Anschlüsse wurden strukturell geprüft; ihre physische Lage ist nicht vollständig verifiziert")
+        unknown = sum(x['status'] == 'ungeprueft' for x in manual_status)
+        if unknown:
+            warnings.append(f'{unknown} explizite Anschlüsse nur strukturell geprüft; physische Lage ungeprüft')
+    retained_observed = [key for key in added_observed if frozenset(key[:2]) not in manual_pairs]
+    if retained_observed:
+        warnings.append(f'{len(retained_observed)} Anschlüsse aus beobachteten 3D-Paarlagen ergänzt; keine vollständige Formprüfung')
     loose = unreachable(len(parts), list(map(connection_indices, connections)), chassis_ids, wheel_ids)
     if loose:
-        raise ValueError(f"Teile ohne Pfad zum Chassis: {loose}. Bauplan/Anschlüsse korrigieren; nichts geschrieben.")
+        unknown = [i for i in loose if geo_parts[i]['design'] not in GEOM or GEOM[geo_parts[i]['design']].get('maske_unbekannt')]
+        extra = f' Anschlussgeometrie unbekannt und keine passende Paarlage für {unknown}.' if unknown else ''
+        raise ValueError(f"Teile ohne Pfad zum Chassis: {loose}.{extra} Bauplan/Anschlüsse korrigieren; nichts geschrieben.")
     g.val(graph, "Parts").elems = parts
     g.val(graph, "PartTransforms").elems = transforms
     g.val(graph, "Assemblies").elems = assemblies
@@ -390,6 +492,9 @@ def build_vehicle(src, plan):
     report = {"name": plan["name"], "slot": slot, "teile": len(parts), "verbindungen": len(connections),
               "koerperteile": len(body_ids), "baugruppen": len(assemblies), "warnungen": warnings,
               "referenzen": refs, "lose_teile": [],
+              "anschlusspruefung": {"explizit": manual_status,
+                                    "beobachtete_ergaenzungen": [dict(kontakt=k, belege=observed[k]) for k in added_observed
+                                                                 if frozenset(k[:2]) not in manual_pairs]},
               "geometrie_unbekannt": sorted({p["design"] for i, p in enumerate(geo_parts)
                                              if i not in wheel_ids and (p["design"] not in GEOM
                                                  or GEOM[p["design"]].get("maske_unbekannt"))})}

@@ -1,0 +1,426 @@
+{
+  "matched_parts": 51,
+  "generated_connections": 56,
+  "missing": [],
+  "extra": [],
+  "report": {
+    "name": "Emerald Express",
+    "slot": 45,
+    "teile": 51,
+    "verbindungen": 56,
+    "koerperteile": 40,
+    "baugruppen": 5,
+    "warnungen": [
+      "22 Anschlüsse aus beobachteten 3D-Paarlagen ergänzt; keine vollständige Formprüfung",
+      "GarageSaveDataMap bleibt unverändert; Auswirkungen auf Garagen-Metadaten sind im Spiel noch zu prüfen"
+    ],
+    "referenzen": {
+      "chassis:0": 0,
+      "chassis:1": 1,
+      "chassis:2": 2,
+      "rahmen_hinten": 3,
+      "teil:0": 3,
+      "rahmen_vorn": 4,
+      "teil:1": 4,
+      "lauf_heck": 5,
+      "teil:2": 5,
+      "lauf_mitte": 6,
+      "teil:3": 6,
+      "lauf_vorn": 7,
+      "teil:4": 7,
+      "teil:5": 8,
+      "lauf_bug": 8,
+      "hausbock": 9,
+      "teil:6": 9,
+      "boden_2x4": 10,
+      "teil:7": 10,
+      "teil:8": 11,
+      "boden_1x4": 11,
+      "teil:9": 12,
+      "streifen_links": 12,
+      "teil:10": 13,
+      "streifen_rechts": 13,
+      "teil:11": 14,
+      "rueckwand_unten": 14,
+      "teil:12": 15,
+      "fenster_links": 15,
+      "teil:13": 16,
+      "fenster_rechts": 16,
+      "teil:14": 17,
+      "pfosten_links": 17,
+      "pfosten_rechts": 18,
+      "teil:15": 18,
+      "teil:16": 19,
+      "rueckwand": 19,
+      "dach_links": 20,
+      "teil:17": 20,
+      "dach_rechts": 21,
+      "teil:18": 21,
+      "winkel": 22,
+      "teil:19": 22,
+      "kessel_hinten": 23,
+      "teil:20": 23,
+      "kessel_vorn": 24,
+      "teil:21": 24,
+      "kugelplatte": 25,
+      "teil:22": 25,
+      "kesselende": 26,
+      "teil:23": 26,
+      "teil:24": 27,
+      "ring_unten": 27,
+      "teil:25": 28,
+      "griff": 28,
+      "teil:26": 29,
+      "rauchkammer": 29,
+      "teil:27": 30,
+      "tuer": 30,
+      "teil:28": 31,
+      "lampe": 31,
+      "teil:29": 32,
+      "clip": 32,
+      "clipfliese": 33,
+      "teil:30": 33,
+      "teil:31": 34,
+      "schornstein": 34,
+      "frontfliese": 35,
+      "teil:32": 35,
+      "pufferbohle": 36,
+      "teil:33": 36,
+      "teil:34": 37,
+      "raeumer_links": 37,
+      "teil:35": 38,
+      "raeumer_rechts": 38,
+      "halter_links": 39,
+      "teil:36": 39,
+      "halter_rechts": 40,
+      "teil:37": 40,
+      "teil:38": 41,
+      "zylinder_links": 41,
+      "zylinder_rechts": 42,
+      "teil:39": 42,
+      "rad:fl:0": 43,
+      "rad:fl:1": 44,
+      "rad:fr:0": 45,
+      "rad:fr:1": 46,
+      "rad:bl:0": 47,
+      "rad:bl:1": 48,
+      "rad:br:0": 49,
+      "rad:br:1": 50
+    },
+    "lose_teile": [],
+    "anschlusspruefung": {
+      "explizit": [],
+      "beobachtete_ergaenzungen": [
+        {
+          "kontakt": [
+            0,
+            39,
+            1,
+            1,
+            1,
+            "HingeConnection"
+          ],
+          "belege": [
+            "81d064394350617056949919"
+          ]
+        },
+        {
+          "kontakt": [
+            0,
+            40,
+            1,
+            1,
+            1,
+            "HingeConnection"
+          ],
+          "belege": [
+            "0bdd2145f0a9673f1180d2dd"
+          ]
+        },
+        {
+          "kontakt": [
+            1,
+            4,
+            2,
+            1,
+            4,
+            "FixedConnection"
+          ],
+          "belege": [
+            "cbdf617d95982d709e7d9704"
+          ]
+        },
+        {
+          "kontakt": [
+            2,
+            3,
+            2,
+            1,
+            4,
+            "FixedConnection"
+          ],
+          "belege": [
+            "64a2bd36ea04e6006b7e8189"
+          ]
+        },
+        {
+          "kontakt": [
+            4,
+            39,
+            1,
+            0,
+            1,
+            "HingeConnection"
+          ],
+          "belege": [
+            "6a7998d7dab0650de8f7404d"
+          ]
+        },
+        {
+          "kontakt": [
+            4,
+            40,
+            1,
+            0,
+            1,
+            "HingeConnection"
+          ],
+          "belege": [
+            "012d4141f4b225269be21cad"
+          ]
+        },
+        {
+          "kontakt": [
+            6,
+            22,
+            0,
+            1,
+            4,
+            "FixedConnection"
+          ],
+          "belege": [
+            "3abca3a593af1070dd1d7e8e"
+          ]
+        },
+        {
+          "kontakt": [
+            22,
+            23,
+            2,
+            2,
+            4,
+            "FixedConnection"
+          ],
+          "belege": [
+            "69ac4fccb165ee3c659d7903",
+            "7cf5c2b51e2047c6f6edde41",
+            "cd5577f408a23ca99e78d575",
+            "f86bb5da716b4ac386d62959"
+          ]
+        },
+        {
+          "kontakt": [
+            22,
+            24,
+            0,
+            1,
+            4,
+            "FixedConnection"
+          ],
+          "belege": [
+            "a513b8991973b25bb5058b1f",
+            "cdd5a6a832a6c6a4cab39378"
+          ]
+        },
+        {
+          "kontakt": [
+            23,
+            25,
+            1,
+            0,
+            4,
+            "FixedConnection"
+          ],
+          "belege": [
+            "467a701dbdecd7a388f90456"
+          ]
+        },
+        {
+          "kontakt": [
+            24,
+            27,
+            2,
+            1,
+            2,
+            "FixedConnection"
+          ],
+          "belege": [
+            "4b163185b84d418343dac9e0"
+          ]
+        },
+        {
+          "kontakt": [
+            24,
+            28,
+            2,
+            1,
+            2,
+            "FixedConnection"
+          ],
+          "belege": [
+            "12772288354681d86a3ef8be"
+          ]
+        },
+        {
+          "kontakt": [
+            25,
+            26,
+            1,
+            0,
+            4,
+            "FixedConnection"
+          ],
+          "belege": [
+            "371e8fa50e85dc9762682108"
+          ]
+        },
+        {
+          "kontakt": [
+            27,
+            29,
+            0,
+            1,
+            2,
+            "FixedConnection"
+          ],
+          "belege": [
+            "ab26dcd76c2691b9a07310df"
+          ]
+        },
+        {
+          "kontakt": [
+            28,
+            29,
+            0,
+            1,
+            2,
+            "FixedConnection"
+          ],
+          "belege": [
+            "84c93204ca17fd4705e75a99"
+          ]
+        },
+        {
+          "kontakt": [
+            28,
+            32,
+            4,
+            2,
+            1,
+            "CylindricalConnection"
+          ],
+          "belege": [
+            "eea215ad269ade1e1ecbe30b"
+          ]
+        },
+        {
+          "kontakt": [
+            29,
+            30,
+            0,
+            1,
+            1,
+            "HingeConnection"
+          ],
+          "belege": [
+            "f087e2c1d8c1b713ab1cfa55"
+          ]
+        },
+        {
+          "kontakt": [
+            30,
+            31,
+            4,
+            0,
+            1,
+            "HingeConnection"
+          ],
+          "belege": [
+            "1e7806dd321e605613127199",
+            "2c741a7bb2e3792557a86bd2",
+            "e6f3a68a340d4a72e44dd1b2"
+          ]
+        },
+        {
+          "kontakt": [
+            32,
+            33,
+            0,
+            0,
+            1,
+            "HingeConnection"
+          ],
+          "belege": [
+            "9b0c5cac2288f34220e2ea1c"
+          ]
+        },
+        {
+          "kontakt": [
+            32,
+            34,
+            1,
+            2,
+            1,
+            "HingeConnection"
+          ],
+          "belege": [
+            "5587de909970754b49f7e650"
+          ]
+        },
+        {
+          "kontakt": [
+            39,
+            41,
+            4,
+            0,
+            1,
+            "HingeConnection"
+          ],
+          "belege": [
+            "1f1531555155d47a10d06002"
+          ]
+        },
+        {
+          "kontakt": [
+            40,
+            42,
+            3,
+            0,
+            1,
+            "HingeConnection"
+          ],
+          "belege": [
+            "540efc59f3135c45fc6924e2",
+            "6b5068921a6011d568de4807",
+            "9a9a61773b27e79288734a0e",
+            "f7d5011c6dad7553c34a8c31"
+          ]
+        }
+      ]
+    },
+    "geometrie_unbekannt": [
+      2540,
+      3942,
+      3956,
+      4032,
+      4081,
+      4740,
+      6019,
+      6143,
+      30157,
+      63082,
+      87580,
+      98138
+    ]
+  }
+}

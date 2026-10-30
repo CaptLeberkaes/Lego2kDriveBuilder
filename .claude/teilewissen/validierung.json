@@ -1,0 +1,228 @@
+{
+  "method": "20 vehicles; exclude all graph evidence with target chassis config. Existing GEOM was not retrained; only additional pair contacts are held out.",
+  "results": [
+    {
+      "vehicle": "4.U.Bentherehkdtht7",
+      "heldout_graph": "11837dbc86d15fbdc8999c67e7862ae01d87719f",
+      "heldout_chassis": "ChassisConfig_GarageChampionStreet",
+      "excluded_graphs": 10,
+      "stored_unique": 235,
+      "automatic_exact": 74,
+      "additional_exact": 34,
+      "additional_wrong": 0,
+      "wrong_examples": []
+    },
+    {
+      "vehicle": "ASCOTT BAILER 2.0",
+      "heldout_graph": "da11aebe40e32d08c6cc2404745d6af4e38b5a2c",
+      "heldout_chassis": "ChassisConfig_GarageChampionStreet",
+      "excluded_graphs": 10,
+      "stored_unique": 291,
+      "automatic_exact": 80,
+      "additional_exact": 33,
+      "additional_wrong": 0,
+      "wrong_examples": []
+    },
+    {
+      "vehicle": "Anakins Podracer Mk1",
+      "heldout_graph": "35227e73bf23b94b3e790f6a16c11e423987b2fa",
+      "heldout_chassis": "ChassisConfig_PoliceTruck_7032_Garage",
+      "excluded_graphs": 6,
+      "stored_unique": 320,
+      "automatic_exact": 28,
+      "additional_exact": 46,
+      "additional_wrong": 0,
+      "wrong_examples": []
+    },
+    {
+      "vehicle": "Bat Boat",
+      "heldout_graph": "4cf43d29427e02106940d041a754951ca2acc38a",
+      "heldout_chassis": "ChassisConfig_Speedboat_4641_Garage",
+      "excluded_graphs": 2,
+      "stored_unique": 176,
+      "automatic_exact": 30,
+      "additional_exact": 28,
+      "additional_wrong": 0,
+      "wrong_examples": []
+    },
+    {
+      "vehicle": "Big Green Tractor",
+      "heldout_graph": "26e2b7b2e84a0b139956cf18ea018da464e2945c",
+      "heldout_chassis": "ChassisConfig_Tractor_7684",
+      "excluded_graphs": 1,
+      "stored_unique": 146,
+      "automatic_exact": 11,
+      "additional_exact": 8,
+      "additional_wrong": 0,
+      "wrong_examples": []
+    },
+    {
+      "vehicle": "Brute Chopper",
+      "heldout_graph": "c3fc217d1a3df9b7ae496c79063fa8e731afe1f3",
+      "heldout_chassis": "ChassisConfig_PoliceTruck_7032_Garage",
+      "excluded_graphs": 6,
+      "stored_unique": 258,
+      "automatic_exact": 51,
+      "additional_exact": 22,
+      "additional_wrong": 0,
+      "wrong_examples": []
+    },
+    {
+      "vehicle": "Bulldozest",
+      "heldout_graph": "3eb24bae8dbe2761e89dce62468138cb5b085863",
+      "heldout_chassis": "ChassisConfig_GarageChampionStreet",
+      "excluded_graphs": 10,
+      "stored_unique": 453,
+      "automatic_exact": 83,
+      "additional_exact": 56,
+      "additional_wrong": 0,
+      "wrong_examples": []
+    },
+    {
+      "vehicle": "Cattle Driver",
+      "heldout_graph": "de7e3a4853b96236fbd331455d3124d186bf7368",
+      "heldout_chassis": "ChassisConfig_BigOlTexasConvertible_VC000",
+      "excluded_graphs": 1,
+      "stored_unique": 424,
+      "automatic_exact": 78,
+      "additional_exact": 15,
+      "additional_wrong": 0,
+      "wrong_examples": []
+    },
+    {
+      "vehicle": "Explorateur nocturne",
+      "heldout_graph": "5d749cf76e5b95e7fa8b921260f091bada4b73f2",
+      "heldout_chassis": "ChassisConfig_SwampBoat_5866_Garage",
+      "excluded_graphs": 2,
+      "stored_unique": 242,
+      "automatic_exact": 60,
+      "additional_exact": 45,
+      "additional_wrong": 0,
+      "wrong_examples": []
+    },
+    {
+      "vehicle": "For JokerMessiah",
+      "heldout_graph": "da24e6fe855502fbfab2860dd2031c17e70e4826",
+      "heldout_chassis": "ChassisConfig_WakePro",
+      "excluded_graphs": 1,
+      "stored_unique": 414,
+      "automatic_exact": 64,
+      "additional_exact": 35,
+      "additional_wrong": 0,
+      "wrong_examples": []
+    },
+    {
+      "vehicle": "Helicopter",
+      "heldout_graph": "f8febc27808ced1e81221315a08fbbdb435324a0",
+      "heldout_chassis": "ChassisConfig_EcoCar_60200_Garage",
+      "excluded_graphs": 4,
+      "stored_unique": 123,
+      "automatic_exact": 17,
+      "additional_exact": 14,
+      "additional_wrong": 0,
+      "wrong_examples": []
+    },
+    {
+      "vehicle": "Minigame bots farm",
+      "heldout_graph": "d4d154d570919af283cc2ea9046ac30e18c278bd",
+      "heldout_chassis": "ChassisConfig_ShowOff",
+      "excluded_graphs": 2,
+      "stored_unique": 476,
+      "automatic_exact": 71,
+      "additional_exact": 36,
+      "additional_wrong": 0,
+      "wrong_examples": []
+    },
+    {
+      "vehicle": "Model G022",
+      "heldout_graph": "5344a17f3a0c3d94058da360d71643dde67282f6",
+      "heldout_chassis": "ChassisConfig_GarageChampionStreet",
+      "excluded_graphs": 10,
+      "stored_unique": 214,
+      "automatic_exact": 56,
+      "additional_exact": 19,
+      "additional_wrong": 0,
+      "wrong_examples": []
+    },
+    {
+      "vehicle": "Modern Racer",
+      "heldout_graph": "47891b657a09960fbbb92905c37a1b499636d52d",
+      "heldout_chassis": "ChassisConfig_GarageChampionStreet",
+      "excluded_graphs": 10,
+      "stored_unique": 291,
+      "automatic_exact": 57,
+      "additional_exact": 25,
+      "additional_wrong": 0,
+      "wrong_examples": []
+    },
+    {
+      "vehicle": "New Vehicle 29",
+      "heldout_graph": "06063e45b031ec42e062e483089e1ffc3cfa052c",
+      "heldout_chassis": "ChassisConfig_ExtremeSpeed_VC000",
+      "excluded_graphs": 2,
+      "stored_unique": 135,
+      "automatic_exact": 23,
+      "additional_exact": 12,
+      "additional_wrong": 0,
+      "wrong_examples": []
+    },
+    {
+      "vehicle": "New Vehicle 49",
+      "heldout_graph": "33fb6c4b87d9b0f59b38784b44728bd00abfec67",
+      "heldout_chassis": "ChassisConfig_SweetRemix_VC000",
+      "excluded_graphs": 2,
+      "stored_unique": 115,
+      "automatic_exact": 79,
+      "additional_exact": 5,
+      "additional_wrong": 0,
+      "wrong_examples": []
+    },
+    {
+      "vehicle": "Octan Space Racer",
+      "heldout_graph": "3479c19e201c1b36d4d7864c1b1c0234705bb4d1",
+      "heldout_chassis": "ChassisConfig_LapRecord",
+      "excluded_graphs": 1,
+      "stored_unique": 294,
+      "automatic_exact": 26,
+      "additional_exact": 31,
+      "additional_wrong": 0,
+      "wrong_examples": []
+    },
+    {
+      "vehicle": "Service Truck",
+      "heldout_graph": "489933a6d4c402b6111d3e6ac5335612a70a3921",
+      "heldout_chassis": "ChassisConfig_ServiceTruck_60073",
+      "excluded_graphs": 1,
+      "stored_unique": 211,
+      "automatic_exact": 53,
+      "additional_exact": 31,
+      "additional_wrong": 0,
+      "wrong_examples": []
+    },
+    {
+      "vehicle": "Space Rover Explorer",
+      "heldout_graph": "f693e709de457fff85db36f4a552093cf4e09748",
+      "heldout_chassis": "ChassisConfig_SpaceRoverExplorer_VC31107",
+      "excluded_graphs": 1,
+      "stored_unique": 446,
+      "automatic_exact": 111,
+      "additional_exact": 15,
+      "additional_wrong": 0,
+      "wrong_examples": []
+    },
+    {
+      "vehicle": "the cooker",
+      "heldout_graph": "e40d075fa41cf750df529b735ccdde09043a5b24",
+      "heldout_chassis": "ChassisConfig_Mammoth_VC000",
+      "excluded_graphs": 1,
+      "stored_unique": 315,
+      "automatic_exact": 27,
+      "additional_exact": 44,
+      "additional_wrong": 0,
+      "wrong_examples": []
+    }
+  ],
+  "additional_exact": 554,
+  "additional_wrong": 0,
+  "source_files_unchanged": true
+}

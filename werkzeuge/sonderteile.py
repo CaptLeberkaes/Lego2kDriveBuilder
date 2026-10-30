@@ -26,6 +26,7 @@ import os
 from pathlib import Path
 import re
 import struct
+from anschluesse import REFERENZ_AUSSCHLUESSE
 
 ROOT = Path(__file__).resolve().parents[1]
 ENZ = ROOT / ".claude" / "quellen" / "l2kd-encyclopedia"
@@ -110,15 +111,25 @@ def beobachtungen(pfade, vehicles_with_source, teile_gesehen=None):
     """
     assets = collections.defaultdict(list)
     chassis = collections.defaultdict(list)
-    gesehen = set()
+    gesehen = {}
     for pfad in pfade:
         for liste, v in vehicles_with_source(pfad):
+            if v['VehicleName'].casefold() in {n.casefold() for n in REFERENZ_AUSSCHLUESSE}:
+                continue
             graph = v["PartGraph"]
             schluessel = hashlib.sha1(json.dumps(graph, sort_keys=True, default=str).encode()).hexdigest()
-            if schluessel in gesehen:
-                continue
-            gesehen.add(schluessel)
+            # Zählungen und Nutzbarkeit sind verschiedene Fragen: identische Graphen
+            # in einer anderen Quellliste dürfen den Download-Fundort nicht verlieren.
             fahrzeug = {"datei": anzeige_pfad(pfad), "liste": liste, "fahrzeug": v["VehicleName"]}
+            if schluessel in gesehen:
+                for record in gesehen[schluessel]:
+                    if all(record[k] == value for k, value in fahrzeug.items()):
+                        continue
+                    alternatives = record.setdefault('weitere_fundorte', [])
+                    if fahrzeug not in alternatives:
+                        alternatives.append(dict(fahrzeug))
+                continue
+            records = gesehen[schluessel] = []
             designs = [struct.unpack("<I", bytes.fromhex(p)[:4])[0] for p in graph["Parts"]["items"]]
             if teile_gesehen is not None:
                 teile_gesehen.update(designs)
@@ -131,17 +142,18 @@ def beobachtungen(pfade, vehicles_with_source, teile_gesehen=None):
                 if ordner == "Chassis":
                     chassis_assets.append(name)
                 teile = designs[a["PartOffset"]:a["PartOffset"] + a["NumParts"]]
-                assets[(ordner, name)].append(dict(fahrzeug, baugruppenname=a["AssemblyName"],
-                                                           teile=sorted(set(teile))))
+                record = dict(fahrzeug, baugruppenname=a["AssemblyName"], teile=sorted(set(teile)))
+                assets[(ordner, name)].append(record); records.append(record)
             config = v["ChassisConfig"].split(".")[-1]
-            chassis[config].append(dict(fahrzeug, fahrzeugklasse=v["VehicleClass"].split("::")[-1],
-                                                motor=motor(v.get("EngineConfig")),
-                                                chassis_baugruppen=chassis_assets))
+            record = dict(fahrzeug, fahrzeugklasse=v["VehicleClass"].split("::")[-1],
+                          motor=motor(v.get("EngineConfig")), chassis_baugruppen=chassis_assets)
+            chassis[config].append(record); records.append(record)
     return assets, chassis
 
 
 def builder_info(beobachtet):
-    nutzbar = [b for b in beobachtet if b["liste"] in BUILDER_LISTEN]
+    fundorte = [dict(b, **where) for b in beobachtet for where in [{}, *b.get('weitere_fundorte', [])]]
+    nutzbar = [b for b in fundorte if b["liste"] in BUILDER_LISTEN]
     if nutzbar:
         hinweis = "Als Vorlage/Spender nutzbar: " + ", ".join(sorted({f"{b['fahrzeug']} ({b['datei']})" for b in nutzbar})[:3])
     elif beobachtet:

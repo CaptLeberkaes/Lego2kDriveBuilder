@@ -1,5 +1,7 @@
 # Teileliste Set 31015 „Emerald Express“ (LEGO Creator 3in1)
 
+**Korrektur 30.10.2026:** Die damaligen negativen Teilefinder-Ergebnisse sind kein Existenznachweis. 2436, 61252 und 63082 sind inzwischen in Katalog und gespeicherten Referenzfahrzeugen belegt. Für 2436b ist die genaue Variantenform noch zu prüfen. Siehe [Teilewissen und Quellen](../.claude/teilewissen/README.md).
+
 Quelle: BrickLink-Inventar 31015-1 (35 Teilearten, 56 Teile + 4 Ersatzteile), abgerufen 29.10.2026.
 Abgleich mit LEGO 2K Drive: **Katalog** = im Body Shop sichtbar, **Vorlagen** = kommt in geladenen
 Creators-Hub-Modellen vor (Anschlusspunkte bekannt), **Spielfarbe** = Farbindex im Spielstand.
@@ -9,15 +11,15 @@ Dunkelgrau (Dark Bluish Gray) = vermutlich 12, Trans-Klar = 16, Trans-Gelb = 20.
 
 | Anz. | Teil | Farbe | Beschreibung | Im Spiel |
 |---|---|---|---|---|
-| 1 | 2436b | Schwarz | Winkel 1×2 – 1×4, abgerundet | ❌ gibt es nicht → im Modell stattdessen **3956** (🔒 Drive Pass) |
+| 1 | 2436b | Schwarz | Winkel 1×2 – 1×4, abgerundet | Spiel-ID **2436** in Referenzen belegt; genaue b-Variante unbestätigt; bisheriger Modell-Ersatz 3956 |
 | 1 | 3956 | Schwarz | Winkel 2×2 – 2×2 mit 2 Löchern | 🔒 Drive Pass S3 (in Vorlagen vorhanden) |
 | 1 | 3942c | Schwarz | Kegel 2×2×2 | ✅ als 3942 in Vorlagen |
 | 1 | 4740 | Schwarz | Schüssel 2×2 invertiert (Radar) | ✅ |
 | 2 | 3023 | Schwarz | Platte 1×2 | ✅ |
 | 2 | 4081b | Schwarz | Platte 1×1 mit Lampenhalter (Ring) | ✅ als 4081 |
-| 1 | 61252 | Schwarz | Platte 1×1 mit offenem O-Clip | ❌ → Ersatz **6019** ✅ |
+| 1 | 61252 | Schwarz | Platte 1×1 mit offenem O-Clip | ✅ Katalog und Referenzen; Kontakt an 2540 im Space Rover Explorer belegt; bisheriger Ersatz 6019 |
 | 1 | 2540 | Schwarz | Platte 1×2 mit Griff seitlich | ✅ |
-| 1 | 63082 | Schwarz | Platte 2×2 mit Kugelpfanne | ❌ – im Modell nicht verbaut |
+| 1 | 63082 | Schwarz | Platte 2×2 mit Kugelpfanne | ✅ Katalog und Referenzen; auch in der manuell verbesserten Emerald verbaut |
 | 1 | 4600 | Schwarz | Platte 2×2 mit Radhalter | ❌ – im Modell nicht verbaut (andere Aufhängung) |
 | 6 | 4073 | Schwarz | Rundplatte 1×1 | ✅ im Spiel als **6141** |
 | 2 | 88930 | Schwarz | Schräge gebogen 2×4×2/3 (Dach) | ✅ |

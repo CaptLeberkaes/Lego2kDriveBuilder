@@ -6,9 +6,11 @@ Sonderteile werden mit den im Generator hergeleiteten Weltmaßen eingetragen (ke
 import itertools
 import json
 import sys
+from pathlib import Path
 
 sys.path.insert(0, sys.argv[1])
-from baugeometrie import GEOM, cells, quat_z, rotate  # noqa: E402
+from baugeometrie import GEOM, cells, quat_z, rotate, quaternion  # noqa: E402
+from baue_fahrzeug import place_parts, load_knowledge  # noqa: E402
 
 FARBE = {1: "#c9ccd1", 12: "#6b6f75", 11: "#1b1b1b", 7: "#c8102e", 38: "#1f5a32", 16: "#cfe8f3", 20: "#f5d000"}
 plan = json.load(open(sys.argv[2], encoding="utf-8"))
@@ -19,40 +21,29 @@ def box(name, farbe, x, y, z, form="box"):
     boxen.append((name, farbe, tuple(sorted(x)), tuple(sorted(y)), tuple(sorted(z)), form))
 
 
-SONDER = {  # Weltmaße der im Spiel korrigierten Fassung (Kesselachse y=0, z=75)
-    "winkel": [((-75, -25), (-25, 25), (40, 50)), ((-25, -15), (-25, 25), (50, 100))],
-    "kessel_hinten": [((-55, -25), (-25, 25), (50, 100), "zyl_x")],
-    "kessel_vorn": [((-15, 15), (-25, 25), (50, 100), "zyl_x")],
-    "kugelplatte": [((-65, -55), (-25, 25), (50, 100))],
-    "kesselende": [((-75, -65), (-25, 25), (50, 100), "zyl_x")],
-    "ring_unten": [((15, 25), (-25, 25), (50, 75))],
-    "griff": [((15, 25), (-25, 25), (75, 100))],
-    "rauchkammer": [((25, 35), (-25, 25), (50, 100))],
-    "tuer": [((35, 43), (-25, 25), (50, 100), "zyl_x")],
-    "lampe": [((45, 50), (-12.5, 12.5), (62.5, 87.5), "zyl_x")],
-    "clip": [((-15, 10), (-15, 10), (110, 120))],
-    "clipfliese": [((-15, 10), (-15, 10), (100, 110))],
-    "schornstein": [((-27.5, 22.5), (-27.5, 22.5), (120, 180), "kegel")],
-    "halter_links": [((25, 50), (0, 25), (10, 20))],
-    "halter_rechts": [((25, 50), (-25, 0), (10, 20))],
-    "zylinder_links": [((32.5, 52.5), (25, 35), (7.5, 27.5), "zyl_x")],
-    "zylinder_rechts": [((32.5, 52.5), (-35, -25), (7.5, 27.5), "zyl_x")],
-}
-for t in plan["teile"]:
+SONDER = json.loads(Path(__file__).with_name('huellkoerper.json').read_text(encoding='utf-8'))['teile']
+placements = place_parts(plan['teile'], {}, load_knowledge(plan))
+for t, placement in zip(plan["teile"], placements):
+    q = quaternion(placement['rot']); pos = placement['pos']
     if t["id"] in SONDER:
-        for spec in SONDER[t["id"]]:
-            box(t["id"], t["farbe"], *spec)
+        shape = SONDER[t['id']]
+        if shape['teil'] != t['teil']:
+            raise ValueError(f"Hüllkörper passt nicht zur Teilenummer: {t['id']}")
+        unchanged_rotation = 1-abs(sum(a*b for a,b in zip(q, shape['referenzrotation']))) < 1e-7
+        for spec in shape['formen']:
+            corners = [tuple(x+y for x,y in zip(pos, rotate(q, corner))) for corner in spec['ecken_lokal']]
+            axes = [(min(c[i] for c in corners), max(c[i] for c in corners)) for i in range(3)]
+            box(t['id'], t['farbe'], *axes, form=spec['form'] if unchanged_rotation else 'box')
         continue
     geo = GEOM[t["teil"]]
-    q = quat_z(t.get("dreh", 0))
-    px, py, pz = t["pos"]
     for u, v in cells(geo, "unten") or cells(geo, "oben"):
-        cx, cy, _ = rotate(q, (25 * u, -25 * v, 0))
+        corners = [tuple(x+y for x,y in zip(pos, rotate(q, corner)))
+                   for corner in itertools.product((25*u-12.5, 25*u+12.5), (-25*v-12.5, -25*v+12.5), (0, geo['h']))]
+        axes = [(min(c[i] for c in corners), max(c[i] for c in corners)) for i in range(3)]
         form = "box"
         if t["teil"] == 3040 and (u, v) != (0, 0):
             form = "schraege_x"
-        box(t["id"], t["farbe"], (px + cx - 12.5, px + cx + 12.5), (py + cy - 12.5, py + cy + 12.5),
-            (pz, pz + geo["h"]), form)
+        box(t["id"], t["farbe"], *axes, form)
 # Chassis und Räder aus "Alte Schule" (Lage wie gespeichert; Reifen 61254 Ø24 mm = 75, Breite 7 mm ≈ 22)
 box("chassis_2445", 1, (-150, 150), (-25, 25), (0, 10))
 box("radhalter_vorn", 1, (100, 150), (-50, 50), (10, 20))

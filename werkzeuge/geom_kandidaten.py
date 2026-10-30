@@ -111,6 +111,10 @@ def beobachtungen(vehicles, kandidaten):
                 if sig in seen:
                     continue
                 seen.add(sig)
+                kind = c['Type'].split('::')[-1]
+                expected = 'HingeConnection' if c['Strength'] == 1 else 'FixedConnection'
+                if kind != expected:
+                    continue  # Clips/Achsen/Kugeln sind keine Noppenflächen-Belege.
                 for t, p, ft in ((c["PartIndexA"], c["PartIndexB"], c["FieldIndexA"]),
                                  (c["PartIndexB"], c["PartIndexA"], c["FieldIndexB"])):
                     dt, dp = parts[t]["design"], parts[p]["design"]
@@ -121,13 +125,14 @@ def beobachtungen(vehicles, kandidaten):
                             flaechen[i] = faces(parts[i])
                     ft_t, ft_p = flaechen[t], flaechen[p]
                     treffer = []
+                    partner_field = c['FieldIndexB'] if t == c['PartIndexA'] else c['FieldIndexA']
                     if "unten" in ft_t and "oben" in ft_p:
                         n = flaechenkontakt(ft_p["oben"], ft_t["unten"])
-                        if n:
+                        if n and ft_p['oben'][0] == partner_field:
                             treffer.append(("unten", n))
                     if "oben" in ft_t and "unten" in ft_p:
                         n = flaechenkontakt(ft_t["oben"], ft_p["unten"])
-                        if n:
+                        if n and ft_p['unten'][0] == partner_field:
                             treffer.append(("oben", n))
                     if len(treffer) != 1:
                         ohne_kontakt[dt] += 1  # Seitennoppe, Clip, skaliert o. Ä.: kein Flächenbeleg.
@@ -159,7 +164,8 @@ def bewerte(design, groesse, obs, ohne_kontakt, vorbild=None):
             widerspruch.append(f"{seite}: {len(falsch)} Kontakte mit anderer Noppenzahl als vorhergesagt")
         if vorbild and felder and set(felder) != {vorbild.get(seite)}:
             widerspruch.append(f"{seite}: Felder {dict(felder)} weichen vom Original ab")
-        if len(felder) == 1 and not falsch and len(items) >= mindestens:
+        geometric_items = [o for o in items if not o.get('schief')]
+        if len(felder) == 1 and not falsch and len(geometric_items) >= mindestens:
             geo[seite] = next(iter(felder))
     if geo["unten"] is not None and geo["unten"] == geo["oben"]:
         widerspruch.append("Unter- und Oberseite mit gleichem Feld")
@@ -181,7 +187,7 @@ def gegentest(vehicles, neu):
             for c in v["PartGraph"]["Connections"]["items"]:
                 a, b, fa, fb = c["PartIndexA"], c["PartIndexB"], c["FieldIndexA"], c["FieldIndexB"]
                 key = (a, b, fa, fb) if a < b else (b, a, fb, fa)
-                gespeichert[key] = c["Strength"]
+                gespeichert.setdefault(key, set()).add((c['Strength'], c['Type'].split('::')[-1]))
             flaechen = [faces(p) if p["design"] in GEOM and not GEOM[p["design"]].get("maske_unbekannt") else {}
                         for p in parts]
             for a, fa in enumerate(flaechen):
@@ -199,8 +205,10 @@ def gegentest(vehicles, neu):
                             stat[d]["schief_uebersprungen"] += 1
                         continue
                     key = (a, b, fa["oben"][0], fb["unten"][0]) if a < b else (b, a, fb["unten"][0], fa["oben"][0])
-                    ergebnis = ("exakt" if gespeichert.get(key) == n else
-                                "andere_staerke" if key in gespeichert else
+                    expected = (n, 'HingeConnection' if n == 1 else 'FixedConnection')
+                    ergebnis = ("exakt" if expected in gespeichert.get(key, set()) else
+                                "andere_staerke" if key in gespeichert and not any(s == n for s, _ in gespeichert[key]) else
+                                "anderer_typ" if key in gespeichert else
                                 "nicht_gespeichert")
                     for d in {da, db} & set(neu):
                         stat[d][ergebnis] += 1
@@ -226,8 +234,10 @@ def analysiere(vehicles, kandidaten, teile):
     test = gegentest(vehicles, neu)
     for e in ergebnisse:
         e["gegentest"] = test.get(e["teil"], {})
-        if e["geom"] and (e["gegentest"].get("andere_staerke") or e["gegentest"].get("nicht_gespeichert")):
+        if e["geom"] and (e["gegentest"].get("andere_staerke") or e["gegentest"].get("anderer_typ") or e["gegentest"].get("nicht_gespeichert")):
             e["status"] = "gegentest_abweichend"
+        elif e['geom'] and not e['gegentest'].get('exakt'):
+            e['status'] = 'gegentest_ohne_belege'
     return ergebnisse
 
 

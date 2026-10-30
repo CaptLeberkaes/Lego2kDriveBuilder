@@ -5,6 +5,7 @@ Stand: 29.10.2026, erarbeitet mit Claude Code.
 
 Aktueller Builder mit Prüfmodus, 3D-Verbindungen, Chassis-Katalog und Regressionstests:
 [Änderungen und Bedienung](.claude/builder-verbesserungen-2026-10-29.md).
+Erweiterung vom 30.10.2026: [Teilewissen aus Referenzfahrzeugen und kontaktbasierte Platzierung](.claude/teilewissen/README.md).
 
 ## Schnellstart ohne Programmieren: 2K Drive Tools
 
@@ -228,7 +229,7 @@ Weitere Indizes kommen in Vorlagen vor (33, 36, 44, 45, 46, 47, 51, 57, 62, 64, 
 
 - `pos` = Mitte der Ecknoppe (lokal 0,0), z = Unterkante; Teil liegt lokal entlang +x (Länge) und −y (Breite).
 - `dreh` = Drehung um die Hochachse in Grad; alternativ `rot` = Quaternion `[x,y,z,w]` für volle 3D-Lagen.
-  Unbekannte Anschlussgeometrie erfordert ausdrücklich vorgegebene Verbindungen; Einzelheiten im aktuellen Builder-Dokument unter `.claude/`.
+  Sonderteile können zusätzlich über beobachtete Kontaktlagen aus der Teilewissen-Bibliothek verbunden und platziert werden; fehlen passende Belege, sind ausdrücklich vorgegebene Verbindungen nötig. Einzelheiten unter `.claude/teilewissen/README.md`.
 - `felgen`: Felgenfarbe je Rad, z.B. `{"fl": 1, "fr": 1}` (fl/fr = vorne, bl/br = hinten).
 - `radtausch`: Rad-Baugruppe aus anderem Fahrzeug übernehmen, z.B. `{"fl": "Bulldozest", "fr": "Bulldozest"}`
   (dort: Räder 13971_61254 = Eisenbahn-artige Felge). Lage wird an die alten Räder angepasst.

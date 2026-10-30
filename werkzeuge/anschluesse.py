@@ -23,6 +23,9 @@ from baugeometrie import GEOM
 SPIELSTAENDE = os.path.expandvars(r"%USERPROFILE%\Documents\My Games\Artemis\Saved\SaveGames")
 FAHRZEUG_DATEIEN = ("ArtemisVehicle.sav", "ArtemisDownloadedVehicle.sav", "ArtemisExtraVehicle.sav",
                     "ArtemisChubCache.sav")
+# Nutzerangabe 30.10.2026: die übrigen Fahrzeuge dienen als Spielreferenzen;
+# ausschließlich das KI-gebaute Shuttle nicht als Lernbeleg verwenden.
+REFERENZ_AUSSCHLUESSE = frozenset({'Shuttle Rover'})
 
 
 def expand(paths):
@@ -57,10 +60,13 @@ def fingerprint(vehicle):
     return hashlib.sha1(json.dumps(vehicle["PartGraph"], sort_keys=True, default=str).encode()).hexdigest()
 
 
-def unique_vehicles(paths):
+def unique_vehicles(paths, excluded_names=REFERENZ_AUSSCHLUESSE):
     seen = set()
+    excluded = {name.casefold() for name in excluded_names}
     for path in paths:
         for v in vehicles(path):
+            if v['VehicleName'].casefold() in excluded:
+                continue
             key = fingerprint(v)
             if key not in seen:
                 seen.add(key)

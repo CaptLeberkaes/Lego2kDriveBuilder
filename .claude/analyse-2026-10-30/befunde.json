@@ -1,0 +1,1025 @@
+{
+  "date": "2026-10-30",
+  "scope": "Analysis only. Chassis fixed; wheel design excluded per user. Current Emerald is user-corrected.",
+  "sources": [
+    {
+      "file": "ArtemisVehicle.sav",
+      "named_vehicles": 46
+    },
+    {
+      "file": "ArtemisDownloadedVehicle.sav",
+      "named_vehicles": 16
+    },
+    {
+      "file": "ArtemisExtraVehicle.sav",
+      "named_vehicles": 0
+    },
+    {
+      "file": "ArtemisChubCache.sav",
+      "named_vehicles": 51
+    }
+  ],
+  "unique_graphs": 103,
+  "observed_designs": 1052,
+  "catalog_designs": 2028,
+  "geom_designs": 76,
+  "designs_with_connections_live": 994,
+  "designs_with_connections_stored": 1016,
+  "new_connection_designs_since_stored": [],
+  "stored_designs_absent_from_live": [
+    3676,
+    3814,
+    3815,
+    3818,
+    3819,
+    3820,
+    4183,
+    18824,
+    20926,
+    20932,
+    28964,
+    32140,
+    32526,
+    37762,
+    40490,
+    56898,
+    59426,
+    60032,
+    61487,
+    87543,
+    90509,
+    92107
+  ],
+  "special_catalog_stale_sources": [
+    {
+      "file": "ArtemisVehicle.sav",
+      "catalog_hash": "4a22d8ca8a61fb1d",
+      "current_hash": "06b2470524e0b90e"
+    },
+    {
+      "file": "ArtemisExtraVehicle.sav",
+      "catalog_hash": "e58895b8a665ca93",
+      "current_hash": "190a7818edff8156"
+    },
+    {
+      "file": "ArtemisChubCache.sav",
+      "catalog_hash": "98812054e64eb63a",
+      "current_hash": "e3d2b3c30355a357"
+    }
+  ],
+  "archive_corpus": {
+    "distinct_save_contents": 42,
+    "unique_graphs": 132,
+    "observed_designs": 1075,
+    "designs_with_connections": 1016,
+    "stored_fields_not_in_archive": [],
+    "body_instances_excluding_all_assemblies": 17706,
+    "body_instances_with_geom": 6884,
+    "body_designs": 900,
+    "most_frequent_body_designs_without_geom": [
+      [
+        50746,
+        310
+      ],
+      [
+        35480,
+        278
+      ],
+      [
+        11477,
+        242
+      ],
+      [
+        2412,
+        239
+      ],
+      [
+        85984,
+        209
+      ],
+      [
+        22388,
+        189
+      ],
+      [
+        98138,
+        183
+      ],
+      [
+        15068,
+        178
+      ],
+      [
+        4274,
+        148
+      ],
+      [
+        85861,
+        148
+      ],
+      [
+        36841,
+        145
+      ],
+      [
+        25269,
+        139
+      ],
+      [
+        4032,
+        138
+      ],
+      [
+        2420,
+        133
+      ],
+      [
+        99780,
+        133
+      ],
+      [
+        3794,
+        129
+      ],
+      [
+        3665,
+        114
+      ],
+      [
+        20482,
+        114
+      ],
+      [
+        61409,
+        110
+      ],
+      [
+        3660,
+        110
+      ],
+      [
+        2780,
+        109
+      ],
+      [
+        36840,
+        105
+      ],
+      [
+        28192,
+        102
+      ],
+      [
+        32028,
+        97
+      ],
+      [
+        25214,
+        87
+      ]
+    ],
+    "contact_dossier_patterns": 1371,
+    "files": [
+      "ArtemisVehicle.sav",
+      "ArtemisDownloadedVehicle.sav",
+      "ArtemisExtraVehicle.sav",
+      "ArtemisChubCache.sav",
+      "_sicherungen/2026-10-29_11-32-21/ArtemisChubCache.sav",
+      "_sicherungen/2026-10-29_11-32-21/ArtemisExtraVehicle.sav",
+      "_sicherungen/2026-10-29_11-32-21/ArtemisVehicle.sav",
+      "_sicherungen/2026-10-29_12-32-00/ArtemisChubCache.sav",
+      "_sicherungen/2026-10-29_12-32-00/ArtemisExtraVehicle.sav",
+      "_sicherungen/2026-10-29_12-32-00/ArtemisVehicle.sav",
+      "_sicherungen/2026-10-29_19-43-10/ArtemisChubCache.sav",
+      "_sicherungen/2026-10-29_19-43-10/ArtemisExtraVehicle.sav",
+      "_sicherungen/2026-10-29_19-43-10/ArtemisVehicle.sav",
+      "_sicherungen/2026-10-29_20-44-44/ArtemisChubCache.sav",
+      "_sicherungen/2026-10-29_20-44-44/ArtemisExtraVehicle.sav",
+      "_sicherungen/2026-10-29_20-44-44/ArtemisVehicle.sav",
+      "_sicherungen/2026-10-29_21-17-07/ArtemisChubCache.sav",
+      "_sicherungen/2026-10-29_21-17-07/ArtemisExtraVehicle.sav",
+      "_sicherungen/2026-10-29_21-17-07/ArtemisVehicle.sav",
+      "_sicherungen/2026-10-29_21-36-11/ArtemisChubCache.sav",
+      "_sicherungen/2026-10-29_21-36-11/ArtemisExtraVehicle.sav",
+      "_sicherungen/2026-10-29_21-36-11/ArtemisVehicle.sav",
+      "_sicherungen/2026-10-29_21-41-12/ArtemisChubCache.sav",
+      "_sicherungen/2026-10-29_21-41-12/ArtemisExtraVehicle.sav",
+      "_sicherungen/2026-10-29_21-41-12/ArtemisVehicle.sav",
+      "_sicherungen/2026-10-29_21-53-23/ArtemisExtraVehicle.sav",
+      "_sicherungen/2026-10-29_21-53-23/ArtemisVehicle.sav",
+      "_sicherungen/2026-10-29_21-56-54/ArtemisVehicle.sav",
+      "_sicherungen/2026-10-29_22-01-38/ArtemisVehicle.sav",
+      "_sicherungen/2026-10-29_22-07-10/ArtemisVehicle.sav",
+      "_sicherungen/2026-10-29_22-10-19/ArtemisVehicle.sav",
+      "_sicherungen/2026-10-29_22-12-21/ArtemisVehicle.sav",
+      "_sicherungen/2026-10-29_22-25-00/ArtemisVehicle.sav",
+      "_sicherungen/2026-10-29_22-37-51/ArtemisVehicle.sav",
+      "_sicherungen/2026-10-29_23-15-46/ArtemisExtraVehicle.sav",
+      "_sicherungen/2026-10-29_23-15-46/ArtemisVehicle.sav",
+      "_sicherungen/freischaltung_2026-10-29_19-56-47/ArtemisChubCache.sav",
+      "_sicherungen/freischaltung_2026-10-29_19-56-47/ArtemisExtraVehicle.sav",
+      "_sicherungen/freischaltung_2026-10-29_19-56-47/ArtemisVehicle.sav",
+      "_sicherungen/freischaltung_2026-10-29_20-23-08/ArtemisChubCache.sav",
+      "_sicherungen/freischaltung_2026-10-29_20-23-08/ArtemisExtraVehicle.sav",
+      "_sicherungen/freischaltung_2026-10-29_20-23-08/ArtemisVehicle.sav"
+    ]
+  },
+  "emerald_part_observations": {
+    "2436": {
+      "catalog": {
+        "name": "ANGLE PLATE 1X2/1X4",
+        "groesse": [
+          4,
+          1,
+          3
+        ],
+        "masse": 28.381,
+        "aliase": [
+          2436
+        ],
+        "bild": "T_2436_Icon"
+      },
+      "geom": null,
+      "unique_graph_instance_count": 13,
+      "examples": [
+        {
+          "file": "ArtemisVehicle.sav",
+          "list": "CustomVehicles",
+          "vehicle": "Hamburghini",
+          "count": 1
+        },
+        {
+          "file": "ArtemisVehicle.sav",
+          "list": "CustomVehicles",
+          "vehicle": "Cattle Driver",
+          "count": 8
+        },
+        {
+          "file": "ArtemisVehicle.sav",
+          "list": "CustomVehicles",
+          "vehicle": "Airport Baggage Cart",
+          "count": 1
+        },
+        {
+          "file": "ArtemisVehicle.sav",
+          "list": "CustomVehicles",
+          "vehicle": "Bajambug",
+          "count": 1
+        },
+        {
+          "file": "ArtemisVehicle.sav",
+          "list": "CustomVehicles",
+          "vehicle": "Cornmobile",
+          "count": 1
+        },
+        {
+          "file": "ArtemisChubCache.sav",
+          "list": "CachedVehicles",
+          "vehicle": "Lil pickup",
+          "count": 1
+        }
+      ]
+    },
+    "3065": {
+      "catalog": {
+        "name": "BRICK 1X2 WITHOUT PIN",
+        "groesse": [
+          2,
+          1,
+          3
+        ],
+        "masse": 25.024,
+        "aliase": [
+          3065,
+          35743
+        ],
+        "bild": "T_3065_Icon"
+      },
+      "geom": null,
+      "unique_graph_instance_count": 12,
+      "examples": [
+        {
+          "file": "ArtemisVehicle.sav",
+          "list": "CustomVehicles",
+          "vehicle": "Hamburghini",
+          "count": 1
+        },
+        {
+          "file": "ArtemisVehicle.sav",
+          "list": "CustomVehicles",
+          "vehicle": "Space Rover Explorer",
+          "count": 2
+        },
+        {
+          "file": "ArtemisVehicle.sav",
+          "list": "CustomVehicles",
+          "vehicle": "Family-Size Chicken Wagon",
+          "count": 3
+        },
+        {
+          "file": "ArtemisVehicle.sav",
+          "list": "CustomVehicles",
+          "vehicle": "Big Ol' Tex",
+          "count": 4
+        },
+        {
+          "file": "ArtemisChubCache.sav",
+          "list": "CachedVehicles",
+          "vehicle": "RS3500T",
+          "count": 2
+        }
+      ]
+    },
+    "61252": {
+      "catalog": {
+        "name": "PLATE 1X1 W/HOLDER VERTICAL",
+        "groesse": [
+          1,
+          2,
+          1
+        ],
+        "masse": 8.24,
+        "aliase": [
+          61252,
+          52738
+        ],
+        "bild": "T_61252_Icon"
+      },
+      "geom": null,
+      "unique_graph_instance_count": 6,
+      "examples": [
+        {
+          "file": "ArtemisVehicle.sav",
+          "list": "CustomVehicles",
+          "vehicle": "Space Rover Explorer",
+          "count": 1
+        },
+        {
+          "file": "ArtemisVehicle.sav",
+          "list": "CustomVehicles",
+          "vehicle": "XL Traffic Cones",
+          "count": 2
+        },
+        {
+          "file": "ArtemisVehicle.sav",
+          "list": "CustomVehicles",
+          "vehicle": "Service Truck",
+          "count": 2
+        },
+        {
+          "file": "ArtemisVehicle.sav",
+          "list": "CustomVehicles",
+          "vehicle": "World Racers Desert Truck",
+          "count": 1
+        }
+      ]
+    },
+    "61409": {
+      "catalog": {
+        "name": "ROOF TILE W. LATTICE 1x2x2/3",
+        "groesse": [
+          1,
+          2,
+          2
+        ],
+        "masse": 9.155,
+        "aliase": [
+          61409,
+          18863,
+          67119
+        ],
+        "bild": "T_61409_Icon"
+      },
+      "geom": null,
+      "unique_graph_instance_count": 124,
+      "examples": [
+        {
+          "file": "ArtemisVehicle.sav",
+          "list": "CustomVehicles",
+          "vehicle": "Allrad-Dynamo",
+          "count": 2
+        },
+        {
+          "file": "ArtemisVehicle.sav",
+          "list": "CustomVehicles",
+          "vehicle": "Cattle Driver",
+          "count": 6
+        },
+        {
+          "file": "ArtemisVehicle.sav",
+          "list": "CustomVehicles",
+          "vehicle": "Cranium Insanium",
+          "count": 4
+        },
+        {
+          "file": "ArtemisVehicle.sav",
+          "list": "CustomVehicles",
+          "vehicle": "Space Rover Explorer",
+          "count": 4
+        },
+        {
+          "file": "ArtemisVehicle.sav",
+          "list": "CustomVehicles",
+          "vehicle": "The Fusion Juggernaut",
+          "count": 2
+        },
+        {
+          "file": "ArtemisVehicle.sav",
+          "list": "CustomVehicles",
+          "vehicle": "Service Truck",
+          "count": 4
+        },
+        {
+          "file": "ArtemisVehicle.sav",
+          "list": "CustomVehicles",
+          "vehicle": "Diesel Punk",
+          "count": 2
+        },
+        {
+          "file": "ArtemisVehicle.sav",
+          "list": "CustomVehicles",
+          "vehicle": "Muspel Car",
+          "count": 2
+        },
+        {
+          "file": "ArtemisVehicle.sav",
+          "list": "CustomVehicles",
+          "vehicle": "The Organ Grinder",
+          "count": 2
+        },
+        {
+          "file": "ArtemisVehicle.sav",
+          "list": "CustomVehicles",
+          "vehicle": "World Racers Desert Truck",
+          "count": 6
+        },
+        {
+          "file": "ArtemisVehicle.sav",
+          "list": "CustomVehicles",
+          "vehicle": "The Reeducator",
+          "count": 2
+        },
+        {
+          "file": "ArtemisVehicle.sav",
+          "list": "CustomVehicles",
+          "vehicle": "Shadow Z-Beast",
+          "count": 4
+        },
+        {
+          "file": "ArtemisDownloadedVehicle.sav",
+          "list": "DownloadedVehicles",
+          "vehicle": "Bulldozest",
+          "count": 4
+        },
+        {
+          "file": "ArtemisDownloadedVehicle.sav",
+          "list": "DownloadedVehicles",
+          "vehicle": "Model G022",
+          "count": 4
+        },
+        {
+          "file": "ArtemisDownloadedVehicle.sav",
+          "list": "DownloadedVehicles",
+          "vehicle": "4.U.Bentherehkdtht7",
+          "count": 4
+        },
+        {
+          "file": "ArtemisDownloadedVehicle.sav",
+          "list": "DownloadedVehicles",
+          "vehicle": "Brute Chopper",
+          "count": 2
+        },
+        {
+          "file": "ArtemisDownloadedVehicle.sav",
+          "list": "DownloadedVehicles",
+          "vehicle": "Bat Boat",
+          "count": 4
+        },
+        {
+          "file": "ArtemisDownloadedVehicle.sav",
+          "list": "DownloadedVehicles",
+          "vehicle": "the cooker",
+          "count": 2
+        },
+        {
+          "file": "ArtemisDownloadedVehicle.sav",
+          "list": "DownloadedVehicles",
+          "vehicle": "Explorateur nocturne",
+          "count": 6
+        },
+        {
+          "file": "ArtemisChubCache.sav",
+          "list": "CachedVehicles",
+          "vehicle": "Shadow Z Thunder",
+          "count": 4
+        },
+        {
+          "file": "ArtemisChubCache.sav",
+          "list": "CachedVehicles",
+          "vehicle": "OLD SCHOOL COOL",
+          "count": 2
+        },
+        {
+          "file": "ArtemisChubCache.sav",
+          "list": "CachedVehicles",
+          "vehicle": "OCTAN",
+          "count": 2
+        },
+        {
+          "file": "ArtemisChubCache.sav",
+          "list": "CachedVehicles",
+          "vehicle": "Custom Flowrider",
+          "count": 4
+        },
+        {
+          "file": "ArtemisChubCache.sav",
+          "list": "CachedVehicles",
+          "vehicle": "Custom Lowridirt",
+          "count": 4
+        },
+        {
+          "file": "ArtemisChubCache.sav",
+          "list": "CachedVehicles",
+          "vehicle": "Custom Lowrider",
+          "count": 4
+        },
+        {
+          "file": "ArtemisChubCache.sav",
+          "list": "CachedVehicles",
+          "vehicle": "TB500",
+          "count": 2
+        },
+        {
+          "file": "ArtemisChubCache.sav",
+          "list": "CachedVehicles",
+          "vehicle": "Specter Twenty Seven",
+          "count": 1
+        },
+        {
+          "file": "ArtemisChubCache.sav",
+          "list": "CachedVehicles",
+          "vehicle": "Heavy Night Officer",
+          "count": 6
+        },
+        {
+          "file": "ArtemisChubCache.sav",
+          "list": "CachedVehicles",
+          "vehicle": "4.U.Bentherehkdtht7",
+          "count": 4
+        },
+        {
+          "file": "ArtemisChubCache.sav",
+          "list": "CachedVehicles",
+          "vehicle": "FLAT BATROD",
+          "count": 2
+        },
+        {
+          "file": "ArtemisChubCache.sav",
+          "list": "CachedVehicles",
+          "vehicle": "Speed demon 2012",
+          "count": 4
+        },
+        {
+          "file": "ArtemisChubCache.sav",
+          "list": "CachedVehicles",
+          "vehicle": "Bananana.Bread",
+          "count": 6
+        },
+        {
+          "file": "ArtemisChubCache.sav",
+          "list": "CachedVehicles",
+          "vehicle": "Brute Chopper",
+          "count": 2
+        },
+        {
+          "file": "ArtemisChubCache.sav",
+          "list": "CachedVehicles",
+          "vehicle": "Bat Boat",
+          "count": 4
+        },
+        {
+          "file": "ArtemisChubCache.sav",
+          "list": "CachedVehicles",
+          "vehicle": "Bulldozest",
+          "count": 4
+        },
+        {
+          "file": "ArtemisChubCache.sav",
+          "list": "CachedVehicles",
+          "vehicle": "Model G022",
+          "count": 4
+        },
+        {
+          "file": "ArtemisChubCache.sav",
+          "list": "CachedVehicles",
+          "vehicle": "Explorateur nocturne",
+          "count": 6
+        },
+        {
+          "file": "ArtemisChubCache.sav",
+          "list": "CachedVehicles",
+          "vehicle": "the cooker",
+          "count": 2
+        },
+        {
+          "file": "ArtemisChubCache.sav",
+          "list": "CachedVehicles",
+          "vehicle": "AWave",
+          "count": 3
+        },
+        {
+          "file": "ArtemisChubCache.sav",
+          "list": "CachedVehicles",
+          "vehicle": "ARay",
+          "count": 2
+        },
+        {
+          "file": "ArtemisChubCache.sav",
+          "list": "CachedVehicles",
+          "vehicle": "Chronal Anomoly",
+          "count": 3
+        },
+        {
+          "file": "ArtemisChubCache.sav",
+          "list": "CachedVehicles",
+          "vehicle": "ABeast",
+          "count": 3
+        }
+      ]
+    },
+    "63082": {
+      "catalog": {
+        "name": "PLATE 2X2 W BALL SOCKET W/CROS",
+        "groesse": [
+          2,
+          3,
+          2
+        ],
+        "masse": 26.855,
+        "aliase": [
+          63082,
+          42478
+        ],
+        "bild": "T_63082_Icon"
+      },
+      "geom": null,
+      "unique_graph_instance_count": 3,
+      "examples": [
+        {
+          "file": "ArtemisVehicle.sav",
+          "list": "CustomVehicles",
+          "vehicle": "Service Truck",
+          "count": 1
+        },
+        {
+          "file": "ArtemisVehicle.sav",
+          "list": "CustomVehicles",
+          "vehicle": "Big Green Tractor",
+          "count": 1
+        },
+        {
+          "file": "ArtemisVehicle.sav",
+          "list": "CustomVehicles",
+          "vehicle": "Emerald Express",
+          "count": 1
+        }
+      ]
+    },
+    "99780": {
+      "catalog": {
+        "name": "ANGULAR PLATE 1.5 BOT. 1X2 1/2",
+        "groesse": [
+          2,
+          1,
+          2
+        ],
+        "masse": 16.785,
+        "aliase": [
+          99780
+        ],
+        "bild": "T_99780_Icon"
+      },
+      "geom": null,
+      "unique_graph_instance_count": 144,
+      "examples": [
+        {
+          "file": "ArtemisVehicle.sav",
+          "list": "CustomVehicles",
+          "vehicle": "Hamburghini",
+          "count": 3
+        },
+        {
+          "file": "ArtemisVehicle.sav",
+          "list": "CustomVehicles",
+          "vehicle": "Space Rover Explorer",
+          "count": 3
+        },
+        {
+          "file": "ArtemisVehicle.sav",
+          "list": "CustomVehicles",
+          "vehicle": "Gold Driller Boat",
+          "count": 1
+        },
+        {
+          "file": "ArtemisVehicle.sav",
+          "list": "CustomVehicles",
+          "vehicle": "The Long Haul",
+          "count": 6
+        },
+        {
+          "file": "ArtemisVehicle.sav",
+          "list": "CustomVehicles",
+          "vehicle": "Big Ol' Tex",
+          "count": 1
+        },
+        {
+          "file": "ArtemisVehicle.sav",
+          "list": "CustomVehicles",
+          "vehicle": "Nice Buggy",
+          "count": 1
+        },
+        {
+          "file": "ArtemisVehicle.sav",
+          "list": "CustomVehicles",
+          "vehicle": "Ice Cream Truck",
+          "count": 3
+        },
+        {
+          "file": "ArtemisVehicle.sav",
+          "list": "CustomVehicles",
+          "vehicle": "Dakarish",
+          "count": 1
+        },
+        {
+          "file": "ArtemisVehicle.sav",
+          "list": "CustomVehicles",
+          "vehicle": "Muspel Car",
+          "count": 2
+        },
+        {
+          "file": "ArtemisVehicle.sav",
+          "list": "CustomVehicles",
+          "vehicle": "Scullywagon",
+          "count": 3
+        },
+        {
+          "file": "ArtemisVehicle.sav",
+          "list": "CustomVehicles",
+          "vehicle": "Bird of Play",
+          "count": 2
+        },
+        {
+          "file": "ArtemisVehicle.sav",
+          "list": "CustomVehicles",
+          "vehicle": "Cornmobile",
+          "count": 6
+        },
+        {
+          "file": "ArtemisVehicle.sav",
+          "list": "CustomVehicles",
+          "vehicle": "Shadow Z-Beast",
+          "count": 6
+        },
+        {
+          "file": "ArtemisDownloadedVehicle.sav",
+          "list": "DownloadedVehicles",
+          "vehicle": "Anakins Podracer Mk1",
+          "count": 4
+        },
+        {
+          "file": "ArtemisDownloadedVehicle.sav",
+          "list": "DownloadedVehicles",
+          "vehicle": "Modern Racer",
+          "count": 7
+        },
+        {
+          "file": "ArtemisDownloadedVehicle.sav",
+          "list": "DownloadedVehicles",
+          "vehicle": "Model G022",
+          "count": 2
+        },
+        {
+          "file": "ArtemisDownloadedVehicle.sav",
+          "list": "DownloadedVehicles",
+          "vehicle": "Octan Space Racer",
+          "count": 2
+        },
+        {
+          "file": "ArtemisDownloadedVehicle.sav",
+          "list": "DownloadedVehicles",
+          "vehicle": "4.U.Bentherehkdtht7",
+          "count": 8
+        },
+        {
+          "file": "ArtemisDownloadedVehicle.sav",
+          "list": "DownloadedVehicles",
+          "vehicle": "Bat Boat",
+          "count": 1
+        },
+        {
+          "file": "ArtemisDownloadedVehicle.sav",
+          "list": "DownloadedVehicles",
+          "vehicle": "New Vehicle 29",
+          "count": 3
+        },
+        {
+          "file": "ArtemisChubCache.sav",
+          "list": "CachedVehicles",
+          "vehicle": "RS3500T",
+          "count": 15
+        },
+        {
+          "file": "ArtemisChubCache.sav",
+          "list": "CachedVehicles",
+          "vehicle": "Shadow Z Beast",
+          "count": 5
+        },
+        {
+          "file": "ArtemisChubCache.sav",
+          "list": "CachedVehicles",
+          "vehicle": "SHADOW Z SPEED",
+          "count": 2
+        },
+        {
+          "file": "ArtemisChubCache.sav",
+          "list": "CachedVehicles",
+          "vehicle": "OCTAN",
+          "count": 4
+        },
+        {
+          "file": "ArtemisChubCache.sav",
+          "list": "CachedVehicles",
+          "vehicle": "TB500",
+          "count": 3
+        },
+        {
+          "file": "ArtemisChubCache.sav",
+          "list": "CachedVehicles",
+          "vehicle": "4.U.Bentherehkdtht7",
+          "count": 8
+        },
+        {
+          "file": "ArtemisChubCache.sav",
+          "list": "CachedVehicles",
+          "vehicle": "FANTASTIC CLASSIC",
+          "count": 3
+        },
+        {
+          "file": "ArtemisChubCache.sav",
+          "list": "CachedVehicles",
+          "vehicle": "Phoenix aero e concept",
+          "count": 1
+        },
+        {
+          "file": "ArtemisChubCache.sav",
+          "list": "CachedVehicles",
+          "vehicle": "Bananana.Bread",
+          "count": 15
+        },
+        {
+          "file": "ArtemisChubCache.sav",
+          "list": "CachedVehicles",
+          "vehicle": "Cold Shovel red... 1",
+          "count": 2
+        },
+        {
+          "file": "ArtemisChubCache.sav",
+          "list": "CachedVehicles",
+          "vehicle": "Clutchs yellow glowCar",
+          "count": 11
+        },
+        {
+          "file": "ArtemisChubCache.sav",
+          "list": "CachedVehicles",
+          "vehicle": "Minecraft Pig",
+          "count": 3
+        },
+        {
+          "file": "ArtemisChubCache.sav",
+          "list": "CachedVehicles",
+          "vehicle": "Bat Boat",
+          "count": 1
+        },
+        {
+          "file": "ArtemisChubCache.sav",
+          "list": "CachedVehicles",
+          "vehicle": "Anakins Podracer Mk1",
+          "count": 4
+        },
+        {
+          "file": "ArtemisChubCache.sav",
+          "list": "CachedVehicles",
+          "vehicle": "Flying bridge RV",
+          "count": 3
+        },
+        {
+          "file": "ArtemisChubCache.sav",
+          "list": "CachedVehicles",
+          "vehicle": "Model G022",
+          "count": 2
+        },
+        {
+          "file": "ArtemisChubCache.sav",
+          "list": "CachedVehicles",
+          "vehicle": "New Vehicle 29",
+          "count": 3
+        },
+        {
+          "file": "ArtemisChubCache.sav",
+          "list": "CachedVehicles",
+          "vehicle": "ARay",
+          "count": 6
+        },
+        {
+          "file": "ArtemisChubCache.sav",
+          "list": "CachedVehicles",
+          "vehicle": "Modern Racer",
+          "count": 7
+        },
+        {
+          "file": "ArtemisChubCache.sav",
+          "list": "CachedVehicles",
+          "vehicle": "ABeast",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "emerald_current_vs_plan": {
+    "current_version": 2,
+    "current_parts": 51,
+    "generated_parts": 51,
+    "matched_parts": 51,
+    "unmatched_current": [],
+    "raw_connections_current": 56,
+    "raw_connections_generated": 56,
+    "unique_connections_current": 54,
+    "unique_connections_generated": 54,
+    "missing_in_generated": [],
+    "extra_in_generated": [],
+    "unknown_geometry": [
+      2540,
+      3942,
+      3956,
+      4032,
+      4081,
+      4740,
+      6019,
+      6143,
+      30157,
+      63082,
+      87580,
+      98138
+    ],
+    "body_instances": 40,
+    "body_instances_with_unknown_geometry": 13,
+    "explicit_connections": 22
+  },
+  "automatic_geometry_current_corpus": {
+    "saved_unique": 25582,
+    "predicted": 5991,
+    "exact_including_type": 5991,
+    "prediction_mismatches": 0,
+    "saved_not_predicted": 19591
+  },
+  "automatic_mismatch_examples": [],
+  "simple_geometry_candidate_status": {
+    "zu_wenig_belege": 10
+  },
+  "simple_geometry_candidates_with_evidence": [],
+  "validation_gap_reproductions": {
+    "manual_connection_to_brick_10000_units_away": {
+      "accepted": true,
+      "loose_parts": [],
+      "warnings": [
+        "Explizite Anschlüsse wurden strukturell geprüft; ihre physische Lage ist nicht vollständig verifiziert",
+        "GarageSaveDataMap bleibt unverändert; Auswirkungen auf Garagen-Metadaten sind im Spiel noch zu prüfen"
+      ]
+    },
+    "two_solid_bricks_at_identical_pose": {
+      "accepted": true,
+      "loose_parts": [],
+      "warnings": [
+        "GarageSaveDataMap bleibt unverändert; Auswirkungen auf Garagen-Metadaten sind im Spiel noch zu prüfen"
+      ]
+    },
+    "ball_connection_accepted_as_rectangular_stud_evidence": {
+      "status": "angenommen",
+      "countercheck": {
+        "exakt": 2,
+        "vorhergesagt": 2
+      }
+    },
+    "source_order_changes_builder_availability": {
+      "cache_then_download": false,
+      "download_then_cache": true
+    }
+  },
+  "source_files_unchanged": true,
+  "source_sha256": {
+    "ArtemisVehicle.sav": "06b2470524e0b90ecacdc0c5a725e32921d99929c109866aeec024323684b0d9",
+    "ArtemisDownloadedVehicle.sav": "24d4c101c29d18285ec072683a419291c2822a1b73fe3e9d04b04aeaea788c14",
+    "ArtemisExtraVehicle.sav": "190a7818edff815627fdd731c9e644e75a7f995e2a5ab07af1d388675bfcb64d",
+    "ArtemisChubCache.sav": "e3d2b3c30355a357deccf852e4fd4caaab904b69d25fc7bc7d6f8eb28dda054f"
+  }
+}
