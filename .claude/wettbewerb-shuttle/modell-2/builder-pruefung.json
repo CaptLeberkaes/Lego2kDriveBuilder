@@ -1,0 +1,592 @@
+{
+  "name": "ASTRA II Forward Carrier",
+  "slot": 46,
+  "teile": 123,
+  "verbindungen": 136,
+  "koerperteile": 107,
+  "baugruppen": 5,
+  "warnungen": [
+    "23 Anschlüsse aus beobachteten 3D-Paarlagen ergänzt; keine vollständige Formprüfung",
+    "GarageSaveDataMap bleibt unverändert; Auswirkungen auf Garagen-Metadaten sind im Spiel noch zu prüfen"
+  ],
+  "referenzen": {
+    "chassis:0": 0,
+    "chassis:1": 1,
+    "chassis:2": 2,
+    "chassis:3": 3,
+    "chassis:4": 4,
+    "chassis:5": 5,
+    "chassis:6": 6,
+    "chassis:7": 7,
+    "teil:0": 8,
+    "deck_unten": 8,
+    "teil:1": 9,
+    "deck_oben": 9,
+    "transportdeck_hinten": 10,
+    "teil:2": 10,
+    "rand_vorn_links": 11,
+    "teil:3": 11,
+    "warnstreifen_links_0": 12,
+    "teil:4": 12,
+    "warnstreifen_links_1": 13,
+    "teil:5": 13,
+    "teil:6": 14,
+    "rand_vorn_rechts": 14,
+    "teil:7": 15,
+    "warnstreifen_rechts_0": 15,
+    "teil:8": 16,
+    "warnstreifen_rechts_1": 16,
+    "teil:9": 17,
+    "scheinwerfer_links": 17,
+    "scheinwerfer_rechts": 18,
+    "teil:10": 18,
+    "teil:11": 19,
+    "tank_winkel_unterlage": 19,
+    "tank_winkel": 20,
+    "teil:12": 20,
+    "tank_00": 21,
+    "teil:13": 21,
+    "teil:14": 22,
+    "tank_01": 22,
+    "tank_02": 23,
+    "teil:15": 23,
+    "teil:16": 24,
+    "tank_03": 24,
+    "teil:17": 25,
+    "tank_04": 25,
+    "tank_05": 26,
+    "teil:18": 26,
+    "teil:19": 27,
+    "tank_06": 27,
+    "tank_07": 28,
+    "teil:20": 28,
+    "teil:21": 29,
+    "tank_08": 29,
+    "tank_09": 30,
+    "teil:22": 30,
+    "tank_spitze": 31,
+    "teil:23": 31,
+    "booster_unterlage_links_0": 32,
+    "teil:24": 32,
+    "teil:25": 33,
+    "booster_unterlage_links_1": 33,
+    "booster_halter_links": 34,
+    "teil:26": 34,
+    "teil:27": 35,
+    "booster_fuss_links": 35,
+    "teil:28": 36,
+    "booster_links_00": 36,
+    "booster_links_01": 37,
+    "teil:29": 37,
+    "teil:30": 38,
+    "booster_links_02": 38,
+    "booster_links_03": 39,
+    "teil:31": 39,
+    "booster_links_04": 40,
+    "teil:32": 40,
+    "teil:33": 41,
+    "booster_links_05": 41,
+    "booster_links_06": 42,
+    "teil:34": 42,
+    "teil:35": 43,
+    "booster_links_07": 43,
+    "teil:36": 44,
+    "booster_links_08": 44,
+    "booster_links_09": 45,
+    "teil:37": 45,
+    "teil:38": 46,
+    "booster_kappe_links": 46,
+    "booster_spitze_links": 47,
+    "teil:39": 47,
+    "teil:40": 48,
+    "booster_unterlage_rechts_0": 48,
+    "teil:41": 49,
+    "booster_unterlage_rechts_1": 49,
+    "booster_halter_rechts": 50,
+    "teil:42": 50,
+    "booster_fuss_rechts": 51,
+    "teil:43": 51,
+    "teil:44": 52,
+    "booster_rechts_00": 52,
+    "booster_rechts_01": 53,
+    "teil:45": 53,
+    "booster_rechts_02": 54,
+    "teil:46": 54,
+    "teil:47": 55,
+    "booster_rechts_03": 55,
+    "teil:48": 56,
+    "booster_rechts_04": 56,
+    "teil:49": 57,
+    "booster_rechts_05": 57,
+    "booster_rechts_06": 58,
+    "teil:50": 58,
+    "booster_rechts_07": 59,
+    "teil:51": 59,
+    "booster_rechts_08": 60,
+    "teil:52": 60,
+    "teil:53": 61,
+    "booster_rechts_09": 61,
+    "teil:54": 62,
+    "booster_kappe_rechts": 62,
+    "booster_spitze_rechts": 63,
+    "teil:55": 63,
+    "fluegelholm": 64,
+    "teil:56": 64,
+    "fluegelholm_vorn": 65,
+    "teil:57": 65,
+    "teil:58": 66,
+    "delta_rechts": 66,
+    "delta_links": 67,
+    "teil:59": 67,
+    "teil:60": 68,
+    "oberer_adapterholm": 68,
+    "bauch_hinten": 69,
+    "teil:61": 69,
+    "bauch_vorn": 70,
+    "teil:62": 70,
+    "teil:63": 71,
+    "rumpfverbinder": 71,
+    "teil:64": 72,
+    "heckbasis": 72,
+    "teil:65": 73,
+    "mittelbasis": 73,
+    "teil:66": 74,
+    "duesenhalter_links": 74,
+    "duese_links": 75,
+    "teil:67": 75,
+    "duesenhalter_rechts": 76,
+    "teil:68": 76,
+    "duese_rechts": 77,
+    "teil:69": 77,
+    "teil:70": 78,
+    "rumpf_hinten": 78,
+    "teil:71": 79,
+    "rumpf_mitte": 79,
+    "cockpit_unterbau": 80,
+    "teil:72": 80,
+    "nase_links": 81,
+    "teil:73": 81,
+    "teil:74": 82,
+    "cockpit_fenster_links": 82,
+    "teil:75": 83,
+    "nase_rechts": 83,
+    "teil:76": 84,
+    "cockpit_fenster_rechts": 84,
+    "cockpit_rueckwand": 85,
+    "teil:77": 85,
+    "cockpit_dach": 86,
+    "teil:78": 86,
+    "laderaum_vorn": 87,
+    "teil:79": 87,
+    "laderaum_hinten": 88,
+    "teil:80": 88,
+    "leitwerk_fuss": 89,
+    "teil:81": 89,
+    "teil:82": 90,
+    "leitwerk_schraege_links": 90,
+    "leitwerk_schraege_rechts": 91,
+    "teil:83": 91,
+    "teil:84": 92,
+    "leitwerk_spitze": 92,
+    "stuetze_0_links_0": 93,
+    "teil:85": 93,
+    "stuetze_0_links_1": 94,
+    "teil:86": 94,
+    "stuetzplatte_0_links": 95,
+    "teil:87": 95,
+    "teil:88": 96,
+    "stuetze_0_rechts_0": 96,
+    "stuetze_0_rechts_1": 97,
+    "teil:89": 97,
+    "stuetzplatte_0_rechts": 98,
+    "teil:90": 98,
+    "teil:91": 99,
+    "stuetzbruecke_0": 99,
+    "stuetzraster_0": 100,
+    "teil:92": 100,
+    "teil:93": 101,
+    "stuetzenfuss_1_links": 101,
+    "teil:94": 102,
+    "stuetze_1_links_0": 102,
+    "teil:95": 103,
+    "stuetze_1_links_1": 103,
+    "teil:96": 104,
+    "stuetzplatte_1_links": 104,
+    "teil:97": 105,
+    "stuetzenfuss_1_rechts": 105,
+    "stuetze_1_rechts_0": 106,
+    "teil:98": 106,
+    "stuetze_1_rechts_1": 107,
+    "teil:99": 107,
+    "stuetzplatte_1_rechts": 108,
+    "teil:100": 108,
+    "teil:101": 109,
+    "stuetzbruecke_1": 109,
+    "stuetzraster_1": 110,
+    "teil:102": 110,
+    "bedienpod_quertraeger": 111,
+    "teil:103": 111,
+    "teil:104": 112,
+    "bedienpod_boden": 112,
+    "teil:105": 113,
+    "bedienpod_sitzplatte": 113,
+    "teil:106": 114,
+    "fahrersitz": 114,
+    "rad:fl:0": 115,
+    "rad:fl:1": 116,
+    "rad:fr:0": 117,
+    "rad:fr:1": 118,
+    "rad:bl:0": 119,
+    "rad:bl:1": 120,
+    "rad:br:0": 121,
+    "rad:br:1": 122
+  },
+  "lose_teile": [],
+  "anschlusspruefung": {
+    "explizit": [],
+    "beobachtete_ergaenzungen": [
+      {
+        "kontakt": [
+          19,
+          20,
+          0,
+          1,
+          2,
+          "FixedConnection"
+        ],
+        "belege": [
+          "1b8a2c938346c4c35e59c933"
+        ]
+      },
+      {
+        "kontakt": [
+          20,
+          21,
+          0,
+          1,
+          4,
+          "FixedConnection"
+        ],
+        "belege": [
+          "a513b8991973b25bb5058b1f",
+          "cdd5a6a832a6c6a4cab39378"
+        ]
+      },
+      {
+        "kontakt": [
+          21,
+          22,
+          2,
+          1,
+          4,
+          "FixedConnection"
+        ],
+        "belege": [
+          "087aef8f1f7d9cf3f9bc538a",
+          "617d06090a89893628f82672",
+          "66ff084c62451f1ef24f94e0",
+          "de4c915cdcef60f2d81936e4"
+        ]
+      },
+      {
+        "kontakt": [
+          22,
+          23,
+          2,
+          1,
+          4,
+          "FixedConnection"
+        ],
+        "belege": [
+          "087aef8f1f7d9cf3f9bc538a",
+          "617d06090a89893628f82672",
+          "66ff084c62451f1ef24f94e0",
+          "de4c915cdcef60f2d81936e4"
+        ]
+      },
+      {
+        "kontakt": [
+          23,
+          24,
+          2,
+          1,
+          4,
+          "FixedConnection"
+        ],
+        "belege": [
+          "087aef8f1f7d9cf3f9bc538a",
+          "617d06090a89893628f82672",
+          "66ff084c62451f1ef24f94e0",
+          "de4c915cdcef60f2d81936e4"
+        ]
+      },
+      {
+        "kontakt": [
+          24,
+          25,
+          2,
+          1,
+          4,
+          "FixedConnection"
+        ],
+        "belege": [
+          "087aef8f1f7d9cf3f9bc538a",
+          "617d06090a89893628f82672",
+          "66ff084c62451f1ef24f94e0",
+          "de4c915cdcef60f2d81936e4"
+        ]
+      },
+      {
+        "kontakt": [
+          25,
+          26,
+          2,
+          1,
+          4,
+          "FixedConnection"
+        ],
+        "belege": [
+          "087aef8f1f7d9cf3f9bc538a",
+          "617d06090a89893628f82672",
+          "66ff084c62451f1ef24f94e0",
+          "de4c915cdcef60f2d81936e4"
+        ]
+      },
+      {
+        "kontakt": [
+          26,
+          27,
+          2,
+          1,
+          4,
+          "FixedConnection"
+        ],
+        "belege": [
+          "087aef8f1f7d9cf3f9bc538a",
+          "617d06090a89893628f82672",
+          "66ff084c62451f1ef24f94e0",
+          "de4c915cdcef60f2d81936e4"
+        ]
+      },
+      {
+        "kontakt": [
+          27,
+          28,
+          2,
+          1,
+          4,
+          "FixedConnection"
+        ],
+        "belege": [
+          "087aef8f1f7d9cf3f9bc538a",
+          "617d06090a89893628f82672",
+          "66ff084c62451f1ef24f94e0",
+          "de4c915cdcef60f2d81936e4"
+        ]
+      },
+      {
+        "kontakt": [
+          28,
+          29,
+          2,
+          1,
+          4,
+          "FixedConnection"
+        ],
+        "belege": [
+          "087aef8f1f7d9cf3f9bc538a",
+          "617d06090a89893628f82672",
+          "66ff084c62451f1ef24f94e0",
+          "de4c915cdcef60f2d81936e4"
+        ]
+      },
+      {
+        "kontakt": [
+          29,
+          30,
+          2,
+          1,
+          4,
+          "FixedConnection"
+        ],
+        "belege": [
+          "087aef8f1f7d9cf3f9bc538a",
+          "617d06090a89893628f82672",
+          "66ff084c62451f1ef24f94e0",
+          "de4c915cdcef60f2d81936e4"
+        ]
+      },
+      {
+        "kontakt": [
+          30,
+          31,
+          2,
+          0,
+          4,
+          "FixedConnection"
+        ],
+        "belege": [
+          "3337cfd128f9133824539d9c"
+        ]
+      },
+      {
+        "kontakt": [
+          34,
+          35,
+          0,
+          0,
+          1,
+          "HingeConnection"
+        ],
+        "belege": [
+          "0885e6ad6653d701cdde7191",
+          "e207f962ba5383f006f38218"
+        ]
+      },
+      {
+        "kontakt": [
+          46,
+          47,
+          0,
+          3,
+          1,
+          "HingeConnection"
+        ],
+        "belege": [
+          "2667b926116b341fc850f91d"
+        ]
+      },
+      {
+        "kontakt": [
+          50,
+          51,
+          0,
+          0,
+          1,
+          "HingeConnection"
+        ],
+        "belege": [
+          "0885e6ad6653d701cdde7191",
+          "e207f962ba5383f006f38218"
+        ]
+      },
+      {
+        "kontakt": [
+          62,
+          63,
+          0,
+          3,
+          1,
+          "HingeConnection"
+        ],
+        "belege": [
+          "2667b926116b341fc850f91d"
+        ]
+      },
+      {
+        "kontakt": [
+          64,
+          66,
+          1,
+          0,
+          1,
+          "HingeConnection"
+        ],
+        "belege": [
+          "bf4622d0d455e9bb2f4d8216"
+        ]
+      },
+      {
+        "kontakt": [
+          64,
+          67,
+          1,
+          1,
+          1,
+          "HingeConnection"
+        ],
+        "belege": [
+          "beff3b53af4ccb857241773d"
+        ]
+      },
+      {
+        "kontakt": [
+          65,
+          66,
+          1,
+          0,
+          1,
+          "HingeConnection"
+        ],
+        "belege": [
+          "17e17a58a9181586b3e0afa2"
+        ]
+      },
+      {
+        "kontakt": [
+          65,
+          67,
+          1,
+          1,
+          1,
+          "HingeConnection"
+        ],
+        "belege": [
+          "6e106ae3b0b9be0d14c39b78"
+        ]
+      },
+      {
+        "kontakt": [
+          74,
+          75,
+          0,
+          0,
+          1,
+          "HingeConnection"
+        ],
+        "belege": [
+          "0885e6ad6653d701cdde7191",
+          "e207f962ba5383f006f38218"
+        ]
+      },
+      {
+        "kontakt": [
+          76,
+          77,
+          0,
+          0,
+          1,
+          "HingeConnection"
+        ],
+        "belege": [
+          "0885e6ad6653d701cdde7191",
+          "e207f962ba5383f006f38218"
+        ]
+      },
+      {
+        "kontakt": [
+          113,
+          114,
+          0,
+          1,
+          4,
+          "FixedConnection"
+        ],
+        "belege": [
+          "04d83c2ede16255da44ef068"
+        ]
+      }
+    ]
+  },
+  "geometrie_unbekannt": [
+    3660,
+    3942,
+    3956,
+    4079,
+    6143,
+    6157,
+    54383,
+    54384,
+    59900
+  ]
+}

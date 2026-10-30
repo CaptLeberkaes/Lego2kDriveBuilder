@@ -1,0 +1,292 @@
+[
+  {
+    "design": 3001,
+    "count": 1,
+    "name": "BRICK 2X4",
+    "catalog_present": true,
+    "observed_in_references": true,
+    "reward_entry_in_both_lists": true,
+    "manually_selectable_in_game": "not tested",
+    "variant": "exact design ID; no alias substitution"
+  },
+  {
+    "design": 3002,
+    "count": 1,
+    "name": "BRICK 2X3",
+    "catalog_present": true,
+    "observed_in_references": true,
+    "reward_entry_in_both_lists": true,
+    "manually_selectable_in_game": "not tested",
+    "variant": "exact design ID; no alias substitution"
+  },
+  {
+    "design": 3003,
+    "count": 2,
+    "name": "BRICK 2X2",
+    "catalog_present": true,
+    "observed_in_references": true,
+    "reward_entry_in_both_lists": true,
+    "manually_selectable_in_game": "not tested",
+    "variant": "exact design ID; no alias substitution"
+  },
+  {
+    "design": 3004,
+    "count": 9,
+    "name": "BRICK 1X2",
+    "catalog_present": true,
+    "observed_in_references": true,
+    "reward_entry_in_both_lists": true,
+    "manually_selectable_in_game": "not tested",
+    "variant": "exact design ID; no alias substitution"
+  },
+  {
+    "design": 3020,
+    "count": 3,
+    "name": "PLATE 2X4",
+    "catalog_present": true,
+    "observed_in_references": true,
+    "reward_entry_in_both_lists": true,
+    "manually_selectable_in_game": "not tested",
+    "variant": "exact design ID; no alias substitution"
+  },
+  {
+    "design": 3021,
+    "count": 1,
+    "name": "PLATE 2X3",
+    "catalog_present": true,
+    "observed_in_references": true,
+    "reward_entry_in_both_lists": true,
+    "manually_selectable_in_game": "not tested",
+    "variant": "exact design ID; no alias substitution"
+  },
+  {
+    "design": 3022,
+    "count": 2,
+    "name": "PLATE 2X2",
+    "catalog_present": true,
+    "observed_in_references": true,
+    "reward_entry_in_both_lists": true,
+    "manually_selectable_in_game": "not tested",
+    "variant": "exact design ID; no alias substitution"
+  },
+  {
+    "design": 3023,
+    "count": 5,
+    "name": "PLATE 1X2",
+    "catalog_present": true,
+    "observed_in_references": true,
+    "reward_entry_in_both_lists": true,
+    "manually_selectable_in_game": "not tested",
+    "variant": "exact design ID; no alias substitution"
+  },
+  {
+    "design": 3024,
+    "count": 2,
+    "name": "PLATE 1X1",
+    "catalog_present": true,
+    "observed_in_references": true,
+    "reward_entry_in_both_lists": true,
+    "manually_selectable_in_game": "not tested",
+    "variant": "exact design ID; no alias substitution"
+  },
+  {
+    "design": 3030,
+    "count": 1,
+    "name": "PLATE 4X10",
+    "catalog_present": true,
+    "observed_in_references": true,
+    "reward_entry_in_both_lists": true,
+    "manually_selectable_in_game": "not tested",
+    "variant": "exact design ID; no alias substitution"
+  },
+  {
+    "design": 3034,
+    "count": 1,
+    "name": "PLATE 2X8",
+    "catalog_present": true,
+    "observed_in_references": true,
+    "reward_entry_in_both_lists": true,
+    "manually_selectable_in_game": "not tested",
+    "variant": "exact design ID; no alias substitution"
+  },
+  {
+    "design": 3036,
+    "count": 1,
+    "name": "PLATE 6X8",
+    "catalog_present": true,
+    "observed_in_references": true,
+    "reward_entry_in_both_lists": true,
+    "manually_selectable_in_game": "not tested",
+    "variant": "exact design ID; no alias substitution"
+  },
+  {
+    "design": 3040,
+    "count": 6,
+    "name": "ROOF TILE 1X2/45°",
+    "catalog_present": true,
+    "observed_in_references": true,
+    "reward_entry_in_both_lists": true,
+    "manually_selectable_in_game": "not tested",
+    "variant": "exact design ID; no alias substitution"
+  },
+  {
+    "design": 3062,
+    "count": 20,
+    "name": "ROUND BRICK 1X1",
+    "catalog_present": true,
+    "observed_in_references": true,
+    "reward_entry_in_both_lists": true,
+    "manually_selectable_in_game": "not tested",
+    "variant": "exact design ID; no alias substitution"
+  },
+  {
+    "design": 3068,
+    "count": 1,
+    "name": "FLAT TILE 2X2",
+    "catalog_present": true,
+    "observed_in_references": true,
+    "reward_entry_in_both_lists": true,
+    "manually_selectable_in_game": "not tested",
+    "variant": "exact design ID; no alias substitution"
+  },
+  {
+    "design": 3070,
+    "count": 8,
+    "name": "FLAT TILE 1X1",
+    "catalog_present": true,
+    "observed_in_references": true,
+    "reward_entry_in_both_lists": true,
+    "manually_selectable_in_game": "not tested",
+    "variant": "exact design ID; no alias substitution"
+  },
+  {
+    "design": 3460,
+    "count": 2,
+    "name": "PLATE 1X8",
+    "catalog_present": true,
+    "observed_in_references": true,
+    "reward_entry_in_both_lists": true,
+    "manually_selectable_in_game": "not tested",
+    "variant": "exact design ID; no alias substitution"
+  },
+  {
+    "design": 3710,
+    "count": 2,
+    "name": "PLATE 1X4",
+    "catalog_present": true,
+    "observed_in_references": true,
+    "reward_entry_in_both_lists": true,
+    "manually_selectable_in_game": "not tested",
+    "variant": "exact design ID; no alias substitution"
+  },
+  {
+    "design": 3795,
+    "count": 1,
+    "name": "PLATE 2X6",
+    "catalog_present": true,
+    "observed_in_references": true,
+    "reward_entry_in_both_lists": true,
+    "manually_selectable_in_game": "not tested",
+    "variant": "exact design ID; no alias substitution"
+  },
+  {
+    "design": 3942,
+    "count": 1,
+    "name": "NOSE CONE 2X2X2",
+    "catalog_present": true,
+    "observed_in_references": true,
+    "reward_entry_in_both_lists": true,
+    "manually_selectable_in_game": "not tested",
+    "variant": "exact design ID; no alias substitution"
+  },
+  {
+    "design": 4079,
+    "count": 1,
+    "name": "SEAT 2X2X2",
+    "catalog_present": true,
+    "observed_in_references": true,
+    "reward_entry_in_both_lists": true,
+    "manually_selectable_in_game": "not tested",
+    "variant": "exact design ID; no alias substitution"
+  },
+  {
+    "design": 6141,
+    "count": 6,
+    "name": "PLATE 1X1 ROUND",
+    "catalog_present": true,
+    "observed_in_references": true,
+    "reward_entry_in_both_lists": true,
+    "manually_selectable_in_game": "not tested",
+    "variant": "exact design ID; no alias substitution"
+  },
+  {
+    "design": 6143,
+    "count": 10,
+    "name": "BRICK Ø16 W. CROSS",
+    "catalog_present": true,
+    "observed_in_references": true,
+    "reward_entry_in_both_lists": true,
+    "manually_selectable_in_game": "not tested",
+    "variant": "exact design ID; no alias substitution"
+  },
+  {
+    "design": 11211,
+    "count": 2,
+    "name": "BRICK 1X2 W. 2 KNOBS",
+    "catalog_present": true,
+    "observed_in_references": true,
+    "reward_entry_in_both_lists": true,
+    "manually_selectable_in_game": "not tested",
+    "variant": "exact design ID; no alias substitution"
+  },
+  {
+    "design": 54383,
+    "count": 1,
+    "name": "RIGHT PLATE 3X6 W. ANGLE",
+    "catalog_present": true,
+    "observed_in_references": true,
+    "reward_entry_in_both_lists": true,
+    "manually_selectable_in_game": "not tested",
+    "variant": "exact design ID; no alias substitution"
+  },
+  {
+    "design": 54384,
+    "count": 1,
+    "name": "LEFT PLATE 3X6 W ANGLE",
+    "catalog_present": true,
+    "observed_in_references": true,
+    "reward_entry_in_both_lists": true,
+    "manually_selectable_in_game": "not tested",
+    "variant": "exact design ID; no alias substitution"
+  },
+  {
+    "design": 59900,
+    "count": 2,
+    "name": "NOSE CONE SMALL 1X1",
+    "catalog_present": true,
+    "observed_in_references": true,
+    "reward_entry_in_both_lists": true,
+    "manually_selectable_in_game": "not tested",
+    "variant": "exact design ID; no alias substitution"
+  },
+  {
+    "design": 87079,
+    "count": 1,
+    "name": "FLAT TILE 2X4",
+    "catalog_present": true,
+    "observed_in_references": true,
+    "reward_entry_in_both_lists": true,
+    "manually_selectable_in_game": "not tested",
+    "variant": "exact design ID; no alias substitution"
+  },
+  {
+    "design": 87087,
+    "count": 2,
+    "name": "BRICK 1X1 W. 1 KNOB",
+    "catalog_present": true,
+    "observed_in_references": true,
+    "reward_entry_in_both_lists": true,
+    "manually_selectable_in_game": "not tested",
+    "variant": "exact design ID; no alias substitution"
+  }
+]

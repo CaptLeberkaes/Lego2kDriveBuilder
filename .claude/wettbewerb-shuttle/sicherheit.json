@@ -1,0 +1,8 @@
+{
+  "source": "ArtemisVehicle.sav",
+  "sha256_before": "06b2470524e0b90ecacdc0c5a725e32921d99929c109866aeec024323684b0d9",
+  "sha256_after": "06b2470524e0b90ecacdc0c5a725e32921d99929c109866aeec024323684b0d9",
+  "sav_written": false,
+  "serialization_roundtrip": true,
+  "plan_sha256": "b1fc676e56b7983d61348d10437fdcb4647dbecadec28ac32f6fde78eb83ab7b"
+}

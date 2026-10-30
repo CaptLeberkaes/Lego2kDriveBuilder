@@ -1,0 +1,32 @@
+{
+  "sav_hashes_before": {
+    "ArtemisAudioSettings.sav": "2e7a701052fd46cf17fa5b53b86e818412ef195204374fb6e56d042c1e1c3687",
+    "ArtemisChubCache.sav": "e3d2b3c30355a357deccf852e4fd4caaab904b69d25fc7bc7d6f8eb28dda054f",
+    "ArtemisDnaInfo.sav": "94682951df5860121b36925476d2e91dc77ca1bdf22d1ad2ef0bc267c5d9d293",
+    "ArtemisDnaLocalCache.sav": "27e88e046cf9024788f485289422cc59aba41e9dadf2f5a3e0dc5a5b6df2b96e",
+    "ArtemisDownloadedVehicle.sav": "24d4c101c29d18285ec072683a419291c2822a1b73fe3e9d04b04aeaea788c14",
+    "ArtemisExtraVehicle.sav": "190a7818edff815627fdd731c9e644e75a7f995e2a5ab07af1d388675bfcb64d",
+    "ArtemisPlayerInfo.sav": "5177b8dc3a9f19d5875cce5079890ea27f9e0523c1d06d82c2793b64fdac0540",
+    "ArtemisUserInputSchemes.sav": "f313954c5bcd76fbfbff2a4acdedfffcd15bc872e855ca4778adf1cd379eb136",
+    "ArtemisUserSettings.sav": "3ada0363c4e2318a4d7e00b9ef0cd5e52940e05021773a20f0728e07779aa442",
+    "ArtemisVehicle.sav": "06b2470524e0b90ecacdc0c5a725e32921d99929c109866aeec024323684b0d9",
+    "DynamicPlayerInfo.sav": "7c146fbfca004164d8ed63133e9c459d4959c6906e273bb3d33d85f2dc110443"
+  },
+  "sav_hashes_after": {
+    "ArtemisAudioSettings.sav": "2e7a701052fd46cf17fa5b53b86e818412ef195204374fb6e56d042c1e1c3687",
+    "ArtemisChubCache.sav": "e3d2b3c30355a357deccf852e4fd4caaab904b69d25fc7bc7d6f8eb28dda054f",
+    "ArtemisDnaInfo.sav": "94682951df5860121b36925476d2e91dc77ca1bdf22d1ad2ef0bc267c5d9d293",
+    "ArtemisDnaLocalCache.sav": "27e88e046cf9024788f485289422cc59aba41e9dadf2f5a3e0dc5a5b6df2b96e",
+    "ArtemisDownloadedVehicle.sav": "24d4c101c29d18285ec072683a419291c2822a1b73fe3e9d04b04aeaea788c14",
+    "ArtemisExtraVehicle.sav": "190a7818edff815627fdd731c9e644e75a7f995e2a5ab07af1d388675bfcb64d",
+    "ArtemisPlayerInfo.sav": "5177b8dc3a9f19d5875cce5079890ea27f9e0523c1d06d82c2793b64fdac0540",
+    "ArtemisUserInputSchemes.sav": "f313954c5bcd76fbfbff2a4acdedfffcd15bc872e855ca4778adf1cd379eb136",
+    "ArtemisUserSettings.sav": "3ada0363c4e2318a4d7e00b9ef0cd5e52940e05021773a20f0728e07779aa442",
+    "ArtemisVehicle.sav": "06b2470524e0b90ecacdc0c5a725e32921d99929c109866aeec024323684b0d9",
+    "DynamicPlayerInfo.sav": "7c146fbfca004164d8ed63133e9c459d4959c6906e273bb3d33d85f2dc110443"
+  },
+  "model1_hashes_unchanged": true,
+  "sav_written": false,
+  "serialization_roundtrip": true,
+  "plan_sha256": "ad31a2e9959d69ed3a2873672cae3937ea64f1a6cd3578f9ef119821c1bf71b2"
+}

@@ -1,0 +1,36 @@
+{
+  "method": "Broad phase AABB; narrow phase convex-polyhedron SAT, tolerance0.15; studs omitted",
+  "special_shape_notes": {
+    "3956": "Two calibrated local bracket hulls from the existing Emerald geometry dossier; not a new learning reference.",
+    "6143": "Cylinder Ø50, height30, centre(12.5,-12.5); solid outer hull, axle hole omitted.",
+    "3942": "Truncated cone Ø50 to Ø12.5, height60; catalogue envelope, top approximated.",
+    "59900": "Truncated cone Ø25 to Ø6, height30; catalogue envelope.",
+    "54383": "3x6 right delta wedge, local footprint approximated from name and observed attachment rows.",
+    "54384": "Mirrored 3x6 left delta wedge; attachment origins follow actual pair placements.",
+    "4079": "Seat split into seat pan and rear wall; orientation/envelope approximate.",
+    "6015": "Tyre Ø21mm=65.625 units, width12mm=37.5; local origin at outer wheel face inferred from axle and tyre poses.",
+    "6014": "Rim approximated inside native tyre; axle geometry omitted.",
+    "6157": "Native bearing envelope only; not a new-part collision proof.",
+    "3660": "Native inverted slope approximated by its enclosing box."
+  },
+  "bounds": [
+    [
+      -225.0,
+      194.99957915479948
+    ],
+    [
+      -99.99990788893248,
+      125.00000499999857
+    ],
+    [
+      -29.37488889694214,
+      289.99999897314376
+    ]
+  ],
+  "overlaps": [],
+  "checked_new_parts": 107,
+  "exact_game_meshes": false,
+  "warnings": [
+    "No complete cavities, wheel steering/suspension sweep or driver avatar envelope tested."
+  ]
+}

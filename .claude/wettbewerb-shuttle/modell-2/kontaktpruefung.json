@@ -1,0 +1,3490 @@
+{
+  "counts": {
+    "native_basis": 18,
+    "geometrisch": 95,
+    "beobachtete_paarlage": 23
+  },
+  "connections": [
+    {
+      "a": "chassis:0",
+      "b": "chassis:1",
+      "fa": 0,
+      "fb": 1,
+      "strength": 2,
+      "type": "FixedConnection",
+      "status": "native_basis",
+      "evidence": []
+    },
+    {
+      "a": "chassis:0",
+      "b": "chassis:3",
+      "fa": 0,
+      "fb": 0,
+      "strength": 2,
+      "type": "FixedConnection",
+      "status": "native_basis",
+      "evidence": []
+    },
+    {
+      "a": "chassis:1",
+      "b": "chassis:2",
+      "fa": 0,
+      "fb": 1,
+      "strength": 2,
+      "type": "FixedConnection",
+      "status": "native_basis",
+      "evidence": []
+    },
+    {
+      "a": "chassis:2",
+      "b": "chassis:3",
+      "fa": 1,
+      "fb": 1,
+      "strength": 4,
+      "type": "FixedConnection",
+      "status": "native_basis",
+      "evidence": []
+    },
+    {
+      "a": "chassis:2",
+      "b": "chassis:7",
+      "fa": 0,
+      "fb": 1,
+      "strength": 6,
+      "type": "FixedConnection",
+      "status": "native_basis",
+      "evidence": []
+    },
+    {
+      "a": "chassis:4",
+      "b": "chassis:5",
+      "fa": 0,
+      "fb": 1,
+      "strength": 2,
+      "type": "FixedConnection",
+      "status": "native_basis",
+      "evidence": []
+    },
+    {
+      "a": "chassis:4",
+      "b": "chassis:6",
+      "fa": 0,
+      "fb": 0,
+      "strength": 2,
+      "type": "FixedConnection",
+      "status": "native_basis",
+      "evidence": []
+    },
+    {
+      "a": "chassis:5",
+      "b": "chassis:7",
+      "fa": 0,
+      "fb": 1,
+      "strength": 2,
+      "type": "FixedConnection",
+      "status": "native_basis",
+      "evidence": []
+    },
+    {
+      "a": "chassis:6",
+      "b": "chassis:7",
+      "fa": 1,
+      "fb": 1,
+      "strength": 4,
+      "type": "FixedConnection",
+      "status": "native_basis",
+      "evidence": []
+    },
+    {
+      "a": "chassis:0",
+      "b": "chassis:1",
+      "fa": 0,
+      "fb": 1,
+      "strength": 2,
+      "type": "FixedConnection",
+      "status": "native_basis",
+      "evidence": []
+    },
+    {
+      "a": "chassis:0",
+      "b": "chassis:3",
+      "fa": 0,
+      "fb": 0,
+      "strength": 2,
+      "type": "FixedConnection",
+      "status": "native_basis",
+      "evidence": []
+    },
+    {
+      "a": "chassis:1",
+      "b": "chassis:2",
+      "fa": 0,
+      "fb": 1,
+      "strength": 2,
+      "type": "FixedConnection",
+      "status": "native_basis",
+      "evidence": []
+    },
+    {
+      "a": "chassis:2",
+      "b": "chassis:3",
+      "fa": 1,
+      "fb": 1,
+      "strength": 4,
+      "type": "FixedConnection",
+      "status": "native_basis",
+      "evidence": []
+    },
+    {
+      "a": "chassis:2",
+      "b": "chassis:7",
+      "fa": 0,
+      "fb": 1,
+      "strength": 6,
+      "type": "FixedConnection",
+      "status": "native_basis",
+      "evidence": []
+    },
+    {
+      "a": "chassis:4",
+      "b": "chassis:5",
+      "fa": 0,
+      "fb": 1,
+      "strength": 2,
+      "type": "FixedConnection",
+      "status": "native_basis",
+      "evidence": []
+    },
+    {
+      "a": "chassis:4",
+      "b": "chassis:6",
+      "fa": 0,
+      "fb": 0,
+      "strength": 2,
+      "type": "FixedConnection",
+      "status": "native_basis",
+      "evidence": []
+    },
+    {
+      "a": "chassis:5",
+      "b": "chassis:7",
+      "fa": 0,
+      "fb": 1,
+      "strength": 2,
+      "type": "FixedConnection",
+      "status": "native_basis",
+      "evidence": []
+    },
+    {
+      "a": "chassis:6",
+      "b": "chassis:7",
+      "fa": 1,
+      "fb": 1,
+      "strength": 4,
+      "type": "FixedConnection",
+      "status": "native_basis",
+      "evidence": []
+    },
+    {
+      "a": "chassis:7",
+      "b": "deck_unten",
+      "fa": 0,
+      "fb": 1,
+      "strength": 28,
+      "type": "FixedConnection",
+      "status": "geometrisch",
+      "evidence": []
+    },
+    {
+      "a": "deck_unten",
+      "b": "deck_oben",
+      "fa": 0,
+      "fb": 1,
+      "strength": 32,
+      "type": "FixedConnection",
+      "status": "geometrisch",
+      "evidence": []
+    },
+    {
+      "a": "deck_oben",
+      "b": "transportdeck_hinten",
+      "fa": 0,
+      "fb": 1,
+      "strength": 18,
+      "type": "FixedConnection",
+      "status": "geometrisch",
+      "evidence": []
+    },
+    {
+      "a": "deck_oben",
+      "b": "rand_vorn_links",
+      "fa": 0,
+      "fb": 1,
+      "strength": 4,
+      "type": "FixedConnection",
+      "status": "geometrisch",
+      "evidence": []
+    },
+    {
+      "a": "deck_oben",
+      "b": "rand_vorn_rechts",
+      "fa": 0,
+      "fb": 1,
+      "strength": 4,
+      "type": "FixedConnection",
+      "status": "geometrisch",
+      "evidence": []
+    },
+    {
+      "a": "deck_oben",
+      "b": "scheinwerfer_links",
+      "fa": 0,
+      "fb": 0,
+      "strength": 1,
+      "type": "HingeConnection",
+      "status": "geometrisch",
+      "evidence": []
+    },
+    {
+      "a": "deck_oben",
+      "b": "scheinwerfer_rechts",
+      "fa": 0,
+      "fb": 0,
+      "strength": 1,
+      "type": "HingeConnection",
+      "status": "geometrisch",
+      "evidence": []
+    },
+    {
+      "a": "deck_oben",
+      "b": "stuetzenfuss_1_links",
+      "fa": 0,
+      "fb": 1,
+      "strength": 1,
+      "type": "HingeConnection",
+      "status": "geometrisch",
+      "evidence": []
+    },
+    {
+      "a": "deck_oben",
+      "b": "stuetzenfuss_1_rechts",
+      "fa": 0,
+      "fb": 1,
+      "strength": 1,
+      "type": "HingeConnection",
+      "status": "geometrisch",
+      "evidence": []
+    },
+    {
+      "a": "transportdeck_hinten",
+      "b": "tank_winkel_unterlage",
+      "fa": 0,
+      "fb": 1,
+      "strength": 2,
+      "type": "FixedConnection",
+      "status": "geometrisch",
+      "evidence": []
+    },
+    {
+      "a": "transportdeck_hinten",
+      "b": "booster_unterlage_links_0",
+      "fa": 0,
+      "fb": 1,
+      "strength": 1,
+      "type": "HingeConnection",
+      "status": "geometrisch",
+      "evidence": []
+    },
+    {
+      "a": "transportdeck_hinten",
+      "b": "booster_unterlage_rechts_0",
+      "fa": 0,
+      "fb": 1,
+      "strength": 1,
+      "type": "HingeConnection",
+      "status": "geometrisch",
+      "evidence": []
+    },
+    {
+      "a": "transportdeck_hinten",
+      "b": "stuetze_0_links_0",
+      "fa": 0,
+      "fb": 1,
+      "strength": 1,
+      "type": "HingeConnection",
+      "status": "geometrisch",
+      "evidence": []
+    },
+    {
+      "a": "transportdeck_hinten",
+      "b": "stuetze_0_rechts_0",
+      "fa": 0,
+      "fb": 1,
+      "strength": 1,
+      "type": "HingeConnection",
+      "status": "geometrisch",
+      "evidence": []
+    },
+    {
+      "a": "transportdeck_hinten",
+      "b": "bedienpod_quertraeger",
+      "fa": 0,
+      "fb": 1,
+      "strength": 4,
+      "type": "FixedConnection",
+      "status": "geometrisch",
+      "evidence": []
+    },
+    {
+      "a": "rand_vorn_links",
+      "b": "warnstreifen_links_0",
+      "fa": 0,
+      "fb": 0,
+      "strength": 1,
+      "type": "HingeConnection",
+      "status": "geometrisch",
+      "evidence": []
+    },
+    {
+      "a": "rand_vorn_links",
+      "b": "warnstreifen_links_1",
+      "fa": 0,
+      "fb": 0,
+      "strength": 1,
+      "type": "HingeConnection",
+      "status": "geometrisch",
+      "evidence": []
+    },
+    {
+      "a": "rand_vorn_rechts",
+      "b": "warnstreifen_rechts_0",
+      "fa": 0,
+      "fb": 0,
+      "strength": 1,
+      "type": "HingeConnection",
+      "status": "geometrisch",
+      "evidence": []
+    },
+    {
+      "a": "rand_vorn_rechts",
+      "b": "warnstreifen_rechts_1",
+      "fa": 0,
+      "fb": 0,
+      "strength": 1,
+      "type": "HingeConnection",
+      "status": "geometrisch",
+      "evidence": []
+    },
+    {
+      "a": "booster_unterlage_links_0",
+      "b": "booster_unterlage_links_1",
+      "fa": 0,
+      "fb": 1,
+      "strength": 1,
+      "type": "HingeConnection",
+      "status": "geometrisch",
+      "evidence": []
+    },
+    {
+      "a": "booster_unterlage_links_1",
+      "b": "booster_halter_links",
+      "fa": 0,
+      "fb": 1,
+      "strength": 1,
+      "type": "HingeConnection",
+      "status": "geometrisch",
+      "evidence": []
+    },
+    {
+      "a": "booster_fuss_links",
+      "b": "booster_links_00",
+      "fa": 1,
+      "fb": 1,
+      "strength": 1,
+      "type": "HingeConnection",
+      "status": "geometrisch",
+      "evidence": []
+    },
+    {
+      "a": "booster_links_00",
+      "b": "booster_links_01",
+      "fa": 0,
+      "fb": 1,
+      "strength": 1,
+      "type": "HingeConnection",
+      "status": "geometrisch",
+      "evidence": []
+    },
+    {
+      "a": "booster_links_01",
+      "b": "booster_links_02",
+      "fa": 0,
+      "fb": 1,
+      "strength": 1,
+      "type": "HingeConnection",
+      "status": "geometrisch",
+      "evidence": []
+    },
+    {
+      "a": "booster_links_02",
+      "b": "booster_links_03",
+      "fa": 0,
+      "fb": 1,
+      "strength": 1,
+      "type": "HingeConnection",
+      "status": "geometrisch",
+      "evidence": []
+    },
+    {
+      "a": "booster_links_03",
+      "b": "booster_links_04",
+      "fa": 0,
+      "fb": 1,
+      "strength": 1,
+      "type": "HingeConnection",
+      "status": "geometrisch",
+      "evidence": []
+    },
+    {
+      "a": "booster_links_04",
+      "b": "booster_links_05",
+      "fa": 0,
+      "fb": 1,
+      "strength": 1,
+      "type": "HingeConnection",
+      "status": "geometrisch",
+      "evidence": []
+    },
+    {
+      "a": "booster_links_05",
+      "b": "booster_links_06",
+      "fa": 0,
+      "fb": 1,
+      "strength": 1,
+      "type": "HingeConnection",
+      "status": "geometrisch",
+      "evidence": []
+    },
+    {
+      "a": "booster_links_06",
+      "b": "booster_links_07",
+      "fa": 0,
+      "fb": 1,
+      "strength": 1,
+      "type": "HingeConnection",
+      "status": "geometrisch",
+      "evidence": []
+    },
+    {
+      "a": "booster_links_07",
+      "b": "booster_links_08",
+      "fa": 0,
+      "fb": 1,
+      "strength": 1,
+      "type": "HingeConnection",
+      "status": "geometrisch",
+      "evidence": []
+    },
+    {
+      "a": "booster_links_08",
+      "b": "booster_links_09",
+      "fa": 0,
+      "fb": 1,
+      "strength": 1,
+      "type": "HingeConnection",
+      "status": "geometrisch",
+      "evidence": []
+    },
+    {
+      "a": "booster_links_09",
+      "b": "booster_kappe_links",
+      "fa": 0,
+      "fb": 1,
+      "strength": 1,
+      "type": "HingeConnection",
+      "status": "geometrisch",
+      "evidence": []
+    },
+    {
+      "a": "booster_unterlage_rechts_0",
+      "b": "booster_unterlage_rechts_1",
+      "fa": 0,
+      "fb": 1,
+      "strength": 1,
+      "type": "HingeConnection",
+      "status": "geometrisch",
+      "evidence": []
+    },
+    {
+      "a": "booster_unterlage_rechts_1",
+      "b": "booster_halter_rechts",
+      "fa": 0,
+      "fb": 1,
+      "strength": 1,
+      "type": "HingeConnection",
+      "status": "geometrisch",
+      "evidence": []
+    },
+    {
+      "a": "booster_fuss_rechts",
+      "b": "booster_rechts_00",
+      "fa": 1,
+      "fb": 1,
+      "strength": 1,
+      "type": "HingeConnection",
+      "status": "geometrisch",
+      "evidence": []
+    },
+    {
+      "a": "booster_rechts_00",
+      "b": "booster_rechts_01",
+      "fa": 0,
+      "fb": 1,
+      "strength": 1,
+      "type": "HingeConnection",
+      "status": "geometrisch",
+      "evidence": []
+    },
+    {
+      "a": "booster_rechts_01",
+      "b": "booster_rechts_02",
+      "fa": 0,
+      "fb": 1,
+      "strength": 1,
+      "type": "HingeConnection",
+      "status": "geometrisch",
+      "evidence": []
+    },
+    {
+      "a": "booster_rechts_02",
+      "b": "booster_rechts_03",
+      "fa": 0,
+      "fb": 1,
+      "strength": 1,
+      "type": "HingeConnection",
+      "status": "geometrisch",
+      "evidence": []
+    },
+    {
+      "a": "booster_rechts_03",
+      "b": "booster_rechts_04",
+      "fa": 0,
+      "fb": 1,
+      "strength": 1,
+      "type": "HingeConnection",
+      "status": "geometrisch",
+      "evidence": []
+    },
+    {
+      "a": "booster_rechts_04",
+      "b": "booster_rechts_05",
+      "fa": 0,
+      "fb": 1,
+      "strength": 1,
+      "type": "HingeConnection",
+      "status": "geometrisch",
+      "evidence": []
+    },
+    {
+      "a": "booster_rechts_05",
+      "b": "booster_rechts_06",
+      "fa": 0,
+      "fb": 1,
+      "strength": 1,
+      "type": "HingeConnection",
+      "status": "geometrisch",
+      "evidence": []
+    },
+    {
+      "a": "booster_rechts_06",
+      "b": "booster_rechts_07",
+      "fa": 0,
+      "fb": 1,
+      "strength": 1,
+      "type": "HingeConnection",
+      "status": "geometrisch",
+      "evidence": []
+    },
+    {
+      "a": "booster_rechts_07",
+      "b": "booster_rechts_08",
+      "fa": 0,
+      "fb": 1,
+      "strength": 1,
+      "type": "HingeConnection",
+      "status": "geometrisch",
+      "evidence": []
+    },
+    {
+      "a": "booster_rechts_08",
+      "b": "booster_rechts_09",
+      "fa": 0,
+      "fb": 1,
+      "strength": 1,
+      "type": "HingeConnection",
+      "status": "geometrisch",
+      "evidence": []
+    },
+    {
+      "a": "booster_rechts_09",
+      "b": "booster_kappe_rechts",
+      "fa": 0,
+      "fb": 1,
+      "strength": 1,
+      "type": "HingeConnection",
+      "status": "geometrisch",
+      "evidence": []
+    },
+    {
+      "a": "fluegelholm",
+      "b": "bauch_hinten",
+      "fa": 0,
+      "fb": 0,
+      "strength": 2,
+      "type": "FixedConnection",
+      "status": "geometrisch",
+      "evidence": []
+    },
+    {
+      "a": "fluegelholm",
+      "b": "stuetzraster_0",
+      "fa": 1,
+      "fb": 0,
+      "strength": 2,
+      "type": "FixedConnection",
+      "status": "geometrisch",
+      "evidence": []
+    },
+    {
+      "a": "fluegelholm_vorn",
+      "b": "bauch_hinten",
+      "fa": 0,
+      "fb": 0,
+      "strength": 2,
+      "type": "FixedConnection",
+      "status": "geometrisch",
+      "evidence": []
+    },
+    {
+      "a": "fluegelholm_vorn",
+      "b": "stuetzraster_1",
+      "fa": 1,
+      "fb": 0,
+      "strength": 2,
+      "type": "FixedConnection",
+      "status": "geometrisch",
+      "evidence": []
+    },
+    {
+      "a": "oberer_adapterholm",
+      "b": "bauch_vorn",
+      "fa": 0,
+      "fb": 1,
+      "strength": 2,
+      "type": "FixedConnection",
+      "status": "geometrisch",
+      "evidence": []
+    },
+    {
+      "a": "bauch_hinten",
+      "b": "rumpfverbinder",
+      "fa": 1,
+      "fb": 1,
+      "strength": 6,
+      "type": "FixedConnection",
+      "status": "geometrisch",
+      "evidence": []
+    },
+    {
+      "a": "bauch_hinten",
+      "b": "heckbasis",
+      "fa": 1,
+      "fb": 1,
+      "strength": 4,
+      "type": "FixedConnection",
+      "status": "geometrisch",
+      "evidence": []
+    },
+    {
+      "a": "bauch_hinten",
+      "b": "mittelbasis",
+      "fa": 1,
+      "fb": 0,
+      "strength": 6,
+      "type": "FixedConnection",
+      "status": "geometrisch",
+      "evidence": []
+    },
+    {
+      "a": "bauch_vorn",
+      "b": "rumpfverbinder",
+      "fa": 0,
+      "fb": 1,
+      "strength": 6,
+      "type": "FixedConnection",
+      "status": "geometrisch",
+      "evidence": []
+    },
+    {
+      "a": "rumpfverbinder",
+      "b": "rumpf_mitte",
+      "fa": 0,
+      "fb": 0,
+      "strength": 6,
+      "type": "FixedConnection",
+      "status": "geometrisch",
+      "evidence": []
+    },
+    {
+      "a": "rumpfverbinder",
+      "b": "cockpit_unterbau",
+      "fa": 0,
+      "fb": 1,
+      "strength": 4,
+      "type": "FixedConnection",
+      "status": "geometrisch",
+      "evidence": []
+    },
+    {
+      "a": "rumpfverbinder",
+      "b": "nase_links",
+      "fa": 0,
+      "fb": 1,
+      "strength": 1,
+      "type": "HingeConnection",
+      "status": "geometrisch",
+      "evidence": []
+    },
+    {
+      "a": "rumpfverbinder",
+      "b": "nase_rechts",
+      "fa": 0,
+      "fb": 1,
+      "strength": 1,
+      "type": "HingeConnection",
+      "status": "geometrisch",
+      "evidence": []
+    },
+    {
+      "a": "heckbasis",
+      "b": "duesenhalter_links",
+      "fa": 0,
+      "fb": 1,
+      "strength": 1,
+      "type": "HingeConnection",
+      "status": "geometrisch",
+      "evidence": []
+    },
+    {
+      "a": "heckbasis",
+      "b": "duesenhalter_rechts",
+      "fa": 0,
+      "fb": 1,
+      "strength": 1,
+      "type": "HingeConnection",
+      "status": "geometrisch",
+      "evidence": []
+    },
+    {
+      "a": "heckbasis",
+      "b": "rumpf_hinten",
+      "fa": 0,
+      "fb": 0,
+      "strength": 2,
+      "type": "FixedConnection",
+      "status": "geometrisch",
+      "evidence": []
+    },
+    {
+      "a": "mittelbasis",
+      "b": "rumpf_hinten",
+      "fa": 1,
+      "fb": 0,
+      "strength": 4,
+      "type": "FixedConnection",
+      "status": "geometrisch",
+      "evidence": []
+    },
+    {
+      "a": "mittelbasis",
+      "b": "rumpf_mitte",
+      "fa": 1,
+      "fb": 0,
+      "strength": 2,
+      "type": "FixedConnection",
+      "status": "geometrisch",
+      "evidence": []
+    },
+    {
+      "a": "duesenhalter_links",
+      "b": "leitwerk_fuss",
+      "fa": 2,
+      "fb": 1,
+      "strength": 1,
+      "type": "HingeConnection",
+      "status": "geometrisch",
+      "evidence": []
+    },
+    {
+      "a": "duesenhalter_rechts",
+      "b": "leitwerk_fuss",
+      "fa": 2,
+      "fb": 1,
+      "strength": 1,
+      "type": "HingeConnection",
+      "status": "geometrisch",
+      "evidence": []
+    },
+    {
+      "a": "rumpf_hinten",
+      "b": "laderaum_hinten",
+      "fa": 1,
+      "fb": 0,
+      "strength": 4,
+      "type": "FixedConnection",
+      "status": "geometrisch",
+      "evidence": []
+    },
+    {
+      "a": "rumpf_hinten",
+      "b": "leitwerk_fuss",
+      "fa": 1,
+      "fb": 1,
+      "strength": 2,
+      "type": "FixedConnection",
+      "status": "geometrisch",
+      "evidence": []
+    },
+    {
+      "a": "rumpf_mitte",
+      "b": "laderaum_vorn",
+      "fa": 1,
+      "fb": 0,
+      "strength": 8,
+      "type": "FixedConnection",
+      "status": "geometrisch",
+      "evidence": []
+    },
+    {
+      "a": "cockpit_unterbau",
+      "b": "cockpit_fenster_links",
+      "fa": 0,
+      "fb": 1,
+      "strength": 1,
+      "type": "HingeConnection",
+      "status": "geometrisch",
+      "evidence": []
+    },
+    {
+      "a": "cockpit_unterbau",
+      "b": "cockpit_fenster_rechts",
+      "fa": 0,
+      "fb": 1,
+      "strength": 1,
+      "type": "HingeConnection",
+      "status": "geometrisch",
+      "evidence": []
+    },
+    {
+      "a": "cockpit_unterbau",
+      "b": "cockpit_rueckwand",
+      "fa": 0,
+      "fb": 1,
+      "strength": 2,
+      "type": "FixedConnection",
+      "status": "geometrisch",
+      "evidence": []
+    },
+    {
+      "a": "nase_links",
+      "b": "cockpit_fenster_links",
+      "fa": 0,
+      "fb": 1,
+      "strength": 1,
+      "type": "HingeConnection",
+      "status": "geometrisch",
+      "evidence": []
+    },
+    {
+      "a": "nase_rechts",
+      "b": "cockpit_fenster_rechts",
+      "fa": 0,
+      "fb": 1,
+      "strength": 1,
+      "type": "HingeConnection",
+      "status": "geometrisch",
+      "evidence": []
+    },
+    {
+      "a": "cockpit_rueckwand",
+      "b": "cockpit_dach",
+      "fa": 0,
+      "fb": 1,
+      "strength": 2,
+      "type": "FixedConnection",
+      "status": "geometrisch",
+      "evidence": []
+    },
+    {
+      "a": "leitwerk_fuss",
+      "b": "leitwerk_schraege_links",
+      "fa": 0,
+      "fb": 1,
+      "strength": 1,
+      "type": "HingeConnection",
+      "status": "geometrisch",
+      "evidence": []
+    },
+    {
+      "a": "leitwerk_fuss",
+      "b": "leitwerk_schraege_rechts",
+      "fa": 0,
+      "fb": 1,
+      "strength": 1,
+      "type": "HingeConnection",
+      "status": "geometrisch",
+      "evidence": []
+    },
+    {
+      "a": "leitwerk_fuss",
+      "b": "leitwerk_spitze",
+      "fa": 0,
+      "fb": 1,
+      "strength": 2,
+      "type": "FixedConnection",
+      "status": "geometrisch",
+      "evidence": []
+    },
+    {
+      "a": "stuetze_0_links_0",
+      "b": "stuetze_0_links_1",
+      "fa": 0,
+      "fb": 1,
+      "strength": 1,
+      "type": "HingeConnection",
+      "status": "geometrisch",
+      "evidence": []
+    },
+    {
+      "a": "stuetze_0_links_1",
+      "b": "stuetzplatte_0_links",
+      "fa": 0,
+      "fb": 1,
+      "strength": 1,
+      "type": "HingeConnection",
+      "status": "geometrisch",
+      "evidence": []
+    },
+    {
+      "a": "stuetzplatte_0_links",
+      "b": "stuetzbruecke_0",
+      "fa": 0,
+      "fb": 1,
+      "strength": 1,
+      "type": "HingeConnection",
+      "status": "geometrisch",
+      "evidence": []
+    },
+    {
+      "a": "stuetze_0_rechts_0",
+      "b": "stuetze_0_rechts_1",
+      "fa": 0,
+      "fb": 1,
+      "strength": 1,
+      "type": "HingeConnection",
+      "status": "geometrisch",
+      "evidence": []
+    },
+    {
+      "a": "stuetze_0_rechts_1",
+      "b": "stuetzplatte_0_rechts",
+      "fa": 0,
+      "fb": 1,
+      "strength": 1,
+      "type": "HingeConnection",
+      "status": "geometrisch",
+      "evidence": []
+    },
+    {
+      "a": "stuetzplatte_0_rechts",
+      "b": "stuetzbruecke_0",
+      "fa": 0,
+      "fb": 1,
+      "strength": 1,
+      "type": "HingeConnection",
+      "status": "geometrisch",
+      "evidence": []
+    },
+    {
+      "a": "stuetzbruecke_0",
+      "b": "stuetzraster_0",
+      "fa": 0,
+      "fb": 1,
+      "strength": 2,
+      "type": "FixedConnection",
+      "status": "geometrisch",
+      "evidence": []
+    },
+    {
+      "a": "stuetzenfuss_1_links",
+      "b": "stuetze_1_links_0",
+      "fa": 0,
+      "fb": 1,
+      "strength": 1,
+      "type": "HingeConnection",
+      "status": "geometrisch",
+      "evidence": []
+    },
+    {
+      "a": "stuetze_1_links_0",
+      "b": "stuetze_1_links_1",
+      "fa": 0,
+      "fb": 1,
+      "strength": 1,
+      "type": "HingeConnection",
+      "status": "geometrisch",
+      "evidence": []
+    },
+    {
+      "a": "stuetze_1_links_1",
+      "b": "stuetzplatte_1_links",
+      "fa": 0,
+      "fb": 1,
+      "strength": 1,
+      "type": "HingeConnection",
+      "status": "geometrisch",
+      "evidence": []
+    },
+    {
+      "a": "stuetzplatte_1_links",
+      "b": "stuetzbruecke_1",
+      "fa": 0,
+      "fb": 1,
+      "strength": 1,
+      "type": "HingeConnection",
+      "status": "geometrisch",
+      "evidence": []
+    },
+    {
+      "a": "stuetzenfuss_1_rechts",
+      "b": "stuetze_1_rechts_0",
+      "fa": 0,
+      "fb": 1,
+      "strength": 1,
+      "type": "HingeConnection",
+      "status": "geometrisch",
+      "evidence": []
+    },
+    {
+      "a": "stuetze_1_rechts_0",
+      "b": "stuetze_1_rechts_1",
+      "fa": 0,
+      "fb": 1,
+      "strength": 1,
+      "type": "HingeConnection",
+      "status": "geometrisch",
+      "evidence": []
+    },
+    {
+      "a": "stuetze_1_rechts_1",
+      "b": "stuetzplatte_1_rechts",
+      "fa": 0,
+      "fb": 1,
+      "strength": 1,
+      "type": "HingeConnection",
+      "status": "geometrisch",
+      "evidence": []
+    },
+    {
+      "a": "stuetzplatte_1_rechts",
+      "b": "stuetzbruecke_1",
+      "fa": 0,
+      "fb": 1,
+      "strength": 1,
+      "type": "HingeConnection",
+      "status": "geometrisch",
+      "evidence": []
+    },
+    {
+      "a": "stuetzbruecke_1",
+      "b": "stuetzraster_1",
+      "fa": 0,
+      "fb": 1,
+      "strength": 2,
+      "type": "FixedConnection",
+      "status": "geometrisch",
+      "evidence": []
+    },
+    {
+      "a": "bedienpod_quertraeger",
+      "b": "bedienpod_boden",
+      "fa": 0,
+      "fb": 1,
+      "strength": 4,
+      "type": "FixedConnection",
+      "status": "geometrisch",
+      "evidence": []
+    },
+    {
+      "a": "bedienpod_boden",
+      "b": "bedienpod_sitzplatte",
+      "fa": 0,
+      "fb": 1,
+      "strength": 8,
+      "type": "FixedConnection",
+      "status": "geometrisch",
+      "evidence": []
+    },
+    {
+      "a": "tank_winkel_unterlage",
+      "b": "tank_winkel",
+      "fa": 0,
+      "fb": 1,
+      "strength": 2,
+      "type": "FixedConnection",
+      "status": "beobachtete_paarlage",
+      "evidence": [
+        "1b8a2c938346c4c35e59c933"
+      ]
+    },
+    {
+      "a": "tank_winkel",
+      "b": "tank_00",
+      "fa": 0,
+      "fb": 1,
+      "strength": 4,
+      "type": "FixedConnection",
+      "status": "beobachtete_paarlage",
+      "evidence": [
+        "a513b8991973b25bb5058b1f",
+        "cdd5a6a832a6c6a4cab39378"
+      ]
+    },
+    {
+      "a": "tank_00",
+      "b": "tank_01",
+      "fa": 2,
+      "fb": 1,
+      "strength": 4,
+      "type": "FixedConnection",
+      "status": "beobachtete_paarlage",
+      "evidence": [
+        "087aef8f1f7d9cf3f9bc538a",
+        "617d06090a89893628f82672",
+        "66ff084c62451f1ef24f94e0",
+        "de4c915cdcef60f2d81936e4"
+      ]
+    },
+    {
+      "a": "tank_01",
+      "b": "tank_02",
+      "fa": 2,
+      "fb": 1,
+      "strength": 4,
+      "type": "FixedConnection",
+      "status": "beobachtete_paarlage",
+      "evidence": [
+        "087aef8f1f7d9cf3f9bc538a",
+        "617d06090a89893628f82672",
+        "66ff084c62451f1ef24f94e0",
+        "de4c915cdcef60f2d81936e4"
+      ]
+    },
+    {
+      "a": "tank_02",
+      "b": "tank_03",
+      "fa": 2,
+      "fb": 1,
+      "strength": 4,
+      "type": "FixedConnection",
+      "status": "beobachtete_paarlage",
+      "evidence": [
+        "087aef8f1f7d9cf3f9bc538a",
+        "617d06090a89893628f82672",
+        "66ff084c62451f1ef24f94e0",
+        "de4c915cdcef60f2d81936e4"
+      ]
+    },
+    {
+      "a": "tank_03",
+      "b": "tank_04",
+      "fa": 2,
+      "fb": 1,
+      "strength": 4,
+      "type": "FixedConnection",
+      "status": "beobachtete_paarlage",
+      "evidence": [
+        "087aef8f1f7d9cf3f9bc538a",
+        "617d06090a89893628f82672",
+        "66ff084c62451f1ef24f94e0",
+        "de4c915cdcef60f2d81936e4"
+      ]
+    },
+    {
+      "a": "tank_04",
+      "b": "tank_05",
+      "fa": 2,
+      "fb": 1,
+      "strength": 4,
+      "type": "FixedConnection",
+      "status": "beobachtete_paarlage",
+      "evidence": [
+        "087aef8f1f7d9cf3f9bc538a",
+        "617d06090a89893628f82672",
+        "66ff084c62451f1ef24f94e0",
+        "de4c915cdcef60f2d81936e4"
+      ]
+    },
+    {
+      "a": "tank_05",
+      "b": "tank_06",
+      "fa": 2,
+      "fb": 1,
+      "strength": 4,
+      "type": "FixedConnection",
+      "status": "beobachtete_paarlage",
+      "evidence": [
+        "087aef8f1f7d9cf3f9bc538a",
+        "617d06090a89893628f82672",
+        "66ff084c62451f1ef24f94e0",
+        "de4c915cdcef60f2d81936e4"
+      ]
+    },
+    {
+      "a": "tank_06",
+      "b": "tank_07",
+      "fa": 2,
+      "fb": 1,
+      "strength": 4,
+      "type": "FixedConnection",
+      "status": "beobachtete_paarlage",
+      "evidence": [
+        "087aef8f1f7d9cf3f9bc538a",
+        "617d06090a89893628f82672",
+        "66ff084c62451f1ef24f94e0",
+        "de4c915cdcef60f2d81936e4"
+      ]
+    },
+    {
+      "a": "tank_07",
+      "b": "tank_08",
+      "fa": 2,
+      "fb": 1,
+      "strength": 4,
+      "type": "FixedConnection",
+      "status": "beobachtete_paarlage",
+      "evidence": [
+        "087aef8f1f7d9cf3f9bc538a",
+        "617d06090a89893628f82672",
+        "66ff084c62451f1ef24f94e0",
+        "de4c915cdcef60f2d81936e4"
+      ]
+    },
+    {
+      "a": "tank_08",
+      "b": "tank_09",
+      "fa": 2,
+      "fb": 1,
+      "strength": 4,
+      "type": "FixedConnection",
+      "status": "beobachtete_paarlage",
+      "evidence": [
+        "087aef8f1f7d9cf3f9bc538a",
+        "617d06090a89893628f82672",
+        "66ff084c62451f1ef24f94e0",
+        "de4c915cdcef60f2d81936e4"
+      ]
+    },
+    {
+      "a": "tank_09",
+      "b": "tank_spitze",
+      "fa": 2,
+      "fb": 0,
+      "strength": 4,
+      "type": "FixedConnection",
+      "status": "beobachtete_paarlage",
+      "evidence": [
+        "3337cfd128f9133824539d9c"
+      ]
+    },
+    {
+      "a": "booster_halter_links",
+      "b": "booster_fuss_links",
+      "fa": 0,
+      "fb": 0,
+      "strength": 1,
+      "type": "HingeConnection",
+      "status": "beobachtete_paarlage",
+      "evidence": [
+        "0885e6ad6653d701cdde7191",
+        "e207f962ba5383f006f38218"
+      ]
+    },
+    {
+      "a": "booster_kappe_links",
+      "b": "booster_spitze_links",
+      "fa": 0,
+      "fb": 3,
+      "strength": 1,
+      "type": "HingeConnection",
+      "status": "beobachtete_paarlage",
+      "evidence": [
+        "2667b926116b341fc850f91d"
+      ]
+    },
+    {
+      "a": "booster_halter_rechts",
+      "b": "booster_fuss_rechts",
+      "fa": 0,
+      "fb": 0,
+      "strength": 1,
+      "type": "HingeConnection",
+      "status": "beobachtete_paarlage",
+      "evidence": [
+        "0885e6ad6653d701cdde7191",
+        "e207f962ba5383f006f38218"
+      ]
+    },
+    {
+      "a": "booster_kappe_rechts",
+      "b": "booster_spitze_rechts",
+      "fa": 0,
+      "fb": 3,
+      "strength": 1,
+      "type": "HingeConnection",
+      "status": "beobachtete_paarlage",
+      "evidence": [
+        "2667b926116b341fc850f91d"
+      ]
+    },
+    {
+      "a": "fluegelholm",
+      "b": "delta_rechts",
+      "fa": 1,
+      "fb": 0,
+      "strength": 1,
+      "type": "HingeConnection",
+      "status": "beobachtete_paarlage",
+      "evidence": [
+        "bf4622d0d455e9bb2f4d8216"
+      ]
+    },
+    {
+      "a": "fluegelholm",
+      "b": "delta_links",
+      "fa": 1,
+      "fb": 1,
+      "strength": 1,
+      "type": "HingeConnection",
+      "status": "beobachtete_paarlage",
+      "evidence": [
+        "beff3b53af4ccb857241773d"
+      ]
+    },
+    {
+      "a": "fluegelholm_vorn",
+      "b": "delta_rechts",
+      "fa": 1,
+      "fb": 0,
+      "strength": 1,
+      "type": "HingeConnection",
+      "status": "beobachtete_paarlage",
+      "evidence": [
+        "17e17a58a9181586b3e0afa2"
+      ]
+    },
+    {
+      "a": "fluegelholm_vorn",
+      "b": "delta_links",
+      "fa": 1,
+      "fb": 1,
+      "strength": 1,
+      "type": "HingeConnection",
+      "status": "beobachtete_paarlage",
+      "evidence": [
+        "6e106ae3b0b9be0d14c39b78"
+      ]
+    },
+    {
+      "a": "duesenhalter_links",
+      "b": "duese_links",
+      "fa": 0,
+      "fb": 0,
+      "strength": 1,
+      "type": "HingeConnection",
+      "status": "beobachtete_paarlage",
+      "evidence": [
+        "0885e6ad6653d701cdde7191",
+        "e207f962ba5383f006f38218"
+      ]
+    },
+    {
+      "a": "duesenhalter_rechts",
+      "b": "duese_rechts",
+      "fa": 0,
+      "fb": 0,
+      "strength": 1,
+      "type": "HingeConnection",
+      "status": "beobachtete_paarlage",
+      "evidence": [
+        "0885e6ad6653d701cdde7191",
+        "e207f962ba5383f006f38218"
+      ]
+    },
+    {
+      "a": "bedienpod_sitzplatte",
+      "b": "fahrersitz",
+      "fa": 0,
+      "fb": 1,
+      "strength": 4,
+      "type": "FixedConnection",
+      "status": "beobachtete_paarlage",
+      "evidence": [
+        "04d83c2ede16255da44ef068"
+      ]
+    }
+  ],
+  "patterns": {
+    "04d83c2ede16255da44ef068": {
+      "a": 3020,
+      "b": 4079,
+      "fa": 0,
+      "fb": 1,
+      "strength": 4,
+      "type": "FixedConnection",
+      "relative": {
+        "pos": [
+          25.0002,
+          -25.0,
+          10.0
+        ],
+        "rot": [
+          -0.0,
+          -0.0,
+          1.0,
+          -2e-07
+        ],
+        "scale_a": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "scale_b": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "evidence": [
+        {
+          "graph": "73904de303aacf347ecc732f4c94dd468a0c220e",
+          "indices": [
+            77,
+            79
+          ]
+        }
+      ]
+    },
+    "087aef8f1f7d9cf3f9bc538a": {
+      "a": 6143,
+      "b": 6143,
+      "fa": 1,
+      "fb": 2,
+      "strength": 4,
+      "type": "FixedConnection",
+      "relative": {
+        "pos": [
+          -0.0008,
+          0.0001,
+          -29.9995
+        ],
+        "rot": [
+          -1e-07,
+          -3e-07,
+          -1e-07,
+          1.0
+        ],
+        "scale_a": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "scale_b": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "evidence": [
+        {
+          "graph": "3479c19e201c1b36d4d7864c1b1c0234705bb4d1",
+          "indices": [
+            124,
+            125
+          ]
+        }
+      ]
+    },
+    "0885e6ad6653d701cdde7191": {
+      "a": 6141,
+      "b": 87087,
+      "fa": 0,
+      "fb": 0,
+      "strength": 1,
+      "type": "HingeConnection",
+      "relative": {
+        "pos": [
+          -17.5,
+          -0.0002,
+          -12.5002
+        ],
+        "rot": [
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ],
+        "scale_a": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "scale_b": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "evidence": [
+        {
+          "graph": "f699dd7307235e84e6b2c9b31e12736b6c11748e",
+          "indices": [
+            264,
+            263
+          ]
+        },
+        {
+          "graph": "f699dd7307235e84e6b2c9b31e12736b6c11748e",
+          "indices": [
+            283,
+            282
+          ]
+        }
+      ]
+    },
+    "17e17a58a9181586b3e0afa2": {
+      "a": 3710,
+      "b": 54383,
+      "fa": 1,
+      "fb": 0,
+      "strength": 1,
+      "type": "HingeConnection",
+      "relative": {
+        "pos": [
+          74.9999,
+          -100.0005,
+          -10.0
+        ],
+        "rot": [
+          -1e-07,
+          -1e-07,
+          0.707107,
+          0.7071066
+        ],
+        "scale_a": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "scale_b": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "evidence": [
+        {
+          "graph": "06063e45b031ec42e062e483089e1ffc3cfa052c",
+          "indices": [
+            25,
+            31
+          ]
+        }
+      ]
+    },
+    "1b8a2c938346c4c35e59c933": {
+      "a": 3023,
+      "b": 3956,
+      "fa": 0,
+      "fb": 1,
+      "strength": 2,
+      "type": "FixedConnection",
+      "relative": {
+        "pos": [
+          0.0003,
+          25.0,
+          10.0
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale_a": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "scale_b": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "evidence": [
+        {
+          "graph": "f8febc27808ced1e81221315a08fbbdb435324a0",
+          "indices": [
+            81,
+            57
+          ]
+        }
+      ]
+    },
+    "2667b926116b341fc850f91d": {
+      "a": 3024,
+      "b": 59900,
+      "fa": 0,
+      "fb": 3,
+      "strength": 1,
+      "type": "HingeConnection",
+      "relative": {
+        "pos": [
+          0.0,
+          0.0002,
+          10.0
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          8e-07,
+          1.0
+        ],
+        "scale_a": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "scale_b": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "evidence": [
+        {
+          "graph": "b6126f0e0304659cf73c579f1e98a109a46f097b",
+          "indices": [
+            161,
+            180
+          ]
+        }
+      ]
+    },
+    "3337cfd128f9133824539d9c": {
+      "a": 3942,
+      "b": 6143,
+      "fa": 0,
+      "fb": 2,
+      "strength": 4,
+      "type": "FixedConnection",
+      "relative": {
+        "pos": [
+          0.0,
+          -0.0003,
+          -29.9995
+        ],
+        "rot": [
+          3e-07,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale_a": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "scale_b": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "evidence": [
+        {
+          "graph": "011c30fc457c0ea698a0c236c32b8dce63c2745a",
+          "indices": [
+            122,
+            123
+          ]
+        }
+      ]
+    },
+    "617d06090a89893628f82672": {
+      "a": 6143,
+      "b": 6143,
+      "fa": 1,
+      "fb": 2,
+      "strength": 4,
+      "type": "FixedConnection",
+      "relative": {
+        "pos": [
+          -0.0002,
+          0.0002,
+          -30.0
+        ],
+        "rot": [
+          -0.0,
+          3e-07,
+          0.0,
+          1.0
+        ],
+        "scale_a": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "scale_b": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "evidence": [
+        {
+          "graph": "3479c19e201c1b36d4d7864c1b1c0234705bb4d1",
+          "indices": [
+            65,
+            66
+          ]
+        }
+      ]
+    },
+    "66ff084c62451f1ef24f94e0": {
+      "a": 6143,
+      "b": 6143,
+      "fa": 1,
+      "fb": 2,
+      "strength": 4,
+      "type": "FixedConnection",
+      "relative": {
+        "pos": [
+          0.0,
+          0.0,
+          -30.0
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale_a": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "scale_b": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "evidence": [
+        {
+          "graph": "11258b868386772c3eacded8daf455b938765836",
+          "indices": [
+            192,
+            193
+          ]
+        }
+      ]
+    },
+    "6e106ae3b0b9be0d14c39b78": {
+      "a": 3710,
+      "b": 54384,
+      "fa": 1,
+      "fb": 1,
+      "strength": 1,
+      "type": "HingeConnection",
+      "relative": {
+        "pos": [
+          -0.0001,
+          -100.0005,
+          -10.0
+        ],
+        "rot": [
+          -1e-07,
+          -1e-07,
+          0.707107,
+          0.7071066
+        ],
+        "scale_a": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "scale_b": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "evidence": [
+        {
+          "graph": "06063e45b031ec42e062e483089e1ffc3cfa052c",
+          "indices": [
+            25,
+            30
+          ]
+        }
+      ]
+    },
+    "a513b8991973b25bb5058b1f": {
+      "a": 3956,
+      "b": 6143,
+      "fa": 0,
+      "fb": 1,
+      "strength": 4,
+      "type": "FixedConnection",
+      "relative": {
+        "pos": [
+          25.0,
+          22.5,
+          47.5
+        ],
+        "rot": [
+          8e-07,
+          0.707106,
+          0.7071075,
+          7e-07
+        ],
+        "scale_a": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "scale_b": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "evidence": [
+        {
+          "graph": "0a763f8db2c4e5e2a3518f16093788f98e9b9726",
+          "indices": [
+            21,
+            22
+          ]
+        },
+        {
+          "graph": "5ade5915e80a92ad8e8f52f8d4ae353f10865b07",
+          "indices": [
+            21,
+            22
+          ]
+        },
+        {
+          "graph": "6c77ee0171b2e2c1c227b7be714816f1dc7ef7b2",
+          "indices": [
+            21,
+            22
+          ]
+        }
+      ]
+    },
+    "beff3b53af4ccb857241773d": {
+      "a": 3710,
+      "b": 54384,
+      "fa": 1,
+      "fb": 1,
+      "strength": 1,
+      "type": "HingeConnection",
+      "relative": {
+        "pos": [
+          -0.0001,
+          -75.0005,
+          -10.0
+        ],
+        "rot": [
+          -1e-07,
+          -1e-07,
+          0.707107,
+          0.7071066
+        ],
+        "scale_a": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "scale_b": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "evidence": [
+        {
+          "graph": "06063e45b031ec42e062e483089e1ffc3cfa052c",
+          "indices": [
+            24,
+            30
+          ]
+        }
+      ]
+    },
+    "bf4622d0d455e9bb2f4d8216": {
+      "a": 3710,
+      "b": 54383,
+      "fa": 1,
+      "fb": 0,
+      "strength": 1,
+      "type": "HingeConnection",
+      "relative": {
+        "pos": [
+          74.9999,
+          -75.0005,
+          -10.0
+        ],
+        "rot": [
+          -1e-07,
+          -1e-07,
+          0.707107,
+          0.7071066
+        ],
+        "scale_a": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "scale_b": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "evidence": [
+        {
+          "graph": "06063e45b031ec42e062e483089e1ffc3cfa052c",
+          "indices": [
+            24,
+            31
+          ]
+        }
+      ]
+    },
+    "cdd5a6a832a6c6a4cab39378": {
+      "a": 3956,
+      "b": 6143,
+      "fa": 0,
+      "fb": 1,
+      "strength": 4,
+      "type": "FixedConnection",
+      "relative": {
+        "pos": [
+          24.9995,
+          22.4997,
+          47.4999
+        ],
+        "rot": [
+          3e-07,
+          0.7071068,
+          0.7071067,
+          2e-07
+        ],
+        "scale_a": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "scale_b": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "evidence": [
+        {
+          "graph": "3e31b3434af4fe43dfafbef93c6a5222a9011636",
+          "indices": [
+            22,
+            24
+          ]
+        }
+      ]
+    },
+    "de4c915cdcef60f2d81936e4": {
+      "a": 6143,
+      "b": 6143,
+      "fa": 1,
+      "fb": 2,
+      "strength": 4,
+      "type": "FixedConnection",
+      "relative": {
+        "pos": [
+          0.0,
+          0.0,
+          -30.0
+        ],
+        "rot": [
+          -0.0,
+          -0.0,
+          -0.0,
+          1.0
+        ],
+        "scale_a": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "scale_b": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "evidence": [
+        {
+          "graph": "37dc740e223ae6f3e625fc8b066791ffee949d27",
+          "indices": [
+            9,
+            8
+          ]
+        },
+        {
+          "graph": "37dc740e223ae6f3e625fc8b066791ffee949d27",
+          "indices": [
+            10,
+            9
+          ]
+        }
+      ]
+    },
+    "e207f962ba5383f006f38218": {
+      "a": 6141,
+      "b": 87087,
+      "fa": 0,
+      "fb": 0,
+      "strength": 1,
+      "type": "HingeConnection",
+      "relative": {
+        "pos": [
+          -17.5,
+          0.0,
+          -12.5002
+        ],
+        "rot": [
+          0.5000001,
+          0.4999999,
+          0.5,
+          0.5
+        ],
+        "scale_a": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "scale_b": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "evidence": [
+        {
+          "graph": "f699dd7307235e84e6b2c9b31e12736b6c11748e",
+          "indices": [
+            192,
+            193
+          ]
+        },
+        {
+          "graph": "f699dd7307235e84e6b2c9b31e12736b6c11748e",
+          "indices": [
+            195,
+            196
+          ]
+        },
+        {
+          "graph": "f699dd7307235e84e6b2c9b31e12736b6c11748e",
+          "indices": [
+            294,
+            295
+          ]
+        },
+        {
+          "graph": "f699dd7307235e84e6b2c9b31e12736b6c11748e",
+          "indices": [
+            297,
+            298
+          ]
+        }
+      ]
+    }
+  },
+  "reference_graphs": {
+    "73904de303aacf347ecc732f4c94dd468a0c220e": {
+      "locations": [
+        {
+          "source": "0eac7e06ac8519dbce61",
+          "list": "CustomVehicles",
+          "name": "Foul Runnings Truck"
+        },
+        {
+          "source": "309f3dbc26c72fedc809",
+          "list": "CustomVehicles",
+          "name": "Foul Runnings Truck"
+        },
+        {
+          "source": "7181ebae9c1a3cdd9d56",
+          "list": "CustomVehicles",
+          "name": "Foul Runnings Truck"
+        },
+        {
+          "source": "853d3100faecba76d086",
+          "list": "CustomVehicles",
+          "name": "Foul Runnings Truck"
+        }
+      ],
+      "excluded": false
+    },
+    "3479c19e201c1b36d4d7864c1b1c0234705bb4d1": {
+      "locations": [
+        {
+          "source": "04c18630435cdf0125b6",
+          "list": "DownloadedVehicles",
+          "name": "Octan Space Racer"
+        },
+        {
+          "source": "0a84a7cf838906873812",
+          "list": "DownloadedVehicles",
+          "name": "Octan Space Racer"
+        },
+        {
+          "source": "0b1f86c895e6a31ea1b9",
+          "list": "DownloadedVehicles",
+          "name": "Octan Space Racer"
+        },
+        {
+          "source": "26995cd0afae34a6c71c",
+          "list": "DownloadedVehicles",
+          "name": "Octan Space Racer"
+        },
+        {
+          "source": "40ae08f91059127d2d37",
+          "list": "DownloadedVehicles",
+          "name": "Octan Space Racer"
+        },
+        {
+          "source": "44f4aa0b5f2b3b8130ca",
+          "list": "DownloadedVehicles",
+          "name": "Octan Space Racer"
+        },
+        {
+          "source": "4e53c011a63ba0b6ba39",
+          "list": "DownloadedVehicles",
+          "name": "Octan Space Racer"
+        },
+        {
+          "source": "711b44d329514910829f",
+          "list": "DownloadedVehicles",
+          "name": "Octan Space Racer"
+        },
+        {
+          "source": "8166aba8a390ca932963",
+          "list": "DownloadedVehicles",
+          "name": "Octan Space Racer"
+        },
+        {
+          "source": "a13da0434f939f3f340e",
+          "list": "DownloadedVehicles",
+          "name": "Octan Space Racer"
+        },
+        {
+          "source": "ade6a9e2eec6a1b0568e",
+          "list": "DownloadedVehicles",
+          "name": "Octan Space Racer"
+        },
+        {
+          "source": "b3e8ff2c75d77c6098f1",
+          "list": "DownloadedVehicles",
+          "name": "Octan Space Racer"
+        },
+        {
+          "source": "b480c4203fba1e592452",
+          "list": "DownloadedVehicles",
+          "name": "Octan Space Racer"
+        },
+        {
+          "source": "c19b922da0e28f970d8a",
+          "list": "DownloadedVehicles",
+          "name": "Octan Space Racer"
+        },
+        {
+          "source": "c210603f3c95486dcea2",
+          "list": "DownloadedVehicles",
+          "name": "Octan Space Racer"
+        },
+        {
+          "source": "cca01c95135d93c7b857",
+          "list": "DownloadedVehicles",
+          "name": "Octan Space Racer"
+        },
+        {
+          "source": "dbfa29c97ec61963b07b",
+          "list": "DownloadedVehicles",
+          "name": "Octan Space Racer"
+        },
+        {
+          "source": "df72237e95fceed135c8",
+          "list": "DownloadedVehicles",
+          "name": "Octan Space Racer"
+        },
+        {
+          "source": "ea8eec8335040feed59a",
+          "list": "DownloadedVehicles",
+          "name": "Octan Space Racer"
+        },
+        {
+          "source": "f2cc3fc33058ee1564f3",
+          "list": "DownloadedVehicles",
+          "name": "Octan Space Racer"
+        },
+        {
+          "source": "faf1c4249816683f7431",
+          "list": "DownloadedVehicles",
+          "name": "Octan Space Racer"
+        }
+      ],
+      "excluded": false
+    },
+    "f699dd7307235e84e6b2c9b31e12736b6c11748e": {
+      "locations": [
+        {
+          "source": "01fab88dc78d1368eab7",
+          "list": "CustomVehicles",
+          "name": "Cranium Insanium"
+        },
+        {
+          "source": "0eac7e06ac8519dbce61",
+          "list": "CustomVehicles",
+          "name": "Cranium Insanium"
+        },
+        {
+          "source": "29f008103dd9eed07770",
+          "list": "CustomVehicles",
+          "name": "Cranium Insanium"
+        },
+        {
+          "source": "309f3dbc26c72fedc809",
+          "list": "CustomVehicles",
+          "name": "Cranium Insanium"
+        },
+        {
+          "source": "504b72b223391f4d66fb",
+          "list": "CustomVehicles",
+          "name": "Cranium Insanium"
+        },
+        {
+          "source": "6e5645a91b1ab9d5573a",
+          "list": "CustomVehicles",
+          "name": "Cranium Insanium"
+        },
+        {
+          "source": "7181ebae9c1a3cdd9d56",
+          "list": "CustomVehicles",
+          "name": "Cranium Insanium"
+        },
+        {
+          "source": "853d3100faecba76d086",
+          "list": "CustomVehicles",
+          "name": "Cranium Insanium"
+        },
+        {
+          "source": "9dc255163f526706384b",
+          "list": "CustomVehicles",
+          "name": "Cranium Insanium"
+        },
+        {
+          "source": "d6be0c830e7af7b98d20",
+          "list": "CustomVehicles",
+          "name": "Cranium Insanium"
+        },
+        {
+          "source": "e876896fe05465722d2b",
+          "list": "CustomVehicles",
+          "name": "Cranium Insanium"
+        },
+        {
+          "source": "ee8309d3beb9992d2b5a",
+          "list": "CustomVehicles",
+          "name": "Cranium Insanium"
+        },
+        {
+          "source": "f161425c91300900e871",
+          "list": "CustomVehicles",
+          "name": "Cranium Insanium"
+        },
+        {
+          "source": "f51cbb027cb35a98b145",
+          "list": "CustomVehicles",
+          "name": "Cranium Insanium"
+        },
+        {
+          "source": "fc002f5718d2ecd4a3be",
+          "list": "CustomVehicles",
+          "name": "Cranium Insanium"
+        }
+      ],
+      "excluded": false
+    },
+    "06063e45b031ec42e062e483089e1ffc3cfa052c": {
+      "locations": [
+        {
+          "source": "0234c91608cb7e6e7310",
+          "list": "CachedVehicles",
+          "name": "New Vehicle 29"
+        },
+        {
+          "source": "039bf69dfbdd50f517a3",
+          "list": "CachedVehicles",
+          "name": "New Vehicle 29"
+        },
+        {
+          "source": "04702b476953d308eecf",
+          "list": "CachedVehicles",
+          "name": "New Vehicle 29"
+        },
+        {
+          "source": "04c18630435cdf0125b6",
+          "list": "DownloadedVehicles",
+          "name": "New Vehicle 29"
+        },
+        {
+          "source": "065285dbb670d343826a",
+          "list": "CachedVehicles",
+          "name": "New Vehicle 29"
+        },
+        {
+          "source": "0a84a7cf838906873812",
+          "list": "DownloadedVehicles",
+          "name": "New Vehicle 29"
+        },
+        {
+          "source": "0b1f86c895e6a31ea1b9",
+          "list": "DownloadedVehicles",
+          "name": "New Vehicle 29"
+        },
+        {
+          "source": "149358689f327d6f98b4",
+          "list": "CachedVehicles",
+          "name": "New Vehicle 29"
+        },
+        {
+          "source": "26995cd0afae34a6c71c",
+          "list": "DownloadedVehicles",
+          "name": "New Vehicle 29"
+        },
+        {
+          "source": "3cf42d477d8f26b035aa",
+          "list": "CachedVehicles",
+          "name": "New Vehicle 29"
+        },
+        {
+          "source": "40ae08f91059127d2d37",
+          "list": "DownloadedVehicles",
+          "name": "New Vehicle 29"
+        },
+        {
+          "source": "44f4aa0b5f2b3b8130ca",
+          "list": "DownloadedVehicles",
+          "name": "New Vehicle 29"
+        },
+        {
+          "source": "4e53c011a63ba0b6ba39",
+          "list": "DownloadedVehicles",
+          "name": "New Vehicle 29"
+        },
+        {
+          "source": "506cbaf057157c83ea83",
+          "list": "CachedVehicles",
+          "name": "New Vehicle 29"
+        },
+        {
+          "source": "56459767d00d7cc610cb",
+          "list": "CachedVehicles",
+          "name": "New Vehicle 29"
+        },
+        {
+          "source": "62507c0109dfa100e85e",
+          "list": "CachedVehicles",
+          "name": "New Vehicle 29"
+        },
+        {
+          "source": "70761649e0076b9652ce",
+          "list": "CachedVehicles",
+          "name": "New Vehicle 29"
+        },
+        {
+          "source": "711b44d329514910829f",
+          "list": "DownloadedVehicles",
+          "name": "New Vehicle 29"
+        },
+        {
+          "source": "803c6f8b80bec5e11146",
+          "list": "CachedVehicles",
+          "name": "New Vehicle 29"
+        },
+        {
+          "source": "8166aba8a390ca932963",
+          "list": "DownloadedVehicles",
+          "name": "New Vehicle 29"
+        },
+        {
+          "source": "a13da0434f939f3f340e",
+          "list": "DownloadedVehicles",
+          "name": "New Vehicle 29"
+        },
+        {
+          "source": "a4d813149c65aafe58bf",
+          "list": "CachedVehicles",
+          "name": "New Vehicle 29"
+        },
+        {
+          "source": "ade6a9e2eec6a1b0568e",
+          "list": "DownloadedVehicles",
+          "name": "New Vehicle 29"
+        },
+        {
+          "source": "af1fbdf957c61bbf3d54",
+          "list": "CachedVehicles",
+          "name": "New Vehicle 29"
+        },
+        {
+          "source": "b3e8ff2c75d77c6098f1",
+          "list": "DownloadedVehicles",
+          "name": "New Vehicle 29"
+        },
+        {
+          "source": "b480c4203fba1e592452",
+          "list": "DownloadedVehicles",
+          "name": "New Vehicle 29"
+        },
+        {
+          "source": "b6b0ceb5024f230b9d94",
+          "list": "CachedVehicles",
+          "name": "New Vehicle 29"
+        },
+        {
+          "source": "c02396e5933db835908c",
+          "list": "CachedVehicles",
+          "name": "New Vehicle 29"
+        },
+        {
+          "source": "c0cc444b240b32c61bad",
+          "list": "CachedVehicles",
+          "name": "New Vehicle 29"
+        },
+        {
+          "source": "c19b922da0e28f970d8a",
+          "list": "DownloadedVehicles",
+          "name": "New Vehicle 29"
+        },
+        {
+          "source": "c210603f3c95486dcea2",
+          "list": "DownloadedVehicles",
+          "name": "New Vehicle 29"
+        },
+        {
+          "source": "cca01c95135d93c7b857",
+          "list": "DownloadedVehicles",
+          "name": "New Vehicle 29"
+        },
+        {
+          "source": "d35a7af3c545f8eb4107",
+          "list": "CachedVehicles",
+          "name": "New Vehicle 29"
+        },
+        {
+          "source": "d540286839f9ca56d122",
+          "list": "CachedVehicles",
+          "name": "New Vehicle 29"
+        },
+        {
+          "source": "dbfa29c97ec61963b07b",
+          "list": "DownloadedVehicles",
+          "name": "New Vehicle 29"
+        },
+        {
+          "source": "df72237e95fceed135c8",
+          "list": "DownloadedVehicles",
+          "name": "New Vehicle 29"
+        },
+        {
+          "source": "e45bf277521a96367fbf",
+          "list": "CachedVehicles",
+          "name": "New Vehicle 29"
+        },
+        {
+          "source": "ea8eec8335040feed59a",
+          "list": "DownloadedVehicles",
+          "name": "New Vehicle 29"
+        },
+        {
+          "source": "ed4698ff1975ee22d09c",
+          "list": "CachedVehicles",
+          "name": "New Vehicle 29"
+        },
+        {
+          "source": "f2cc3fc33058ee1564f3",
+          "list": "DownloadedVehicles",
+          "name": "New Vehicle 29"
+        },
+        {
+          "source": "f77b47a0dbff6fb1ae7d",
+          "list": "CachedVehicles",
+          "name": "New Vehicle 29"
+        },
+        {
+          "source": "faf1c4249816683f7431",
+          "list": "DownloadedVehicles",
+          "name": "New Vehicle 29"
+        }
+      ],
+      "excluded": false
+    },
+    "f8febc27808ced1e81221315a08fbbdb435324a0": {
+      "locations": [
+        {
+          "source": "04c18630435cdf0125b6",
+          "list": "DownloadedVehicles",
+          "name": "Helicopter"
+        },
+        {
+          "source": "0a84a7cf838906873812",
+          "list": "DownloadedVehicles",
+          "name": "Helicopter"
+        },
+        {
+          "source": "0b1f86c895e6a31ea1b9",
+          "list": "DownloadedVehicles",
+          "name": "Helicopter"
+        },
+        {
+          "source": "26995cd0afae34a6c71c",
+          "list": "DownloadedVehicles",
+          "name": "Helicopter"
+        },
+        {
+          "source": "40ae08f91059127d2d37",
+          "list": "DownloadedVehicles",
+          "name": "Helicopter"
+        },
+        {
+          "source": "44f4aa0b5f2b3b8130ca",
+          "list": "DownloadedVehicles",
+          "name": "Helicopter"
+        },
+        {
+          "source": "4e53c011a63ba0b6ba39",
+          "list": "DownloadedVehicles",
+          "name": "Helicopter"
+        },
+        {
+          "source": "711b44d329514910829f",
+          "list": "DownloadedVehicles",
+          "name": "Helicopter"
+        },
+        {
+          "source": "8166aba8a390ca932963",
+          "list": "DownloadedVehicles",
+          "name": "Helicopter"
+        },
+        {
+          "source": "a13da0434f939f3f340e",
+          "list": "DownloadedVehicles",
+          "name": "Helicopter"
+        },
+        {
+          "source": "ade6a9e2eec6a1b0568e",
+          "list": "DownloadedVehicles",
+          "name": "Helicopter"
+        },
+        {
+          "source": "b3e8ff2c75d77c6098f1",
+          "list": "DownloadedVehicles",
+          "name": "Helicopter"
+        },
+        {
+          "source": "b480c4203fba1e592452",
+          "list": "DownloadedVehicles",
+          "name": "Helicopter"
+        },
+        {
+          "source": "c19b922da0e28f970d8a",
+          "list": "DownloadedVehicles",
+          "name": "Helicopter"
+        },
+        {
+          "source": "c210603f3c95486dcea2",
+          "list": "DownloadedVehicles",
+          "name": "Helicopter"
+        },
+        {
+          "source": "cca01c95135d93c7b857",
+          "list": "DownloadedVehicles",
+          "name": "Helicopter"
+        },
+        {
+          "source": "dbfa29c97ec61963b07b",
+          "list": "DownloadedVehicles",
+          "name": "Helicopter"
+        },
+        {
+          "source": "df72237e95fceed135c8",
+          "list": "DownloadedVehicles",
+          "name": "Helicopter"
+        },
+        {
+          "source": "ea8eec8335040feed59a",
+          "list": "DownloadedVehicles",
+          "name": "Helicopter"
+        },
+        {
+          "source": "f2cc3fc33058ee1564f3",
+          "list": "DownloadedVehicles",
+          "name": "Helicopter"
+        },
+        {
+          "source": "faf1c4249816683f7431",
+          "list": "DownloadedVehicles",
+          "name": "Helicopter"
+        }
+      ],
+      "excluded": false
+    },
+    "b6126f0e0304659cf73c579f1e98a109a46f097b": {
+      "locations": [
+        {
+          "source": "0234c91608cb7e6e7310",
+          "list": "CachedVehicles",
+          "name": "AWave"
+        },
+        {
+          "source": "039bf69dfbdd50f517a3",
+          "list": "CachedVehicles",
+          "name": "AWave"
+        },
+        {
+          "source": "04702b476953d308eecf",
+          "list": "CachedVehicles",
+          "name": "AWave"
+        },
+        {
+          "source": "065285dbb670d343826a",
+          "list": "CachedVehicles",
+          "name": "AWave"
+        },
+        {
+          "source": "149358689f327d6f98b4",
+          "list": "CachedVehicles",
+          "name": "AWave"
+        },
+        {
+          "source": "3cf42d477d8f26b035aa",
+          "list": "CachedVehicles",
+          "name": "AWave"
+        },
+        {
+          "source": "506cbaf057157c83ea83",
+          "list": "CachedVehicles",
+          "name": "AWave"
+        },
+        {
+          "source": "56459767d00d7cc610cb",
+          "list": "CachedVehicles",
+          "name": "AWave"
+        },
+        {
+          "source": "62507c0109dfa100e85e",
+          "list": "CachedVehicles",
+          "name": "AWave"
+        },
+        {
+          "source": "70761649e0076b9652ce",
+          "list": "CachedVehicles",
+          "name": "AWave"
+        },
+        {
+          "source": "803c6f8b80bec5e11146",
+          "list": "CachedVehicles",
+          "name": "AWave"
+        },
+        {
+          "source": "a4d813149c65aafe58bf",
+          "list": "CachedVehicles",
+          "name": "AWave"
+        },
+        {
+          "source": "af1fbdf957c61bbf3d54",
+          "list": "CachedVehicles",
+          "name": "AWave"
+        },
+        {
+          "source": "b6b0ceb5024f230b9d94",
+          "list": "CachedVehicles",
+          "name": "AWave"
+        },
+        {
+          "source": "c02396e5933db835908c",
+          "list": "CachedVehicles",
+          "name": "AWave"
+        },
+        {
+          "source": "c0cc444b240b32c61bad",
+          "list": "CachedVehicles",
+          "name": "AWave"
+        },
+        {
+          "source": "d35a7af3c545f8eb4107",
+          "list": "CachedVehicles",
+          "name": "AWave"
+        },
+        {
+          "source": "d540286839f9ca56d122",
+          "list": "CachedVehicles",
+          "name": "AWave"
+        },
+        {
+          "source": "e45bf277521a96367fbf",
+          "list": "CachedVehicles",
+          "name": "AWave"
+        },
+        {
+          "source": "ed4698ff1975ee22d09c",
+          "list": "CachedVehicles",
+          "name": "AWave"
+        },
+        {
+          "source": "f77b47a0dbff6fb1ae7d",
+          "list": "CachedVehicles",
+          "name": "AWave"
+        }
+      ],
+      "excluded": false
+    },
+    "011c30fc457c0ea698a0c236c32b8dce63c2745a": {
+      "locations": [
+        {
+          "source": "0234c91608cb7e6e7310",
+          "list": "CachedVehicles",
+          "name": "ABeast"
+        },
+        {
+          "source": "039bf69dfbdd50f517a3",
+          "list": "CachedVehicles",
+          "name": "ABeast"
+        },
+        {
+          "source": "04702b476953d308eecf",
+          "list": "CachedVehicles",
+          "name": "ABeast"
+        },
+        {
+          "source": "065285dbb670d343826a",
+          "list": "CachedVehicles",
+          "name": "ABeast"
+        },
+        {
+          "source": "149358689f327d6f98b4",
+          "list": "CachedVehicles",
+          "name": "ABeast"
+        },
+        {
+          "source": "3cf42d477d8f26b035aa",
+          "list": "CachedVehicles",
+          "name": "ABeast"
+        },
+        {
+          "source": "506cbaf057157c83ea83",
+          "list": "CachedVehicles",
+          "name": "ABeast"
+        },
+        {
+          "source": "56459767d00d7cc610cb",
+          "list": "CachedVehicles",
+          "name": "ABeast"
+        },
+        {
+          "source": "62507c0109dfa100e85e",
+          "list": "CachedVehicles",
+          "name": "ABeast"
+        },
+        {
+          "source": "70761649e0076b9652ce",
+          "list": "CachedVehicles",
+          "name": "ABeast"
+        },
+        {
+          "source": "803c6f8b80bec5e11146",
+          "list": "CachedVehicles",
+          "name": "ABeast"
+        },
+        {
+          "source": "a4d813149c65aafe58bf",
+          "list": "CachedVehicles",
+          "name": "ABeast"
+        },
+        {
+          "source": "af1fbdf957c61bbf3d54",
+          "list": "CachedVehicles",
+          "name": "ABeast"
+        },
+        {
+          "source": "b6b0ceb5024f230b9d94",
+          "list": "CachedVehicles",
+          "name": "ABeast"
+        },
+        {
+          "source": "c02396e5933db835908c",
+          "list": "CachedVehicles",
+          "name": "ABeast"
+        },
+        {
+          "source": "c0cc444b240b32c61bad",
+          "list": "CachedVehicles",
+          "name": "ABeast"
+        },
+        {
+          "source": "d35a7af3c545f8eb4107",
+          "list": "CachedVehicles",
+          "name": "ABeast"
+        },
+        {
+          "source": "d540286839f9ca56d122",
+          "list": "CachedVehicles",
+          "name": "ABeast"
+        },
+        {
+          "source": "e45bf277521a96367fbf",
+          "list": "CachedVehicles",
+          "name": "ABeast"
+        },
+        {
+          "source": "ed4698ff1975ee22d09c",
+          "list": "CachedVehicles",
+          "name": "ABeast"
+        },
+        {
+          "source": "f77b47a0dbff6fb1ae7d",
+          "list": "CachedVehicles",
+          "name": "ABeast"
+        }
+      ],
+      "excluded": false
+    },
+    "11258b868386772c3eacded8daf455b938765836": {
+      "locations": [
+        {
+          "source": "01fab88dc78d1368eab7",
+          "list": "CustomVehicles",
+          "name": "The Fusion Juggernaut"
+        },
+        {
+          "source": "29f008103dd9eed07770",
+          "list": "CustomVehicles",
+          "name": "The Fusion Juggernaut"
+        },
+        {
+          "source": "504b72b223391f4d66fb",
+          "list": "CustomVehicles",
+          "name": "The Fusion Juggernaut"
+        },
+        {
+          "source": "6e5645a91b1ab9d5573a",
+          "list": "CustomVehicles",
+          "name": "The Fusion Juggernaut"
+        },
+        {
+          "source": "9dc255163f526706384b",
+          "list": "CustomVehicles",
+          "name": "The Fusion Juggernaut"
+        },
+        {
+          "source": "d6be0c830e7af7b98d20",
+          "list": "CustomVehicles",
+          "name": "The Fusion Juggernaut"
+        },
+        {
+          "source": "e876896fe05465722d2b",
+          "list": "CustomVehicles",
+          "name": "The Fusion Juggernaut"
+        },
+        {
+          "source": "ee8309d3beb9992d2b5a",
+          "list": "CustomVehicles",
+          "name": "The Fusion Juggernaut"
+        },
+        {
+          "source": "f161425c91300900e871",
+          "list": "CustomVehicles",
+          "name": "The Fusion Juggernaut"
+        },
+        {
+          "source": "f51cbb027cb35a98b145",
+          "list": "CustomVehicles",
+          "name": "The Fusion Juggernaut"
+        },
+        {
+          "source": "fc002f5718d2ecd4a3be",
+          "list": "CustomVehicles",
+          "name": "The Fusion Juggernaut"
+        }
+      ],
+      "excluded": false
+    },
+    "0a763f8db2c4e5e2a3518f16093788f98e9b9726": {
+      "locations": [
+        {
+          "source": "333b1b3658217edbdb7c",
+          "list": "CustomVehicles",
+          "name": "Neues Fahrzeug 04"
+        }
+      ],
+      "excluded": false
+    },
+    "5ade5915e80a92ad8e8f52f8d4ae353f10865b07": {
+      "locations": [
+        {
+          "source": "0d3a93a331bacb4c6a71",
+          "list": "CustomVehicles",
+          "name": "Neues Fahrzeug 04"
+        },
+        {
+          "source": "45aec963afb265cfa5c3",
+          "list": "CustomVehicles",
+          "name": "Neues Fahrzeug 04"
+        },
+        {
+          "source": "7611136d891496795708",
+          "list": "CustomVehicles",
+          "name": "Neues Fahrzeug 04"
+        },
+        {
+          "source": "8f1da554101fd620d27a",
+          "list": "CustomVehicles",
+          "name": "Neues Fahrzeug 04"
+        },
+        {
+          "source": "97b2c6698fad85942a24",
+          "list": "CustomVehicles",
+          "name": "Neues Fahrzeug 04"
+        },
+        {
+          "source": "dd22322603eb66e4d58d",
+          "list": "CustomVehicles",
+          "name": "Neues Fahrzeug 04"
+        },
+        {
+          "source": "f11d75c7e1ea90812d91",
+          "list": "CustomVehicles",
+          "name": "Neues Fahrzeug 04"
+        }
+      ],
+      "excluded": false
+    },
+    "6c77ee0171b2e2c1c227b7be714816f1dc7ef7b2": {
+      "locations": [
+        {
+          "source": "01fab88dc78d1368eab7",
+          "list": "CustomVehicles",
+          "name": "Neues Fahrzeug 04"
+        },
+        {
+          "source": "0eac7e06ac8519dbce61",
+          "list": "CustomVehicles",
+          "name": "Neues Fahrzeug 04"
+        },
+        {
+          "source": "29f008103dd9eed07770",
+          "list": "CustomVehicles",
+          "name": "Neues Fahrzeug 04"
+        },
+        {
+          "source": "309f3dbc26c72fedc809",
+          "list": "CustomVehicles",
+          "name": "Neues Fahrzeug 04"
+        },
+        {
+          "source": "504b72b223391f4d66fb",
+          "list": "CustomVehicles",
+          "name": "Neues Fahrzeug 04"
+        },
+        {
+          "source": "590869f713292f861e49",
+          "list": "CustomVehicles",
+          "name": "Neues Fahrzeug 04"
+        },
+        {
+          "source": "6e5645a91b1ab9d5573a",
+          "list": "CustomVehicles",
+          "name": "Neues Fahrzeug 04"
+        },
+        {
+          "source": "7181ebae9c1a3cdd9d56",
+          "list": "CustomVehicles",
+          "name": "Neues Fahrzeug 04"
+        },
+        {
+          "source": "853d3100faecba76d086",
+          "list": "CustomVehicles",
+          "name": "Neues Fahrzeug 04"
+        },
+        {
+          "source": "9dc255163f526706384b",
+          "list": "CustomVehicles",
+          "name": "Neues Fahrzeug 04"
+        },
+        {
+          "source": "d6be0c830e7af7b98d20",
+          "list": "CustomVehicles",
+          "name": "Neues Fahrzeug 04"
+        },
+        {
+          "source": "e6e14a5de72dbf494b1c",
+          "list": "CustomVehicles",
+          "name": "Neues Fahrzeug 04"
+        },
+        {
+          "source": "e876896fe05465722d2b",
+          "list": "CustomVehicles",
+          "name": "Neues Fahrzeug 04"
+        },
+        {
+          "source": "ee8309d3beb9992d2b5a",
+          "list": "CustomVehicles",
+          "name": "Neues Fahrzeug 04"
+        },
+        {
+          "source": "f161425c91300900e871",
+          "list": "CustomVehicles",
+          "name": "Neues Fahrzeug 04"
+        },
+        {
+          "source": "f51cbb027cb35a98b145",
+          "list": "CustomVehicles",
+          "name": "Neues Fahrzeug 04"
+        },
+        {
+          "source": "fc002f5718d2ecd4a3be",
+          "list": "CustomVehicles",
+          "name": "Neues Fahrzeug 04"
+        }
+      ],
+      "excluded": false
+    },
+    "3e31b3434af4fe43dfafbef93c6a5222a9011636": {
+      "locations": [
+        {
+          "source": "504b72b223391f4d66fb",
+          "list": "CustomVehicles",
+          "name": "Emerald Express"
+        }
+      ],
+      "excluded": false
+    },
+    "37dc740e223ae6f3e625fc8b066791ffee949d27": {
+      "locations": [
+        {
+          "source": "0234c91608cb7e6e7310",
+          "list": "CachedVehicles",
+          "name": "Minecraft Pig"
+        },
+        {
+          "source": "039bf69dfbdd50f517a3",
+          "list": "CachedVehicles",
+          "name": "Minecraft Pig"
+        },
+        {
+          "source": "04702b476953d308eecf",
+          "list": "CachedVehicles",
+          "name": "Minecraft Pig"
+        },
+        {
+          "source": "065285dbb670d343826a",
+          "list": "CachedVehicles",
+          "name": "Minecraft Pig"
+        },
+        {
+          "source": "149358689f327d6f98b4",
+          "list": "CachedVehicles",
+          "name": "Minecraft Pig"
+        },
+        {
+          "source": "3cf42d477d8f26b035aa",
+          "list": "CachedVehicles",
+          "name": "Minecraft Pig"
+        },
+        {
+          "source": "506cbaf057157c83ea83",
+          "list": "CachedVehicles",
+          "name": "Minecraft Pig"
+        },
+        {
+          "source": "56459767d00d7cc610cb",
+          "list": "CachedVehicles",
+          "name": "Minecraft Pig"
+        },
+        {
+          "source": "62507c0109dfa100e85e",
+          "list": "CachedVehicles",
+          "name": "Minecraft Pig"
+        },
+        {
+          "source": "70761649e0076b9652ce",
+          "list": "CachedVehicles",
+          "name": "Minecraft Pig"
+        },
+        {
+          "source": "803c6f8b80bec5e11146",
+          "list": "CachedVehicles",
+          "name": "Minecraft Pig"
+        },
+        {
+          "source": "a4d813149c65aafe58bf",
+          "list": "CachedVehicles",
+          "name": "Minecraft Pig"
+        },
+        {
+          "source": "af1fbdf957c61bbf3d54",
+          "list": "CachedVehicles",
+          "name": "Minecraft Pig"
+        },
+        {
+          "source": "b6b0ceb5024f230b9d94",
+          "list": "CachedVehicles",
+          "name": "Minecraft Pig"
+        },
+        {
+          "source": "c02396e5933db835908c",
+          "list": "CachedVehicles",
+          "name": "Minecraft Pig"
+        },
+        {
+          "source": "c0cc444b240b32c61bad",
+          "list": "CachedVehicles",
+          "name": "Minecraft Pig"
+        },
+        {
+          "source": "d35a7af3c545f8eb4107",
+          "list": "CachedVehicles",
+          "name": "Minecraft Pig"
+        },
+        {
+          "source": "d540286839f9ca56d122",
+          "list": "CachedVehicles",
+          "name": "Minecraft Pig"
+        },
+        {
+          "source": "e45bf277521a96367fbf",
+          "list": "CachedVehicles",
+          "name": "Minecraft Pig"
+        },
+        {
+          "source": "ed4698ff1975ee22d09c",
+          "list": "CachedVehicles",
+          "name": "Minecraft Pig"
+        },
+        {
+          "source": "f77b47a0dbff6fb1ae7d",
+          "list": "CachedVehicles",
+          "name": "Minecraft Pig"
+        }
+      ],
+      "excluded": false
+    }
+  },
+  "reference_sources": {
+    "0eac7e06ac8519dbce61": {
+      "path": "_sicherungen/anleitungen_2026-10-29_21-36-47/ArtemisVehicle.sav",
+      "sha256": "171d939ad4b6aa733f726b4b149389b1aa990583111a0f9235102da756ae9ec8"
+    },
+    "309f3dbc26c72fedc809": {
+      "path": "_sicherungen/geschrieben_2026-10-29_21-36-47_61bbb1d0/ArtemisVehicle.sav",
+      "sha256": "171d939ad4b6aa733f726b4b149389b1aa990583111a0f9235102da756ae9ec8"
+    },
+    "7181ebae9c1a3cdd9d56": {
+      "path": "_sicherungen/2026-10-29_21-41-12/ArtemisVehicle.sav",
+      "sha256": "9f30efab9819535885bd5a32d475af160c25d0cca45aebd737d2b2796fbb7cbd"
+    },
+    "853d3100faecba76d086": {
+      "path": "_sicherungen/2026-10-29_21-36-11/ArtemisVehicle.sav",
+      "sha256": "171d939ad4b6aa733f726b4b149389b1aa990583111a0f9235102da756ae9ec8"
+    },
+    "04c18630435cdf0125b6": {
+      "path": "_sicherungen/2026-10-29_21-17-07/ArtemisDownloadedVehicle.sav",
+      "sha256": "24d4c101c29d18285ec072683a419291c2822a1b73fe3e9d04b04aeaea788c14"
+    },
+    "0a84a7cf838906873812": {
+      "path": "_sicherungen/2026-10-29_22-12-21/ArtemisDownloadedVehicle.sav",
+      "sha256": "24d4c101c29d18285ec072683a419291c2822a1b73fe3e9d04b04aeaea788c14"
+    },
+    "0b1f86c895e6a31ea1b9": {
+      "path": "_sicherungen/freischaltung_2026-10-29_20-43-31/ArtemisDownloadedVehicle.sav",
+      "sha256": "24d4c101c29d18285ec072683a419291c2822a1b73fe3e9d04b04aeaea788c14"
+    },
+    "26995cd0afae34a6c71c": {
+      "path": "_sicherungen/2026-10-29_23-15-46/ArtemisDownloadedVehicle.sav",
+      "sha256": "24d4c101c29d18285ec072683a419291c2822a1b73fe3e9d04b04aeaea788c14"
+    },
+    "40ae08f91059127d2d37": {
+      "path": "ArtemisDownloadedVehicle.sav",
+      "sha256": "24d4c101c29d18285ec072683a419291c2822a1b73fe3e9d04b04aeaea788c14"
+    },
+    "44f4aa0b5f2b3b8130ca": {
+      "path": "_sicherungen/2026-10-29_22-10-19/ArtemisDownloadedVehicle.sav",
+      "sha256": "24d4c101c29d18285ec072683a419291c2822a1b73fe3e9d04b04aeaea788c14"
+    },
+    "4e53c011a63ba0b6ba39": {
+      "path": "_sicherungen/2026-10-29_19-43-10/ArtemisDownloadedVehicle.sav",
+      "sha256": "24d4c101c29d18285ec072683a419291c2822a1b73fe3e9d04b04aeaea788c14"
+    },
+    "711b44d329514910829f": {
+      "path": "_sicherungen/2026-10-29_21-36-11/ArtemisDownloadedVehicle.sav",
+      "sha256": "24d4c101c29d18285ec072683a419291c2822a1b73fe3e9d04b04aeaea788c14"
+    },
+    "8166aba8a390ca932963": {
+      "path": "_sicherungen/2026-10-29_12-32-00/ArtemisDownloadedVehicle.sav",
+      "sha256": "24d4c101c29d18285ec072683a419291c2822a1b73fe3e9d04b04aeaea788c14"
+    },
+    "a13da0434f939f3f340e": {
+      "path": "_sicherungen/2026-10-29_22-07-10/ArtemisDownloadedVehicle.sav",
+      "sha256": "24d4c101c29d18285ec072683a419291c2822a1b73fe3e9d04b04aeaea788c14"
+    },
+    "ade6a9e2eec6a1b0568e": {
+      "path": "_sicherungen/freischaltung_2026-10-29_19-56-47/ArtemisDownloadedVehicle.sav",
+      "sha256": "24d4c101c29d18285ec072683a419291c2822a1b73fe3e9d04b04aeaea788c14"
+    },
+    "b3e8ff2c75d77c6098f1": {
+      "path": "_sicherungen/2026-10-29_22-25-00/ArtemisDownloadedVehicle.sav",
+      "sha256": "24d4c101c29d18285ec072683a419291c2822a1b73fe3e9d04b04aeaea788c14"
+    },
+    "b480c4203fba1e592452": {
+      "path": "_sicherungen/2026-10-29_11-32-21/ArtemisDownloadedVehicle.sav",
+      "sha256": "24d4c101c29d18285ec072683a419291c2822a1b73fe3e9d04b04aeaea788c14"
+    },
+    "c19b922da0e28f970d8a": {
+      "path": "_sicherungen/2026-10-29_21-56-54/ArtemisDownloadedVehicle.sav",
+      "sha256": "24d4c101c29d18285ec072683a419291c2822a1b73fe3e9d04b04aeaea788c14"
+    },
+    "c210603f3c95486dcea2": {
+      "path": "_sicherungen/anleitungen_2026-10-29_21-36-47/ArtemisDownloadedVehicle.sav",
+      "sha256": "24d4c101c29d18285ec072683a419291c2822a1b73fe3e9d04b04aeaea788c14"
+    },
+    "cca01c95135d93c7b857": {
+      "path": "_sicherungen/freischaltung_2026-10-29_20-23-08/ArtemisDownloadedVehicle.sav",
+      "sha256": "24d4c101c29d18285ec072683a419291c2822a1b73fe3e9d04b04aeaea788c14"
+    },
+    "dbfa29c97ec61963b07b": {
+      "path": "_sicherungen/2026-10-29_20-44-44/ArtemisDownloadedVehicle.sav",
+      "sha256": "24d4c101c29d18285ec072683a419291c2822a1b73fe3e9d04b04aeaea788c14"
+    },
+    "df72237e95fceed135c8": {
+      "path": "_sicherungen/2026-10-29_21-53-23/ArtemisDownloadedVehicle.sav",
+      "sha256": "24d4c101c29d18285ec072683a419291c2822a1b73fe3e9d04b04aeaea788c14"
+    },
+    "ea8eec8335040feed59a": {
+      "path": "_sicherungen/2026-10-29_22-37-51/ArtemisDownloadedVehicle.sav",
+      "sha256": "24d4c101c29d18285ec072683a419291c2822a1b73fe3e9d04b04aeaea788c14"
+    },
+    "f2cc3fc33058ee1564f3": {
+      "path": "_sicherungen/2026-10-29_21-41-12/ArtemisDownloadedVehicle.sav",
+      "sha256": "24d4c101c29d18285ec072683a419291c2822a1b73fe3e9d04b04aeaea788c14"
+    },
+    "faf1c4249816683f7431": {
+      "path": "_sicherungen/2026-10-29_22-01-38/ArtemisDownloadedVehicle.sav",
+      "sha256": "24d4c101c29d18285ec072683a419291c2822a1b73fe3e9d04b04aeaea788c14"
+    },
+    "01fab88dc78d1368eab7": {
+      "path": "_sicherungen/2026-10-29_21-56-54/ArtemisVehicle.sav",
+      "sha256": "75007cdaa49c392cd10e59868134a7af1c4fc64ae2c573e3bb49f84a0f4e2bbc"
+    },
+    "29f008103dd9eed07770": {
+      "path": "_sicherungen/2026-10-29_22-01-38/ArtemisVehicle.sav",
+      "sha256": "de44d82761902e609a281e02b6341ae883ff39d198c1ad64d562dbff18ba9ca6"
+    },
+    "504b72b223391f4d66fb": {
+      "path": "ArtemisVehicle.sav",
+      "sha256": "06b2470524e0b90ecacdc0c5a725e32921d99929c109866aeec024323684b0d9"
+    },
+    "6e5645a91b1ab9d5573a": {
+      "path": "_sicherungen/geschrieben_2026-10-29_23-15-53_0435380e/ArtemisVehicle.sav",
+      "sha256": "65fe820e6be7e2e796790f3654b185b3f763bd08466fad810395db83c4874db1"
+    },
+    "9dc255163f526706384b": {
+      "path": "_sicherungen/2026-10-29_22-37-51/ArtemisVehicle.sav",
+      "sha256": "4a22d8ca8a61fb1d854647e0d3ee14140589e7ffccda439d9bab86d38e23728d"
+    },
+    "d6be0c830e7af7b98d20": {
+      "path": "_sicherungen/2026-10-29_21-53-23/ArtemisVehicle.sav",
+      "sha256": "cff30f2930158358123b3e0e872d4953d41c24d563fca491def63920829b44e4"
+    },
+    "e876896fe05465722d2b": {
+      "path": "_sicherungen/2026-10-29_23-15-46/ArtemisVehicle.sav",
+      "sha256": "65fe820e6be7e2e796790f3654b185b3f763bd08466fad810395db83c4874db1"
+    },
+    "ee8309d3beb9992d2b5a": {
+      "path": "_sicherungen/2026-10-29_22-25-00/ArtemisVehicle.sav",
+      "sha256": "4cb624811b12dc7b79cf712af5489c1a6a5adeed44a7d909a1dc2ce7bbcf9138"
+    },
+    "f161425c91300900e871": {
+      "path": "_sicherungen/2026-10-29_22-12-21/ArtemisVehicle.sav",
+      "sha256": "33cd657d2d52e346ca6f7342a12694861fd7a2fa7473aa0942577b9201ac4095"
+    },
+    "f51cbb027cb35a98b145": {
+      "path": "_sicherungen/2026-10-29_22-07-10/ArtemisVehicle.sav",
+      "sha256": "a6d12095496ee8c6ed70bd2825587371ec8b4b497b474ece122b7ed018979d49"
+    },
+    "fc002f5718d2ecd4a3be": {
+      "path": "_sicherungen/2026-10-29_22-10-19/ArtemisVehicle.sav",
+      "sha256": "0e41a75af385903ea4ab9116f58baf51f81afa2c2663afbfae402b5c663d2eae"
+    },
+    "0234c91608cb7e6e7310": {
+      "path": "_sicherungen/2026-10-29_22-25-00/ArtemisChubCache.sav",
+      "sha256": "98812054e64eb63a13abb6ae7aa53ffe3db5c82228316d5022027791f272f884"
+    },
+    "039bf69dfbdd50f517a3": {
+      "path": "_sicherungen/2026-10-29_22-07-10/ArtemisChubCache.sav",
+      "sha256": "98812054e64eb63a13abb6ae7aa53ffe3db5c82228316d5022027791f272f884"
+    },
+    "04702b476953d308eecf": {
+      "path": "_sicherungen/2026-10-29_21-41-12/ArtemisChubCache.sav",
+      "sha256": "98812054e64eb63a13abb6ae7aa53ffe3db5c82228316d5022027791f272f884"
+    },
+    "065285dbb670d343826a": {
+      "path": "_sicherungen/2026-10-29_22-37-51/ArtemisChubCache.sav",
+      "sha256": "98812054e64eb63a13abb6ae7aa53ffe3db5c82228316d5022027791f272f884"
+    },
+    "149358689f327d6f98b4": {
+      "path": "_sicherungen/2026-10-29_20-44-44/ArtemisChubCache.sav",
+      "sha256": "14d3a861122c3487173899aa4087a3f29eb0d13353cee24551e7dc8557d7c155"
+    },
+    "3cf42d477d8f26b035aa": {
+      "path": "_sicherungen/2026-10-29_12-32-00/ArtemisChubCache.sav",
+      "sha256": "58b2dd8c11de4dbab294df2a826c2974197f215d4f91b4c8aa32c6af24f5be4e"
+    },
+    "506cbaf057157c83ea83": {
+      "path": "_sicherungen/freischaltung_2026-10-29_20-23-08/ArtemisChubCache.sav",
+      "sha256": "6ca044c9cf2733eb761c5b90c5044174252bebcb54f8df5747261c076d72939e"
+    },
+    "56459767d00d7cc610cb": {
+      "path": "_sicherungen/2026-10-29_21-56-54/ArtemisChubCache.sav",
+      "sha256": "98812054e64eb63a13abb6ae7aa53ffe3db5c82228316d5022027791f272f884"
+    },
+    "62507c0109dfa100e85e": {
+      "path": "_sicherungen/2026-10-29_21-53-23/ArtemisChubCache.sav",
+      "sha256": "98812054e64eb63a13abb6ae7aa53ffe3db5c82228316d5022027791f272f884"
+    },
+    "70761649e0076b9652ce": {
+      "path": "_sicherungen/2026-10-29_19-43-10/ArtemisChubCache.sav",
+      "sha256": "ac2e3a98f0f3ed7c0a0516108c8a3bc3f373eedde79ab00c5c95b85f0edb16c2"
+    },
+    "803c6f8b80bec5e11146": {
+      "path": "_sicherungen/2026-10-29_22-10-19/ArtemisChubCache.sav",
+      "sha256": "98812054e64eb63a13abb6ae7aa53ffe3db5c82228316d5022027791f272f884"
+    },
+    "a4d813149c65aafe58bf": {
+      "path": "_sicherungen/2026-10-29_22-01-38/ArtemisChubCache.sav",
+      "sha256": "98812054e64eb63a13abb6ae7aa53ffe3db5c82228316d5022027791f272f884"
+    },
+    "af1fbdf957c61bbf3d54": {
+      "path": "_sicherungen/freischaltung_2026-10-29_20-43-31/ArtemisChubCache.sav",
+      "sha256": "14d3a861122c3487173899aa4087a3f29eb0d13353cee24551e7dc8557d7c155"
+    },
+    "b6b0ceb5024f230b9d94": {
+      "path": "_sicherungen/2026-10-29_23-15-46/ArtemisChubCache.sav",
+      "sha256": "98812054e64eb63a13abb6ae7aa53ffe3db5c82228316d5022027791f272f884"
+    },
+    "c02396e5933db835908c": {
+      "path": "_sicherungen/anleitungen_2026-10-29_21-36-47/ArtemisChubCache.sav",
+      "sha256": "eb78d22d5e56ee5d9d733b370ff9cf9e9b5a7d36c3b4dab2dc6187bc027c7335"
+    },
+    "c0cc444b240b32c61bad": {
+      "path": "_sicherungen/2026-10-29_21-17-07/ArtemisChubCache.sav",
+      "sha256": "4ab8cf193efecfb1cdba181a39937dcc745d65270d174cb6f1e49c759df4ebb7"
+    },
+    "d35a7af3c545f8eb4107": {
+      "path": "_sicherungen/2026-10-29_11-32-21/ArtemisChubCache.sav",
+      "sha256": "2fbfa48b70f445345453616da2009a54cbaab90c55454039fa690200eb7a8eb8"
+    },
+    "d540286839f9ca56d122": {
+      "path": "_sicherungen/2026-10-29_21-36-11/ArtemisChubCache.sav",
+      "sha256": "eb78d22d5e56ee5d9d733b370ff9cf9e9b5a7d36c3b4dab2dc6187bc027c7335"
+    },
+    "e45bf277521a96367fbf": {
+      "path": "ArtemisChubCache.sav",
+      "sha256": "e3d2b3c30355a357deccf852e4fd4caaab904b69d25fc7bc7d6f8eb28dda054f"
+    },
+    "ed4698ff1975ee22d09c": {
+      "path": "_sicherungen/2026-10-29_22-12-21/ArtemisChubCache.sav",
+      "sha256": "98812054e64eb63a13abb6ae7aa53ffe3db5c82228316d5022027791f272f884"
+    },
+    "f77b47a0dbff6fb1ae7d": {
+      "path": "_sicherungen/freischaltung_2026-10-29_19-56-47/ArtemisChubCache.sav",
+      "sha256": "5b23dd1a34786ac979e411e06514b081b71c32a9dd15b474d6b63ea41916ad10"
+    },
+    "333b1b3658217edbdb7c": {
+      "path": "_sicherungen/2026-10-29_11-32-21/ArtemisVehicle.sav",
+      "sha256": "0f7b53fa85687f5de88ca87b0b880546a8cbda6b38a0295e3c25896d06592246"
+    },
+    "0d3a93a331bacb4c6a71": {
+      "path": "_sicherungen/2026-10-29_20-44-44/ArtemisVehicle.sav",
+      "sha256": "416a4e1b196293feac1e5c3e74e8ac6f10e2632760cfaa275f429f10d437d6b2"
+    },
+    "45aec963afb265cfa5c3": {
+      "path": "_sicherungen/freischaltung_2026-10-29_20-23-08/ArtemisVehicle.sav",
+      "sha256": "10cd1c89ddd6caeb3301df871e0287264639cc74b35ae61fbdfdf67f4baeed3b"
+    },
+    "7611136d891496795708": {
+      "path": "_sicherungen/freischaltung_2026-10-29_20-43-31/ArtemisVehicle.sav",
+      "sha256": "416a4e1b196293feac1e5c3e74e8ac6f10e2632760cfaa275f429f10d437d6b2"
+    },
+    "8f1da554101fd620d27a": {
+      "path": "_sicherungen/freischaltung_2026-10-29_19-56-47/ArtemisVehicle.sav",
+      "sha256": "2833b309613667e2da6b14604921248ab3df767c10aef88b06548fd9c135662a"
+    },
+    "97b2c6698fad85942a24": {
+      "path": "_sicherungen/2026-10-29_12-32-00/ArtemisVehicle.sav",
+      "sha256": "56dff8e3d8310d7e184894c282d2ddd2c2b77d1c35b50ebf47195eefa6adb15e"
+    },
+    "dd22322603eb66e4d58d": {
+      "path": "_sicherungen/geschrieben_2026-10-29_19-43-10_e1e0afb6/ArtemisVehicle.sav",
+      "sha256": "1f234415aa0d6991a73a45dc7ec2e6fe29409f007d36e8e1c28f22bb04f57544"
+    },
+    "f11d75c7e1ea90812d91": {
+      "path": "_sicherungen/2026-10-29_19-43-10/ArtemisVehicle.sav",
+      "sha256": "1f234415aa0d6991a73a45dc7ec2e6fe29409f007d36e8e1c28f22bb04f57544"
+    },
+    "590869f713292f861e49": {
+      "path": "_sicherungen/geschrieben_2026-10-29_21-17-19_9935dab8/ArtemisVehicle.sav",
+      "sha256": "49020e9f7cb4861c34e06403ffd90a59f36fc892e60a14ff3c05fa700437f0ec"
+    },
+    "e6e14a5de72dbf494b1c": {
+      "path": "_sicherungen/2026-10-29_21-17-07/ArtemisVehicle.sav",
+      "sha256": "49020e9f7cb4861c34e06403ffd90a59f36fc892e60a14ff3c05fa700437f0ec"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "baupläne\\astra_launch_crawler.json": "b1fc676e56b7983d61348d10437fdcb4647dbecadec28ac32f6fde78eb83ab7b",
+  "baupläne\\astra_launch_crawler_vorschau.html": "4ace2b801160c5d09fbc25b42800ee9c654663d2c0ec63370b8c38b281d403c7",
+  "baupläne\\astra_launch_crawler_vorschau.png": "ed1f2aeeab25597812e25d555f35ea2f64e699a2204a6efe80e0472c899452f9",
+  ".claude\\wettbewerb-shuttle\\builder-pruefung.json": "32a2dbe6174dbd192b4b26d07b5aa670ade489331558c98dede50d5b45d823ae",
+  ".claude\\wettbewerb-shuttle\\entwurf.py": "05c3f34e9368f24d4385229a72ead1c49251e123d0c2f1b2ebd85bcdda3a6b8c",
+  ".claude\\wettbewerb-shuttle\\gebauter-graph.json": "31868ac5ae7c9995e667d53ee0b4c2203d0e0570e53f8bcdd086944d08961392",
+  ".claude\\wettbewerb-shuttle\\gewaehlte-kontakte.json": "3a054b77eca474c2e3ac209f740eb4a7c8c1394e6b1bb5ff21b5391926467271",
+  ".claude\\wettbewerb-shuttle\\gruppen.json": "8d8586f51745cf9a217ac9ca8b7a25795fabdfca8833beb7401f3397b5c7b101",
+  ".claude\\wettbewerb-shuttle\\kontaktpruefung.json": "75cb22b8dc991efedf0a696eb044de0ab82304de9116152863a47d4fecb65bf7",
+  ".claude\\wettbewerb-shuttle\\pruefbericht.md": "68d33c12eb2972f47b372f77a46e6faaf1cff418b3e4b1315f451cacd89c0ae4",
+  ".claude\\wettbewerb-shuttle\\raumpruefung.json": "2ac969dfd8471c912532a461a7338de681a8b010a07a2ea2745f999af6b66695",
+  ".claude\\wettbewerb-shuttle\\README.md": "42bec3d8bb147a19e38ff25b84e3058ebe64b767c80f8ce31642177883ba1865",
+  ".claude\\wettbewerb-shuttle\\recherche.py": "4bcee64a15da43aaccc8d06664223f71874e2a2a181fbac976c2f464b272333d",
+  ".claude\\wettbewerb-shuttle\\regressionen.json": "d8603ca7c24c20dafdfc75c6bf3feba438582d341ae8df4d804562eeed5574d9",
+  ".claude\\wettbewerb-shuttle\\sicherheit.json": "950ba39e7fb21e90f16c479a448ebe52396a74c813b283d340ad18c283b0f01b",
+  ".claude\\wettbewerb-shuttle\\teile-und-verfuegbarkeit.json": "710c1761ec10b7727bee925e1406dd65049bb6bfeff917660366c06d1447f46c",
+  ".claude\\wettbewerb-shuttle\\teileliste.md": "63d51cdb737500de0fbbf51001a957ba5de8b8caac366fcc5198ac7022bec0a3",
+  ".claude\\wettbewerb-shuttle\\validiere.py": "67e12aa39c8bb2670afdc88c591c10ec502c7f97c2f30672e205afc3d83ebb96",
+  ".claude\\wettbewerb-shuttle\\validierung.json": "c6274dac0e4ee7a60c4913126dd6736351e005ac997b942dbcf4fc43ecea0ea6",
+  ".claude\\wettbewerb-shuttle\\vorschau.py": "d696c70151dd3cc9933ae93f1adb07579469e33400c6d217a4d7f34ddabf49d4"
+}
